@@ -1,0 +1,118 @@
+.. title: translate()
+.. slug: sketch_translate
+.. date: 2020-11-03 22:19:57 UTC+00:00
+.. tags:
+.. category:
+.. link:
+.. description: py5 translate() documentation
+.. type: text
+
+Specifies an amount to displace objects within the display window.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_translate_0.png
+    :alt: example picture for translate()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    translate(30, 20)
+    rect(0, 0, 55, 55)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_translate_1.png
+    :alt: example picture for translate()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    # translating in 3D requires P3D
+    # as the parameter to size()
+    size(100, 100, P3D)
+    # translate 30 across, 20 down, and
+    # 50 back, or "away" from_ the screen.
+    translate(30, 20, -50)
+    rect(0, 0, 55, 55)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_translate_2.png
+    :alt: example picture for translate()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    rect(0, 0, 55, 55)  # draw rect at original 0,0
+    translate(30, 20)
+    rect(0, 0, 55, 55)  # draw rect at new 0,0
+    translate(14, 14)
+    rect(0, 0, 55, 55)  # draw rect at new 0,0
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
+
+Description
+===========
+
+Specifies an amount to displace objects within the display window. The ``x`` parameter specifies left/right translation, the ``y`` parameter specifies up/down translation, and the ``z`` parameter specifies translations toward/away from the screen. Using this function with the ``z`` parameter requires using P3D as a parameter in combination with size as shown in the above example.
+
+Transformations are cumulative and apply to everything that happens after and subsequent calls to the function accumulates the effect. For example, calling ``translate(50, 0)`` and then ``translate(20, 0)`` is the same as ``translate(70, 0)``. If ``translate()`` is called within ``draw()``, the transformation is reset when the loop begins again. This function can be further controlled by using ``push_matrix()`` and ``pop_matrix()``.
+
+Syntax
+======
+
+.. code:: python
+
+    translate(x: float, y: float) -> None
+    translate(x: float, y: float, z: float) -> None
+
+Parameters
+==========
+
+* **x**: `float` - left/right translation
+* **y**: `float` - up/down translation
+* **z**: `float` - forward/backward translation
+
+
+Updated on November 03, 2020 22:19:57pm UTC
+

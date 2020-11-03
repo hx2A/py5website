@@ -149,13 +149,13 @@ NAVIGATION_LINKS = {
         # TODO: where to put reference documentation and sphinx documentation???
         # ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
-        # (
-        #     (
-        #         ("/test1/", "Menu Item 1"),
-        #         ("/test2/", "Menu Item 2"),
-        #     ),
-        #     "Test Menu"
-        # ),
+        (
+            (
+                ("/test1/", "Menu Item 1"),
+                ("/test2/", "Menu Item 2"),
+            ),
+            "Test Menu"
+        ),
     ),
 }
 
@@ -167,9 +167,9 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap4"
-# THEME = "bootblog4"
-# THEME = "canterville"
+# THEME = "bootstrap4"
+# THEME = "oldfashioned"
+THEME = "py5theme"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -239,6 +239,7 @@ POSTS = (
 )
 PAGES = (
     ("main/*.rst", "", "page.tmpl"),
+    ("reference/*.rst", "reference", "page.tmpl"),
     ("main/*.ipynb", "", "page.tmpl"),
     ("tutorials/*.ipynb", "tutorials", "page.tmpl"),
 )
