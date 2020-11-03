@@ -145,6 +145,7 @@ NAVIGATION_LINKS = {
         ("/help/", "How to Help"),
         ("/community/", "Community"),
         ("/blog/", "Blog"),
+        ("/reference/", "Reference Documentation"),
         ("/tutorials/", "Tutorials"),
         # TODO: where to put reference documentation and sphinx documentation???
         # ("/categories/", "Tags"),
