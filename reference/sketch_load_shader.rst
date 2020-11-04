@@ -1,6 +1,6 @@
 .. title: load_shader()
 .. slug: sketch_load_shader
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,6 +58,8 @@ Alternatively, the file maybe be loaded from anywhere on the local computer usin
 
 If the file is not available or an error occurs, ``None`` will be returned and an error message will be printed to the console. The error message does not halt the program, however the null value may cause a NullPointerException if your code does not check whether the value returned is null.
 
+Underlying Java method: `loadShader <https://processing.org/reference/loadShader_.html>`_
+
 Syntax
 ======
 
@@ -73,5 +75,5 @@ Parameters
 * **vert_filename**: `str` - name of vertex shader file
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: get()
 .. slug: sketch_get
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -79,6 +79,8 @@ If a width and a height are specified, ``get(x, y, w, h)`` returns a PImage corr
 
 Getting the color of a single pixel with ``get(x, y)`` is easy, but not as fast as grabbing the data directly from ``pixels[]``. The equivalent statement to ``get(x, y)`` using ``pixels[]`` is ``pixels[y*width+x]``. See the reference for pixels[] for more information.
 
+Underlying Java method: `get <https://processing.org/reference/get_.html>`_
+
 Syntax
 ======
 
@@ -97,5 +99,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

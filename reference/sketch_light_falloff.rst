@@ -1,6 +1,6 @@
 .. title: light_falloff()
 .. slug: sketch_light_falloff
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,6 +60,8 @@ falloff = 1 / (CONSTANT + d * LINEAR + (d*d) * QUADRATIC)
 
 Thinking about an ambient light with a falloff can be tricky. If you want a region of your scene to be lit ambiently with one color and another region to be lit ambiently with another color, you could use an ambient light with location and falloff. You can think of it as a point light that doesn't care which direction a surface is facing.
 
+Underlying Java method: `lightFalloff <https://processing.org/reference/lightFalloff_.html>`_
+
 Syntax
 ======
 
@@ -75,5 +77,5 @@ Parameters
 * **quadratic**: `float` - quadratic value for determining falloff
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

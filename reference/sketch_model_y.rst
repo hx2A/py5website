@@ -1,6 +1,6 @@
 .. title: model_y()
 .. slug: sketch_model_y
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -79,6 +79,8 @@ Returns the three-dimensional X, Y, Z position in model space. This returns the 
 
 In the example, the ``model_x()``, ``model_y()``, and ``model_z()`` functions record the location of a box in space after being placed using a series of translate and rotate commands. After ``pop_matrix()`` is called, those transformations no longer apply, but the (x, y, z) coordinate returned by the model functions is used to place another box in the same location.
 
+Underlying Java method: `modelY <https://processing.org/reference/modelY_.html>`_
+
 Syntax
 ======
 
@@ -94,5 +96,5 @@ Parameters
 * **z**: `float` - 3D z-coordinate to be mapped
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

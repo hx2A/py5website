@@ -1,6 +1,6 @@
 .. title: load_pixels()
 .. slug: py5image_load_pixels
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,6 +59,8 @@ Description
 
 Loads the pixel data for the image into its ``pixels[]`` array. This function must always be called before reading from or writing to ``pixels[]``.
 
+Underlying Java method: `PImage.loadPixels <https://processing.org/reference/PImage_loadPixels_.html>`_
+
 Syntax
 ======
 
@@ -66,5 +68,5 @@ Syntax
 
     load_pixels() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

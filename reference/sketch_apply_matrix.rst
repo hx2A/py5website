@@ -1,6 +1,6 @@
 .. title: apply_matrix()
 .. slug: sketch_apply_matrix
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,6 +60,8 @@ Description
 
 Multiplies the current matrix by the one specified through the parameters. This is very slow because it will try to calculate the inverse of the transform, so avoid it whenever possible. The equivalent function in OpenGL is ``gl_mult_matrix()``.
 
+Underlying Java method: `applyMatrix <https://processing.org/reference/applyMatrix_.html>`_
+
 Syntax
 ======
 
@@ -93,5 +95,5 @@ Parameters
 * **source**: `NDArray[(4, 4), Float]` - missing variable description
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

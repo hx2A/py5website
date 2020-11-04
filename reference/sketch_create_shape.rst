@@ -1,6 +1,6 @@
 .. title: create_shape()
 .. slug: sketch_create_shape
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -167,6 +167,8 @@ The  ``create_shape()`` function can also be used to make a complex shape made o
 
 After using ``create_shape()``, stroke and fill color can be set by calling methods like ``set_fill()`` and ``set_stroke()``, as seen in the examples above. The complete list of methods and fields for the PShape class are in the Processing Javadoc.
 
+Underlying Java method: `createShape <https://processing.org/reference/createShape_.html>`_
+
 Syntax
 ======
 
@@ -184,5 +186,5 @@ Parameters
 * **type**: `int` - missing variable description
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

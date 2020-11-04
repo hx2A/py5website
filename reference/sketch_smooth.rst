@@ -1,6 +1,6 @@
 .. title: smooth()
 .. slug: sketch_smooth
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -120,6 +120,8 @@ With Processing 3.0, ``smooth()`` is different than before. It was common to use
 
 When ``smooth()`` is used with a ``Py5Graphics`` object, it should be run right after the object is created with ``create_graphics()``, as shown in the Reference in the third example.
 
+Underlying Java method: `smooth <https://processing.org/reference/smooth_.html>`_
+
 Syntax
 ======
 
@@ -134,5 +136,5 @@ Parameters
 * **level**: `int` - either 2, 3, 4, or 8 depending on the renderer
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

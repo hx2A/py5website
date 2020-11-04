@@ -1,6 +1,6 @@
 .. title: pixels[]
 .. slug: py5image_pixels
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,6 +60,8 @@ The pixels[] array contains the values for all the pixels in the image. These va
 
 Before accessing this array, the data must loaded with the ``load_pixels()`` method. Failure to do so may result in a NullPointerException. After the array data has been modified, the ``update_pixels()`` method must be run to update the content of the display window.
 
+Underlying Java field: `PImage.pixels <https://processing.org/reference/PImage_pixels.html>`_
 
-Updated on November 03, 2020 22:19:57pm UTC
+
+Updated on November 04, 2020 20:45:44pm UTC
 

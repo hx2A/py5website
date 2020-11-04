@@ -1,6 +1,6 @@
 .. title: curve_detail()
 .. slug: sketch_curve_detail
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -65,6 +65,8 @@ Description
 
 Sets the resolution at which curves display. The default value is 20. This function is only useful when using the P3D renderer as the default P2D renderer does not use this information.
 
+Underlying Java method: `curveDetail <https://processing.org/reference/curveDetail_.html>`_
+
 Syntax
 ======
 
@@ -78,5 +80,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: get_vertex_count()
 .. slug: py5shape_get_vertex_count
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,6 +62,8 @@ Description
 
 The ``get_vertex_count()`` method returns the number of vertices that make up a PShape. In the above example, the value 4 is returned by the ``get_vertex_count()`` method because 4 vertices are defined in ``setup()``.
 
+Underlying Java method: `PShape.getVertexCount <https://processing.org/reference/PShape_getVertexCount_.html>`_
+
 Syntax
 ======
 
@@ -69,5 +71,5 @@ Syntax
 
     get_vertex_count() -> int
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

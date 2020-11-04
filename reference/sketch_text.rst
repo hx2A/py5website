@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: sketch_text
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -100,6 +100,8 @@ The ``x2`` and ``y2`` parameters define a rectangular area to display within and
 
 Note that Processing now lets you call ``text()`` without first specifying a PFont with ``text_font()``. In that case, a generic sans-serif font will be used instead. (See the third example above.)
 
+Underlying Java method: `text <https://processing.org/reference/text_.html>`_
+
 Syntax
 ======
 
@@ -136,5 +138,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

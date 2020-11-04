@@ -1,6 +1,6 @@
 .. title: triangle()
 .. slug: sketch_triangle
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,6 +45,8 @@ Description
 
 A triangle is a plane created by connecting three points. The first two arguments specify the first point, the middle two arguments specify the second point, and the last two arguments specify the third point.
 
+Underlying Java method: `triangle <https://processing.org/reference/triangle_.html>`_
+
 Syntax
 ======
 
@@ -63,5 +65,5 @@ Parameters
 * **y3**: `float` - y-coordinate of the third point
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

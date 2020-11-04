@@ -1,6 +1,6 @@
 .. title: text_ascent()
 .. slug: sketch_text_ascent
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,6 +56,8 @@ Description
 
 Returns ascent of the current font at its current size. This information is useful for determining the height of the font above the baseline.
 
+Underlying Java method: `textAscent <https://processing.org/reference/textAscent_.html>`_
+
 Syntax
 ======
 
@@ -63,5 +65,5 @@ Syntax
 
     text_ascent() -> float
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

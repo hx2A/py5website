@@ -1,6 +1,6 @@
 .. title: text_descent()
 .. slug: sketch_text_descent
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,6 +56,8 @@ Description
 
 Returns descent of the current font at its current size. This information is useful for determining the height of the font below the baseline.
 
+Underlying Java method: `textDescent <https://processing.org/reference/textDescent_.html>`_
+
 Syntax
 ======
 
@@ -63,5 +65,5 @@ Syntax
 
     text_descent() -> float
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

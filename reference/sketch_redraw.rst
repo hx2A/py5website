@@ -1,6 +1,6 @@
 .. title: redraw()
 .. slug: sketch_redraw
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -61,6 +61,8 @@ In structuring a program, it only makes sense to call ``redraw()`` within events
 
 The ``redraw()`` function does not work properly when called inside ``draw()``. To enable/disable animations, use ``loop()`` and ``no_loop()``.
 
+Underlying Java method: `redraw <https://processing.org/reference/redraw_.html>`_
+
 Syntax
 ======
 
@@ -68,5 +70,5 @@ Syntax
 
     redraw() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: shape()
 .. slug: sketch_shape
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,6 +51,8 @@ Description
 
 Draws shapes to the display window. Shapes must be in the sketch's "data" directory to load correctly. Select "Add file..." from the "Sketch" menu to add the shape. Processing currently works with SVG, OBJ, and custom-created shapes. The ``shape`` parameter specifies the shape to display and the coordinate parameters define the location of the shape from its upper-left corner. The shape is displayed at its original size unless the ``c`` and ``d`` parameters specify a different size. The ``shape_mode()`` function can be used to change the way these parameters are interpreted.
 
+Underlying Java method: `shape <https://processing.org/reference/shape_.html>`_
+
 Syntax
 ======
 
@@ -72,5 +74,5 @@ Parameters
 * **y**: `float` - y-coordinate of the shape
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

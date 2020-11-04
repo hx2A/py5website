@@ -1,6 +1,6 @@
 .. title: blend_mode()
 .. slug: sketch_blend_mode
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -92,6 +92,8 @@ REPLACE - the pixels entirely replace the others and don't utilize alpha (transp
 
 We recommend using ``blend_mode()`` and not the previous ``blend()`` function. However, unlike ``blend()``, the ``blend_mode()`` function does not support the following: HARD_LIGHT, SOFT_LIGHT, OVERLAY, DODGE, BURN. On older hardware, the LIGHTEST, DARKEST, and DIFFERENCE modes might not be available as well.
 
+Underlying Java method: `blendMode <https://processing.org/reference/blendMode_.html>`_
+
 Syntax
 ======
 
@@ -105,5 +107,5 @@ Parameters
 * **mode**: `int` - the blending mode to use
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

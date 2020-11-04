@@ -1,6 +1,6 @@
 .. title: text_align()
 .. slug: sketch_text_align
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -89,6 +89,8 @@ When using ``text()`` with width and height parameters, BASELINE is ignored, and
  
 The vertical alignment is based on the value of ``text_ascent()``, which many fonts do not specify correctly. It may be necessary to use a hack and offset by a few pixels by hand so that the offset looks correct. To do this as less of a hack, use some percentage of ``text_ascent()`` or ``text_descent()`` so that the hack works even if you change the size of the font.
 
+Underlying Java method: `textAlign <https://processing.org/reference/textAlign_.html>`_
+
 Syntax
 ======
 
@@ -104,5 +106,5 @@ Parameters
 * **align_y**: `int` - vertical alignment, either TOP, BOTTOM, CENTER, or BASELINE
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

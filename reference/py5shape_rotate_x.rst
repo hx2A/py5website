@@ -1,6 +1,6 @@
 .. title: rotate_x()
 .. slug: py5shape_rotate_x
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,6 +59,8 @@ Shapes are always rotated around the upper-left corner of their bounding box. Po
 
 This method requires a 3D renderer. You need to use P3D as a third parameter for the ``size()`` function as shown in the example above.
 
+Underlying Java method: `PShape.rotateX <https://processing.org/reference/PShape_rotateX_.html>`_
+
 Syntax
 ======
 
@@ -72,5 +74,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

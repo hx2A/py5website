@@ -1,6 +1,6 @@
 .. title: shininess()
 .. slug: sketch_shininess
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,6 +59,8 @@ Description
 
 Sets the amount of gloss in the surface of shapes. Used in combination with ``ambient()``, ``specular()``, and ``emissive()`` in setting the material properties of shapes.
 
+Underlying Java method: `shininess <https://processing.org/reference/shininess_.html>`_
+
 Syntax
 ======
 
@@ -72,5 +74,5 @@ Parameters
 * **shine**: `float` - degree of shininess
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

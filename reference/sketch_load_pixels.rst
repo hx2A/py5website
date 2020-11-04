@@ -1,6 +1,6 @@
 .. title: load_pixels()
 .. slug: sketch_load_pixels
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,6 +53,8 @@ Description
 
 Loads the pixel data of the current display window into the ``pixels[]`` array. This function must always be called before reading from or writing to ``pixels[]``. Subsequent changes to the display window will not be reflected in ``pixels`` until ``load_pixels()`` is called again.
 
+Underlying Java method: `loadPixels <https://processing.org/reference/loadPixels_.html>`_
+
 Syntax
 ======
 
@@ -60,5 +62,5 @@ Syntax
 
     load_pixels() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

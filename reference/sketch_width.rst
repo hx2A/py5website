@@ -1,6 +1,6 @@
 .. title: width
 .. slug: sketch_width
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -48,6 +48,8 @@ Description
 
 System variable that stores the width of the display window. This value is set by the first parameter of the ``size()`` function. For example, the function call ``size(320, 240)`` sets the ``width`` variable to the value 320. The value of ``width`` defaults to 100 if ``size()`` is not used in a program.
 
+Underlying Java field: `width <https://processing.org/reference/width.html>`_
 
-Updated on November 03, 2020 22:19:57pm UTC
+
+Updated on November 04, 2020 20:45:44pm UTC
 

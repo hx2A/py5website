@@ -1,6 +1,6 @@
 .. title: saturation()
 .. slug: sketch_saturation
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,6 +52,8 @@ Description
 
 Extracts the saturation value from a color.
 
+Underlying Java method: `saturation <https://processing.org/reference/saturation_.html>`_
+
 Syntax
 ======
 
@@ -65,5 +67,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

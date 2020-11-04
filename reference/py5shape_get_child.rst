@@ -1,6 +1,6 @@
 .. title: get_child()
 .. slug: py5shape_get_child
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,6 +58,8 @@ Description
 
 Extracts a child shape from a parent shape. Specify the name of the shape with the ``target`` parameter. The shape is returned as a ``Py5Shape`` object, or ``None`` is returned if there is an error.
 
+Underlying Java method: `PShape.getChild <https://processing.org/reference/PShape_getChild_.html>`_
+
 Syntax
 ======
 
@@ -73,5 +75,5 @@ Parameters
 * **target**: `str` - the name of the shape to get
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: ortho()
 .. slug: sketch_ortho
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,6 +51,8 @@ Description
 
 Sets an orthographic projection and defines a parallel clipping volume. All objects with the same dimension appear the same size, regardless of whether they are near or far from the camera. The parameters to this function specify the clipping volume where left and right are the minimum and maximum x values, top and bottom are the minimum and maximum y values, and near and far are the minimum and maximum z values. If no parameters are given, the default is used: ortho(-width/2, width/2, -height/2, height/2).
 
+Underlying Java method: `ortho <https://processing.org/reference/ortho_.html>`_
+
 Syntax
 ======
 
@@ -71,5 +73,5 @@ Parameters
 * **top**: `float` - top plane of the clipping volume
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

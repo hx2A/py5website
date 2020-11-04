@@ -1,6 +1,6 @@
 .. title: no_smooth()
 .. slug: sketch_no_smooth
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -73,6 +73,8 @@ Description
 
 Draws all geometry and fonts with jagged (aliased) edges and images with hard edges between the pixels when enlarged rather than interpolating pixels.  Note that ``smooth()`` is active by default, so it is necessary to call ``no_smooth()`` to disable smoothing of geometry, fonts, and images. Since the release of Processing 3.0, the ``no_smooth()`` function can only be run once for each sketch, either at the top of a sketch without a ``setup()``, or after the ``size()`` function when used in a sketch with ``setup()``. See the examples above for both scenarios.
 
+Underlying Java method: `noSmooth <https://processing.org/reference/noSmooth_.html>`_
+
 Syntax
 ======
 
@@ -80,5 +82,5 @@ Syntax
 
     no_smooth() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

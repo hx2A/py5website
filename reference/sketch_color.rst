@@ -1,6 +1,6 @@
 .. title: color()
 .. slug: sketch_color
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -115,6 +115,8 @@ Note that when using hexadecimal notation, it is not necessary to use ``color()`
 
 More about how colors are stored can be found in the reference for the color datatype.
 
+Underlying Java method: `color <https://processing.org/reference/color_.html>`_
+
 Syntax
 ======
 
@@ -145,5 +147,5 @@ Parameters
 * **v3**: `int` - blue or brightness values relative to the current color range
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

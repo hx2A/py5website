@@ -1,6 +1,6 @@
 .. title: point()
 .. slug: sketch_point
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -80,6 +80,8 @@ Point appears round with the default ``stroke_cap(ROUND)`` and square with ``str
 
 Using ``point()`` with strokeWeight(1) or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using ``set()`` or drawing the point using either ``circle()`` or ``square()``.
 
+Underlying Java method: `point <https://processing.org/reference/point_.html>`_
+
 Syntax
 ======
 
@@ -96,5 +98,5 @@ Parameters
 * **z**: `float` - z-coordinate of the point
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

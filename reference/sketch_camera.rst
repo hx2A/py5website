@@ -1,6 +1,6 @@
 .. title: camera()
 .. slug: sketch_camera
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,6 +53,8 @@ Description
 
 Sets the position of the camera through setting the eye position, the center of the scene, and which axis is facing upward. Moving the eye position and the direction it is pointing (the center of the scene) allows the images to be seen from different angles. The version without any parameters sets the camera to the default position, pointing to the center of the display window with the Y axis as up. The default values are ``camera(width//2.0, height//2.0, (height//2.0) / tan(PI*30.0 / 180.0), width//2.0, height//2.0, 0, 0, 1, 0)``. This function is similar to ``glu_look_at()`` in OpenGL, but it first clears the current camera settings.
 
+Underlying Java method: `camera <https://processing.org/reference/camera_.html>`_
+
 Syntax
 ======
 
@@ -75,5 +77,5 @@ Parameters
 * **up_z**: `float` - usually 0.0, 1.0, or -1.0
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: clear()
 .. slug: sketch_clear
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,6 +62,8 @@ Description
 
 Clears the pixels within a buffer. This function only works on ``Py5Graphics`` objects created with the ``create_graphics()`` function. Unlike the main graphics context (the display window), pixels in additional graphics areas created with ``create_graphics()`` can be entirely or partially transparent. This function clears everything in a ``Py5Graphics`` object to make all of the pixels 100% transparent.
 
+Underlying Java method: `clear <https://processing.org/reference/clear_.html>`_
+
 Syntax
 ======
 
@@ -69,5 +71,5 @@ Syntax
 
     clear() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

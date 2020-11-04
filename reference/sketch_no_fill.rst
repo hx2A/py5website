@@ -1,6 +1,6 @@
 .. title: no_fill()
 .. slug: sketch_no_fill
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,6 +47,8 @@ Description
 
 Disables filling geometry. If both ``no_stroke()`` and ``no_fill()`` are called, nothing will be drawn to the screen.
 
+Underlying Java method: `noFill <https://processing.org/reference/noFill_.html>`_
+
 Syntax
 ======
 
@@ -54,5 +56,5 @@ Syntax
 
     no_fill() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

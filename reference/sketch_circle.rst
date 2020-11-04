@@ -1,6 +1,6 @@
 .. title: circle()
 .. slug: sketch_circle
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,6 +45,8 @@ Description
 
 Draws a circle to the screen. By default, the first two parameters set the location of the center, and the third sets the shape's width and height. The origin may be changed with the ``ellipse_mode()`` function.
 
+Underlying Java method: `circle <https://processing.org/reference/circle_.html>`_
+
 Syntax
 ======
 
@@ -60,5 +62,5 @@ Parameters
 * **y**: `float` - y-coordinate of the ellipse
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

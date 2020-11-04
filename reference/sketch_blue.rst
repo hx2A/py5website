@@ -1,6 +1,6 @@
 .. title: blue()
 .. slug: sketch_blue
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,6 +57,8 @@ The ``blue()`` function is easy to use and understand, but it is slower than a t
 ``b1 = blue(c)   # simpler, but slower to calculate
 b2 = c & 0xFF  # very fast to calculate``
 
+Underlying Java method: `blue <https://processing.org/reference/blue_.html>`_
+
 Syntax
 ======
 
@@ -70,5 +72,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

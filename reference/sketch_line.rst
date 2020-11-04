@@ -1,6 +1,6 @@
 .. title: line()
 .. slug: sketch_line
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -96,6 +96,8 @@ Description
 
 Draws a line (a direct path between two points) to the screen. The version of ``line()`` with four parameters draws the line in 2D.  To color a line, use the ``stroke()`` function. A line cannot be filled, therefore the ``fill()`` function will not affect the color of a line. 2D lines are drawn with a width of one pixel by default, but this can be changed with the ``stroke_weight()`` function. The version with six parameters allows the line to be placed anywhere within XYZ space. Drawing this shape in 3D with the ``z`` parameter requires the P3D parameter in combination with ``size()`` as shown in the above example.
 
+Underlying Java method: `line <https://processing.org/reference/line_.html>`_
+
 Syntax
 ======
 
@@ -115,5 +117,5 @@ Parameters
 * **z2**: `float` - z-coordinate of the second point
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

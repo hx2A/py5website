@@ -1,6 +1,6 @@
 .. title: create_image()
 .. slug: sketch_create_image
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -82,6 +82,8 @@ Be sure to include all three parameters, specifying only the width and height (b
  
 Advanced users please note that ``create_image()`` should be used instead of the syntax ``new Py5Image()``.
 
+Underlying Java method: `createImage <https://processing.org/reference/createImage_.html>`_
+
 Syntax
 ======
 
@@ -97,5 +99,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

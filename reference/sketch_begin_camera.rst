@@ -1,6 +1,6 @@
 .. title: begin_camera()
 .. slug: sketch_begin_camera
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,6 +55,8 @@ Description
 
 The ``begin_camera()`` and ``end_camera()`` functions enable advanced customization of the camera space. The functions are useful if you want to more control over camera movement, however for most users, the ``camera()`` function will be sufficient.The camera functions will replace any transformations (such as ``rotate()`` or ``translate()``) that occur before them in ``draw()``, but they will not automatically replace the camera transform itself. For this reason, camera functions should be placed at the beginning of ``draw()`` (so that transformations happen afterwards), and the ``camera()`` function can be used after ``begin_camera()`` if you want to reset the camera before applying transformations.This function sets the matrix mode to the camera matrix so calls such as ``translate()``, ``rotate()``, ``apply_matrix()`` and ``reset_matrix()`` affect the camera. ``begin_camera()`` should always be used with a following ``end_camera()`` and pairs of ``begin_camera()`` and ``end_camera()`` cannot be nested.
 
+Underlying Java method: `beginCamera <https://processing.org/reference/beginCamera_.html>`_
+
 Syntax
 ======
 
@@ -62,5 +64,5 @@ Syntax
 
     begin_camera() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

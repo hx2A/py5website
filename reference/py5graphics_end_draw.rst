@@ -1,6 +1,6 @@
 .. title: end_draw()
 .. slug: py5graphics_end_draw
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,6 +55,8 @@ Description
 
 Finalizes the rendering of a PGraphics object so that it can be shown on screen.
 
+Underlying Java method: `PGraphics.endDraw <https://processing.org/reference/PGraphics_endDraw_.html>`_
+
 Syntax
 ======
 
@@ -62,5 +64,5 @@ Syntax
 
     end_draw() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

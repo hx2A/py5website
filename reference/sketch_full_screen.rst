@@ -1,6 +1,6 @@
 .. title: full_screen()
 .. slug: sketch_full_screen
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -157,6 +157,8 @@ When ``full_screen()`` is used without a parameter, it draws the sketch to the s
 
 Prior to Processing 3.0, a full-screen program was defined with ``size(display_width, display_height)``.
 
+Underlying Java method: `fullScreen <https://processing.org/reference/fullScreen_.html>`_
+
 Syntax
 ======
 
@@ -174,5 +176,5 @@ Parameters
 * **renderer**: `str` - the renderer to use, e.g. P2D, P3D, JAVA2D (default)
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

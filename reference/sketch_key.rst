@@ -1,6 +1,6 @@
 .. title: key
 .. slug: sketch_key
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,6 +57,8 @@ For non-ASCII keys, use the ``key_code`` variable. The keys included in the ASCI
 
 There are issues with how ``key_code`` behaves across different renderers and operating systems. Watch out for unexpected behavior as you switch renderers and operating systems.
 
+Underlying Java field: `key <https://processing.org/reference/key.html>`_
 
-Updated on November 03, 2020 22:19:57pm UTC
+
+Updated on November 04, 2020 20:45:44pm UTC
 

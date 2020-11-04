@@ -1,6 +1,6 @@
 .. title: push_style()
 .. slug: sketch_push_style
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -90,6 +90,8 @@ The ``push_style()`` function saves the current style settings and ``pop_style()
 The style information controlled by the following functions are included in the style:
 ``fill()``, ``stroke()``, ``tint()``, ``stroke_weight()``, ``stroke_cap()``, ``stroke_join()``, ``image_mode()``, ``rect_mode()``, ``ellipse_mode()``, ``shape_mode()``, ``color_mode()``, ``text_align()``, ``text_font()``, ``text_mode()``, ``text_size()``, ``text_leading()``, ``emissive()``, ``specular()``, ``shininess()``, ``ambient()``
 
+Underlying Java method: `pushStyle <https://processing.org/reference/pushStyle_.html>`_
+
 Syntax
 ======
 
@@ -97,5 +99,5 @@ Syntax
 
     push_style() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

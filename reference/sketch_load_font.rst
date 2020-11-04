@@ -1,6 +1,6 @@
 .. title: load_font()
 .. slug: sketch_load_font
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,6 +57,8 @@ If the file is not available or an error occurs, ``None`` will be returned and a
 
 Use ``create_font()`` (instead of ``load_font()``) to enable vector data to be used with the default renderer setting. This can be helpful when many font sizes are needed, or when using any renderer based on the default renderer, such as the PDF library.
 
+Underlying Java method: `loadFont <https://processing.org/reference/loadFont_.html>`_
+
 Syntax
 ======
 
@@ -70,5 +72,5 @@ Parameters
 * **filename**: `str` - name of the font to load
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

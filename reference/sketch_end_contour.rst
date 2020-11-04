@@ -1,6 +1,6 @@
 .. title: end_contour()
 .. slug: sketch_end_contour
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -63,6 +63,8 @@ Use the ``begin_contour()`` and ``end_contour()`` function to create negative sh
 
 These functions can only be used within a ``begin_shape()``/``end_shape()`` pair and transformations such as ``translate()``, ``rotate()``, and ``scale()`` do not work within a ``begin_contour()``/``end_contour()`` pair. It is also not possible to use other shapes, such as ``ellipse()`` or ``rect()`` within.
 
+Underlying Java method: `endContour <https://processing.org/reference/endContour_.html>`_
+
 Syntax
 ======
 
@@ -70,5 +72,5 @@ Syntax
 
     end_contour() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

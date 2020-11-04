@@ -1,6 +1,6 @@
 .. title: stroke()
 .. slug: sketch_stroke
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -73,6 +73,8 @@ The value for the gray parameter must be less than or equal to the current maxim
  
 When drawing in 2D with the default renderer, you may need ``hint(ENABLE_STROKE_PURE)`` to improve drawing quality (at the expense of performance). See the ``hint()`` documentation for more details.
 
+Underlying Java method: `stroke <https://processing.org/reference/stroke_.html>`_
+
 Syntax
 ======
 
@@ -96,5 +98,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

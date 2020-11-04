@@ -1,6 +1,6 @@
 .. title: minute()
 .. slug: sketch_minute
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -49,6 +49,8 @@ Description
 
 Processing communicates with the clock on your computer. The ``minute()`` function returns the current minute as a value from 0 - 59.
 
+Underlying Java method: `minute <https://processing.org/reference/minute_.html>`_
+
 Syntax
 ======
 
@@ -56,5 +58,5 @@ Syntax
 
     minute() -> int
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

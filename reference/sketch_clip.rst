@@ -1,6 +1,6 @@
 .. title: clip()
 .. slug: sketch_clip
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,6 +55,8 @@ Description
 
 Limits the rendering to the boundaries of a rectangle defined by the parameters. The boundaries are drawn based on the state of the ``image_mode()`` fuction, either CORNER, CORNERS, or CENTER.
 
+Underlying Java method: `clip <https://processing.org/reference/clip_.html>`_
+
 Syntax
 ======
 
@@ -71,5 +73,5 @@ Parameters
 * **d**: `float` - height of the rectangle, by default
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

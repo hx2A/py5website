@@ -1,6 +1,6 @@
 .. title: push()
 .. slug: sketch_push
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -87,6 +87,8 @@ The ``push()`` function saves the current drawing style settings and transformat
 
 The ``push()`` and ``pop()`` functions were added with Processing 3.5. They can be used in place of ``push_matrix()``, ``pop_matrix()``, ``push_styles()``, and ``pop_styles()``. The difference is that ``push()`` and ``pop()`` control both the transformations (rotate, scale, translate) and the drawing styles at the same time.
 
+Underlying Java method: `push <https://processing.org/reference/push_.html>`_
+
 Syntax
 ======
 
@@ -94,5 +96,5 @@ Syntax
 
     push() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

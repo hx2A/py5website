@@ -1,6 +1,6 @@
 .. title: apply_filter()
 .. slug: sketch_apply_filter
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -235,6 +235,8 @@ Reduces the light areas. No parameter is used.
 DILATE
 Increases the light areas. No parameter is used.
 
+Underlying Java method: `filter <https://processing.org/reference/filter_.html>`_
+
 Syntax
 ======
 
@@ -252,5 +254,5 @@ Parameters
 * **shader**: `Py5Shader` - the fragment shader to apply
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: quad()
 .. slug: sketch_quad
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,6 +45,8 @@ Description
 
 A quad is a quadrilateral, a four sided polygon. It is similar to a rectangle, but the angles between its edges are not constrained to ninety degrees. The first pair of parameters (x1,y1) sets the first vertex and the subsequent pairs should proceed clockwise or counter-clockwise around the defined shape.
 
+Underlying Java method: `quad <https://processing.org/reference/quad_.html>`_
+
 Syntax
 ======
 
@@ -65,5 +67,5 @@ Parameters
 * **y4**: `float` - y-coordinate of the fourth corner
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: text_font()
 .. slug: sketch_text_font
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,6 +51,8 @@ Description
 Sets the current font that will be drawn with the ``text()`` function. Fonts must be created for Processing with ``create_font()`` or loaded with ``load_font()`` before they can be used. The font set through ``text_font()`` will be used in all subsequent calls to the ``text()`` function. If no ``size`` parameter is specified, the font size defaults to the original size (the size in which it was created with the "Create Font..." tool) overriding any previous calls to ``text_font()`` or ``text_size()``.
  When fonts are rendered as an image texture (as is the case with the P2D and P3D renderers as well as with ``load_font()`` and vlw files), you should create fonts at the sizes that will be used most commonly. Using ``text_font()`` without the size parameter will result in the cleanest type.
 
+Underlying Java method: `textFont <https://processing.org/reference/textFont_.html>`_
+
 Syntax
 ======
 
@@ -66,5 +68,5 @@ Parameters
 * **which**: `Py5Font` - any variable of the type PFont
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

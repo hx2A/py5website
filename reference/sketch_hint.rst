@@ -1,6 +1,6 @@
 .. title: hint()
 .. slug: sketch_hint
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -90,6 +90,8 @@ Forces the P3D renderer to draw each shape (including its strokes) separately, i
 ``ENABLE_STROKE_PERSPECTIVE``
 Enables stroke geometry (lines and points) to be affected by the perspective, meaning that they will look smaller as they move away from the camera.
 
+Underlying Java method: `hint <https://processing.org/reference/hint_.html>`_
+
 Syntax
 ======
 
@@ -103,5 +105,5 @@ Parameters
 * **which**: `int` - missing variable description
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

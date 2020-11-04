@@ -1,6 +1,6 @@
 .. title: display_density()
 .. slug: sketch_display_density
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,6 +51,8 @@ Description
 
 This function returns the number "2" if the screen is a high-density screen (called a Retina display on OS X or high-dpi on Windows and Linux) and a "1" if not. This information is useful for a program to adapt to run at double the pixel density on a screen that supports it.
 
+Underlying Java method: `displayDensity <https://processing.org/reference/displayDensity_.html>`_
+
 Syntax
 ======
 
@@ -65,5 +67,5 @@ Parameters
 * **display**: `int` - the display number to check (1-indexed to match the Preferences dialog box)
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

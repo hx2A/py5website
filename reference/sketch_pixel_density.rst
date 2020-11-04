@@ -1,6 +1,6 @@
 .. title: pixel_density()
 .. slug: sketch_pixel_density
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -104,6 +104,8 @@ When the pixel density is set to more than 1, it changes all of the pixel operat
 
 To use variables as the arguments to ``pixel_density()`` function, place the ``pixel_density()`` function within the ``settings()`` function. There is more information about this on the ``settings()`` reference page.
 
+Underlying Java method: `pixelDensity <https://processing.org/reference/pixelDensity_.html>`_
+
 Syntax
 ======
 
@@ -117,5 +119,5 @@ Parameters
 * **density**: `int` - 1 or 2
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

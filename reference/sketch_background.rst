@@ -1,6 +1,6 @@
 .. title: background()
 .. slug: sketch_background
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -90,6 +90,8 @@ An image can also be used as the background for a sketch, although the image's w
  
 It is not possible to use the transparency ``alpha`` parameter with background colors on the main drawing surface. It can only be used along with a ``Py5Graphics`` object and ``create_graphics()``.
 
+Underlying Java method: `background <https://processing.org/reference/background_.html>`_
+
 Syntax
 ======
 
@@ -115,5 +117,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on the current color mode)
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

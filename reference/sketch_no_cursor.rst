@@ -1,6 +1,6 @@
 .. title: no_cursor()
 .. slug: sketch_no_cursor
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,6 +47,8 @@ Description
 
 Hides the cursor from view. Will not work when running the program in a web browser or in full screen (Present) mode.
 
+Underlying Java method: `noCursor <https://processing.org/reference/noCursor_.html>`_
+
 Syntax
 ======
 
@@ -54,5 +56,5 @@ Syntax
 
     no_cursor() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

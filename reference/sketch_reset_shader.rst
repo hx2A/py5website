@@ -1,6 +1,6 @@
 .. title: reset_shader()
 .. slug: sketch_reset_shader
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,6 +54,8 @@ Description
 
 Restores the default shaders. Code that runs after ``reset_shader()`` will not be affected by previously defined shaders.
 
+Underlying Java method: `resetShader <https://processing.org/reference/resetShader_.html>`_
+
 Syntax
 ======
 
@@ -68,5 +70,5 @@ Parameters
 * **kind**: `int` - type of shader, either POINTS, LINES, or TRIANGLES
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

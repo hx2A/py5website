@@ -1,6 +1,6 @@
 .. title: no_tint()
 .. slug: sketch_no_tint
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -49,6 +49,8 @@ Description
 
 Removes the current fill value for displaying images and reverts to displaying images with their original hues.
 
+Underlying Java method: `noTint <https://processing.org/reference/noTint_.html>`_
+
 Syntax
 ======
 
@@ -56,5 +58,5 @@ Syntax
 
     no_tint() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: text_leading()
 .. slug: sketch_text_leading
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,6 +57,8 @@ Description
 
 Sets the spacing between lines of text in units of pixels. This setting will be used in all subsequent calls to the ``text()`` function.  Note, however, that the leading is reset by ``text_size()``. For example, if the leading is set to 20 with ``text_leading(20)``, then if ``text_size(48)`` is run at a later point, the leading will be reset to the default for the text size of 48.
 
+Underlying Java method: `textLeading <https://processing.org/reference/textLeading_.html>`_
+
 Syntax
 ======
 
@@ -70,5 +72,5 @@ Parameters
 * **leading**: `float` - the size in pixels for spacing between lines
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: height
 .. slug: py5image_height
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,6 +47,8 @@ Description
 
 The height of the image in units of pixels.
 
+Underlying Java field: `PImage.height <https://processing.org/reference/PImage_height.html>`_
 
-Updated on November 03, 2020 22:19:57pm UTC
+
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: mask()
 .. slug: py5image_mask
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,6 +58,8 @@ Masks part of an image from displaying by loading another image and using it as 
 
 In addition to using a mask image, an integer array containing the alpha channel data can be specified directly. This method is useful for creating dynamically generated alpha masks. This array must be of the same length as the target image's pixels array and should contain only grayscale data of values between 0-255.
 
+Underlying Java method: `PImage.mask <https://processing.org/reference/PImage_mask_.html>`_
+
 Syntax
 ======
 
@@ -73,5 +75,5 @@ Parameters
 * **mask_array**: `JArray(JInt)` - array of integers used as the alpha channel, needs to be the same length as the image's pixel array.
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

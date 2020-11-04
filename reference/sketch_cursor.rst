@@ -1,6 +1,6 @@
 .. title: cursor()
 .. slug: sketch_cursor
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,6 +57,8 @@ Setting or hiding the cursor does not generally work with "Present" mode (when r
 
 With the P2D and P3D renderers, a generic set of cursors are used because the OpenGL renderer doesn't have access to the default cursor images for each platform (Issue 3791).
 
+Underlying Java method: `cursor <https://processing.org/reference/cursor_.html>`_
+
 Syntax
 ======
 
@@ -76,5 +78,5 @@ Parameters
 * **y**: `int` - the vertical active spot of the cursor
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

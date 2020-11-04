@@ -1,6 +1,6 @@
 .. title: perspective()
 .. slug: sketch_perspective
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,6 +55,8 @@ Description
 
 Sets a perspective projection applying foreshortening, making distant objects appear smaller than closer ones. The parameters define a viewing volume with the shape of truncated pyramid. Objects near to the front of the volume appear their actual size, while farther objects appear smaller. This projection simulates the perspective of the world more accurately than orthographic projection. The version of perspective without parameters sets the default perspective and the version with four parameters allows the programmer to set the area precisely. The default values are: perspective(PI/3.0, width/height, cameraZ/10.0, cameraZ*10.0) where cameraZ is ((height/2.0) / tan(PI*60.0/360.0));
 
+Underlying Java method: `perspective <https://processing.org/reference/perspective_.html>`_
+
 Syntax
 ======
 
@@ -72,5 +74,5 @@ Parameters
 * **z_near**: `float` - z-position of nearest clipping plane
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: translate()
 .. slug: py5shape_translate
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,6 +56,8 @@ Specifies an amount to displace the shape. The ``x`` parameter specifies left/ri
 
 Using this method with the ``z`` parameter requires using the P3D parameter in combination with size.
 
+Underlying Java method: `PShape.translate <https://processing.org/reference/PShape_translate_.html>`_
+
 Syntax
 ======
 
@@ -72,5 +74,5 @@ Parameters
 * **z**: `float` - forward/back translation
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

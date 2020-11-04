@@ -1,6 +1,6 @@
 .. title: bezier_point()
 .. slug: sketch_bezier_point
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,6 +53,8 @@ Description
 
 Evaluates the Bezier at point t for points a, b, c, d. The parameter t varies between 0 and 1, a and d are points on the curve, and b and c are the control points. This can be done once with the x coordinates and a second time with the y coordinates to get the location of a bezier curve at t.
 
+Underlying Java method: `bezierPoint <https://processing.org/reference/bezierPoint_.html>`_
+
 Syntax
 ======
 
@@ -70,5 +72,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

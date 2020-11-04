@@ -1,6 +1,6 @@
 .. title: shape_mode()
 .. slug: sketch_shape_mode
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,6 +55,8 @@ Description
 
 Modifies the location from which shapes draw. The default mode is ``shape_mode(CORNER)``, which specifies the location to be the upper left corner of the shape and uses the third and fourth parameters of ``shape()`` to specify the width and height. The syntax ``shape_mode(CORNERS)`` uses the first and second parameters of ``shape()`` to set the location of one corner and uses the third and fourth parameters to set the opposite corner. The syntax ``shape_mode(CENTER)`` draws the shape from its center point and uses the third and forth parameters of ``shape()`` to specify the width and height. The parameter must be written in "ALL CAPS" because Processing is a case sensitive language.
 
+Underlying Java method: `shapeMode <https://processing.org/reference/shapeMode_.html>`_
+
 Syntax
 ======
 
@@ -68,5 +70,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

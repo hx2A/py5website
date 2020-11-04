@@ -1,6 +1,6 @@
 .. title: lerp_color()
 .. slug: sketch_lerp_color
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,6 +60,8 @@ Calculates a color between two colors at a specific increment. The ``amt`` param
 
 An amount below 0 will be treated as 0. Likewise, amounts above 1 will be capped at 1. This is different from the behavior of ``lerp()``, but necessary because otherwise numbers outside the range will produce strange and unexpected colors.
 
+Underlying Java method: `lerpColor <https://processing.org/reference/lerpColor_.html>`_
+
 Syntax
 ======
 
@@ -77,5 +79,5 @@ Parameters
 * **mode**: `int` - missing variable description
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

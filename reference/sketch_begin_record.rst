@@ -1,6 +1,6 @@
 .. title: begin_record()
 .. slug: sketch_begin_record
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,6 +57,8 @@ Note that ``begin_record()`` will only pick up any settings that happen after it
 
 ``begin_record()`` works only with the PDF and SVG renderers.
 
+Underlying Java method: `beginRecord <https://processing.org/reference/beginRecord_.html>`_
+
 Syntax
 ======
 
@@ -73,5 +75,5 @@ Parameters
 * **renderer**: `str` - PDF or SVG
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

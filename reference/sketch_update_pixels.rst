@@ -1,6 +1,6 @@
 .. title: update_pixels()
 .. slug: sketch_update_pixels
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,6 +52,8 @@ Description
 
 Updates the display window with the data in the ``pixels[]`` array. Use in conjunction with ``load_pixels()``. If you're only reading pixels from the array, there's no need to call ``update_pixels()`` — updating is only necessary to apply changes.
 
+Underlying Java method: `updatePixels <https://processing.org/reference/updatePixels_.html>`_
+
 Syntax
 ======
 
@@ -69,5 +71,5 @@ Parameters
 * **y2**: `int` - height of the region
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

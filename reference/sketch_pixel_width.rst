@@ -1,6 +1,6 @@
 .. title: pixel_width
 .. slug: sketch_pixel_width
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -85,6 +85,8 @@ Description
 
 When ``pixel_density(2)`` is used to make use of a high resolution display (called a Retina display on OS X or high-dpi on Windows and Linux), the width and height of the sketch do not change, but the number of pixels is doubled. As a result, all operations that use pixels (like ``load_pixels()``, ``get()``, ``set()``, etc.) happen in this doubled space. As a convenience, the variables ``pixel_width`` and ``pixel_height`` hold the actual width and height of the sketch in pixels. This is useful for any sketch that uses the ``pixels[]`` array, for instance, because the number of elements in the array will be ``pixel_width*pixel_height``, not ``width*height``.
 
+Underlying Java field: `pixelWidth <https://processing.org/reference/pixelWidth.html>`_
 
-Updated on November 03, 2020 22:19:57pm UTC
+
+Updated on November 04, 2020 20:45:44pm UTC
 

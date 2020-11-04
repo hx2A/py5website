@@ -1,6 +1,6 @@
 .. title: pop_style()
 .. slug: sketch_pop_style
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -87,6 +87,8 @@ Description
 
 The ``push_style()`` function saves the current style settings and ``pop_style()`` restores the prior settings; these functions are always used together. They allow you to change the style settings and later return to what you had. When a new style is started with ``push_style()``, it builds on the current style information. The ``push_style()`` and ``pop_style()`` functions can be embedded to provide more control (see the second example above for a demonstration.)
 
+Underlying Java method: `popStyle <https://processing.org/reference/popStyle_.html>`_
+
 Syntax
 ======
 
@@ -94,5 +96,5 @@ Syntax
 
     pop_style() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

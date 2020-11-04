@@ -1,6 +1,6 @@
 .. title: vertex()
 .. slug: sketch_vertex
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -115,6 +115,8 @@ Drawing a vertex in 3D using the ``z`` parameter requires the P3D parameter in c
 
 This function is also used to map a texture onto geometry. The ``texture()`` function declares the texture to apply to the geometry and the ``u`` and ``v`` coordinates set define the mapping of this texture to the form. By default, the coordinates used for ``u`` and ``v`` are specified in relation to the image's size in pixels, but this relation can be changed with ``texture_mode()``.
 
+Underlying Java method: `vertex <https://processing.org/reference/vertex_.html>`_
+
 Syntax
 ======
 
@@ -137,5 +139,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

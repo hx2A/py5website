@@ -1,6 +1,6 @@
 .. title: stroke_cap()
 .. slug: sketch_stroke_cap
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,6 +53,8 @@ Sets the style for rendering line endings. These ends are either squared, extend
 
 To make ``point()`` appear square, use ``stroke_cap(PROJECT)``. Using ``stroke_cap(SQUARE)`` (no cap) causes points to become invisible.
 
+Underlying Java method: `strokeCap <https://processing.org/reference/strokeCap_.html>`_
+
 Syntax
 ======
 
@@ -66,5 +68,5 @@ Parameters
 * **cap**: `int` - either SQUARE, PROJECT, or ROUND
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

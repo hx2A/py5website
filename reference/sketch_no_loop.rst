@@ -1,6 +1,6 @@
 .. title: no_loop()
 .. slug: sketch_no_loop
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -121,6 +121,8 @@ When ``no_loop()`` is used, it's not possible to manipulate or access the screen
 
 Note that if the sketch is resized, ``redraw()`` will be called to update the sketch, even after ``no_loop()`` has been specified. Otherwise, the sketch would enter an odd state until ``loop()`` was called.
 
+Underlying Java method: `noLoop <https://processing.org/reference/noLoop_.html>`_
+
 Syntax
 ======
 
@@ -128,5 +130,5 @@ Syntax
 
     no_loop() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

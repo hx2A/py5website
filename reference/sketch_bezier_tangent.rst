@@ -1,6 +1,6 @@
 .. title: bezier_tangent()
 .. slug: sketch_bezier_tangent
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -98,6 +98,8 @@ Description
 
 Calculates the tangent of a point on a Bezier curve. There is a good definition of *tangent* on Wikipedia.
 
+Underlying Java method: `bezierTangent <https://processing.org/reference/bezierTangent_.html>`_
+
 Syntax
 ======
 
@@ -115,5 +117,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

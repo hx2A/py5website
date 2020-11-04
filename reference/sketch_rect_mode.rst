@@ -1,6 +1,6 @@
 .. title: rect_mode()
 .. slug: sketch_rect_mode
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -87,6 +87,8 @@ The default mode is ``rect_mode(CORNER)``, which interprets the first two parame
 
 The parameter must be written in ALL CAPS because Processing is a case-sensitive language.
 
+Underlying Java method: `rectMode <https://processing.org/reference/rectMode_.html>`_
+
 Syntax
 ======
 
@@ -100,5 +102,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER, or RADIUS
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

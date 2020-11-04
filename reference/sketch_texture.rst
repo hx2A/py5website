@@ -1,6 +1,6 @@
 .. title: texture()
 .. slug: sketch_texture
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,6 +56,8 @@ Sets a texture to be applied to vertex points. The ``texture()`` function must b
 
 When textures are in use, the fill color is ignored. Instead, use ``tint()`` to specify the color of the texture as it is applied to the shape.
 
+Underlying Java method: `texture <https://processing.org/reference/texture_.html>`_
+
 Syntax
 ======
 
@@ -69,5 +71,5 @@ Parameters
 * **image**: `Py5Image` - reference to a PImage object
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

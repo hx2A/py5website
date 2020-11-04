@@ -1,6 +1,6 @@
 .. title: month()
 .. slug: sketch_month
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,6 +51,8 @@ Description
 
 Processing communicates with the clock on your computer. The ``month()`` function returns the current month as a value from 1 - 12.
 
+Underlying Java method: `month <https://processing.org/reference/month_.html>`_
+
 Syntax
 ======
 
@@ -58,5 +60,5 @@ Syntax
 
     month() -> int
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: spot_light()
 .. slug: sketch_spot_light
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,6 +77,8 @@ Description
 
 Adds a spot light. Lights need to be included in the ``draw()`` to remain persistent in a looping program. Placing them in the ``setup()`` of a looping program will cause them to only have an effect the first time through the loop. The ``v1``, ``v2``, and ``v3`` parameters are interpreted as either RGB or HSB values, depending on the current color mode. The ``x``, ``y``, and ``z`` parameters specify the position of the light and ``nx``, ``ny``, ``nz`` specify the direction of light. The ``angle`` parameter affects angle of the spotlight cone, while ``concentration`` sets the bias of light focusing toward the center of that cone.
 
+Underlying Java method: `spotLight <https://processing.org/reference/spotLight_.html>`_
+
 Syntax
 ======
 
@@ -100,5 +102,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: arc()
 .. slug: sketch_arc
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -113,6 +113,8 @@ There are three ways to draw an arc; the rendering technique used is defined by 
 
 In some cases, the ``arc()`` function isn't accurate enough for smooth drawing. For example, the shape may jitter on screen when rotating slowly. If you're having an issue with how arcs are rendered, you'll need to draw the arc yourself with ``begin_shape()``/``end_shape()`` or a ``Py5Shape``.
 
+Underlying Java method: `arc <https://processing.org/reference/arc_.html>`_
+
 Syntax
 ======
 
@@ -133,5 +135,5 @@ Parameters
 * **stop**: `float` - angle to stop the arc, specified in radians
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

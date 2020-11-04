@@ -1,6 +1,6 @@
 .. title: size()
 .. slug: sketch_size
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -120,6 +120,8 @@ The ``renderer`` parameter selects which rendering engine to use. For example, i
 
 As of Processing 3.0, to use variables as the parameters to ``size()`` function, place the ``size()`` function within the ``settings()`` function (instead of ``setup()``). There is more information about this on the ``settings()`` reference page.
 
+Underlying Java method: `size <https://processing.org/reference/size_.html>`_
+
 Syntax
 ======
 
@@ -138,5 +140,5 @@ Parameters
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

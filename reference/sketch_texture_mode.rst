@@ -1,6 +1,6 @@
 .. title: texture_mode()
 .. slug: sketch_texture_mode
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -87,6 +87,8 @@ Sets the coordinate space for texture mapping. The default mode is ``IMAGE``, wh
 
 With ``IMAGE``, if an image is 100 x 200 pixels, mapping the image onto the entire size of a quad would require the points (0,0) (100, 0) (100,200) (0,200). The same mapping in ``NORMAL`` is (0,0) (1,0) (1,1) (0,1).
 
+Underlying Java method: `textureMode <https://processing.org/reference/textureMode_.html>`_
+
 Syntax
 ======
 
@@ -100,5 +102,5 @@ Parameters
 * **mode**: `int` - either IMAGE or NORMAL
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

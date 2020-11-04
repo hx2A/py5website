@@ -1,6 +1,6 @@
 .. title: begin_shape()
 .. slug: py5shape_begin_shape
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,6 +56,8 @@ Description
 
 This method is used to start a custom shape created with the ``create_shape()`` function. It's always and only used with ``create_shape()``.
 
+Underlying Java method: `PShape.beginShape <https://processing.org/reference/PShape_beginShape_.html>`_
+
 Syntax
 ======
 
@@ -70,5 +72,5 @@ Parameters
 * **kind**: `int` - missing variable description
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

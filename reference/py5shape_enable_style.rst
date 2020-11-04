@@ -1,6 +1,6 @@
 .. title: enable_style()
 .. slug: py5shape_enable_style
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,6 +56,8 @@ Description
 
 Enables the shape's style data and ignores Processing's current styles. Styles include attributes such as colors, stroke weight, and stroke joints.
 
+Underlying Java method: `PShape.enableStyle <https://processing.org/reference/PShape_enableStyle_.html>`_
+
 Syntax
 ======
 
@@ -63,5 +65,5 @@ Syntax
 
     enable_style() -> None
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

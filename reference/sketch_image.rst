@@ -1,6 +1,6 @@
 .. title: image()
 .. slug: sketch_image
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -84,6 +84,8 @@ The ``img`` parameter specifies the image to display and by default the ``a`` an
 
 The color of an image may be modified with the ``tint()`` function. This function will maintain transparency for GIF and PNG images.
 
+Underlying Java method: `image <https://processing.org/reference/image_.html>`_
+
 Syntax
 ======
 
@@ -107,5 +109,5 @@ Parameters
 * **v2**: `int` - missing variable description
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

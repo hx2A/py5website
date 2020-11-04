@@ -1,6 +1,6 @@
 .. title: copy()
 .. slug: sketch_copy
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,6 +53,8 @@ Copies a region of pixels from the display window to another area of the display
 
 As of release 0149, this function ignores ``image_mode()``.
 
+Underlying Java method: `copy <https://processing.org/reference/copy_.html>`_
+
 Syntax
 ======
 
@@ -76,5 +78,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 

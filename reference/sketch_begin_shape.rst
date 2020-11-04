@@ -1,6 +1,6 @@
 .. title: begin_shape()
 .. slug: sketch_begin_shape
-.. date: 2020-11-03 22:19:57 UTC+00:00
+.. date: 2020-11-04 20:45:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -323,6 +323,8 @@ Transformations such as ``translate()``, ``rotate()``, and ``scale()`` do not wo
 
 The P2D and P3D renderers allow ``stroke()`` and ``fill()`` to be altered on a per-vertex basis, but the default renderer does not. Settings such as ``stroke_weight()``, ``stroke_cap()``, and ``stroke_join()`` cannot be changed while inside a ``begin_shape()``/``end_shape()`` block with any renderer.
 
+Underlying Java method: `beginShape <https://processing.org/reference/beginShape_.html>`_
+
 Syntax
 ======
 
@@ -337,5 +339,5 @@ Parameters
 * **kind**: `int` - Either POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, or QUAD_STRIP
 
 
-Updated on November 03, 2020 22:19:57pm UTC
+Updated on November 04, 2020 20:45:44pm UTC
 
