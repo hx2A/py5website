@@ -1,0 +1,13 @@
+* `get_native() <../py5surface_get_native/>`_: new template no description.
+* `is_stopped() <../py5surface_is_stopped/>`_: new template no description.
+* `open_link() <../py5surface_open_link/>`_: new template no description.
+* `pause_thread() <../py5surface_pause_thread/>`_: new template no description.
+* `resume_thread() <../py5surface_resume_thread/>`_: new template no description.
+* `set_always_on_top() <../py5surface_set_always_on_top/>`_: new template no description.
+* `set_icon() <../py5surface_set_icon/>`_: new template no description.
+* `set_location() <../py5surface_set_location/>`_: new template no description.
+* `set_resizable() <../py5surface_set_resizable/>`_: new template no description.
+* `set_size() <../py5surface_set_size/>`_: new template no description.
+* `set_title() <../py5surface_set_title/>`_: new template no description.
+* `set_visible() <../py5surface_set_visible/>`_: new template no description.
+* `stop_thread() <../py5surface_stop_thread/>`_: new template no description.

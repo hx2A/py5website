@@ -1,6 +1,6 @@
 .. title: set_np_pixels()
-.. slug: sketch_set_np_pixels
-.. date: 2020-11-04 20:45:44 UTC+00:00
+.. slug: set_np_pixels
+.. date: 1970-01-01 00:00:00 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,5 +28,5 @@ Parameters
 * **bands**: `str` - missing variable description
 
 
-Updated on November 04, 2020 20:45:44pm UTC
+Updated on January 01, 1970 00:00:00am UTC
 

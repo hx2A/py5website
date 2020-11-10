@@ -1,6 +1,6 @@
 .. title: mouse_button
-.. slug: sketch_mouse_button
-.. date: 2020-11-04 20:45:44 UTC+00:00
+.. slug: mouse_button
+.. date: 1970-01-01 00:00:00 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -86,5 +86,5 @@ When a mouse button is pressed, the value of the system variable ``mouse_button`
 Underlying Java field: `mouseButton <https://processing.org/reference/mouseButton.html>`_
 
 
-Updated on November 04, 2020 20:45:44pm UTC
+Updated on January 01, 1970 00:00:00am UTC
 

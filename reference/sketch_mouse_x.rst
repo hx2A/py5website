@@ -1,6 +1,6 @@
 .. title: mouse_x
-.. slug: sketch_mouse_x
-.. date: 2020-11-04 20:45:44 UTC+00:00
+.. slug: mouse_x
+.. date: 1970-01-01 00:00:00 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -49,5 +49,5 @@ Note that Processing can only track the mouse position when the pointer is over 
 Underlying Java field: `mouseX <https://processing.org/reference/mouseX.html>`_
 
 
-Updated on November 04, 2020 20:45:44pm UTC
+Updated on January 01, 1970 00:00:00am UTC
 

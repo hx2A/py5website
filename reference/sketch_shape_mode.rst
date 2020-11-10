@@ -1,6 +1,6 @@
 .. title: shape_mode()
-.. slug: sketch_shape_mode
-.. date: 2020-11-04 20:45:44 UTC+00:00
+.. slug: shape_mode
+.. date: 1970-01-01 00:00:00 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -70,5 +70,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER
 
 
-Updated on November 04, 2020 20:45:44pm UTC
+Updated on January 01, 1970 00:00:00am UTC
 

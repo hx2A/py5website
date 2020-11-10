@@ -1,6 +1,6 @@
 .. title: save_frame()
-.. slug: sketch_save_frame
-.. date: 2020-11-04 20:45:44 UTC+00:00
+.. slug: save_frame
+.. date: 1970-01-01 00:00:00 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,15 +19,16 @@ Syntax
 
 .. code:: python
 
-    save_frame(filename: Union[str, Path], format: str, params) -> None
+    save_frame(filename: Union[str, Path], format: str, drop_alpha: bool, params) -> None
 
 Parameters
 ==========
 
+* **drop_alpha**: `bool` - missing variable description
 * **filename**: `Union[str, Path]` - missing variable description
 * **format**: `str` - missing variable description
 * **params**: - missing variable description
 
 
-Updated on November 04, 2020 20:45:44pm UTC
+Updated on January 01, 1970 00:00:00am UTC
 

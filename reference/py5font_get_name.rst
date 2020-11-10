@@ -1,6 +1,6 @@
 .. title: get_name()
 .. slug: py5font_get_name
-.. date: 2020-11-04 20:45:44 UTC+00:00
+.. date: 1970-01-01 00:00:00 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -23,5 +23,5 @@ Syntax
 
     get_name() -> str
 
-Updated on November 04, 2020 20:45:44pm UTC
+Updated on January 01, 1970 00:00:00am UTC
 
