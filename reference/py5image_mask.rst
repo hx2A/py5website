@@ -1,6 +1,6 @@
 .. title: mask()
 .. slug: py5image_mask
-.. date: 1970-01-01 00:00:00 UTC+00:00
+.. date: 2020-11-10 15:41:45 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -75,5 +75,5 @@ Parameters
 * **mask_array**: `JArray(JInt)` - array of integers used as the alpha channel, needs to be the same length as the image's pixel array.
 
 
-Updated on January 01, 1970 00:00:00am UTC
+Updated on November 10, 2020 15:41:45pm UTC
 

@@ -1,6 +1,6 @@
 .. title: stroke_cap()
 .. slug: stroke_cap
-.. date: 1970-01-01 00:00:00 UTC+00:00
+.. date: 2020-11-10 15:41:45 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,5 +68,5 @@ Parameters
 * **cap**: `int` - either SQUARE, PROJECT, or ROUND
 
 
-Updated on January 01, 1970 00:00:00am UTC
+Updated on November 10, 2020 15:41:45pm UTC
 

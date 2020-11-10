@@ -1,6 +1,6 @@
 .. title: set()
 .. slug: py5shader_set
-.. date: 1970-01-01 00:00:00 UTC+00:00
+.. date: 2020-11-10 15:41:45 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -112,5 +112,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on January 01, 1970 00:00:00am UTC
+Updated on November 10, 2020 15:41:45pm UTC
 

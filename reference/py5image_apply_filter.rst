@@ -1,37 +1,13 @@
 .. title: apply_filter()
 .. slug: py5image_apply_filter
-.. date: 1970-01-01 00:00:00 UTC+00:00
+.. date: 2020-11-10 15:41:45 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 apply_filter() documentation
 .. type: text
 
-Filters the image as defined by one of the following modes:
-
-THRESHOLD
-Converts the image to black and white pixels depending if they are above or below the threshold defined by the level parameter. The parameter must be between 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.
-
-GRAY
-Converts any colors in the image to grayscale equivalents. No parameter is used.
-
-OPAQUE
-Sets the alpha channel to entirely opaque. No parameter is used.
-
-INVERT
-Sets each pixel to its inverse value. No parameter is used.
-
-POSTERIZE
-Limits each channel of the image to the number of colors specified as the parameter. The parameter can be set to values between 2 and 255, but results are most noticeable in the lower ranges.
-
-BLUR
-Executes a Gaussian blur with the level parameter specifying the extent of the blurring. If no parameter is used, the blur is equivalent to Gaussian blur of radius 1. Larger values increase the blur.
-
-ERODE
-Reduces the light areas. No parameter is used.
-
-DILATE
-Increases the light areas. No parameter is used.
+Apply an image filter.
 
 Examples
 ========
@@ -259,6 +235,8 @@ Examples
 Description
 ===========
 
+Apply an image filter.
+
 Filters the image as defined by one of the following modes:
 
 THRESHOLD
@@ -302,5 +280,5 @@ Parameters
 * **param**: `float` - unique for each, see above
 
 
-Updated on January 01, 1970 00:00:00am UTC
+Updated on November 10, 2020 15:41:45pm UTC
 
