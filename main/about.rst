@@ -16,7 +16,7 @@ Py5 is a creative coding framework for Python 3.8+. Its use and functionality is
 
 Internally py5 uses Processing_'s core libraries, which are written in Java, while providing the end user with a (mostly) seamless Python programming experience.
 
-I started working on py5 in the Spring of 2020 when I was a research resident at ITP_. It began as a diversion from my pandemic-related anxieties and grew into the library it is today. I indend to use it as an outlet for my artistic endeavors involving Python's machine learning and data science tools and want to make it available and useful for other artists to do the same.
+I started working on py5 in the Spring of 2020 when I was a research resident at ITP_. It began as a diversion from my pandemic-related anxieties and grew into the library it is today. I intend to use it as an outlet for my artistic endeavors involving Python's machine learning and data science tools and want to make it available and useful for other artists to do the same.
 
 The py5 library itself is created by the meta-programming project py5generator. The `source code for py5 <https://github.com/hx2A/py5>`_ and `the source code for py5generator <https://github.com/hx2A/py5generator>`_ are both available on github.
 
