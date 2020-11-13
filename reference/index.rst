@@ -7,10 +7,6 @@
 .. description: py5 reference documentation
 .. type: text
 
-Below is the py5 Reference Documentation.
-
-The following methods and fields are available to you:
-
 .. include:: include/sketch_include.rst
 
 Updated on November 13, 2020 12:01:28pm UTC
