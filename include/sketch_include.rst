@@ -3,70 +3,6 @@
     <table style="width:100%"><tr><td style="vertical-align:top">
 
 
-Unknown
-=======
-
-* `Py5Font <py5font/>`_
-* `Py5Graphics <py5graphics/>`_
-* `Py5Image <py5image/>`_
-* `Py5Shader <py5shader/>`_
-* `Py5Shape <py5shape/>`_
-* `Py5Surface <py5surface/>`_
-* `args <args/>`_
-* `bezier_vertices() <bezier_vertices/>`_
-* `clear() <clear/>`_
-* `constrain() <constrain/>`_
-* `curve_vertices() <curve_vertices/>`_
-* `degrees() <degrees/>`_
-* `display_height <display_height/>`_
-* `display_width <display_width/>`_
-* `dist() <dist/>`_
-* `exit_sketch() <exit_sketch/>`_
-* `finished <finished/>`_
-* `get_frame_rate() <get_frame_rate/>`_
-* `get_graphics() <get_graphics/>`_
-* `get_surface() <get_surface/>`_
-* `has_thread() <has_thread/>`_
-* `hot_reload_draw() <hot_reload_draw/>`_
-* `is_dead <is_dead/>`_
-* `is_dead_from_error <is_dead_from_error/>`_
-* `is_key_pressed() <is_key_pressed/>`_
-* `is_mouse_pressed() <is_mouse_pressed/>`_
-* `is_ready <is_ready/>`_
-* `is_running <is_running/>`_
-* `launch_promise_thread() <launch_promise_thread/>`_
-* `launch_repeating_thread() <launch_repeating_thread/>`_
-* `launch_thread() <launch_thread/>`_
-* `lerp() <lerp/>`_
-* `lines() <lines/>`_
-* `list_threads() <list_threads/>`_
-* `load_json() <load_json/>`_
-* `load_np_pixels() <load_np_pixels/>`_
-* `no_smooth() <no_smooth/>`_
-* `no_texture() <no_texture/>`_
-* `norm() <norm/>`_
-* `np_pixels <np_pixels/>`_
-* `parse_json() <parse_json/>`_
-* `pause() <pause/>`_
-* `points() <points/>`_
-* `print_line_profiler_stats() <print_line_profiler_stats/>`_
-* `profile_draw() <profile_draw/>`_
-* `profile_functions() <profile_functions/>`_
-* `quadratic_vertices() <quadratic_vertices/>`_
-* `radians() <radians/>`_
-* `resume() <resume/>`_
-* `run_sketch() <run_sketch/>`_
-* `save_json() <save_json/>`_
-* `set_np_pixels() <set_np_pixels/>`_
-* `sketch_path() <sketch_path/>`_
-* `sq() <sq/>`_
-* `start() <start/>`_
-* `stop() <stop/>`_
-* `stop_all_threads() <stop_all_threads/>`_
-* `stop_thread() <stop_thread/>`_
-* `update_np_pixels() <update_np_pixels/>`_
-* `vertices() <vertices/>`_
-
 Color
 =====
 
@@ -87,6 +23,7 @@ Setting
 -------
 
 * `background() <background/>`_
+* `clear() <clear/>`_
 * `color_mode() <color_mode/>`_
 * `fill() <fill/>`_
 * `no_fill() <no_fill/>`_
@@ -103,24 +40,32 @@ Constants
 Environment
 ===========
 
+* `Py5Surface <py5surface/>`_
 * `cursor() <cursor/>`_
 * `display_density() <display_density/>`_
+* `display_height <display_height/>`_
+* `display_width <display_width/>`_
 * `focused <focused/>`_
 * `frame_count <frame_count/>`_
 * `frame_rate() <frame_rate/>`_
 * `full_screen() <full_screen/>`_
+* `get_frame_rate() <get_frame_rate/>`_
+* `get_surface() <get_surface/>`_
 * `height <height/>`_
 * `no_cursor() <no_cursor/>`_
+* `no_smooth() <no_smooth/>`_
 * `pixel_density() <pixel_density/>`_
 * `pixel_height <pixel_height/>`_
 * `pixel_width <pixel_width/>`_
 * `size() <size/>`_
+* `sketch_path() <sketch_path/>`_
 * `smooth() <smooth/>`_
 * `width <width/>`_
 
 Image
 =====
 
+* `Py5Image <py5image/>`_
 * `create_image() <create_image/>`_
 
 Loading / Displaying
@@ -142,13 +87,18 @@ Pixels
 * `blend() <blend/>`_
 * `copy() <copy/>`_
 * `get() <get/>`_
+* `load_np_pixels() <load_np_pixels/>`_
 * `load_pixels() <load_pixels/>`_
+* `np_pixels <np_pixels/>`_
 * `pixels[] <pixels/>`_
+* `set_np_pixels() <set_np_pixels/>`_
+* `update_np_pixels() <update_np_pixels/>`_
 * `update_pixels() <update_pixels/>`_
 
 Textures
 --------
 
+* `no_texture() <no_texture/>`_
 * `texture() <texture/>`_
 * `texture_mode() <texture_mode/>`_
 * `texture_wrap() <texture_wrap/>`_
@@ -156,15 +106,24 @@ Textures
 Input
 =====
 
+Files
+-----
+
+* `load_json() <load_json/>`_
+* `parse_json() <parse_json/>`_
+* `save_json() <save_json/>`_
+
 Keyboard
 --------
 
+* `is_key_pressed() <is_key_pressed/>`_
 * `key <key/>`_
 * `key_code <key_code/>`_
 
 Mouse
 -----
 
+* `is_mouse_pressed() <is_mouse_pressed/>`_
 * `mouse_button <mouse_button/>`_
 * `mouse_x <mouse_x/>`_
 * `mouse_y <mouse_y/>`_
@@ -240,20 +199,18 @@ Math
 Calculation
 -----------
 
-* `acos() <acos/>`_
-* `asin() <asin/>`_
-* `atan() <atan/>`_
-* `atan2() <atan2/>`_
 * `ceil() <ceil/>`_
-* `cos() <cos/>`_
+* `constrain() <constrain/>`_
+* `dist() <dist/>`_
 * `exp() <exp/>`_
 * `floor() <floor/>`_
+* `lerp() <lerp/>`_
 * `log() <log/>`_
 * `mag() <mag/>`_
+* `norm() <norm/>`_
 * `remap() <remap/>`_
-* `sin() <sin/>`_
+* `sq() <sq/>`_
 * `sqrt() <sqrt/>`_
-* `tan() <tan/>`_
 
 Random
 ------
@@ -265,6 +222,19 @@ Random
 * `random() <random/>`_
 * `random_gaussian() <random_gaussian/>`_
 * `random_seed() <random_seed/>`_
+
+Trigonometry
+------------
+
+* `acos() <acos/>`_
+* `asin() <asin/>`_
+* `atan() <atan/>`_
+* `atan2() <atan2/>`_
+* `cos() <cos/>`_
+* `degrees() <degrees/>`_
+* `radians() <radians/>`_
+* `sin() <sin/>`_
+* `tan() <tan/>`_
 
 Output
 ======
@@ -286,22 +256,32 @@ Image
 Rendering
 =========
 
+* `Py5Graphics <py5graphics/>`_
 * `blend_mode() <blend_mode/>`_
 * `clip() <clip/>`_
 * `create_graphics() <create_graphics/>`_
+* `get_graphics() <get_graphics/>`_
 * `hint() <hint/>`_
 * `no_clip() <no_clip/>`_
 
 Shaders
 -------
 
+* `Py5Shader <py5shader/>`_
 * `load_shader() <load_shader/>`_
 * `reset_shader() <reset_shader/>`_
 * `shader() <shader/>`_
 
+
+.. raw:: html
+
+    </td><td style="vertical-align:top">
+
+
 Shape
 =====
 
+* `Py5Shape <py5shape/>`_
 * `create_shape() <create_shape/>`_
 * `load_shape() <load_shape/>`_
 
@@ -312,7 +292,9 @@ Shape
 * `circle() <circle/>`_
 * `ellipse() <ellipse/>`_
 * `line() <line/>`_
+* `lines() <lines/>`_
 * `point() <point/>`_
+* `points() <points/>`_
 * `quad() <quad/>`_
 * `rect() <rect/>`_
 * `square() <square/>`_
@@ -359,28 +341,53 @@ Vertex
 * `begin_contour() <begin_contour/>`_
 * `begin_shape() <begin_shape/>`_
 * `bezier_vertex() <bezier_vertex/>`_
+* `bezier_vertices() <bezier_vertices/>`_
 * `curve_vertex() <curve_vertex/>`_
+* `curve_vertices() <curve_vertices/>`_
 * `end_contour() <end_contour/>`_
 * `end_shape() <end_shape/>`_
 * `quadratic_vertex() <quadratic_vertex/>`_
+* `quadratic_vertices() <quadratic_vertices/>`_
 * `vertex() <vertex/>`_
-
-
-.. raw:: html
-
-    </td><td style="vertical-align:top">
-
+* `vertices() <vertices/>`_
 
 Structure
 =========
 
+* `args <args/>`_
+* `exit_sketch() <exit_sketch/>`_
+* `finished <finished/>`_
+* `hot_reload_draw() <hot_reload_draw/>`_
+* `is_dead <is_dead/>`_
+* `is_dead_from_error <is_dead_from_error/>`_
+* `is_ready <is_ready/>`_
+* `is_running <is_running/>`_
 * `loop() <loop/>`_
 * `no_loop() <no_loop/>`_
+* `pause() <pause/>`_
 * `pop() <pop/>`_
 * `pop_style() <pop_style/>`_
+* `print_line_profiler_stats() <print_line_profiler_stats/>`_
+* `profile_draw() <profile_draw/>`_
+* `profile_functions() <profile_functions/>`_
 * `push() <push/>`_
 * `push_style() <push_style/>`_
 * `redraw() <redraw/>`_
+* `resume() <resume/>`_
+* `run_sketch() <run_sketch/>`_
+* `start() <start/>`_
+* `stop() <stop/>`_
+
+Threading
+---------
+
+* `has_thread() <has_thread/>`_
+* `launch_promise_thread() <launch_promise_thread/>`_
+* `launch_repeating_thread() <launch_repeating_thread/>`_
+* `launch_thread() <launch_thread/>`_
+* `list_threads() <list_threads/>`_
+* `stop_all_threads() <stop_all_threads/>`_
+* `stop_thread() <stop_thread/>`_
 
 Transform
 =========
@@ -403,6 +410,8 @@ Transform
 
 Typography
 ==========
+
+* `Py5Font <py5font/>`_
 
 Attributes
 ----------
