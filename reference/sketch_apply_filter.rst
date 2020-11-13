@@ -1,13 +1,13 @@
 .. title: apply_filter()
 .. slug: apply_filter
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-13 03:15:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 apply_filter() documentation
 .. type: text
 
-Filters the display window using a preset filter or with a custom shader.
+Apply an image filter.
 
 Examples
 ========
@@ -207,6 +207,8 @@ Examples
 Description
 ===========
 
+Apply an image filter.
+
 Filters the display window using a preset filter or with a custom shader. Using a shader with ``apply_filter()`` is much faster than without. Shaders require the P2D or P3D renderer in ``size()``.
 
 The presets options are:
@@ -254,5 +256,5 @@ Parameters
 * **shader**: `Py5Shader` - the fragment shader to apply
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 13, 2020 03:15:35am UTC
 
