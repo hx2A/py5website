@@ -3,6 +3,70 @@
     <table style="width:100%"><tr><td style="vertical-align:top">
 
 
+Unknown
+=======
+
+* `Py5Font <py5font/>`_
+* `Py5Graphics <py5graphics/>`_
+* `Py5Image <py5image/>`_
+* `Py5Shader <py5shader/>`_
+* `Py5Shape <py5shape/>`_
+* `Py5Surface <py5surface/>`_
+* `args <args/>`_
+* `bezier_vertices() <bezier_vertices/>`_
+* `clear() <clear/>`_
+* `constrain() <constrain/>`_
+* `curve_vertices() <curve_vertices/>`_
+* `degrees() <degrees/>`_
+* `display_height <display_height/>`_
+* `display_width <display_width/>`_
+* `dist() <dist/>`_
+* `exit_sketch() <exit_sketch/>`_
+* `finished <finished/>`_
+* `get_frame_rate() <get_frame_rate/>`_
+* `get_graphics() <get_graphics/>`_
+* `get_surface() <get_surface/>`_
+* `has_thread() <has_thread/>`_
+* `hot_reload_draw() <hot_reload_draw/>`_
+* `is_dead <is_dead/>`_
+* `is_dead_from_error <is_dead_from_error/>`_
+* `is_key_pressed() <is_key_pressed/>`_
+* `is_mouse_pressed() <is_mouse_pressed/>`_
+* `is_ready <is_ready/>`_
+* `is_running <is_running/>`_
+* `launch_promise_thread() <launch_promise_thread/>`_
+* `launch_repeating_thread() <launch_repeating_thread/>`_
+* `launch_thread() <launch_thread/>`_
+* `lerp() <lerp/>`_
+* `lines() <lines/>`_
+* `list_threads() <list_threads/>`_
+* `load_json() <load_json/>`_
+* `load_np_pixels() <load_np_pixels/>`_
+* `no_smooth() <no_smooth/>`_
+* `no_texture() <no_texture/>`_
+* `norm() <norm/>`_
+* `np_pixels <np_pixels/>`_
+* `parse_json() <parse_json/>`_
+* `pause() <pause/>`_
+* `points() <points/>`_
+* `print_line_profiler_stats() <print_line_profiler_stats/>`_
+* `profile_draw() <profile_draw/>`_
+* `profile_functions() <profile_functions/>`_
+* `quadratic_vertices() <quadratic_vertices/>`_
+* `radians() <radians/>`_
+* `resume() <resume/>`_
+* `run_sketch() <run_sketch/>`_
+* `save_json() <save_json/>`_
+* `set_np_pixels() <set_np_pixels/>`_
+* `sketch_path() <sketch_path/>`_
+* `sq() <sq/>`_
+* `start() <start/>`_
+* `stop() <stop/>`_
+* `stop_all_threads() <stop_all_threads/>`_
+* `stop_thread() <stop_thread/>`_
+* `update_np_pixels() <update_np_pixels/>`_
+* `vertices() <vertices/>`_
+
 Color
 =====
 
@@ -57,6 +121,8 @@ Environment
 Image
 =====
 
+* `create_image() <create_image/>`_
+
 Loading / Displaying
 --------------------
 
@@ -86,8 +152,6 @@ Textures
 * `texture() <texture/>`_
 * `texture_mode() <texture_mode/>`_
 * `texture_wrap() <texture_wrap/>`_
-
-* `create_image() <create_image/>`_
 
 Input
 =====
@@ -222,6 +286,12 @@ Image
 Rendering
 =========
 
+* `blend_mode() <blend_mode/>`_
+* `clip() <clip/>`_
+* `create_graphics() <create_graphics/>`_
+* `hint() <hint/>`_
+* `no_clip() <no_clip/>`_
+
 Shaders
 -------
 
@@ -229,14 +299,11 @@ Shaders
 * `reset_shader() <reset_shader/>`_
 * `shader() <shader/>`_
 
-* `blend_mode() <blend_mode/>`_
-* `clip() <clip/>`_
-* `create_graphics() <create_graphics/>`_
-* `hint() <hint/>`_
-* `no_clip() <no_clip/>`_
-
 Shape
 =====
+
+* `create_shape() <create_shape/>`_
+* `load_shape() <load_shape/>`_
 
 2D Primitives
 -------------
@@ -285,9 +352,6 @@ Loading / Displaying
 
 * `shape() <shape/>`_
 * `shape_mode() <shape_mode/>`_
-
-* `create_shape() <create_shape/>`_
-* `load_shape() <load_shape/>`_
 
 Vertex
 ------
@@ -362,70 +426,6 @@ Metrics
 
 * `text_ascent() <text_ascent/>`_
 * `text_descent() <text_descent/>`_
-
-Unknown
-=======
-
-* `Py5Font <py5font/>`_
-* `Py5Graphics <py5graphics/>`_
-* `Py5Image <py5image/>`_
-* `Py5Shader <py5shader/>`_
-* `Py5Shape <py5shape/>`_
-* `Py5Surface <py5surface/>`_
-* `args <args/>`_
-* `bezier_vertices() <bezier_vertices/>`_
-* `clear() <clear/>`_
-* `constrain() <constrain/>`_
-* `curve_vertices() <curve_vertices/>`_
-* `degrees() <degrees/>`_
-* `display_height <display_height/>`_
-* `display_width <display_width/>`_
-* `dist() <dist/>`_
-* `exit_sketch() <exit_sketch/>`_
-* `finished <finished/>`_
-* `get_frame_rate() <get_frame_rate/>`_
-* `get_graphics() <get_graphics/>`_
-* `get_surface() <get_surface/>`_
-* `has_thread() <has_thread/>`_
-* `hot_reload_draw() <hot_reload_draw/>`_
-* `is_dead <is_dead/>`_
-* `is_dead_from_error <is_dead_from_error/>`_
-* `is_key_pressed() <is_key_pressed/>`_
-* `is_mouse_pressed() <is_mouse_pressed/>`_
-* `is_ready <is_ready/>`_
-* `is_running <is_running/>`_
-* `launch_promise_thread() <launch_promise_thread/>`_
-* `launch_repeating_thread() <launch_repeating_thread/>`_
-* `launch_thread() <launch_thread/>`_
-* `lerp() <lerp/>`_
-* `lines() <lines/>`_
-* `list_threads() <list_threads/>`_
-* `load_json() <load_json/>`_
-* `load_np_pixels() <load_np_pixels/>`_
-* `no_smooth() <no_smooth/>`_
-* `no_texture() <no_texture/>`_
-* `norm() <norm/>`_
-* `np_pixels <np_pixels/>`_
-* `parse_json() <parse_json/>`_
-* `pause() <pause/>`_
-* `points() <points/>`_
-* `print_line_profiler_stats() <print_line_profiler_stats/>`_
-* `profile_draw() <profile_draw/>`_
-* `profile_functions() <profile_functions/>`_
-* `quadratic_vertices() <quadratic_vertices/>`_
-* `radians() <radians/>`_
-* `resume() <resume/>`_
-* `run_sketch() <run_sketch/>`_
-* `save_json() <save_json/>`_
-* `set_np_pixels() <set_np_pixels/>`_
-* `sketch_path() <sketch_path/>`_
-* `sq() <sq/>`_
-* `start() <start/>`_
-* `stop() <stop/>`_
-* `stop_all_threads() <stop_all_threads/>`_
-* `stop_thread() <stop_thread/>`_
-* `update_np_pixels() <update_np_pixels/>`_
-* `vertices() <vertices/>`_
 
 
 .. raw:: html
