@@ -1,0 +1,14 @@
+name: py5coding
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cairo
+  - cairosvg
+  - line_profiler
+  - noise
+  - notebook
+  - openjdk=11.0.8
+  - pip
+  - pip:
+    - py5

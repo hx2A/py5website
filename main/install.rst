@@ -7,24 +7,109 @@
 .. description: py5
 .. type: text
 
+Before proceeding, I want to make it clear that this is a new project and that the documentation and setup instructions will likely be a bit rough around the edges. Additionally, because of the pandemic, I can only test on computers I have available to me, which does not include any Mac computers. And finally, you should also know that this project is (currently) maintained by only me, and in my free time.
+
+I have tested this on Linux and Windows so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or come back later. If you hit a snag and figure out a solution, let me know and I'll update the documentation to share what you've learned.
 
 .. contents:: Table of Contents
     :depth: 2
 
-Anaconda
-========
+Requirements
+============
 
-Anaconda is a widely used platform for working with Python and the open-source ecosystem. It makes it very easy to create and manage Python environments containing various Python libraries such as py5. Anaconda will also make it easy for you to use other popular Python tools such as Jupyter notebooks.
+Below are the basic requirements for using py5.
 
-Install Anaconda
-----------------
+* Python 3.8+
+* Java 11
+* Cairo (optional)
 
-You will need to `download the Anaconda Installer for your Operating System <https://www.anaconda.com/products/individual>`_. Anaconda's `installation instructions <https://docs.anaconda.com/anaconda/install/>`_ are extensive and should be able to provide the necessary guidance for your computer.
+I know that you may not have Java 11 or Python 3.8 on your computer and that Cairo_ can be difficult to install on non-Linux machines. If this applies to you, I recommend making your life easier by trying the `Anaconda Setup`_.
+
+Quick Setup
+===========
+
+If you already have Java 11 and Python 3.8+ available on your computer, you can install py5 with the below command.
+
+.. code:: bash
+
+    $ pip install py5
+
+You can optionally install Cairo_ and CairoSVG_ to enable py5's extra SVG support.
+
+Quick Example
+=============
+
+Here is a quick py5 example to test that everything works.
+
+.. code:: python
+
+    import py5
+
+    def settings():
+        py5.size(200, 200)
+   
+    def draw():
+        py5.rect(py5.mouse_x, py5.mouse_y, 10, 10)
+   
+    py5.run_sketch()
+
+You should see a small window that draws squares as you move your mouse around. If that works, have a look at the :doc:`tutorials` for more interesting examples.
+
+Anaconda Setup
+==============
+
+`Anaconda <https://www.anaconda.com/products/individual>`_ is a widely used platform for working with Python and the open-source ecosystem. It makes it very easy to create and manage Python environments containing various Python libraries such as py5. Anaconda will also make it easy for you to use other popular Python tools such as Jupyter notebooks.
+
+First you will need to `download the Anaconda Installer for your Operating System <https://www.anaconda.com/products/individual#Downloads>`_. Anaconda's `installation instructions <https://docs.anaconda.com/anaconda/install/>`_ are extensive and should be able to provide the necessary guidance for your computer.
+
+Simple Steps
+------------
+
+You can create a complete Anaconda environment for py5 using one command:
+
+.. code:: bash
+
+    $ conda env create -n py5coding -f http://py5.ixora.io/install/py5_environment.yml
+
+Feel free to replace ``py5coding`` with your prefered name for the Anaconda environment.
+
+If you don't like using the command line you can also download `py5_environment.yml </install/py5_environment.yml>`_ and create the environment using `Anaconda Navigator <https://docs.anaconda.com/anaconda/navigator/>`_.
+
+That environment file contains the below information, telling Anaconda to create an environment with Java 11 (openjdk), Cairo, and Jupyter Notebooks.
+
+.. code:: yaml
+
+    name: py5coding
+    channels:
+    - conda-forge
+    dependencies:
+    - python=3.8
+    - cairo
+    - cairosvg
+    - line_profiler
+    - noise
+    - notebook
+    - openjdk=11.0.8
+    - pip
+    - pip:
+        - py5
+
+You can activate the environment using the below command. Try testing with the `Quick Example`_ to verify everything works.
+
+.. code:: bash
+
+    $ conda activate py5coding
+    (py5coding) $ 
+
+Detailed Steps
+--------------
+
+If the `Simple Steps`_ don't work for you or you want more detailed information, the below steps will provide you with the necessary information to (hopefully) work through any difficulties.
 
 Create Anaconda Environment
----------------------------
++++++++++++++++++++++++++++
 
-First you must create an Anconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Python 3.9 seems to work fine but has not been extensively tested.
+First you must create an Anconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Python 3.9 seems to work ok but has not been extensively tested.
 
 The below command will also install the Jupyter notebooks tool, which py5 is designed to work well with.
 
@@ -36,10 +121,11 @@ After creating the ``py5coding`` environment you must "activate" it so that the 
 
 .. code:: bash
 
-    (py5coding) $ conda activate py5coding
+    $ conda activate py5coding
+    (py5coding) $ 
 
 Install Java
-------------
+++++++++++++
 
 You will need to have Java 11 (or later) installed on your computer.
 
@@ -58,34 +144,34 @@ If you get an error or see the version number is 1.8 (which is likely for older 
 
     (py5coding) $ conda install -c conda-forge openjdk=11.0.8
 
-If you prefer you can download and install Java 11 outside of the Anaconda environment. There are a lot of tutorials online that will explain how to do this for your computer. You don't have to use OpenJDK if you prefer a different environment. The only important requirement is that the command ``java -version`` gives the correct result.
+If you prefer you can download and install Java 11 outside of the Anaconda environment. There are a lot of tutorials online that will explain how to do this for your computer. You don't have to use OpenJDK if you prefer a different provider. The only important requirement is that the command ``java -version`` gives the correct result.
 
 .. IMPORTANT::
-    It is important that you have Java 11 installed and available in the Anaconda environment because Processing 4 and therefore py5 both depend on it. If now or in the future you have the wrong version, you will see an error message stating that code "has been compiled by a more recent version of the Java Runtime".
+    It is important that you have Java 11 installed and available in the Anaconda environment because Processing 4 and therefore py5 both depend on it. If now or in the future you have the wrong version, you will see an error message stating that code "has been compiled by a more recent version of the Java Runtime."
 
     Be aware that someday Anaconda may want to downgrade your version of Java when you install some other package. Including the version number when installing (the ``=11.0.8`` in the previous command) will prevent this.
 
-    For example, while testing these installation steps, I discovered than when I installed matplotlib with ``conda install matplotlib`` it would inexplicably want to downgrade Java 11 to Java 8. Why does it do this??? Matplotlib does not require Java, and doesn't attempt to install it at all if it was not previously installed into the Anaconda environment. Note that the workaround in that case is to install it with ``pip install matplotlib``, which doesn't have that problem. This was an easy fix but might trip up people who are new to Python.
+    While testing these installation steps and example code, I discovered than when I installed matplotlib with ``conda install matplotlib`` it would inexplicably want to downgrade Java 11 to Java 8. Why does it do this??? Matplotlib does not require Java. Note that the workaround in that case is to install it with ``pip install matplotlib``, which doesn't have that problem. This was an easy fix but might trip up people who are new to Python.
 
 Install Cairo and CairoSVG (optional)
--------------------------------------
++++++++++++++++++++++++++++++++++++++
 
-Cairo is a drawing library for working with `Scalable Vector Graphics (SVG) <https://en.wikipedia.org/wiki/Scalable_Vector_Graphics>`_ files. If you complete this optional step, py5 will have the ability to convert SVG images to :doc:`py5image` objects using the :doc:`convert_image` method. As Cairo's ability to work with the SVG language is more complete than Processing's, this will provide better support for that image format.
+Cairo_ is a drawing library for working with `Scalable Vector Graphics (SVG) <https://en.wikipedia.org/wiki/Scalable_Vector_Graphics>`_ files. If you complete this optional step, py5 will have the ability to convert SVG images to :doc:`py5image` objects using the :doc:`convert_image` method. As Cairo's ability to work with the SVG language is more complete than Processing's, this will provide better support for that image format.
 
-Installing Cairo on Windows or Mac computers is difficult to impossible without using an Anaconda environment. To install it with Anaconda, use the below commands. The first installs Cairo and the second installs `CairoSVG <https://cairosvg.org/>`_, which is the Python library that py5 interfaces with to convert SVG images to Py5Image objects.
+Installing Cairo_ on Windows or Mac computers is difficult without using an Anaconda environment. To install it with Anaconda, use the below commands. The first installs Cairo and the second installs CairoSVG_, which is the Python library that py5 interfaces with to convert SVG images to :doc:`py5image` objects.
 
 .. code:: bash
 
     (py5coding) $ conda install -c conda-forge cairo
 
-You may get a message saying that it has already been installed. If so, rejoice and procede to the next step.
+You may get a message saying that it has already been installed. If so, rejoice and proceed to the next step.
 
 .. code:: bash
 
-    (py5coding) $ pip install cairosvg
+    (py5coding) $ conda install -c conda-forge cairosvg
 
 Install py5
------------
++++++++++++
 
 Finally, install py5.
 
@@ -93,27 +179,17 @@ Finally, install py5.
 
     (py5coding) $ pip install py5
 
-
-Test Installation
------------------
-
-It is always a good idea to test that the installation was successful. Try the below commands to see if you can import py5. You will see an error if you have the wrong version of Java or if Java cannot be found.
-
-.. code:: bash
-
-    (py5coding) $ python
-    Python 3.8.5 | packaged by conda-forge | (default, Sep 24 2020, 16:55:52)
-    [GCC 7.5.0] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> import py5
-    >>> py5.__version__
-    '0.3a3'
+Now try testing with the `Quick Example`_ to verify everything works.
 
 Updating py5
-------------
+============
 
 Since py5 is a new library, you can expect frequent updates. Later you will want to upgrade your installation, which you can do with this command:
 
 .. code:: bash
 
     (py5coding) $ pip install --upgrade py5
+
+
+.. _Cairo: https://www.cairographics.org/
+.. _cairosvg: https://cairosvg.org/
