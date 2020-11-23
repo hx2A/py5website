@@ -7,12 +7,13 @@
 .. description: py5
 .. type: text
 
-Before proceeding, I want to make it clear that this is a new project and that the documentation and setup instructions will likely be a bit rough around the edges. Additionally, because of the pandemic, I can only test on computers I have available to me, which does not include any Mac computers. And finally, you should also know that this project is (currently) maintained by only me, and in my free time.
+Before proceeding, I want you to understand that this is a new project and that the documentation and setup instructions will likely be a bit rough around the edges. Additionally, because of the pandemic, I can only test on computers I have available to me, which does not include any Mac computers. And finally, you should also know that this project is (currently) maintained by only me, and in my free time.
 
 I have tested this on Linux and Windows so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or come back later. If you hit a snag and figure out a solution, let me know and I'll update the documentation to share what you've learned.
 
 .. contents:: Table of Contents
     :depth: 2
+    :backlinks: top
 
 Requirements
 ============
@@ -109,7 +110,7 @@ If the `Simple Steps`_ don't work for you or you want more detailed information,
 Create Anaconda Environment
 +++++++++++++++++++++++++++
 
-First you must create an Anconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Python 3.9 seems to work ok but has not been extensively tested.
+First you must create an Anaconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Python 3.9 seems to work ok but has not been extensively tested.
 
 The below command will also install the Jupyter notebooks tool, which py5 is designed to work well with.
 
@@ -151,7 +152,7 @@ If you prefer you can download and install Java 11 outside of the Anaconda envir
 
     Be aware that someday Anaconda may want to downgrade your version of Java when you install some other package. Including the version number when installing (the ``=11.0.8`` in the previous command) will prevent this.
 
-    While testing these installation steps and example code, I discovered than when I installed matplotlib with ``conda install matplotlib`` it would inexplicably want to downgrade Java 11 to Java 8. Why does it do this??? Matplotlib does not require Java. Note that the workaround in that case is to install it with ``pip install matplotlib``, which doesn't have that problem. This was an easy fix but might trip up people who are new to Python.
+    While testing these installation steps and example code, I discovered that when I installed matplotlib with ``conda install matplotlib`` it would inexplicably want to downgrade Java 11 to Java 8. Why does it do this??? Matplotlib does not require Java. Note that the workaround in that case is to install it with ``pip install matplotlib``, which doesn't have that problem. This was an easy fix but might trip up people who are new to Python.
 
 Install Cairo and CairoSVG (optional)
 +++++++++++++++++++++++++++++++++++++
