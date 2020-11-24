@@ -76,7 +76,7 @@ Feel free to replace ``py5coding`` with your prefered name for the Anaconda envi
 
 If you don't like using the command line you can also download `py5_environment.yml </install/py5_environment.yml>`_ and create the environment using `Anaconda Navigator <https://docs.anaconda.com/anaconda/navigator/>`_.
 
-That environment file contains the below information, telling Anaconda to create an environment with Java 11 (openjdk), Cairo, and Jupyter Notebooks.
+That environment file contains the below information, telling Anaconda to create an environment with Java 11 (OpenJDK), Cairo, and Jupyter Notebooks.
 
 .. code:: yaml
 
@@ -95,12 +95,14 @@ That environment file contains the below information, telling Anaconda to create
     - pip:
         - py5
 
-You can activate the environment using the below command. Try testing with the `Quick Example`_ to verify everything works.
+You can activate the environment using the below command.
 
 .. code:: bash
 
     $ conda activate py5coding
     (py5coding) $ 
+
+Try testing with the `Quick Example`_ to verify everything works.
 
 Detailed Steps
 --------------
@@ -145,7 +147,7 @@ If you get an error or see the version number is 1.8 (which is likely for older 
 
     (py5coding) $ conda install -c conda-forge openjdk=11.0.8
 
-If you prefer you can download and install Java 11 outside of the Anaconda environment. There are a lot of tutorials online that will explain how to do this for your computer. You don't have to use OpenJDK if you prefer a different provider. The only important requirement is that the command ``java -version`` gives the correct result.
+If you prefer you can download and install Java 11 outside of the Anaconda environment. There are a lot of tutorials online that will explain how to do this for your computer. You don't have to use OpenJDK if you prefer an alternative. The only important requirement is that the command ``java -version`` gives the correct result.
 
 .. IMPORTANT::
     It is important that you have Java 11 installed and available in the Anaconda environment because Processing 4 and therefore py5 both depend on it. If now or in the future you have the wrong version, you will see an error message stating that code "has been compiled by a more recent version of the Java Runtime."
@@ -165,7 +167,7 @@ Installing Cairo_ on Windows or Mac computers is difficult without using an Anac
 
     (py5coding) $ conda install -c conda-forge cairo
 
-You may get a message saying that it has already been installed. If so, rejoice and proceed to the next step.
+You may get a message saying that it has already been installed. If so, express joy and proceed to the next step.
 
 .. code:: bash
 
@@ -174,16 +176,23 @@ You may get a message saying that it has already been installed. If so, rejoice 
 Install py5
 +++++++++++
 
-Finally, install py5.
+Finally, install the py5 library.
 
 .. code:: bash
 
     (py5coding) $ pip install py5
 
-Now try testing with the `Quick Example`_ to verify everything works.
+If you are on Windows (or, as I predict, on a Mac), you may get errors relating to the dependent noise and line-profiler packages. If so, use one or both of the following commands to resolve the errors, then try ``pip install py5`` again.
 
-Updating py5
-============
+.. code:: bash
+
+    (py5coding) $ conda install -c conda-forge noise
+    (py5coding) $ conda install -c conda-forge line_profiler
+
+After installing py5, try testing with the `Quick Example`_ to verify everything works.
+
+Keeping py5 Updated
+===================
 
 Since py5 is a new library, you can expect frequent updates. Later you will want to upgrade your installation, which you can do with this command:
 
