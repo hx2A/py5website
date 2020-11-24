@@ -1,6 +1,6 @@
 .. title: set()
 .. slug: py5shader_set
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,28 +62,28 @@ Syntax
 
 .. code:: python
 
-    set(name: str, boolvec: JArray(JBoolean), ncoords: int) -> None
-    set(name: str, mat: NDArray[(2, 3), Float]) -> None
-    set(name: str, mat: NDArray[(4, 4), Float]) -> None
-    set(name: str, mat: NDArray[(4, 4), Float], use3x3: bool) -> None
-    set(name: str, tex: Py5Image) -> None
-    set(name: str, vec: JArray(JBoolean)) -> None
-    set(name: str, vec: JArray(JInt)) -> None
-    set(name: str, vec: JArray(JInt), ncoords: int) -> None
-    set(name: str, vec: NDArray[(Any,), Float]) -> None
-    set(name: str, vec: NDArray[(Any,), Float], ncoords: int) -> None
-    set(name: str, x: bool) -> None
-    set(name: str, x: bool, y: bool) -> None
-    set(name: str, x: bool, y: bool, z: bool) -> None
-    set(name: str, x: bool, y: bool, z: bool, w: bool) -> None
-    set(name: str, x: float) -> None
-    set(name: str, x: float, y: float) -> None
-    set(name: str, x: float, y: float, z: float) -> None
-    set(name: str, x: float, y: float, z: float, w: float) -> None
-    set(name: str, x: int) -> None
-    set(name: str, x: int, y: int) -> None
-    set(name: str, x: int, y: int, z: int) -> None
-    set(name: str, x: int, y: int, z: int, w: int) -> None
+    set(name: str, boolvec: JArray(JBoolean), ncoords: int, /) -> None
+    set(name: str, mat: NDArray[(2, 3), Float], /) -> None
+    set(name: str, mat: NDArray[(4, 4), Float], /) -> None
+    set(name: str, mat: NDArray[(4, 4), Float], use3x3: bool, /) -> None
+    set(name: str, tex: Py5Image, /) -> None
+    set(name: str, vec: JArray(JBoolean), /) -> None
+    set(name: str, vec: JArray(JInt), /) -> None
+    set(name: str, vec: JArray(JInt), ncoords: int, /) -> None
+    set(name: str, vec: NDArray[(Any,), Float], /) -> None
+    set(name: str, vec: NDArray[(Any,), Float], ncoords: int, /) -> None
+    set(name: str, x: bool, /) -> None
+    set(name: str, x: bool, y: bool, /) -> None
+    set(name: str, x: bool, y: bool, z: bool, /) -> None
+    set(name: str, x: bool, y: bool, z: bool, w: bool, /) -> None
+    set(name: str, x: float, /) -> None
+    set(name: str, x: float, y: float, /) -> None
+    set(name: str, x: float, y: float, z: float, /) -> None
+    set(name: str, x: float, y: float, z: float, w: float, /) -> None
+    set(name: str, x: int, /) -> None
+    set(name: str, x: int, y: int, /) -> None
+    set(name: str, x: int, y: int, z: int, /) -> None
+    set(name: str, x: int, y: int, z: int, w: int, /) -> None
 
 Parameters
 ==========
@@ -112,5 +112,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

@@ -1,6 +1,6 @@
 .. title: camera()
 .. slug: camera
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -61,7 +61,7 @@ Syntax
 .. code:: python
 
     camera() -> None
-    camera(eye_x: float, eye_y: float, eye_z: float, center_x: float, center_y: float, center_z: float, up_x: float, up_y: float, up_z: float) -> None
+    camera(eye_x: float, eye_y: float, eye_z: float, center_x: float, center_y: float, center_z: float, up_x: float, up_y: float, up_z: float, /) -> None
 
 Parameters
 ==========
@@ -77,5 +77,5 @@ Parameters
 * **up_z**: `float` - usually 0.0, 1.0, or -1.0
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

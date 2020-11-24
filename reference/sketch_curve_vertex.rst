@@ -1,6 +1,6 @@
 .. title: curve_vertex()
 .. slug: curve_vertex
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,8 +60,8 @@ Syntax
 
 .. code:: python
 
-    curve_vertex(x: float, y: float) -> None
-    curve_vertex(x: float, y: float, z: float) -> None
+    curve_vertex(x: float, y: float, /) -> None
+    curve_vertex(x: float, y: float, z: float, /) -> None
 
 Parameters
 ==========
@@ -71,5 +71,5 @@ Parameters
 * **z**: `float` - the z-coordinate of the vertex
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

@@ -1,6 +1,6 @@
 .. title: background()
 .. slug: background
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -97,13 +97,13 @@ Syntax
 
 .. code:: python
 
-    background(gray: float) -> None
-    background(gray: float, alpha: float) -> None
-    background(image: Py5Image) -> None
-    background(rgb: int) -> None
-    background(rgb: int, alpha: float) -> None
-    background(v1: float, v2: float, v3: float) -> None
-    background(v1: float, v2: float, v3: float, alpha: float) -> None
+    background(gray: float, /) -> None
+    background(gray: float, alpha: float, /) -> None
+    background(image: Py5Image, /) -> None
+    background(rgb: int, /) -> None
+    background(rgb: int, alpha: float, /) -> None
+    background(v1: float, v2: float, v3: float, /) -> None
+    background(v1: float, v2: float, v3: float, alpha: float, /) -> None
 
 Parameters
 ==========
@@ -117,5 +117,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on the current color mode)
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

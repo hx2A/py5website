@@ -1,6 +1,6 @@
 .. title: display_density()
 .. slug: display_density
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,7 +59,7 @@ Syntax
 .. code:: python
 
     display_density() -> int
-    display_density(display: int) -> int
+    display_density(display: int, /) -> int
 
 Parameters
 ==========
@@ -67,5 +67,5 @@ Parameters
 * **display**: `int` - the display number to check (1-indexed to match the Preferences dialog box)
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

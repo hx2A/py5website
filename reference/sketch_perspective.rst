@@ -1,6 +1,6 @@
 .. title: perspective()
 .. slug: perspective
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -63,7 +63,7 @@ Syntax
 .. code:: python
 
     perspective() -> None
-    perspective(fovy: float, aspect: float, z_near: float, z_far: float) -> None
+    perspective(fovy: float, aspect: float, z_near: float, z_far: float, /) -> None
 
 Parameters
 ==========
@@ -74,5 +74,5 @@ Parameters
 * **z_near**: `float` - z-position of nearest clipping plane
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

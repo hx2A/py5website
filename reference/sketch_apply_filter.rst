@@ -1,6 +1,6 @@
 .. title: apply_filter()
 .. slug: apply_filter
-.. date: 2020-11-13 17:17:10 UTC+00:00
+.. date: 2020-11-24 21:52:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -242,9 +242,9 @@ Syntax
 
 .. code:: python
 
-    apply_filter(kind: int) -> None
-    apply_filter(kind: int, param: float) -> None
-    apply_filter(shader: Py5Shader) -> None
+    apply_filter(kind: int, /) -> None
+    apply_filter(kind: int, param: float, /) -> None
+    apply_filter(shader: Py5Shader, /) -> None
 
 Parameters
 ==========
@@ -254,5 +254,5 @@ Parameters
 * **shader**: `Py5Shader` - the fragment shader to apply
 
 
-Updated on November 13, 2020 17:17:10pm UTC
+Updated on November 24, 2020 21:52:12pm UTC
 

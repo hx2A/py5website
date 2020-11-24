@@ -1,6 +1,6 @@
 .. title: curve_vertices()
 .. slug: curve_vertices
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -21,7 +21,7 @@ Syntax
 
 .. code:: python
 
-    curve_vertices(coordinates: NDArray[(Any, Any), Float]) -> None
+    curve_vertices(coordinates: NDArray[(Any, Any), Float], /) -> None
 
 Parameters
 ==========
@@ -29,5 +29,5 @@ Parameters
 * **coordinates**: `NDArray[(Any, Any), Float]` - missing variable description
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

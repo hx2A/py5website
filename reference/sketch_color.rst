@@ -1,6 +1,6 @@
 .. title: color()
 .. slug: color
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -122,14 +122,14 @@ Syntax
 
 .. code:: python
 
-    color(fgray: float) -> int
-    color(fgray: float, falpha: float) -> int
-    color(gray: int) -> int
-    color(gray: int, alpha: int) -> int
-    color(v1: float, v2: float, v3: float) -> int
-    color(v1: float, v2: float, v3: float, alpha: float) -> int
-    color(v1: int, v2: int, v3: int) -> int
-    color(v1: int, v2: int, v3: int, alpha: int) -> int
+    color(fgray: float, /) -> int
+    color(fgray: float, falpha: float, /) -> int
+    color(gray: int, /) -> int
+    color(gray: int, alpha: int, /) -> int
+    color(v1: float, v2: float, v3: float, /) -> int
+    color(v1: float, v2: float, v3: float, alpha: float, /) -> int
+    color(v1: int, v2: int, v3: int, /) -> int
+    color(v1: int, v2: int, v3: int, alpha: int, /) -> int
 
 Parameters
 ==========
@@ -147,5 +147,5 @@ Parameters
 * **v3**: `int` - blue or brightness values relative to the current color range
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

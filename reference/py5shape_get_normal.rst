@@ -1,6 +1,6 @@
 .. title: get_normal()
 .. slug: py5shape_get_normal
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -21,8 +21,8 @@ Syntax
 
 .. code:: python
 
-    get_normal(index: int) -> NDArray[(Any,), Float]
-    get_normal(index: int, vec: NDArray[(Any,), Float]) -> NDArray[(Any,), Float]
+    get_normal(index: int, /) -> NDArray[(Any,), Float]
+    get_normal(index: int, vec: NDArray[(Any,), Float], /) -> NDArray[(Any,), Float]
 
 Parameters
 ==========
@@ -31,5 +31,5 @@ Parameters
 * **vec**: `NDArray[(Any,), Float]` - missing variable description
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

@@ -1,6 +1,6 @@
 .. title: line()
 .. slug: line
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -103,8 +103,8 @@ Syntax
 
 .. code:: python
 
-    line(x1: float, y1: float, x2: float, y2: float) -> None
-    line(x1: float, y1: float, z1: float, x2: float, y2: float, z2: float) -> None
+    line(x1: float, y1: float, x2: float, y2: float, /) -> None
+    line(x1: float, y1: float, z1: float, x2: float, y2: float, z2: float, /) -> None
 
 Parameters
 ==========
@@ -117,5 +117,5 @@ Parameters
 * **z2**: `float` - z-coordinate of the second point
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

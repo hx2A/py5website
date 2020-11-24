@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: text
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -107,17 +107,17 @@ Syntax
 
 .. code:: python
 
-    text(c: chr, x: float, y: float) -> None
-    text(c: chr, x: float, y: float, z: float) -> None
-    text(chars: List[chr], start: int, stop: int, x: float, y: float) -> None
-    text(chars: List[chr], start: int, stop: int, x: float, y: float, z: float) -> None
-    text(num: float, x: float, y: float) -> None
-    text(num: float, x: float, y: float, z: float) -> None
-    text(num: int, x: float, y: float) -> None
-    text(num: int, x: float, y: float, z: float) -> None
-    text(str: str, x1: float, y1: float, x2: float, y2: float) -> None
-    text(str: str, x: float, y: float) -> None
-    text(str: str, x: float, y: float, z: float) -> None
+    text(c: chr, x: float, y: float, /) -> None
+    text(c: chr, x: float, y: float, z: float, /) -> None
+    text(chars: List[chr], start: int, stop: int, x: float, y: float, /) -> None
+    text(chars: List[chr], start: int, stop: int, x: float, y: float, z: float, /) -> None
+    text(num: float, x: float, y: float, /) -> None
+    text(num: float, x: float, y: float, z: float, /) -> None
+    text(num: int, x: float, y: float, /) -> None
+    text(num: int, x: float, y: float, z: float, /) -> None
+    text(str: str, x1: float, y1: float, x2: float, y2: float, /) -> None
+    text(str: str, x: float, y: float, /) -> None
+    text(str: str, x: float, y: float, z: float, /) -> None
 
 Parameters
 ==========
@@ -138,5 +138,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

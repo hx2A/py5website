@@ -1,6 +1,6 @@
 .. title: begin_raw()
 .. slug: begin_raw
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -69,8 +69,8 @@ Syntax
 
 .. code:: python
 
-    begin_raw(raw_graphics: Py5Graphics) -> None
-    begin_raw(renderer: str, filename: str) -> Py5Graphics
+    begin_raw(raw_graphics: Py5Graphics, /) -> None
+    begin_raw(renderer: str, filename: str, /) -> Py5Graphics
 
 Parameters
 ==========
@@ -80,5 +80,5 @@ Parameters
 * **renderer**: `str` - for example, PDF or DXF
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

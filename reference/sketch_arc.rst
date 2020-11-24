@@ -1,6 +1,6 @@
 .. title: arc()
 .. slug: arc
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -120,8 +120,8 @@ Syntax
 
 .. code:: python
 
-    arc(a: float, b: float, c: float, d: float, start: float, stop: float) -> None
-    arc(a: float, b: float, c: float, d: float, start: float, stop: float, mode: int) -> None
+    arc(a: float, b: float, c: float, d: float, start: float, stop: float, /) -> None
+    arc(a: float, b: float, c: float, d: float, start: float, stop: float, mode: int, /) -> None
 
 Parameters
 ==========
@@ -135,5 +135,5 @@ Parameters
 * **stop**: `float` - angle to stop the arc, specified in radians
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

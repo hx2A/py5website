@@ -1,6 +1,6 @@
 .. title: get()
 .. slug: py5image_get
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -85,8 +85,8 @@ Syntax
 .. code:: python
 
     get() -> Py5Image
-    get(x: int, y: int) -> int
-    get(x: int, y: int, w: int, h: int) -> Py5Image
+    get(x: int, y: int, /) -> int
+    get(x: int, y: int, w: int, h: int, /) -> Py5Image
 
 Parameters
 ==========
@@ -97,5 +97,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

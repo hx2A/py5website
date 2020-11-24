@@ -1,6 +1,6 @@
 .. title: create_font()
 .. slug: create_font
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,9 +62,9 @@ Syntax
 
 .. code:: python
 
-    create_font(name: str, size: float) -> Py5Font
-    create_font(name: str, size: float, smooth: bool) -> Py5Font
-    create_font(name: str, size: float, smooth: bool, charset: List[chr]) -> Py5Font
+    create_font(name: str, size: float, /) -> Py5Font
+    create_font(name: str, size: float, smooth: bool, /) -> Py5Font
+    create_font(name: str, size: float, smooth: bool, charset: List[chr], /) -> Py5Font
 
 Parameters
 ==========
@@ -75,5 +75,5 @@ Parameters
 * **smooth**: `bool` - true for an antialiased font, false for aliased
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

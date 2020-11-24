@@ -1,6 +1,6 @@
 .. title: width()
 .. slug: py5font_width
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -21,7 +21,7 @@ Syntax
 
 .. code:: python
 
-    width(c: chr) -> float
+    width(c: chr, /) -> float
 
 Parameters
 ==========
@@ -29,5 +29,5 @@ Parameters
 * **c**: `chr` - missing variable description
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

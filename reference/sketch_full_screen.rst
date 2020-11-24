@@ -1,6 +1,6 @@
 .. title: full_screen()
 .. slug: full_screen
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -165,9 +165,9 @@ Syntax
 .. code:: python
 
     full_screen() -> None
-    full_screen(display: int) -> None
-    full_screen(renderer: str) -> None
-    full_screen(renderer: str, display: int) -> None
+    full_screen(display: int, /) -> None
+    full_screen(renderer: str, /) -> None
+    full_screen(renderer: str, display: int, /) -> None
 
 Parameters
 ==========
@@ -176,5 +176,5 @@ Parameters
 * **renderer**: `str` - the renderer to use, e.g. P2D, P3D, JAVA2D (default)
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

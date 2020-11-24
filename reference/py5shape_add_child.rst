@@ -1,6 +1,6 @@
 .. title: add_child()
 .. slug: py5shape_add_child
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -75,8 +75,8 @@ Syntax
 
 .. code:: python
 
-    add_child(who: Py5Shape) -> None
-    add_child(who: Py5Shape, idx: int) -> None
+    add_child(who: Py5Shape, /) -> None
+    add_child(who: Py5Shape, idx: int, /) -> None
 
 Parameters
 ==========
@@ -85,5 +85,5 @@ Parameters
 * **who**: `Py5Shape` - any variable of type PShape
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

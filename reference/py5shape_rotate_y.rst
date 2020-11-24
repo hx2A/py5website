@@ -1,6 +1,6 @@
 .. title: rotate_y()
 .. slug: py5shape_rotate_y
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -66,7 +66,7 @@ Syntax
 
 .. code:: python
 
-    rotate_y(angle: float) -> None
+    rotate_y(angle: float, /) -> None
 
 Parameters
 ==========
@@ -74,5 +74,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 

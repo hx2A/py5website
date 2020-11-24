@@ -1,6 +1,6 @@
 .. title: curve_tangent()
 .. slug: curve_tangent
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2020-11-24 21:22:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -64,7 +64,7 @@ Syntax
 
 .. code:: python
 
-    curve_tangent(a: float, b: float, c: float, d: float, t: float) -> float
+    curve_tangent(a: float, b: float, c: float, d: float, t: float, /) -> float
 
 Parameters
 ==========
@@ -76,5 +76,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on November 24, 2020 21:22:32pm UTC
 
