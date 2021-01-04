@@ -1,18 +1,18 @@
 .. title: print_line_profiler_stats()
 .. slug: print_line_profiler_stats
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-01-04 00:09:34 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 print_line_profiler_stats() documentation
 .. type: text
 
-new template no description.
+The documentation for this field or method has not yet been written.
 
 Description
 ===========
 
-new template no description.
+The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
 
 Syntax
 ======
@@ -21,5 +21,5 @@ Syntax
 
     print_line_profiler_stats() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on January 04, 2021 00:09:34am UTC
 

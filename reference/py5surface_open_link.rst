@@ -1,18 +1,18 @@
 .. title: open_link()
 .. slug: py5surface_open_link
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-01-04 00:09:34 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 open_link() documentation
 .. type: text
 
-new template no description.
+The documentation for this field or method has not yet been written.
 
 Description
 ===========
 
-new template no description.
+The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
 
 Underlying Java method: PSurface.openLink
 
@@ -29,5 +29,5 @@ Parameters
 * **url**: `str` - the link to open
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on January 04, 2021 00:09:34am UTC
 
