@@ -25,7 +25,7 @@ Acknowledgments
 
 I'd like to thank and acknowledge all the people who helped make py5 possible.
 
-- `Ben Fry <https://benfry.com/>`_, `Casey Reas <http://reas.com/>`_, and the rest of the Processing team. Processing_ has been around for almost 20 years and is used by thousands for creative coding projects. Much of py5's functionality is provided by the Processing core libraries. Py5 stands on the shoulders of giants.
+- `Ben Fry <https://benfry.com/>`_, `Casey Reas <http://reas.com/>`_, and `the rest of the Processing team <https://github.com/processing/processing4/graphs/contributors?from=2019-10-01&to=2021-01-01&type=c>`_. Processing_ has been around for almost 20 years and is used by thousands for creative coding projects. Much of py5's functionality is provided by the Processing core libraries. Py5 stands on the shoulders of giants.
 
 - `Jonathan Feinberg <http://mrfeinberg.com/>`_ and the rest of the `Processing.py <https://py.processing.org/>`_ contributors. Processing.py is a Jython version of Processing_, combining the same Processing core libraries that py5 utilizes with `Jython <https://www.jython.org/>`_, a Java implementation of Python. Processing.py is the spiritual ancestor to and inspiration for py5. Py5 is similar to Processing.py in that both use the Python programming language but their implementations are very different. Processing.py and py5 do not share any code but I know that there is code in the Processing core libraries written to accomodate Processing.py and that that code is also necessary for py5 to work correctly.
 
