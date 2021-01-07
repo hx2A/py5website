@@ -243,6 +243,7 @@ PAGES = (
     ("reference/*.rst", "reference", "page.tmpl"),
     ("main/*.ipynb", "", "page.tmpl"),
     ("tutorials/*.ipynb", "tutorials", "page.tmpl"),
+    ("tutorials/*.rst", "tutorials", "page.tmpl"),
 )
 
 
