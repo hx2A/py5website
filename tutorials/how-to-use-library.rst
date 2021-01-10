@@ -205,7 +205,7 @@ Below is our example sketch written in PDE Mode:
 
 Observe that any ``py5.`` and ``self.`` prefixes are removed. There also are no import statements or calls to :doc:`run_sketch`.
 
-To actually use this, save your code to a file and execute the below from the command line:
+To actually use this, save your code to a file and execute the below command from a terminal:
 
 .. code:: bash
 
