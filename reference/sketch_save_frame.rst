@@ -1,6 +1,6 @@
 .. title: save_frame()
 .. slug: save_frame
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-01-10 21:33:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,7 +19,7 @@ Syntax
 
 .. code:: python
 
-    save_frame(filename: Union[str, Path], format: str, drop_alpha: bool, params) -> None
+    save_frame(filename: Union[str, Path], format: str, drop_alpha: bool, use_thread: bool, params) -> None
 
 Parameters
 ==========
@@ -28,7 +28,8 @@ Parameters
 * **filename**: `Union[str, Path]` - missing variable description
 * **format**: `str` - missing variable description
 * **params**: - missing variable description
+* **use_thread**: `bool` - missing variable description
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on January 10, 2021 21:33:49pm UTC
 
