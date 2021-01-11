@@ -1,5 +1,5 @@
-.. title: How to Use the py5 Library
-.. slug: how-to-use-library
+.. title: The Three py5 Modes
+.. slug: py5-modes
 .. date: 2021-01-07 13:47:11 UTC-05:00
 .. tags: 
 .. category: 
@@ -91,6 +91,8 @@ Finally, the call to :doc:`run_sketch`. This is will open a window and display y
 
 Note by default the call to :doc:`run_sketch` will not return until the sketch exits, unless if it is running from a Jupyter notebook or the IPython console. Read the :doc:`run_sketch` documentation to learn more.
 
+The design of Module Mode is modeled after matplotlib's pyplot.
+
 .. important::
 
     Do not use wildcard import syntax with the py5 library:
@@ -101,7 +103,7 @@ Note by default the call to :doc:`run_sketch` will not return until the sketch e
 
     Doing so would import usable methods, but the fields, such as ``mouse_x`` and ``mouse_y`` in the example above, would not work correctly. This is because py5's Module Mode is dependent on the module ``__getattr__`` and ``__dir__`` functionality described in `PEP 562 <https://www.python.org/dev/peps/pep-0562/>`_.
 
-    Wildcard imports also conflict with `Python best practices (PEP 8) <https://www.python.org/dev/peps/pep-0008/#id23>`_.
+    Wildcard imports also conflict with `Python best practices (PEP 8) <https://www.python.org/dev/peps/pep-0008/#id23>`_ and in general should not be used.
 
     If you don't like prefixing everything with ``py5.``, use PDE Mode instead.
 
@@ -168,7 +170,7 @@ As before, the call to :doc:`run_sketch` will not return until the sketch exits,
 
 When developing in Jupyter notebooks, Module Mode is the more convenient choice.
 
-Class mode will let you run multiple sketches at the same time. This cannot be done in Module Mode. The design of Module Mode and Class Mode are modeled after matplotlib's pyplot tools and object oriented plots.
+Class mode will let you run multiple sketches at the same time. This cannot be done in Module Mode.
 
 .. important::
 
