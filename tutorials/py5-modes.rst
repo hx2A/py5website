@@ -58,7 +58,7 @@ The first statement imports the ``py5`` library in the same way that you would i
 
 Next, the ``settings`` function. Here you will configure special sketch settings, such as the window size. In this example the window size is 300 pixels wide and 200 pixels tall. Almost always you'll have a ``settings`` function similar to this one. 
 
-Notice the call to the :doc:`size` function has a ``py5.`` prefix. All of the py5 methods and fields are module level attributes.
+Notice the call to the :doc:`size` function has a "``py5.``" prefix. All of the py5 methods and fields are module level attributes.
 
 .. code:: python
 
@@ -89,7 +89,7 @@ Finally, the call to :doc:`run_sketch`. This is will open a window and display y
 
     py5.run_sketch()
 
-Note by default the call to :doc:`run_sketch` will not return until the sketch exits, unless if it is running from a Jupyter notebook or the IPython console. Read the :doc:`run_sketch` documentation to learn more.
+Note by default the call to :doc:`run_sketch` will not return until the sketch exits, unless if it is running from a Jupyter notebook or the IPython console. In that case it will return right away so the user can continue working in other cells in the notebook. Read the :doc:`run_sketch` documentation to learn more.
 
 The design of Module Mode is modeled after matplotlib's pyplot.
 
@@ -105,7 +105,7 @@ The design of Module Mode is modeled after matplotlib's pyplot.
 
     Wildcard imports also conflict with `Python best practices (PEP 8) <https://www.python.org/dev/peps/pep-0008/#id23>`_ and in general should not be used.
 
-    If you don't like prefixing everything with ``py5.``, use PDE Mode instead.
+    If you don't like prefixing everything with "``py5.``", use PDE Mode instead.
 
 Class Mode
 ==========
@@ -146,7 +146,7 @@ Next, define a new class that inherits from ``Sketch``.
 
     class TestSketch(Sketch):
 
-Each of the ``settings``, ``setup``, and ``draw`` methods have a ``self`` parameter, just as they would in any Python class. The ``self`` paremeter is used to access the ``py5`` methods and fields provided by the parent ``Sketch`` class. Observe that every occurance of the ``py5.`` prefix in the Module Mode example has been replaced with ``self.``.
+Each of the ``settings``, ``setup``, and ``draw`` methods have a ``self`` parameter, just as they would in any Python class. The ``self`` paremeter is used to access the ``py5`` methods and fields provided by the parent ``Sketch`` class. Observe that every occurance of the "``py5.``" prefix in the Module Mode example has been replaced with "``self.``".
 
 .. code:: python
 
@@ -187,7 +187,7 @@ Class mode will let you run multiple sketches at the same time. This cannot be d
 
     This mistake will frequently be made when translating code from one mode to another.
 
-    A good way to avoid this is to import the library with only one of ``import py5`` or ``from py5 import Sketch``, depending on which mode you want to use. Importing both ways is asking for trouble.
+    A good way to avoid this is to import the library with only one of "``import py5``" or "``from py5 import Sketch``", depending on which mode you want to use. Importing both ways is asking for trouble.
 
 PDE Mode
 ========
@@ -207,7 +207,7 @@ Below is our example sketch written in PDE Mode:
     def draw():
         rect(mouse_x, mouse_y, 10, 10)
 
-Observe that any ``py5.`` and ``self.`` prefixes are removed. There also are no import statements or calls to :doc:`run_sketch`.
+Observe that any "``py5.``" and "``self.``" prefixes are removed. There is no "``import py5``" statement or call to :doc:`run_sketch`.
 
 To actually use this, save your code to a file and execute the below command from a terminal:
 
@@ -241,6 +241,8 @@ In PDE Mode you can also write code with no functions at all, similar to what ca
 This will create a non-animated sketch featuring a red square with white background.
 
 PDE Mode will be more interesting and useful once it is integrated into a suitable editor such as the PDE, or maybe a different editor intended for Python like `Thonny <https://thonny.org/>`_ or `Mu <https://codewith.mu/>`_.
+
+The operation of PDE Mode does some inefficient things behind the scenes in order to work correctly, and has a few bugs. This is fixable but will require some C coding.
 
 .. important::
 

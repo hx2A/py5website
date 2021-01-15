@@ -14,11 +14,13 @@ The documentation is very much a work in progress, and I've been struggling with
 * How to Use py5
     * :doc:`py5-modes`
     * :doc:`jupyter-notebooks`
-    * Bugs You're Likely to Encounter
+    * Bugs You're Likely to Encounter and Things I Want To Know About
 
 * New Features or Things that Warrant Detailed Explanations
-    * Working with numpy arrays
-    * The ``convert_image`` method
+    * The py5 Design Philosophy: What Is Included and What Is Not
+    * Working with numpy Arrays
+    * Math and the ``noise`` Method
+    * The ``convert_image`` Method
     * Threads
     * Performance Profiling
     * Using Processing Java Libraries
