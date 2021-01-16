@@ -150,13 +150,13 @@ NAVIGATION_LINKS = {
         # TODO: where to put reference documentation and sphinx documentation???
         # ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
-        (
-            (
-                ("/test1/", "Menu Item 1"),
-                ("/test2/", "Menu Item 2"),
-            ),
-            "Test Menu"
-        ),
+        # (
+        #     (
+        #         ("/test1/", "Menu Item 1"),
+        #         ("/test2/", "Menu Item 2"),
+        #     ),
+        #     "Test Menu"
+        # ),
     ),
 }
 

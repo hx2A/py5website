@@ -93,7 +93,7 @@ Note by default the call to :doc:`run_sketch` will not return until the sketch e
 
 The design of Module Mode is modeled after matplotlib's pyplot.
 
-.. important::
+.. caution::
 
     Do not use wildcard import syntax with the py5 library:
 
@@ -106,6 +106,23 @@ The design of Module Mode is modeled after matplotlib's pyplot.
     Wildcard imports also conflict with `Python best practices (PEP 8) <https://www.python.org/dev/peps/pep-0008/#id23>`_ and in general should not be used.
 
     If you don't like prefixing everything with "``py5.``", use PDE Mode instead.
+
+.. admonition:: Side Note
+
+    Much like you would do for a Processing sketch, you may want to put supporting materials in a ``data`` subdirectory. A py5 sketch will look for this relative to the current working directory. You can find out what the current working directory is and change it with the ``os`` standard library.
+
+    .. code:: python
+
+        >>> import os
+        >>> os.chdir('/dir/that/contains/your/data/subdir')
+        >>> print(os.getcwd())
+        /dir/that/contains/your/data/subdir
+
+    If that doesn't meet your needs, you can also set it explicitly when you call :doc:`run_sketch`.
+
+    .. code:: python
+
+        py5.run_sketch(py5_options=['--sketch-path=/dir/that/contains/your/data/subdir'])
 
 Class Mode
 ==========
@@ -146,7 +163,7 @@ Next, define a new class that inherits from ``Sketch``.
 
     class TestSketch(Sketch):
 
-Each of the ``settings``, ``setup``, and ``draw`` methods have a ``self`` parameter, just as they would in any Python class. The ``self`` paremeter is used to access the ``py5`` methods and fields provided by the parent ``Sketch`` class. Observe that every occurance of the "``py5.``" prefix in the Module Mode example has been replaced with "``self.``".
+Each of the ``settings``, ``setup``, and ``draw`` methods have a ``self`` parameter, just as they would in any Python class. The ``self`` parameter is used to access the ``py5`` methods and fields provided by the parent ``Sketch`` class. Observe that every occurance of the "``py5.``" prefix in the Module Mode example has been replaced with "``self.``".
 
 .. code:: python
 
@@ -172,7 +189,7 @@ When developing in Jupyter notebooks, Module Mode is the more convenient choice.
 
 Class mode will let you run multiple sketches at the same time. This cannot be done in Module Mode.
 
-.. important::
+.. caution::
 
     When learning to use py5, you may accidentally conflate Module Mode and Class Mode by writing code like this:
 
@@ -185,7 +202,7 @@ Class mode will let you run multiple sketches at the same time. This cannot be d
 
     The ``py5.mouse_x`` and ``py5.mouse_y`` code is suitable for Module Mode, so it is referencing the mouse position in a special default sketch object found in the py5 module. However, in Class Mode you will create your own sketch object, and as is being done here, call your sketch object's ``rect`` method. This code is accidentally mixing one sketch's methods with another's fields. This is most certainly not what is intended, and any error message will not properly explain what is wrong.
 
-    This mistake will frequently be made when translating code from one mode to another.
+    This mistake will frequently be made when translating py5 code from one mode to another.
 
     A good way to avoid this is to import the library with only one of "``import py5``" or "``from py5 import Sketch``", depending on which mode you want to use. Importing both ways is asking for trouble.
 
