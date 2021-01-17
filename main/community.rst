@@ -7,16 +7,23 @@
 .. description: py5
 .. type: text
 
-.. code:: python
+.. raw:: html
 
-    >>> from py5 import community
+    <div class="cell border-box-sizing code_cell rendered">
+    <div class="input">
+    <div class="prompt input_prompt">In&nbsp;[1]:</div>
+    <div class="inner_cell"><div class="input_area">
+    <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">py5</span> <span class="kn">import</span> <span class="n">community</span>
+    </pre></div></div></div></div>
+    <div class="output_wrapper"><div class="output"><div class="output_area"><div class="prompt"></div>
+    <div class="output_subarea output_text output_error">
+    <pre><span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+    <span class="ansi-red-fg">ImportError</span>                               Traceback (most recent call last)
+    <span class="ansi-green-fg">&lt;ipython-input-1-a815fe0323e7&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+    <span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> py5 <span class="ansi-green-fg">import</span> community
 
-    ---------------------------------------------------------------------------
-    ImportError                               Traceback (most recent call last)
-    <ipython-input-1-a815fe0323e7> in <module>
-    ----> 1 from py5 import community
-
-    ImportError: cannot import name 'community' from 'py5' (/home/jim/INSTALL/anaconda3/envs/py5/lib/python3.8/site-packages/py5/__init__.py)
+    <span class="ansi-red-fg">ImportError</span>: cannot import name 'community' from 'py5' (/home/jim/INSTALL/anaconda3/envs/py5/lib/python3.8/site-packages/py5/__init__.py)</pre>
+    </div></div></div></div></div>
 
 Unlike the py5 library and much of the documentation you see on this website, I cannot write Python code to generate a community. It can only be fostered through the interactions and efforts of people. The Processing Foundation is known for its inclusive and accessible community, and I'd like for the same to be true about py5. In my view, that means providing everyone, regardless of their background, the freedom to learn, experiment, and make mistakes.
 
@@ -24,7 +31,7 @@ Why is this important to me?
 
 To answer that question, I'll start by explaining my early experiences with Processing and the Processing community.
 
-Before I first heard about Processing or ITP, I worked in the finance industry, mostly doing quantitative research and programming. The work involved a lot of analytical or scientific programming. I had a background in math and computer programming so it was a good fit.
+Before I first heard about Processing or ITP, I worked in the finance industry, mostly doing quantitative research and development. It involved a lot of analytical or scientific programming. I had a background in math and computer programming so it was a good fit.
 
 Contrary to what you might think, my programming and technical knowledge did not always increase from year to year since I graduated from college. Generally it did, but sometimes my skills atrophied during times when my work responsibilities did not involve much coding.
 
