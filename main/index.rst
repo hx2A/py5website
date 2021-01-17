@@ -9,4 +9,4 @@
 .. nocomments: True
 .. hidetitle: True
 
-py5 title page
+[insert animated GIF demoing py5 code and what it can do]
