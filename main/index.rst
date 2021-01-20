@@ -9,4 +9,13 @@
 .. nocomments: True
 .. hidetitle: True
 
-[insert animated GIF demoing py5 code and what it can do]
+py5 is a new version of Processing for Python 3.8+.
+
+.. image:: images/main/py5_example_code.png
+    :alt: py5 example code
+    :height: 400
+    :width: 500
+
+
+.. image:: images/main/py5_example.gif
+    :alt: white box randomly moving around a red background
