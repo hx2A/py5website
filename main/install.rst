@@ -82,18 +82,19 @@ That environment file contains the below information, telling Anaconda to create
 
     name: py5coding
     channels:
-    - conda-forge
+      - conda-forge
     dependencies:
-    - python=3.8
-    - cairo
-    - cairosvg
-    - line_profiler
-    - noise
-    - notebook
-    - openjdk=11.0.8
-    - pip
-    - pip:
-        - py5
+      - python=3.8
+      - cairo
+      - cairosvg
+      - jedi=0.17.2
+      - jupyterlab
+      - line_profiler
+      - noise
+      - openjdk=11.0.8
+      - pip
+      - pip:
+          - py5
 
 You can activate the environment using the below command.
 
@@ -114,11 +115,11 @@ Create Anaconda Environment
 
 First you must create an Anaconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Python 3.9 seems to work ok but has not been extensively tested.
 
-The below command will also install the Jupyter notebooks tool, which py5 is designed to work well with.
+The below command will also install the Jupyter Lab tool, which py5 is designed to work well with.
 
 .. code:: bash
 
-    $ conda create -n py5coding python=3.8 notebook
+    $ conda create -n py5coding python=3.8 jupterlab
 
 After creating the ``py5coding`` environment you must "activate" it so that the subsequent commands take place inside of it. You will know you are inside the environment because your terminal prompt will change to include the name of the environment.
 
