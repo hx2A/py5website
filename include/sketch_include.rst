@@ -357,6 +357,7 @@ Structure
 * `args <args/>`_
 * `exit_sketch() <exit_sketch/>`_
 * `finished <finished/>`_
+* `get_current_sketch() <get_current_sketch/>`_
 * `hot_reload_draw() <hot_reload_draw/>`_
 * `is_dead <is_dead/>`_
 * `is_dead_from_error <is_dead_from_error/>`_
@@ -370,11 +371,18 @@ Structure
 * `print_line_profiler_stats() <print_line_profiler_stats/>`_
 * `profile_draw() <profile_draw/>`_
 * `profile_functions() <profile_functions/>`_
+* `prune_tracebacks() <prune_tracebacks/>`_
 * `push() <push/>`_
 * `push_style() <push_style/>`_
 * `redraw() <redraw/>`_
+* `render() <render/>`_
+* `render_frame() <render_frame/>`_
+* `render_frame_sequence() <render_frame_sequence/>`_
+* `render_sequence() <render_sequence/>`_
+* `reset_py5() <reset_py5/>`_
 * `resume() <resume/>`_
 * `run_sketch() <run_sketch/>`_
+* `set_stackprinter_style() <set_stackprinter_style/>`_
 * `start() <start/>`_
 * `stop() <stop/>`_
 
@@ -412,6 +420,7 @@ Typography
 ==========
 
 * `Py5Font <py5font/>`_
+* `create_font_file() <create_font_file/>`_
 
 Attributes
 ----------
