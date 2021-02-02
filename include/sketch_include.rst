@@ -354,6 +354,8 @@ Vertex
 Structure
 =========
 
+* `@render() <render/>`_
+* `@render_sequence() <render_sequence/>`_
 * `args <args/>`_
 * `exit_sketch() <exit_sketch/>`_
 * `finished <finished/>`_
@@ -375,10 +377,8 @@ Structure
 * `push() <push/>`_
 * `push_style() <push_style/>`_
 * `redraw() <redraw/>`_
-* `render() <render/>`_
 * `render_frame() <render_frame/>`_
 * `render_frame_sequence() <render_frame_sequence/>`_
-* `render_sequence() <render_sequence/>`_
 * `reset_py5() <reset_py5/>`_
 * `resume() <resume/>`_
 * `run_sketch() <run_sketch/>`_

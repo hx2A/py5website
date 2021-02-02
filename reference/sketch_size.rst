@@ -1,6 +1,6 @@
 .. title: size()
 .. slug: size
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-02 19:44:40 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -135,10 +135,10 @@ Parameters
 ==========
 
 * **height**: `int` - height of the display window in units of pixels
-* **path**: `str` - missing variable description
-* **renderer**: `str` - missing variable description
+* **path**: `str` - filename to save rendering engine output to
+* **renderer**: `str` - rendering engine to use
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 02, 2021 19:44:40pm UTC
 
