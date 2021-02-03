@@ -67,6 +67,7 @@ Image
 
 * `Py5Image <py5image/>`_
 * `create_image() <create_image/>`_
+* `register_image_conversion() <register_image_conversion/>`_
 
 Loading / Displaying
 --------------------
