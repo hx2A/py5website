@@ -28,6 +28,9 @@ The documentation is very much a work in progress, and I've been struggling with
     * Custom Exceptions
     * Working with Fonts
 
+* Developer Information
+    * :doc:`build-process`
+
 * Miscellaneous
     * :doc:`covid-19-spread`
     * :doc:`exceptions-debugging-performance`
