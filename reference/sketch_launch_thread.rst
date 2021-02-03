@@ -1,6 +1,6 @@
 .. title: launch_thread()
 .. slug: launch_thread
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-02-03 21:13:31 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,17 +19,17 @@ Syntax
 
 .. code:: python
 
-    launch_thread(f: Callable, name: str, daemon: bool, args: Tuple, kwargs: Dict) -> str
+    launch_thread(f: Callable, name: str = None, daemon: bool = True, args: Tuple = None, kwargs: Dict = None) -> str
 
 Parameters
 ==========
 
-* **args**: `Tuple` - missing variable description
-* **daemon**: `bool` - missing variable description
+* **args**: `Tuple = None` - missing variable description
+* **daemon**: `bool = True` - missing variable description
 * **f**: `Callable` - missing variable description
-* **kwargs**: `Dict` - missing variable description
-* **name**: `str` - missing variable description
+* **kwargs**: `Dict = None` - missing variable description
+* **name**: `str = None` - missing variable description
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on February 03, 2021 21:13:31pm UTC
 

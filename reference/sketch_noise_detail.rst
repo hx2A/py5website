@@ -1,6 +1,6 @@
 .. title: noise_detail()
 .. slug: noise_detail
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-02-03 21:13:31 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,15 +19,15 @@ Syntax
 
 .. code:: python
 
-    noise_detail(octaves: float, persistence: float, lacunarity: float) -> None
+    noise_detail(octaves: float = None, persistence: float = None, lacunarity: float = None) -> None
 
 Parameters
 ==========
 
-* **lacunarity**: `float` - missing variable description
-* **octaves**: `float` - missing variable description
-* **persistence**: `float` - missing variable description
+* **lacunarity**: `float = None` - missing variable description
+* **octaves**: `float = None` - missing variable description
+* **persistence**: `float = None` - missing variable description
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on February 03, 2021 21:13:31pm UTC
 

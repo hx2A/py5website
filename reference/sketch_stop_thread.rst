@@ -1,6 +1,6 @@
 .. title: stop_thread()
 .. slug: stop_thread
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-02-03 21:13:31 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,14 +19,14 @@ Syntax
 
 .. code:: python
 
-    stop_thread(name: str, wait: bool) -> None
+    stop_thread(name: str, wait: bool = False) -> None
 
 Parameters
 ==========
 
 * **name**: `str` - missing variable description
-* **wait**: `bool` - missing variable description
+* **wait**: `bool = False` - missing variable description
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on February 03, 2021 21:13:31pm UTC
 

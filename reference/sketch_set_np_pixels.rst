@@ -1,6 +1,6 @@
 .. title: set_np_pixels()
 .. slug: set_np_pixels
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-02-03 21:13:31 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,14 +19,14 @@ Syntax
 
 .. code:: python
 
-    set_np_pixels(array: np.ndarray, bands: str) -> None
+    set_np_pixels(array: np.ndarray, bands: str = 'ARGB') -> None
 
 Parameters
 ==========
 
 * **array**: `np.ndarray` - missing variable description
-* **bands**: `str` - missing variable description
+* **bands**: `str = 'ARGB'` - missing variable description
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on February 03, 2021 21:13:31pm UTC
 

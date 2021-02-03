@@ -1,6 +1,6 @@
 .. title: save()
 .. slug: save
-.. date: 2021-01-10 21:33:49 UTC+00:00
+.. date: 2021-02-03 21:13:31 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,17 +19,17 @@ Syntax
 
 .. code:: python
 
-    save(filename: Union[str, Path], format: str, drop_alpha: bool, use_thread: bool, params) -> None
+    save(filename: Union[str, Path], format: str = None, drop_alpha: bool = True, use_thread: bool = True, params) -> None
 
 Parameters
 ==========
 
-* **drop_alpha**: `bool` - missing variable description
+* **drop_alpha**: `bool = True` - missing variable description
 * **filename**: `Union[str, Path]` - missing variable description
-* **format**: `str` - missing variable description
+* **format**: `str = None` - missing variable description
 * **params**: - missing variable description
-* **use_thread**: `bool` - missing variable description
+* **use_thread**: `bool = True` - missing variable description
 
 
-Updated on January 10, 2021 21:33:49pm UTC
+Updated on February 03, 2021 21:13:31pm UTC
 
