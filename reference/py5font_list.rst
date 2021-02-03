@@ -1,6 +1,6 @@
 .. title: list()
 .. slug: py5font_list
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-03 23:35:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,9 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(200, 200)
     font_list = Py5Font.list()
-    print_array(font_list)
+    print(font_list)
 
 .. raw:: html
 
@@ -42,7 +41,7 @@ Examples
 Description
 ===========
 
-Gets a list of the fonts installed on the system. The data is returned as a String array. This list provides the names of each font for input into ``create_font()``, which allows Processing to dynamically format fonts.
+Gets a list of the fonts installed on the system. The data is returned as a list of strings. This list provides the names of each font for input into ``create_font()``, which allows py5 to dynamically format fonts.
 
 Underlying Java method: `PFont.list <https://processing.org/reference/PFont_list_.html>`_
 
@@ -53,5 +52,5 @@ Syntax
 
     list() -> List[str]
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 03, 2021 23:35:44pm UTC
 
