@@ -19,7 +19,9 @@ The py5 library has three "modes" you can use to code these methods and write sk
     :depth: 1
     :backlinks: top
 
-You can also write sketches from :doc:`jupyter-notebooks`. In the future there will be even more ways to use py5.
+.. important::
+
+  There is a known problem using py5 on Mac computers. The best option for Mac users seems to be using py5 through :doc:`jupyter-notebooks`, and after using the ``%gui osx`` magic.
 
 Module Mode
 ===========

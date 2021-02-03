@@ -7,13 +7,17 @@
 .. description: py5
 .. type: text
 
-Before proceeding, I want you to understand that this is a new project and that the documentation and setup instructions will likely be a bit rough around the edges. Additionally, because of the pandemic, I can only test on computers I have available to me, which does not include any Mac computers. And finally, you should also know that this project is (currently) maintained by only me, and in my free time.
+Before proceeding, you should know that this is a new project with documentation and setup instructions that are a bit rough around the edges. Additionally, because of the pandemic, I can only test on computers I have available to me, which does not include Mac computers. And finally, you should also know that this project is currently maintained by only me, and in my free time.
 
-I have tested this on Linux and Windows so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or come back later. If you hit a snag and figure out a solution, let me know and I'll update the documentation to share what you've learned.
+I have tested these instructions on Linux and Windows so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or come back later. If you hit a snag and figure out a solution, let me know and I'll update the documentation to share what you've learned.
 
 .. contents:: Table of Contents
     :depth: 2
     :backlinks: top
+
+.. important::
+
+  There is a known problem using py5 on Mac computers. The best option for Mac users seems to be using py5 through :doc:`jupyter-notebooks`, and after using the ``%gui osx`` magic.
 
 Requirements
 ============
