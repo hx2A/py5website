@@ -14,9 +14,10 @@ The documentation is very much a work in progress, and I've been struggling with
 * How to Use py5
     * :doc:`py5-modes`
     * :doc:`jupyter-notebooks`
-    * Bugs You're Likely to Encounter and Things I Want To Know About
+    * :doc:`render-helper-tools`
 
 * New Features or Things that Warrant Detailed Explanations
+    * Bugs You're Likely to Encounter and Things I Want To Know About
     * py5's Design Philosophy: What Is Included and What Is Not
     * Working with numpy Arrays
     * Math and the ``noise`` Method
@@ -30,6 +31,7 @@ The documentation is very much a work in progress, and I've been struggling with
 
 * Developer Information
     * :doc:`build-process`
+    * Code Overview
 
 * Miscellaneous
     * :doc:`covid-19-spread`
