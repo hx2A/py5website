@@ -194,6 +194,25 @@ Material Properties
 * `shininess() <shininess/>`_
 * `specular() <specular/>`_
 
+Magics
+======
+
+Cell magics
+-----------
+
+* `%%py5draw <py5draw/>`_
+* `%%py5drawdxf <py5drawdxf/>`_
+* `%%py5drawpdf <py5drawpdf/>`_
+* `%%py5drawsvg <py5drawsvg/>`_
+
+Line magics
+-----------
+
+* `%py5animatedgif <py5animatedgif/>`_
+* `%py5captureframes <py5captureframes/>`_
+* `%py5saveframes <py5saveframes/>`_
+* `%py5screenshot <py5screenshot/>`_
+
 Math
 ====
 
