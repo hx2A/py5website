@@ -99,9 +99,11 @@ Finally, run the Makefile. The ``processing_dir`` parameter needs to point to th
 .. code:: bash
 
     (py5) $ cd py5generator
-    (py5) $ make processing_dir=../processing4 py5_build_dir=../py5code
+    (py5) $ make processing_dir=../processing4 py5_build_dir=../py5code skip_autopep8=true
 
-A full build takes about a minute to complete. When this runs you'll see a lot of logging information appear on the screen. There will be a few warnings about skipping typehints for some Matrix functions, but everything else will be info messages. You should familiarize yourself with the logs so you can spot changes and identify when something goes wrong.
+The optional ``skip_autopep8`` argument will skip autopep8 formatting of the output code, accelerating the build process. Use this during development.
+
+A full build takes under a minute to complete. When this runs you'll see a lot of logging information appear on the screen. There will be a few warnings about skipping typehints for some Matrix functions, but everything else will be info messages. You should familiarize yourself with the logs so you can spot changes and identify when something goes wrong.
 
 The final Makefile step installs the generated code into the active Anaconda environment. At this point the new code will be available for you to use.
 
