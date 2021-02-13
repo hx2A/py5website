@@ -1,6 +1,6 @@
 .. title: reset_matrix()
 .. slug: py5shape_reset_matrix
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,14 +29,13 @@ Examples
 
     def setup():
         global s
-        size(100, 100)
-        s = load_shape("ohio.svg")
-        s.rotate(PI/6)
+        s = py5.load_shape("ohio.svg")
+        s.rotate(py5.PI/6)
 
 
     def draw():
-        background(204)
-        shape(s)
+        py5.background(204)
+        py5.shape(s)
 
 
     def mouse_pressed():
@@ -66,5 +65,5 @@ Syntax
 
     reset_matrix() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

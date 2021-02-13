@@ -1,6 +1,6 @@
 .. title: light_specular()
 .. slug: light_specular
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,19 +30,23 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    directional_light(102, 102, 102, 0, 0, -1)
-    light_specular(204, 204, 204)
-    directional_light(102, 102, 102, 0, 1, -1)
-    light_specular(102, 102, 102)
-    translate(20, 50, 0)
-    specular(51, 51, 51)
-    sphere(30)
-    translate(60, 0, 0)
-    specular(102, 102, 102)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        py5.directional_light(102, 102, 102, 0, 0, -1)
+        py5.light_specular(204, 204, 204)
+        py5.directional_light(102, 102, 102, 0, 1, -1)
+        py5.light_specular(102, 102, 102)
+        py5.translate(20, 50, 0)
+        py5.specular(51, 51, 51)
+        py5.sphere(30)
+        py5.translate(60, 0, 0)
+        py5.specular(102, 102, 102)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -74,5 +78,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

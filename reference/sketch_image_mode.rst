@@ -1,6 +1,6 @@
 .. title: image_mode()
 .. slug: image_mode
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,12 +32,12 @@ Examples
 
     def setup():
         global img
-        img = load_image("laDefense.jpg")
+        img = py5.load_image("laDefense.jpg")
 
 
     def draw():
-        image_mode(CORNER)
-        image(img, 10, 10, 50, 50)  # draw image using CORNER mode
+        py5.image_mode(py5.CORNER)
+        py5.image(img, 10, 10, 50, 50)  # draw image using CORNER mode
 
 .. raw:: html
 
@@ -59,12 +59,12 @@ Examples
 
     def setup():
         global img
-        img = load_image("laDefense.jpg")
+        img = py5.load_image("laDefense.jpg")
 
 
     def draw():
-        image_mode(CORNERS)
-        image(img, 10, 10, 90, 40)  # draw image using CORNERS mode
+        py5.image_mode(py5.CORNERS)
+        py5.image(img, 10, 10, 90, 40)  # draw image using CORNERS mode
 
 .. raw:: html
 
@@ -86,12 +86,12 @@ Examples
 
     def setup():
         global img
-        img = load_image("laDefense.jpg")
+        img = py5.load_image("laDefense.jpg")
 
 
     def draw():
-        image_mode(CENTER)
-        image(img, 50, 50, 80, 80)  # draw image using CENTER mode
+        py5.image_mode(py5.CENTER)
+        py5.image(img, 50, 50, 80, 80)  # draw image using CENTER mode
 
 .. raw:: html
 
@@ -129,5 +129,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, or CENTER
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

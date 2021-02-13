@@ -1,6 +1,6 @@
 .. title: get_vertex_count()
 .. slug: py5shape_get_vertex_count
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,25 +29,24 @@ Examples
 
     def setup():
         global s
-        size(100, 100)
-        s = create_shape()
+        s = py5.create_shape()
         s.begin_shape()
         s.vertex(0, 0)
         s.vertex(60, 0)
         s.vertex(60, 60)
         s.vertex(0, 60)
-        s.end_shape(CLOSE)
+        s.end_shape(py5.CLOSE)
 
 
     def draw():
-        translate(20, 20)
+        py5.translate(20, 20)
         for i in range(0, s.get_vertex_count()):
             v = s.get_vertex(i)
-            v.x += random(-1, 1)
-            v.y += random(-1, 1)
+            v.x += py5.random(-1, 1)
+            v.y += py5.random(-1, 1)
             s.set_vertex(i, v)
 
-        shape(s)
+        py5.shape(s)
 
 .. raw:: html
 
@@ -71,5 +70,5 @@ Syntax
 
     get_vertex_count() -> int
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

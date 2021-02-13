@@ -1,6 +1,6 @@
 .. title: texture()
 .. slug: texture
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,16 +30,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_stroke()
-    img = load_image("laDefense.jpg")
-    begin_shape()
-    texture(img)
-    vertex(10, 20, 0, 0)
-    vertex(80, 5, 100, 0)
-    vertex(95, 90, 100, 100)
-    vertex(40, 95, 0, 100)
-    end_shape()
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.no_stroke()
+        img = py5.load_image("laDefense.jpg")
+        py5.begin_shape()
+        py5.texture(img)
+        py5.vertex(10, 20, 0, 0)
+        py5.vertex(80, 5, 100, 0)
+        py5.vertex(95, 90, 100, 100)
+        py5.vertex(40, 95, 0, 100)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -71,5 +75,5 @@ Parameters
 * **image**: `Py5Image` - reference to a PImage object
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

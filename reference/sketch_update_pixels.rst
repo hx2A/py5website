@@ -1,6 +1,6 @@
 .. title: update_pixels()
 .. slug: update_pixels
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("rockies.jpg")
-    image(img, 0, 0)
-    half_image = img.width * img.height//2
-    load_pixels()
-    for i in range(0, half_image):
-        pixels[i+half_image] = pixels[i]
-
-    update_pixels()
+    def setup():
+        img = py5.load_image("rockies.jpg")
+        py5.image(img, 0, 0)
+        half_image = img.width * img.height//2
+        py5.load_pixels()
+        for i in range(0, half_image):
+            py5.pixels[i+half_image] = py5.pixels[i]
+    
+        py5.update_pixels()
 
 .. raw:: html
 
@@ -71,5 +72,5 @@ Parameters
 * **y2**: `int` - height of the region
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

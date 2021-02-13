@@ -1,6 +1,6 @@
 .. title: end_shape()
 .. slug: end_shape
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,19 +30,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-
-    begin_shape()
-    vertex(20, 20)
-    vertex(45, 20)
-    vertex(45, 80)
-    end_shape(CLOSE)
-
-    begin_shape()
-    vertex(50, 20)
-    vertex(75, 20)
-    vertex(75, 80)
-    end_shape()
+    def setup():
+        py5.no_fill()
+    
+        py5.begin_shape()
+        py5.vertex(20, 20)
+        py5.vertex(45, 20)
+        py5.vertex(45, 80)
+        py5.end_shape(py5.CLOSE)
+    
+        py5.begin_shape()
+        py5.vertex(50, 20)
+        py5.vertex(75, 20)
+        py5.vertex(75, 80)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -73,5 +74,5 @@ Parameters
 * **mode**: `int` - use CLOSE to close the shape
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

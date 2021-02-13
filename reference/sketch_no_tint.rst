@@ -1,6 +1,6 @@
 .. title: no_tint()
 .. slug: no_tint
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("laDefense.jpg")
-    tint(0, 153, 204)  # tint blue
-    image(img, 0, 0)
-    no_tint()  # disable tint
-    image(img, 50, 0)
+    def setup():
+        img = py5.load_image("laDefense.jpg")
+        py5.tint(0, 153, 204)  # tint blue
+        py5.image(img, 0, 0)
+        py5.no_tint()  # disable tint
+        py5.image(img, 50, 0)
 
 .. raw:: html
 
@@ -58,5 +59,5 @@ Syntax
 
     no_tint() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

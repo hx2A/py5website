@@ -1,6 +1,6 @@
 .. title: width
 .. slug: py5image_width
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,9 +30,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    tiles = load_image("tiles.jpg")
-    image(tiles, 20, 10)
-    rect(55, 10, tiles.width, tiles.height)
+    def setup():
+        tiles = py5.load_image("tiles.jpg")
+        py5.image(tiles, 20, 10)
+        py5.rect(55, 10, tiles.width, tiles.height)
 
 .. raw:: html
 
@@ -50,5 +51,5 @@ The width of the image in units of pixels.
 Underlying Java field: `PImage.width <https://processing.org/reference/PImage_width.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

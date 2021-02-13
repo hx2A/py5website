@@ -1,6 +1,6 @@
 .. title: text_ascent()
 .. slug: text_ascent
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,18 +30,19 @@ Examples
 .. code:: python
     :number-lines:
 
-    base = height * 0.75
-    scalar = 0.8  # different for each font
-
-    text_size(32)  # set initial text size
-    a = text_ascent() * scalar  # calc ascent
-    line(0, base-a, width, base-a)
-    text("dp", 0, base)  # draw text on baseline
-
-    text_size(64)  # increase text size
-    a = text_ascent() * scalar  # recalc ascent
-    line(40, base-a, width, base-a)
-    text("dp", 40, base)  # draw text on baseline
+    def setup():
+        base = py5.height * 0.75
+        scalar = 0.8  # different for each font
+    
+        py5.text_size(32)  # set initial text size
+        a = py5.text_ascent() * scalar  # calc ascent
+        py5.line(0, base-a, py5.width, base-a)
+        py5.text("dp", 0, base)  # draw text on baseline
+    
+        py5.text_size(64)  # increase text size
+        a = py5.text_ascent() * scalar  # recalc ascent
+        py5.line(40, base-a, py5.width, base-a)
+        py5.text("dp", 40, base)  # draw text on baseline
 
 .. raw:: html
 
@@ -65,5 +66,5 @@ Syntax
 
     text_ascent() -> float
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

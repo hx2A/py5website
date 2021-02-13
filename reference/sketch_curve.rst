@@ -1,6 +1,6 @@
 .. title: curve()
 .. slug: curve
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    stroke(255, 102, 0)
-    curve(5, 26, 5, 26, 73, 24, 73, 61)
-    stroke(0)
-    curve(5, 26, 73, 24, 73, 61, 15, 65)
-    stroke(255, 102, 0)
-    curve(73, 24, 73, 61, 15, 65, 15, 65)
+    def setup():
+        py5.no_fill()
+        py5.stroke(255, 102, 0)
+        py5.curve(5, 26, 5, 26, 73, 24, 73, 61)
+        py5.stroke(0)
+        py5.curve(5, 26, 73, 24, 73, 61, 15, 65)
+        py5.stroke(255, 102, 0)
+        py5.curve(73, 24, 73, 61, 15, 65, 15, 65)
 
 .. raw:: html
 
@@ -78,5 +79,5 @@ Parameters
 * **z4**: `float` - coordinates for the ending control point
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

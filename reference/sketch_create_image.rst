@@ -1,6 +1,6 @@
 .. title: create_image()
 .. slug: create_image
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = create_image(66, 66, RGB)
-    img.load_pixels()
-    for i in range(0, len(img.pixels)):
-        img.pixels[i] = color(0, 90, 102)
-
-    img.update_pixels()
-    image(img, 17, 17)
+    def setup():
+        img = py5.create_image(66, 66, py5.RGB)
+        img.load_pixels()
+        for i in range(0, len(img.pixels)):
+            img.pixels[i] = py5.color(0, 90, 102)
+    
+        img.update_pixels()
+        py5.image(img, 17, 17)
 
 .. raw:: html
 
@@ -56,14 +57,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = create_image(66, 66, ARGB)
-    img.load_pixels()
-    for i in range(0, len(img.pixels)):
-        img.pixels[i] = color(0, 90, 102, i % img.width * 2)
-
-    img.update_pixels()
-    image(img, 17, 17)
-    image(img, 34, 34)
+    def setup():
+        img = py5.create_image(66, 66, py5.ARGB)
+        img.load_pixels()
+        for i in range(0, len(img.pixels)):
+            img.pixels[i] = py5.color(0, 90, 102, i % img.width * 2)
+    
+        img.update_pixels()
+        py5.image(img, 17, 17)
+        py5.image(img, 34, 34)
 
 .. raw:: html
 
@@ -99,5 +101,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

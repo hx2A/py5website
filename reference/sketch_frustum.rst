@@ -1,6 +1,6 @@
 .. title: frustum()
 .. slug: frustum
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_fill()
-    background(204)
-    frustum(-10, 0, 0, 10, 10, 200)
-    rotate_y(PI/6)
-    box(45)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.no_fill()
+        py5.background(204)
+        py5.frustum(-10, 0, 0, 10, 10, 200)
+        py5.rotate_y(py5.PI/6)
+        py5.box(45)
 
 .. raw:: html
 
@@ -78,5 +82,5 @@ Parameters
 * **top**: `float` - top coordinate of the clipping plane
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

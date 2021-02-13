@@ -1,6 +1,6 @@
 .. title: is_visible()
 .. slug: py5shape_is_visible
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,19 +32,18 @@ Examples
 
     def setup():
         global s
-        size(100, 100)
         # the file "bot.svg" must be in the data folder
         # of the current sketch to load successfully
-        s = load_shape("bot.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
-        background(204)
-        shape(s, 10, 10, 80, 80)  # draw shape
-        s.set_visible(is_mouse_pressed())
+        py5.background(204)
+        py5.shape(s, 10, 10, 80, 80)  # draw shape
+        s.set_visible(py5.is_mouse_pressed())
         if s.is_visible() == False:  # or use: "if (!s.isVisible)"
-            no_fill()
-            rect(10, 10, 80, 80)
+            py5.no_fill()
+            py5.rect(10, 10, 80, 80)
 
 .. raw:: html
 
@@ -70,5 +69,5 @@ Syntax
 
     is_visible() -> bool
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

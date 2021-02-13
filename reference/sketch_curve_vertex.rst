@@ -1,6 +1,6 @@
 .. title: curve_vertex()
 .. slug: curve_vertex
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,15 +30,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    begin_shape()
-    curve_vertex(84,  91)
-    curve_vertex(84,  91)
-    curve_vertex(68,  19)
-    curve_vertex(21,  17)
-    curve_vertex(32, 100)
-    curve_vertex(32, 100)
-    end_shape()
+    def setup():
+        py5.no_fill()
+        py5.begin_shape()
+        py5.curve_vertex(84,  91)
+        py5.curve_vertex(84,  91)
+        py5.curve_vertex(68,  19)
+        py5.curve_vertex(21,  17)
+        py5.curve_vertex(32, 100)
+        py5.curve_vertex(32, 100)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -71,5 +72,5 @@ Parameters
 * **z**: `float` - the z-coordinate of the vertex
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

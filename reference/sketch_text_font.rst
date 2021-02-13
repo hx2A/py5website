@@ -1,6 +1,6 @@
 .. title: text_font()
 .. slug: text_font
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    # the font "andalemo.ttf" must be located in the
-    # current sketch's "data" directory to load successfully
-    mono = create_font("andalemo.ttf", 32)
-    background(0)
-    text_font(mono)
-    text("word", 12, 60)
+    def setup():
+        # the font "andalemo.ttf" must be located in the
+        # current sketch's "data" directory to load successfully
+        mono = py5.create_font("andalemo.ttf", 32)
+        py5.background(0)
+        py5.text_font(mono)
+        py5.text("word", 12, 60)
 
 .. raw:: html
 
@@ -68,5 +69,5 @@ Parameters
 * **which**: `Py5Font` - any variable of the type PFont
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

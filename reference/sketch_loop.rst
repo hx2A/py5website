@@ -1,6 +1,6 @@
 .. title: loop()
 .. slug: loop
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,28 +28,28 @@ Examples
     :number-lines:
 
     def setup():
-        size(200, 200)
-        no_loop()  # draw() will not loop
+        py5.size(200, 200)
+        py5.no_loop()  # draw() will not loop
 
 
     x = 0
 
 
     def draw():
-        background(204)
+        py5.background(204)
         x = x + .1
-        if x > width:
+        if x > py5.width:
             x = 0
 
-        line(x, 0, x, height)
+        py5.line(x, 0, x, py5.height)
 
 
     def mouse_pressed():
-        loop()  # holding down the mouse activates looping
+        py5.loop()  # holding down the mouse activates looping
 
 
     def mouse_released():
-        no_loop()  # releasing the mouse stops looping draw()
+        py5.no_loop()  # releasing the mouse stops looping draw()
 
 .. raw:: html
 
@@ -73,5 +73,5 @@ Syntax
 
     loop() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

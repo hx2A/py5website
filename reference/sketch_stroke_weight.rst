@@ -1,6 +1,6 @@
 .. title: stroke_weight()
 .. slug: stroke_weight
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    stroke_weight(1)  # default
-    line(20, 20, 80, 20)
-    stroke_weight(4)  # thicker
-    line(20, 40, 80, 40)
-    stroke_weight(10)  # beastly
-    line(20, 70, 80, 70)
+    def setup():
+        py5.stroke_weight(1)  # default
+        py5.line(20, 20, 80, 20)
+        py5.stroke_weight(4)  # thicker
+        py5.line(20, 40, 80, 40)
+        py5.stroke_weight(10)  # beastly
+        py5.line(20, 70, 80, 70)
 
 .. raw:: html
 
@@ -67,5 +68,5 @@ Parameters
 * **weight**: `float` - the weight (in pixels) of the stroke
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

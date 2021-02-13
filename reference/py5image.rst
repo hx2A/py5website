@@ -1,6 +1,6 @@
 .. title: Py5Image
 .. slug: py5image
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,12 +32,11 @@ Examples
 
     def setup():
         global photo
-        size(100, 100)
-        photo = load_image("laDefense.jpg")
+        photo = py5.load_image("laDefense.jpg")
 
 
     def draw():
-        image(photo, 0, 0)
+        py5.image(photo, 0, 0)
 
 .. raw:: html
 
@@ -62,5 +61,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5image_include.rst
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

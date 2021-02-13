@@ -1,6 +1,6 @@
 .. title: shape_mode()
 .. slug: shape_mode
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,15 +32,14 @@ Examples
 
     def setup():
         global bot
-        size(100, 100)
-        bot = load_shape("bot.svg")
+        bot = py5.load_shape("bot.svg")
 
 
     def draw():
-        shape_mode(CENTER)
-        shape(bot, 35, 35, 50, 50)
-        shape_mode(CORNER)
-        shape(bot, 35, 35, 50, 50)
+        py5.shape_mode(py5.CENTER)
+        py5.shape(bot, 35, 35, 50, 50)
+        py5.shape_mode(py5.CORNER)
+        py5.shape(bot, 35, 35, 50, 50)
 
 .. raw:: html
 
@@ -70,5 +69,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

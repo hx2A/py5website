@@ -1,6 +1,6 @@
 .. title: text_size()
 .. slug: text_size
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(0)
-    fill(255)
-    text_size(26)
-    text("WORD", 10, 50)
-    text_size(14)
-    text("WORD", 10, 70)
+    def setup():
+        py5.background(0)
+        py5.fill(255)
+        py5.text_size(26)
+        py5.text("WORD", 10, 50)
+        py5.text_size(14)
+        py5.text("WORD", 10, 70)
 
 .. raw:: html
 
@@ -65,5 +66,5 @@ Parameters
 * **size**: `float` - the size of the letters in units of pixels
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

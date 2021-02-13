@@ -1,6 +1,6 @@
 .. title: screen_z()
 .. slug: screen_z
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -8,34 +8,6 @@
 .. type: text
 
 Takes a three-dimensional X, Y, Z position and returns the Z value for where it will appear on a (two-dimensional) screen.
-
-Examples
-========
-
-.. raw:: html
-
-    <div class="example-table">
-
-.. raw:: html
-
-    <div class="example-row"><div class="example-cell-image">
-
-.. raw:: html
-
-    </div><div class="example-cell-code">
-
-.. code:: python
-    :number-lines:
-
-    coming soon...
-
-.. raw:: html
-
-    </div></div>
-
-.. raw:: html
-
-    </div>
 
 Description
 ===========
@@ -59,5 +31,5 @@ Parameters
 * **z**: `float` - 3D z-coordinate to be mapped
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

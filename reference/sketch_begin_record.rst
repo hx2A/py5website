@@ -1,6 +1,6 @@
 .. title: begin_record()
 .. slug: begin_record
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,16 +28,16 @@ Examples
     :number-lines:
 
     def setup():
-        size(400, 400)
-        begin_record(PDF, "everything.pdf")
+        py5.size(400, 400)
+        py5.begin_record(py5.PDF, "everything.pdf")
 
 
     def draw():
-        ellipse(mouse_x, mouse_y, 10, 10)
+        py5.ellipse(py5.mouse_x, py5.mouse_y, 10, 10)
 
 
     def mouse_pressed():
-        end_record()
+        py5.end_record()
         exit()
 
 .. raw:: html
@@ -75,5 +75,5 @@ Parameters
 * **renderer**: `str` - PDF or SVG
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

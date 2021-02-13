@@ -1,6 +1,6 @@
 .. title: begin_shape()
 .. slug: begin_shape
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape()
-    vertex(30, 20)
-    vertex(85, 20)
-    vertex(85, 75)
-    vertex(30, 75)
-    end_shape(CLOSE)
+    def setup():
+        py5.begin_shape()
+        py5.vertex(30, 20)
+        py5.vertex(85, 20)
+        py5.vertex(85, 75)
+        py5.vertex(30, 75)
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -55,12 +56,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(POINTS)
-    vertex(30, 20)
-    vertex(85, 20)
-    vertex(85, 75)
-    vertex(30, 75)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.POINTS)
+        py5.vertex(30, 20)
+        py5.vertex(85, 20)
+        py5.vertex(85, 75)
+        py5.vertex(30, 75)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -80,12 +82,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(LINES)
-    vertex(30, 20)
-    vertex(85, 20)
-    vertex(85, 75)
-    vertex(30, 75)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.LINES)
+        py5.vertex(30, 20)
+        py5.vertex(85, 20)
+        py5.vertex(85, 75)
+        py5.vertex(30, 75)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -105,13 +108,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    begin_shape()
-    vertex(30, 20)
-    vertex(85, 20)
-    vertex(85, 75)
-    vertex(30, 75)
-    end_shape()
+    def setup():
+        py5.no_fill()
+        py5.begin_shape()
+        py5.vertex(30, 20)
+        py5.vertex(85, 20)
+        py5.vertex(85, 75)
+        py5.vertex(30, 75)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -131,13 +135,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    begin_shape()
-    vertex(30, 20)
-    vertex(85, 20)
-    vertex(85, 75)
-    vertex(30, 75)
-    end_shape(CLOSE)
+    def setup():
+        py5.no_fill()
+        py5.begin_shape()
+        py5.vertex(30, 20)
+        py5.vertex(85, 20)
+        py5.vertex(85, 75)
+        py5.vertex(30, 75)
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -157,14 +162,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(TRIANGLES)
-    vertex(30, 75)
-    vertex(40, 20)
-    vertex(50, 75)
-    vertex(60, 20)
-    vertex(70, 75)
-    vertex(80, 20)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.TRIANGLES)
+        py5.vertex(30, 75)
+        py5.vertex(40, 20)
+        py5.vertex(50, 75)
+        py5.vertex(60, 20)
+        py5.vertex(70, 75)
+        py5.vertex(80, 20)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -184,15 +190,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(TRIANGLE_STRIP)
-    vertex(30, 75)
-    vertex(40, 20)
-    vertex(50, 75)
-    vertex(60, 20)
-    vertex(70, 75)
-    vertex(80, 20)
-    vertex(90, 75)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.TRIANGLE_STRIP)
+        py5.vertex(30, 75)
+        py5.vertex(40, 20)
+        py5.vertex(50, 75)
+        py5.vertex(60, 20)
+        py5.vertex(70, 75)
+        py5.vertex(80, 20)
+        py5.vertex(90, 75)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -212,14 +219,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(TRIANGLE_FAN)
-    vertex(57.5, 50)
-    vertex(57.5, 15)
-    vertex(92, 50)
-    vertex(57.5, 85)
-    vertex(22, 50)
-    vertex(57.5, 15)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.TRIANGLE_FAN)
+        py5.vertex(57.5, 50)
+        py5.vertex(57.5, 15)
+        py5.vertex(92, 50)
+        py5.vertex(57.5, 85)
+        py5.vertex(22, 50)
+        py5.vertex(57.5, 15)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -239,16 +247,17 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(QUADS)
-    vertex(30, 20)
-    vertex(30, 75)
-    vertex(50, 75)
-    vertex(50, 20)
-    vertex(65, 20)
-    vertex(65, 75)
-    vertex(85, 75)
-    vertex(85, 20)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.QUADS)
+        py5.vertex(30, 20)
+        py5.vertex(30, 75)
+        py5.vertex(50, 75)
+        py5.vertex(50, 20)
+        py5.vertex(65, 20)
+        py5.vertex(65, 75)
+        py5.vertex(85, 75)
+        py5.vertex(85, 20)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -268,16 +277,17 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape(QUAD_STRIP)
-    vertex(30, 20)
-    vertex(30, 75)
-    vertex(50, 20)
-    vertex(50, 75)
-    vertex(65, 20)
-    vertex(65, 75)
-    vertex(85, 20)
-    vertex(85, 75)
-    end_shape()
+    def setup():
+        py5.begin_shape(py5.QUAD_STRIP)
+        py5.vertex(30, 20)
+        py5.vertex(30, 75)
+        py5.vertex(50, 20)
+        py5.vertex(50, 75)
+        py5.vertex(65, 20)
+        py5.vertex(65, 75)
+        py5.vertex(85, 20)
+        py5.vertex(85, 75)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -297,14 +307,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape()
-    vertex(20, 20)
-    vertex(40, 20)
-    vertex(40, 40)
-    vertex(60, 40)
-    vertex(60, 60)
-    vertex(20, 60)
-    end_shape(CLOSE)
+    def setup():
+        py5.begin_shape()
+        py5.vertex(20, 20)
+        py5.vertex(40, 20)
+        py5.vertex(40, 40)
+        py5.vertex(60, 40)
+        py5.vertex(60, 60)
+        py5.vertex(20, 60)
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -339,5 +350,5 @@ Parameters
 * **kind**: `int` - Either POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, or QUAD_STRIP
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: get()
 .. slug: get
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,10 +30,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    my_image = load_image("apples.jpg")
-    image(my_image, 0, 0)
-    c = get()
-    image(c, width//2, 0)
+    def setup():
+        my_image = py5.load_image("apples.jpg")
+        py5.image(my_image, 0, 0)
+        c = py5.get()
+        py5.image(c, py5.width//2, 0)
 
 .. raw:: html
 
@@ -53,12 +54,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    my_image = load_image("apples.jpg")
-    image(my_image, 0, 0)
-    c = get(25, 25)
-    fill(c)
-    no_stroke()
-    rect(25, 25, 50, 50)
+    def setup():
+        my_image = py5.load_image("apples.jpg")
+        py5.image(my_image, 0, 0)
+        c = py5.get(25, 25)
+        py5.fill(c)
+        py5.no_stroke()
+        py5.rect(25, 25, 50, 50)
 
 .. raw:: html
 
@@ -99,5 +101,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

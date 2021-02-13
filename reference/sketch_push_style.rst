@@ -1,6 +1,6 @@
 .. title: push_style()
 .. slug: push_style
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,15 +30,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    ellipse(0, 50, 33, 33)  # left circle
-
-    push_style()  # start a new style
-    stroke_weight(10)
-    fill(204, 153, 0)
-    ellipse(50, 50, 33, 33)  # middle circle
-    pop_style()  # restore original style
-
-    ellipse(100, 50, 33, 33)  # right circle
+    def setup():
+        py5.ellipse(0, 50, 33, 33)  # left circle
+    
+        py5.push_style()  # start a new style
+        py5.stroke_weight(10)
+        py5.fill(204, 153, 0)
+        py5.ellipse(50, 50, 33, 33)  # middle circle
+        py5.pop_style()  # restore original style
+    
+        py5.ellipse(100, 50, 33, 33)  # right circle
 
 .. raw:: html
 
@@ -58,21 +59,22 @@ Examples
 .. code:: python
     :number-lines:
 
-    ellipse(0, 50, 33, 33)  # left circle
-
-    push_style()  # start a new style
-    stroke_weight(10)
-    fill(204, 153, 0)
-    ellipse(33, 50, 33, 33)  # left-middle circle
-
-    push_style()  # start another new style
-    stroke(0, 102, 153)
-    ellipse(66, 50, 33, 33)  # right-middle circle
-    pop_style()  # restore previous style
-
-    pop_style()  # restore original style
-
-    ellipse(100, 50, 33, 33)  # right circle
+    def setup():
+        py5.ellipse(0, 50, 33, 33)  # left circle
+    
+        py5.push_style()  # start a new style
+        py5.stroke_weight(10)
+        py5.fill(204, 153, 0)
+        py5.ellipse(33, 50, 33, 33)  # left-middle circle
+    
+        py5.push_style()  # start another new style
+        py5.stroke(0, 102, 153)
+        py5.ellipse(66, 50, 33, 33)  # right-middle circle
+        py5.pop_style()  # restore previous style
+    
+        py5.pop_style()  # restore original style
+    
+        py5.ellipse(100, 50, 33, 33)  # right circle
 
 .. raw:: html
 
@@ -99,5 +101,5 @@ Syntax
 
     push_style() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

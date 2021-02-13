@@ -1,6 +1,6 @@
 .. title: bezier_vertex()
 .. slug: bezier_vertex
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    begin_shape()
-    vertex(30, 20)
-    bezier_vertex(80, 0, 80, 75, 30, 75)
-    end_shape()
+    def setup():
+        py5.no_fill()
+        py5.begin_shape()
+        py5.vertex(30, 20)
+        py5.bezier_vertex(80, 0, 80, 75, 30, 75)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -54,11 +55,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    begin_shape()
-    vertex(30, 20)
-    bezier_vertex(80, 0, 80, 75, 30, 75)
-    bezier_vertex(50, 80, 60, 25, 30, 20)
-    end_shape()
+    def setup():
+        py5.begin_shape()
+        py5.vertex(30, 20)
+        py5.bezier_vertex(80, 0, 80, 75, 30, 75)
+        py5.bezier_vertex(50, 80, 60, 25, 30, 20)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -97,5 +99,5 @@ Parameters
 * **z4**: `float` - the z-coordinate of the anchor point
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: curve_detail()
 .. slug: curve_detail
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,27 +30,30 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
     def setup():
-        size(100, 100, P3D)
-        no_fill()
-        no_loop()
+        py5.no_fill()
+        py5.no_loop()
 
 
     def draw():
-        curve_detail(1)
+        py5.curve_detail(1)
         draw_curves(-15)
-        stroke(126)
-        curve_detail(2)
+        py5.stroke(126)
+        py5.curve_detail(2)
         draw_curves(0)
-        stroke(255)
-        curve_detail(4)
+        py5.stroke(255)
+        py5.curve_detail(4)
         draw_curves(15)
 
 
     def draw_curves(y):
-        curve(5, 28+y,  5, 28+y, 73, 26+y, 73, 63+y)
-        curve(5, 28+y, 73, 26+y, 73, 63+y, 15, 67+y)
-        curve(73, 26+y, 73, 63+y, 15, 67+y, 15, 67+y)
+        py5.curve(5, 28+y,  5, 28+y, 73, 26+y, 73, 63+y)
+        py5.curve(5, 28+y, 73, 26+y, 73, 63+y, 15, 67+y)
+        py5.curve(73, 26+y, 73, 63+y, 15, 67+y, 15, 67+y)
 
 .. raw:: html
 
@@ -80,5 +83,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

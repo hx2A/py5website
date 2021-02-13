@@ -1,6 +1,6 @@
 .. title: color_mode()
 .. slug: color_mode
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_stroke()
-    color_mode(RGB, 100)
-    for i in range(0, 100):
-        for j in range(0, 100):
-            stroke(i, j, 0)
-            point(i, j)
+    def setup():
+        py5.no_stroke()
+        py5.color_mode(py5.RGB, 100)
+        for i in range(0, 100):
+            for j in range(0, 100):
+                py5.stroke(i, j, 0)
+                py5.point(i, j)
 
 .. raw:: html
 
@@ -55,12 +56,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_stroke()
-    color_mode(HSB, 100)
-    for i in range(0, 100):
-        for j in range(0, 100):
-            stroke(i, j, 100)
-            point(i, j)
+    def setup():
+        py5.no_stroke()
+        py5.color_mode(py5.HSB, 100)
+        for i in range(0, 100):
+            for j in range(0, 100):
+                py5.stroke(i, j, 100)
+                py5.point(i, j)
 
 .. raw:: html
 
@@ -80,22 +82,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    # if the color is defined here, it won't be
-    # affected by the color_mode() in setup().
-    # instead, just declare the variable here and
-    # assign the value after the color_mode() in setup()
-    # color bg = color(180, 50, 50)  # no
-    color bg  # yes, but assign it in setup()
-
-
     def setup():
-        size(100, 100)
-        color_mode(HSB, 360, 100, 100)
-        bg = color(180, 50, 50)
+        py5.color_mode(py5.HSB, 360, 100, 100)
+        # use the global keyword so the draw method
+        # has access to the bg variable
+        global bg
+        bg = py5.color(180, 50, 50)
 
 
     def draw():
-        background(bg)
+        py5.background(bg)
 
 .. raw:: html
 
@@ -135,5 +131,5 @@ Parameters
 * **mode**: `int` - Either RGB or HSB, corresponding to Red/Green/Blue and Hue/Saturation/Brightness
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

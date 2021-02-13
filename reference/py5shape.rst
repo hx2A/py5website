@@ -1,6 +1,6 @@
 .. title: Py5Shape
 .. slug: py5shape
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,14 +29,13 @@ Examples
 
     def setup():
         global s
-        size(100, 100)
         # the file "bot.svg" must be in the data folder
         # of the current sketch to load successfully
-        s = load_shape("bot.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
-        shape(s, 10, 10, 80, 80)
+        py5.shape(s, 10, 10, 80, 80)
 
 .. raw:: html
 
@@ -54,15 +53,14 @@ Examples
     :number-lines:
 
     def setup():
-        global square  # the Py5Shape object
-        size(100, 100)
+        global s  # the Py5Shape object
         # creating the Py5Shape as a square. the corner
         # is 0,0 so that the center is at 40,40
-        square = create_shape(RECT, 0, 0, 80, 80)
+        s = py5.create_shape(py5.RECT, 0, 0, 80, 80)
 
 
     def draw():
-        shape(square, 10, 10)
+        py5.shape(s, 10, 10)
 
 .. raw:: html
 
@@ -87,5 +85,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shape_include.rst
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

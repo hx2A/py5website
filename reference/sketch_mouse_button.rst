@@ -1,6 +1,6 @@
 .. title: mouse_button
 .. slug: mouse_button
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,14 +31,14 @@ Examples
     # the left and right mouse buttons to
     # change the value of the rectangle
     def draw():
-        if mouse_pressed & & (mouse_button == LEFT):
-            fill(0)
-        elif mouse_pressed & & (mouse_button == RIGHT):
-            fill(255)
+        if py5.is_mouse_pressed() and py5.mouse_button == py5.LEFT:
+            py5.fill(0)
+        elif py5.is_mouse_pressed() and py5.mouse_button == py5.RIGHT:
+            py5.fill(255)
         else:
-            fill(126)
+            py5.fill(126)
 
-        rect(25, 25, 50, 50)
+        py5.rect(25, 25, 50, 50)
 
 .. raw:: html
 
@@ -59,16 +59,16 @@ Examples
     # the left and right mouse buttons to
     # change the value of the rectangle
     def draw():
-        rect(25, 25, 50, 50)
+        py5.rect(25, 25, 50, 50)
 
 
     def mouse_pressed():
-        if mouse_button == LEFT:
-            fill(0)
-        mouse_button == RIGHT:
-            fill(255)
+        if py5.mouse_button == py5.LEFT:
+            py5.fill(0)
+        elif py5.mouse_button == py5.RIGHT:
+            py5.fill(255)
         else:
-            fill(126)
+            py5.fill(126)
 
 .. raw:: html
 
@@ -86,5 +86,5 @@ When a mouse button is pressed, the value of the system variable ``mouse_button`
 Underlying Java field: `mouseButton <https://processing.org/reference/mouseButton.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

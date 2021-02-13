@@ -1,6 +1,6 @@
 .. title: pop()
 .. slug: pop
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    fill(255)
-    rect(0, 0, 50, 50)  # white rectangle
-
-    push()
-    translate(30, 20)
-    fill(0)
-    rect(0, 0, 50, 50)  # black rectangle
-    pop()  # restore original settings
-
-    fill(100)
-    rect(15, 10, 50, 50)  # gray rectangle
+    def setup():
+        py5.fill(255)
+        py5.rect(0, 0, 50, 50)  # white rectangle
+    
+        py5.push()
+        py5.translate(30, 20)
+        py5.fill(0)
+        py5.rect(0, 0, 50, 50)  # black rectangle
+        py5.pop()  # restore original settings
+    
+        py5.fill(100)
+        py5.rect(15, 10, 50, 50)  # gray rectangle
 
 .. raw:: html
 
@@ -60,15 +61,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    ellipse(0, 50, 33, 33)  # left circle
-
-    push()
-    stroke_weight(10)
-    fill(204, 153, 0)
-    ellipse(50, 50, 33, 33)  # middle circle
-    pop()  # restore original settings
-
-    ellipse(100, 50, 33, 33)  # right circle
+    def setup():
+        py5.ellipse(0, 50, 33, 33)  # left circle
+    
+        py5.push()
+        py5.stroke_weight(10)
+        py5.fill(204, 153, 0)
+        py5.ellipse(50, 50, 33, 33)  # middle circle
+        py5.pop()  # restore original settings
+    
+        py5.ellipse(100, 50, 33, 33)  # right circle
 
 .. raw:: html
 
@@ -96,5 +98,5 @@ Syntax
 
     pop() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: normal()
 .. slug: normal
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,21 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_stroke()
-    background(0)
-    point_light(150, 250, 150, 10, 30, 50)
-    begin_shape()
-    normal(0, 0, 1)
-    vertex(20, 20, -10)
-    vertex(80, 20, 10)
-    vertex(80, 80, -10)
-    vertex(20, 80, 10)
-    end_shape(CLOSE)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.no_stroke()
+        py5.background(0)
+        py5.point_light(150, 250, 150, 10, 30, 50)
+        py5.begin_shape()
+        py5.normal(0, 0, 1)
+        py5.vertex(20, 20, -10)
+        py5.vertex(80, 20, 10)
+        py5.vertex(80, 80, -10)
+        py5.vertex(20, 80, 10)
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -72,5 +76,5 @@ Parameters
 * **nz**: `float` - z direction
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

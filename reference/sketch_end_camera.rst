@@ -1,6 +1,6 @@
 .. title: end_camera()
 .. slug: end_camera
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,21 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_fill()
+    def settings():
+        py5.size(100, 100, py5.P3D)
 
-    begin_camera()
-    camera()
-    rotate_x(-PI/6)
-    end_camera()
 
-    translate(50, 50, 0)
-    rotate_y(PI/3)
-    box(45)
+    def setup():
+        py5.no_fill()
+    
+        py5.begin_camera()
+        py5.camera()
+        py5.rotate_x(-py5.PI/6)
+        py5.end_camera()
+    
+        py5.translate(50, 50, 0)
+        py5.rotate_y(py5.PI/3)
+        py5.box(45)
 
 .. raw:: html
 
@@ -64,5 +68,5 @@ Syntax
 
     end_camera() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

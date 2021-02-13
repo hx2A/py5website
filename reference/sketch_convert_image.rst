@@ -1,6 +1,6 @@
 .. title: convert_image()
 .. slug: convert_image
-.. date: 2021-02-03 22:06:22 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,9 +29,10 @@ Examples
 
     from PIL import Image
 
-    pil_image = Image.open('py5_logo.jpg')
 
-    py5_image = convert_image(pil_image)
+    def setup():
+        pil_image = Image.open('py5_logo.jpg')
+        py5_image = py5.convert_image(pil_image)
 
 .. raw:: html
 
@@ -66,5 +67,5 @@ Parameters
 * **obj**: `Any` - object to convert into a Py5Image object
 
 
-Updated on February 03, 2021 22:06:22pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: spot_light()
 .. slug: spot_light
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    spot_light(51, 102, 126, 80, 20, 40, -1, 0, 0, PI/2, 2)
-    translate(20, 50, 0)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        py5.spot_light(51, 102, 126, 80, 20, 40, -1, 0, 0, py5.PI/2, 2)
+        py5.translate(20, 50, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -55,14 +59,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    concentration = 600  # try 1 -> 10000
-    background(0)
-    no_stroke()
-    spot_light(51, 102, 126, 50, 50, 400,
-               0, 0, -1, PI/16, concentration)
-    translate(80, 50, 0)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        concentration = 600  # try 1 -> 10000
+        py5.background(0)
+        py5.no_stroke()
+        py5.spot_light(51, 102, 126, 50, 50, 400,
+                   0, 0, -1, py5.PI/16, concentration)
+        py5.translate(80, 50, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -102,5 +110,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

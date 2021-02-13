@@ -1,6 +1,6 @@
 .. title: copy()
 .. slug: copy
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("eames.jpg")
-    image(img, 0, 0, width, height)
-    copy(7, 22, 10, 10, 35, 25, 50, 50)
-    stroke(255)
-    no_fill()
-    # rectangle shows area being copied
-    rect(7, 22, 10, 10)
+    def setup():
+        img = py5.load_image("eames.jpg")
+        py5.image(img, 0, 0, py5.width, py5.height)
+        py5.copy(7, 22, 10, 10, 35, 25, 50, 50)
+        py5.stroke(255)
+        py5.no_fill()
+        # rectangle shows area being copied
+        py5.rect(7, 22, 10, 10)
 
 .. raw:: html
 
@@ -78,5 +79,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

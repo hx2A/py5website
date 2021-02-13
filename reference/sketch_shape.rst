@@ -1,6 +1,6 @@
 .. title: shape()
 .. slug: shape
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,11 +32,11 @@ Examples
 
     def setup():
         global s
-        s = load_shape("bot.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
-        shape(s, 10, 10, 80, 80)
+        py5.shape(s, 10, 10, 80, 80)
 
 .. raw:: html
 
@@ -74,5 +74,5 @@ Parameters
 * **y**: `float` - y-coordinate of the shape
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

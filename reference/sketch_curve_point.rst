@@ -1,6 +1,6 @@
 .. title: curve_point()
 .. slug: curve_point
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,20 +30,21 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    curve(5, 26, 5, 26, 73, 24, 73, 61)
-    curve(5, 26, 73, 24, 73, 61, 15, 65)
-    fill(255)
-    ellipse_mode(CENTER)
-    steps = 6
-    for i in range(0, steps + 1):
-        t = i / float(steps)
-        x = curve_point(5, 5, 73, 73, t)
-        y = curve_point(26, 26, 24, 61, t)
-        ellipse(x, y, 5, 5)
-        x = curve_point(5, 73, 73, 15, t)
-        y = curve_point(26, 24, 61, 65, t)
-        ellipse(x, y, 5, 5)
+    def setup():
+        py5.no_fill()
+        py5.curve(5, 26, 5, 26, 73, 24, 73, 61)
+        py5.curve(5, 26, 73, 24, 73, 61, 15, 65)
+        py5.fill(255)
+        py5.ellipse_mode(py5.CENTER)
+        steps = 6
+        for i in range(0, steps + 1):
+            t = i / float(steps)
+            x = py5.curve_point(5, 5, 73, 73, t)
+            y = py5.curve_point(26, 26, 24, 61, t)
+            py5.ellipse(x, y, 5, 5)
+            x = py5.curve_point(5, 73, 73, 15, t)
+            y = py5.curve_point(26, 24, 61, 65, t)
+            py5.ellipse(x, y, 5, 5)
 
 .. raw:: html
 
@@ -77,5 +78,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

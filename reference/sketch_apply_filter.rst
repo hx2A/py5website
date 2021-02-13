@@ -1,6 +1,6 @@
 .. title: apply_filter()
 .. slug: apply_filter
-.. date: 2020-11-24 21:52:12 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,9 +30,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(THRESHOLD)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.THRESHOLD)
 
 .. raw:: html
 
@@ -52,9 +53,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(GRAY)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.GRAY)
 
 .. raw:: html
 
@@ -74,9 +76,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(INVERT)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.INVERT)
 
 .. raw:: html
 
@@ -96,9 +99,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(POSTERIZE, 4)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.POSTERIZE, 4)
 
 .. raw:: html
 
@@ -118,9 +122,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(BLUR, 6)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.BLUR, 6)
 
 .. raw:: html
 
@@ -140,9 +145,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(ERODE)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.ERODE)
 
 .. raw:: html
 
@@ -162,9 +168,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("apples.jpg")
-    image(img, 0, 0)
-    apply_filter(DILATE)
+    def setup():
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
+        py5.apply_filter(py5.DILATE)
 
 .. raw:: html
 
@@ -187,14 +194,14 @@ Examples
     def setup():
         global blur
         global img
-        size(100, 100, P2D)
-        blur = load_shader("blur.glsl")
-        img = load_image("apples.jpg")
-        image(img, 0, 0)
+        py5.size(100, 100, py5.P2D)
+        blur = py5.load_shader("blur.glsl")
+        img = py5.load_image("apples.jpg")
+        py5.image(img, 0, 0)
 
 
     def draw():
-        apply_filter(blur)  # blurs more each time through draw()
+        py5.apply_filter(blur)  # blurs more each time through draw()
 
 .. raw:: html
 
@@ -254,5 +261,5 @@ Parameters
 * **shader**: `Py5Shader` - the fragment shader to apply
 
 
-Updated on November 24, 2020 21:52:12pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

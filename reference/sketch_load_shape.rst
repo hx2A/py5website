@@ -1,6 +1,6 @@
 .. title: load_shape()
 .. slug: load_shape
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,14 +29,13 @@ Examples
 
     def setup():
         global s
-        size(100, 100)
         # the file "bot.svg" must be in the data folder
         # of the current sketch to load successfully
-        s = load_shape("bot.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
-        shape(s, 10, 10, 80, 80)
+        py5.shape(s, 10, 10, 80, 80)
 
 .. raw:: html
 
@@ -55,16 +54,16 @@ Examples
 
     def setup():
         global s
-        size(100, 100, P3D)
+        py5.size(100, 100, py5.P3D)
         # the file "bot.obj" must be in the data folder
         # of the current sketch to load successfully
-        s = load_shape("bot.obj")
+        s = py5.load_shape("bot.obj")
 
 
     def draw():
-        background(204)
-        translate(width//2, height//2)
-        shape(s, 0, 0)
+        py5.background(204)
+        py5.translate(py5.width//2, py5.height//2)
+        py5.shape(s, 0, 0)
 
 .. raw:: html
 
@@ -100,5 +99,5 @@ Parameters
 * **options**: `str` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

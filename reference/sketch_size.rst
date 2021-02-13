@@ -1,6 +1,6 @@
 .. title: size()
 .. slug: size
-.. date: 2021-02-02 19:44:40 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,9 +27,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(200, 100)
-    background(153)
-    line(0, 0, width, height)
+    def settings():
+        py5.size(200, 100)
+
+
+    def setup():
+        py5.background(153)
+        py5.line(0, 0, py5.width, py5.height)
 
 .. raw:: html
 
@@ -46,13 +50,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
-        size(320, 240)
+    def settings():
+        py5.size(320, 240)
 
 
     def draw():
-        background(153)
-        line(0, 0, width, height)
+        py5.background(153)
+        py5.line(0, 0, py5.width, py5.height)
 
 .. raw:: html
 
@@ -69,19 +73,23 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(150, 200, P3D)  # specify P3D renderer
-    background(153)
+    def settings():
+        py5.size(150, 200, py5.P3D)  # specify P3D renderer
 
-    # with P3D, we can use z (depth) values...
-    line(0, 0, 0, width, height, -100)
-    line(width, 0, 0, width, height, -100)
-    line(0, height, 0, width, height, -100)
 
-    # ...and 3D-specific functions, like box()
-    translate(width//2, height//2)
-    rotate_x(PI/6)
-    rotate_y(PI/6)
-    box(35)
+    def setup():
+        py5.background(153)
+    
+        # with P3D, we can use z (depth) values...
+        py5.line(0, 0, 0, py5.width, py5.height, -100)
+        py5.line(py5.width, 0, 0, py5.width, py5.height, -100)
+        py5.line(0, py5.height, 0, py5.width, py5.height, -100)
+    
+        # ...and 3D-specific functions, like box()
+        py5.translate(py5.width//2, py5.height//2)
+        py5.rotate_x(py5.PI/6)
+        py5.rotate_y(py5.PI/6)
+        py5.box(35)
 
 .. raw:: html
 
@@ -94,7 +102,7 @@ Examples
 Description
 ===========
 
-Defines the dimension of the display window width and height in units of pixels. In a program that has the ``setup()`` function, the ``size()`` function must be the first line of code inside ``setup()``, and the ``setup()`` function must appear in the code tab with the same name as your sketch folder.
+Defines the dimension of the display window width and height in units of pixels. This must be called from the ``settings()`` function.
 
 The built-in variables ``width`` and ``height`` are set by the parameters passed to this function. For example, running ``size(640, 480)`` will assign 640 to the ``width`` variable and 480 to the height ``variable``. If ``size()`` is not used, the window will be given a default size of 100 x 100 pixels.
 
@@ -140,5 +148,5 @@ Parameters
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on February 02, 2021 19:44:40pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

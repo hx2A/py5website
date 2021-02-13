@@ -1,6 +1,6 @@
 .. title: copy()
 .. slug: py5image_copy
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,14 +32,13 @@ Examples
 
     def setup():
         global apples
-        size(100, 100)
-        apples = load_image("apples.jpg")
-        x = width//2
-        apples.copy(x, 0, x, height, 0, 0, x, height)
+        apples = py5.load_image("apples.jpg")
+        x = py5.width//2
+        apples.copy(x, 0, x, py5.height, 0, 0, x, py5.height)
 
 
     def draw():
-        image(apples, 0, 0)
+        py5.image(apples, 0, 0)
 
 .. raw:: html
 
@@ -81,5 +80,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

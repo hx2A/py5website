@@ -1,6 +1,6 @@
 .. title: hint()
 .. slug: hint
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,18 +28,18 @@ Examples
     :number-lines:
 
     def setup():
-        size(200, 200, P3D)
-        hint(DISABLE_DEPTH_TEST)
+        py5.size(200, 200, py5.P3D)
+        py5.hint(py5.DISABLE_DEPTH_TEST)
 
 
     def draw():
-        background(204)
-        push_matrix()
-        translate(width//2, height//2)
-        rotate_y(1)
-        box(60)
-        pop_matrix()
-        line(10, 100, 190, 100)
+        py5.background(204)
+        py5.push_matrix()
+        py5.translate(py5.width//2, py5.height//2)
+        py5.rotate_y(1)
+        py5.box(60)
+        py5.pop_matrix()
+        py5.line(10, 100, 190, 100)
 
 .. raw:: html
 
@@ -105,5 +105,5 @@ Parameters
 * **which**: `int` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

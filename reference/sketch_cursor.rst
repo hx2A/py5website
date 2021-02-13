@@ -1,6 +1,6 @@
 .. title: cursor()
 .. slug: cursor
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,15 +30,11 @@ Examples
     # move the mouse left and right across the image
     # to see the cursor change from_ a cross to a hand
 
-    def setup():
-        size(100, 100)
-
-
     def draw():
-        if mouse_x < 50:
-            cursor(CROSS)
+        if py5.mouse_x < 50:
+            py5.cursor(py5.CROSS)
         else:
-            cursor(HAND)
+            py5.cursor(py5.HAND)
 
 .. raw:: html
 
@@ -78,5 +74,5 @@ Parameters
 * **y**: `int` - the vertical active spot of the cursor
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

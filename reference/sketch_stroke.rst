@@ -1,6 +1,6 @@
 .. title: stroke()
 .. slug: stroke
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,8 +30,9 @@ Examples
 .. code:: python
     :number-lines:
 
-    stroke(153)
-    rect(30, 20, 55, 55)
+    def setup():
+        py5.stroke(153)
+        py5.rect(30, 20, 55, 55)
 
 .. raw:: html
 
@@ -51,8 +52,9 @@ Examples
 .. code:: python
     :number-lines:
 
-    stroke(204, 102, 0)
-    rect(30, 20, 55, 55)
+    def setup():
+        py5.stroke(204, 102, 0)
+        py5.rect(30, 20, 55, 55)
 
 .. raw:: html
 
@@ -98,5 +100,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

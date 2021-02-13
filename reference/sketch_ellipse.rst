@@ -1,6 +1,6 @@
 .. title: ellipse()
 .. slug: ellipse
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    ellipse(56, 46, 55, 55)
+    def setup():
+        py5.ellipse(56, 46, 55, 55)
 
 .. raw:: html
 
@@ -63,5 +64,5 @@ Parameters
 * **d**: `float` - height of the ellipse by default
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

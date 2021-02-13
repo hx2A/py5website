@@ -1,6 +1,6 @@
 .. title: light_falloff()
 .. slug: light_falloff
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,21 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_stroke()
-    background(0)
-    light_falloff(1.0, 0.001, 0.0)
-    point_light(150, 250, 150, 50, 50, 50)
-    begin_shape()
-    vertex(0, 0, 0)
-    vertex(100, 0, -100)
-    vertex(100, 100, -100)
-    vertex(0, 100, 0)
-    end_shape(CLOSE)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.no_stroke()
+        py5.background(0)
+        py5.light_falloff(1.0, 0.001, 0.0)
+        py5.point_light(150, 250, 150, 50, 50, 50)
+        py5.begin_shape()
+        py5.vertex(0, 0, 0)
+        py5.vertex(100, 0, -100)
+        py5.vertex(100, 100, -100)
+        py5.vertex(0, 100, 0)
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -77,5 +81,5 @@ Parameters
 * **quadratic**: `float` - quadratic value for determining falloff
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

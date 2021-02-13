@@ -1,6 +1,6 @@
 .. title: display_height
 .. slug: display_height
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,8 +27,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(display_width, display_height)
-    line(0, 0, width, height)
+    def settings():
+        py5.size(py5.display_width, py5.display_height)
+
+
+    def setup():
+        py5.line(0, 0, py5.width, py5.height)
 
 .. raw:: html
 
@@ -46,5 +50,5 @@ System variable that stores the height of the entire screen display. This is use
 Underlying Java field: displayHeight
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

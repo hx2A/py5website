@@ -1,6 +1,6 @@
 .. title: apply_filter()
 .. slug: py5image_apply_filter
-.. date: 2020-11-24 21:52:12 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,16 +33,15 @@ Examples
     def setup():
         global img1
         global img2
-        size(100, 100)
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img1.apply_filter(THRESHOLD, 0.3)
-        img2.apply_filter(THRESHOLD, 0.7)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img1.apply_filter(py5.THRESHOLD, 0.3)
+        img2.apply_filter(py5.THRESHOLD, 0.7)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -65,14 +64,14 @@ Examples
     def setup():
         global img1
         global img2
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img2.apply_filter(GRAY)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img2.apply_filter(py5.GRAY)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -95,14 +94,14 @@ Examples
     def setup():
         global img1
         global img2
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img2.apply_filter(INVERT)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img2.apply_filter(py5.INVERT)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -125,14 +124,14 @@ Examples
     def setup():
         global img1
         global img2
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img2.apply_filter(POSTERIZE, 4)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img2.apply_filter(py5.POSTERIZE, 4)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -155,14 +154,14 @@ Examples
     def setup():
         global img1
         global img2
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img2.apply_filter(BLUR, 6)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img2.apply_filter(py5.BLUR, 6)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -185,14 +184,14 @@ Examples
     def setup():
         global img1
         global img2
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img2.apply_filter(ERODE)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img2.apply_filter(py5.ERODE)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -215,14 +214,14 @@ Examples
     def setup():
         global img1
         global img2
-        img1 = load_image("apples.jpg")
-        img2 = load_image("apples.jpg")
-        img2.apply_filter(DILATE)
+        img1 = py5.load_image("apples.jpg")
+        img2 = py5.load_image("apples.jpg")
+        img2.apply_filter(py5.DILATE)
 
 
     def draw():
-        image(img1, 0, 0)
-        image(img2, width//2, 0)
+        py5.image(img1, 0, 0)
+        py5.image(img2, py5.width//2, 0)
 
 .. raw:: html
 
@@ -280,5 +279,5 @@ Parameters
 * **param**: `float` - unique for each, see above
 
 
-Updated on November 24, 2020 21:52:12pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

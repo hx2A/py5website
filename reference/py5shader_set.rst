@@ -1,6 +1,6 @@
 .. title: set()
 .. slug: py5shader_set
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,17 @@ Examples
     def setup():
         global tex
         global deform
-        size(640, 360, P2D)
-        tex = load_image("tex1.jpg")
-        deform = load_shader("deform.glsl")
-        deform.set("resolution", float(width), float(height))
+        py5.size(640, 360, py5.P2D)
+        tex = py5.load_image("tex1.jpg")
+        deform = py5.load_shader("deform.glsl")
+        deform.set("resolution", float(py5.width), float(py5.height))
 
 
     def draw():
-        deform.set("time", millis() / 1000.0)
-        deform.set("mouse", float(mouse_x), float(mouse_y))
-        shader(deform)
-        image(tex, 0, 0, width, height)
+        deform.set("time", py5.millis() / 1000.0)
+        deform.set("mouse", float(py5.mouse_x), float(py5.mouse_y))
+        py5.shader(deform)
+        py5.image(tex, 0, 0, py5.width, py5.height)
 
 .. raw:: html
 
@@ -112,5 +112,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

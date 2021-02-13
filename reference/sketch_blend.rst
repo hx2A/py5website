@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: blend
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,10 +30,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(load_image("rockies.jpg"))
-    img = load_image("bricks.jpg")
-    image(img, 0, 0)
-    blend(img, 0, 0, 33, 100, 67, 0, 33, 100, ADD)
+    def setup():
+        py5.background(py5.load_image("rockies.jpg"))
+        img = py5.load_image("bricks.jpg")
+        py5.image(img, 0, 0)
+        py5.blend(img, 0, 0, 33, 100, 67, 0, 33, 100, py5.ADD)
 
 .. raw:: html
 
@@ -53,10 +54,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(load_image("rockies.jpg"))
-    img = load_image("bricks.jpg")
-    image(img, 0, 0)
-    blend(img, 0, 0, 33, 100, 67, 0, 33, 100, SUBTRACT)
+    def setup():
+        py5.background(py5.load_image("rockies.jpg"))
+        img = py5.load_image("bricks.jpg")
+        py5.image(img, 0, 0)
+        py5.blend(img, 0, 0, 33, 100, 67, 0, 33, 100, py5.SUBTRACT)
 
 .. raw:: html
 
@@ -76,10 +78,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(load_image("rockies.jpg"))
-    img = load_image("bricks.jpg")
-    image(img, 0, 0)
-    blend(img, 0, 0, 33, 100, 67, 0, 33, 100, DARKEST)
+    def setup():
+        py5.background(py5.load_image("rockies.jpg"))
+        img = py5.load_image("bricks.jpg")
+        py5.image(img, 0, 0)
+        py5.blend(img, 0, 0, 33, 100, 67, 0, 33, 100, py5.DARKEST)
 
 .. raw:: html
 
@@ -99,10 +102,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(load_image("rockies.jpg"))
-    img = load_image("bricks.jpg")
-    image(img, 0, 0)
-    blend(img, 0, 0, 33, 100, 67, 0, 33, 100, LIGHTEST)
+    def setup():
+        py5.background(py5.load_image("rockies.jpg"))
+        img = py5.load_image("bricks.jpg")
+        py5.image(img, 0, 0)
+        py5.blend(img, 0, 0, 33, 100, 67, 0, 33, 100, py5.LIGHTEST)
 
 .. raw:: html
 
@@ -178,5 +182,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

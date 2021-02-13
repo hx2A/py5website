@@ -1,6 +1,6 @@
 .. title: text_align()
 .. slug: text_align
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(0)
-    text_size(16)
-    text_align(RIGHT)
-    text("ABCD", 50, 30)
-    text_align(CENTER)
-    text("EFGH", 50, 50)
-    text_align(LEFT)
-    text("IJKL", 50, 70)
+    def setup():
+        py5.background(0)
+        py5.text_size(16)
+        py5.text_align(py5.RIGHT)
+        py5.text("ABCD", 50, 30)
+        py5.text_align(py5.CENTER)
+        py5.text("EFGH", 50, 50)
+        py5.text_align(py5.LEFT)
+        py5.text("IJKL", 50, 70)
 
 .. raw:: html
 
@@ -57,18 +58,19 @@ Examples
 .. code:: python
     :number-lines:
 
-    background(0)
-    stroke(153)
-    text_size(11)
-    text_align(CENTER, BOTTOM)
-    line(0, 30, width, 30)
-    text("CENTER,BOTTOM", 50, 30)
-    text_align(CENTER, CENTER)
-    line(0, 50, width, 50)
-    text("CENTER,CENTER", 50, 50)
-    text_align(CENTER, TOP)
-    line(0, 70, width, 70)
-    text("CENTER,TOP", 50, 70)
+    def setup():
+        py5.background(0)
+        py5.stroke(153)
+        py5.text_size(11)
+        py5.text_align(py5.CENTER, py5.BOTTOM)
+        py5.line(0, 30, py5.width, 30)
+        py5.text("CENTER,BOTTOM", 50, 30)
+        py5.text_align(py5.CENTER, py5.CENTER)
+        py5.line(0, 50, py5.width, 50)
+        py5.text("CENTER,CENTER", 50, 50)
+        py5.text_align(py5.CENTER, py5.TOP)
+        py5.line(0, 70, py5.width, 70)
+        py5.text("CENTER,TOP", 50, 70)
 
 .. raw:: html
 
@@ -106,5 +108,5 @@ Parameters
 * **align_y**: `int` - vertical alignment, either TOP, BOTTOM, CENTER, or BASELINE
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

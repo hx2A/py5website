@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: py5image_blend
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    mountains = load_image("rockies.jpg")
-    bricks = load_image("bricks.jpg")
-    mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, ADD)
-    image(mountains, 0, 0)
-    image(bricks, 0, 0)
+    def setup():
+        mountains = py5.load_image("rockies.jpg")
+        bricks = py5.load_image("bricks.jpg")
+        mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, py5.ADD)
+        py5.image(mountains, 0, 0)
+        py5.image(bricks, 0, 0)
 
 .. raw:: html
 
@@ -54,11 +55,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    mountains = load_image("rockies.jpg")
-    bricks = load_image("bricks.jpg")
-    mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, SUBTRACT)
-    image(mountains, 0, 0)
-    image(bricks, 0, 0)
+    def setup():
+        mountains = py5.load_image("rockies.jpg")
+        bricks = py5.load_image("bricks.jpg")
+        mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, py5.SUBTRACT)
+        py5.image(mountains, 0, 0)
+        py5.image(bricks, 0, 0)
 
 .. raw:: html
 
@@ -78,11 +80,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    mountains = load_image("rockies.jpg")
-    bricks = load_image("bricks.jpg")
-    mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, DARKEST)
-    image(mountains, 0, 0)
-    image(bricks, 0, 0)
+    def setup():
+        mountains = py5.load_image("rockies.jpg")
+        bricks = py5.load_image("bricks.jpg")
+        mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, py5.DARKEST)
+        py5.image(mountains, 0, 0)
+        py5.image(bricks, 0, 0)
 
 .. raw:: html
 
@@ -102,11 +105,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    mountains = load_image("rockies.jpg")
-    bricks = load_image("bricks.jpg")
-    mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, LIGHTEST)
-    image(mountains, 0, 0)
-    image(bricks, 0, 0)
+    def setup():
+        mountains = py5.load_image("rockies.jpg")
+        bricks = py5.load_image("bricks.jpg")
+        mountains.blend(bricks, 0, 0, 33, 100, 67, 0, 33, 100, py5.LIGHTEST)
+        py5.image(mountains, 0, 0)
+        py5.image(bricks, 0, 0)
 
 .. raw:: html
 
@@ -182,5 +186,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

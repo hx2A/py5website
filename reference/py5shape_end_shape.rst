@@ -1,6 +1,6 @@
 .. title: end_shape()
 .. slug: py5shape_end_shape
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,8 +29,7 @@ Examples
 
     def setup():
         global s  # the Py5Shape object
-        size(100, 100)
-        s = create_shape()
+        s = py5.create_shape()
         s.begin_shape()
         s.fill(0, 0, 255)
         s.no_stroke()
@@ -41,7 +40,7 @@ Examples
 
 
     def draw():
-        shape(s, 25, 25)
+        py5.shape(s, 25, 25)
 
 .. raw:: html
 
@@ -72,5 +71,5 @@ Parameters
 * **mode**: `int` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

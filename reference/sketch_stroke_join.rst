@@ -1,6 +1,6 @@
 .. title: stroke_join()
 .. slug: stroke_join
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    stroke_weight(10.0)
-    stroke_join(MITER)
-    begin_shape()
-    vertex(35, 20)
-    vertex(65, 50)
-    vertex(35, 80)
-    end_shape()
+    def setup():
+        py5.no_fill()
+        py5.stroke_weight(10.0)
+        py5.stroke_join(py5.MITER)
+        py5.begin_shape()
+        py5.vertex(35, 20)
+        py5.vertex(65, 50)
+        py5.vertex(35, 80)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -57,14 +58,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    stroke_weight(10.0)
-    stroke_join(BEVEL)
-    begin_shape()
-    vertex(35, 20)
-    vertex(65, 50)
-    vertex(35, 80)
-    end_shape()
+    def setup():
+        py5.no_fill()
+        py5.stroke_weight(10.0)
+        py5.stroke_join(py5.BEVEL)
+        py5.begin_shape()
+        py5.vertex(35, 20)
+        py5.vertex(65, 50)
+        py5.vertex(35, 80)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -84,14 +86,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    stroke_weight(10.0)
-    stroke_join(ROUND)
-    begin_shape()
-    vertex(35, 20)
-    vertex(65, 50)
-    vertex(35, 80)
-    end_shape()
+    def setup():
+        py5.no_fill()
+        py5.stroke_weight(10.0)
+        py5.stroke_join(py5.ROUND)
+        py5.begin_shape()
+        py5.vertex(35, 20)
+        py5.vertex(65, 50)
+        py5.vertex(35, 80)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -121,5 +124,5 @@ Parameters
 * **join**: `int` - either MITER, BEVEL, ROUND
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

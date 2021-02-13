@@ -1,6 +1,6 @@
 .. title: image()
 .. slug: image
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,11 +33,11 @@ Examples
     def setup():
         global img
         # images must be in the "data" directory to load correctly
-        img = load_image("laDefense.jpg")
+        img = py5.load_image("laDefense.jpg")
 
 
     def draw():
-        image(img, 0, 0)
+        py5.image(img, 0, 0)
 
 .. raw:: html
 
@@ -60,12 +60,12 @@ Examples
     def setup():
         global img
         # images must be in the "data" directory to load correctly
-        img = load_image("laDefense.jpg")
+        img = py5.load_image("laDefense.jpg")
 
 
     def draw():
-        image(img, 0, 0)
-        image(img, 0, 0, width//2, height//2)
+        py5.image(img, 0, 0)
+        py5.image(img, 0, 0, py5.width//2, py5.height//2)
 
 .. raw:: html
 
@@ -109,5 +109,5 @@ Parameters
 * **v2**: `int` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

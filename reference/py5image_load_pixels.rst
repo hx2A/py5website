@@ -1,6 +1,6 @@
 .. title: load_pixels()
 .. slug: py5image_load_pixels
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,9 +33,8 @@ Examples
     def setup():
         global my_image
         global half_image
-        size(100, 100)
-        half_image = width * height//2
-        my_image = load_image("apples.jpg")
+        half_image = py5.width * py5.height//2
+        my_image = py5.load_image("apples.jpg")
         my_image.load_pixels()
         for i in range(0, half_image):
             my_image.pixels[i+half_image] = my_image.pixels[i]
@@ -44,7 +43,7 @@ Examples
 
 
     def draw():
-        image(my_image, 0, 0)
+        py5.image(my_image, 0, 0)
 
 .. raw:: html
 
@@ -68,5 +67,5 @@ Syntax
 
     load_pixels() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: bezier()
 .. slug: bezier
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    stroke(255, 102, 0)
-    line(85, 20, 10, 10)
-    line(90, 90, 15, 80)
-    stroke(0, 0, 0)
-    bezier(85, 20, 10, 10, 90, 90, 15, 80)
+    def setup():
+        py5.no_fill()
+        py5.stroke(255, 102, 0)
+        py5.line(85, 20, 10, 10)
+        py5.line(90, 90, 15, 80)
+        py5.stroke(0, 0, 0)
+        py5.bezier(85, 20, 10, 10, 90, 90, 15, 80)
 
 .. raw:: html
 
@@ -55,12 +56,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    stroke(255, 102, 0)
-    line(30, 20, 80, 5)
-    line(80, 75, 30, 75)
-    stroke(0, 0, 0)
-    bezier(30, 20,  80, 5,  80, 75,  30, 75)
+    def setup():
+        py5.no_fill()
+        py5.stroke(255, 102, 0)
+        py5.line(30, 20, 80, 5)
+        py5.line(80, 75, 30, 75)
+        py5.stroke(0, 0, 0)
+        py5.bezier(30, 20,  80, 5,  80, 75,  30, 75)
 
 .. raw:: html
 
@@ -102,5 +104,5 @@ Parameters
 * **z4**: `float` - coordinates for the second anchor point
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

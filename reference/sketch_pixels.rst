@@ -1,6 +1,6 @@
 .. title: pixels[]
 .. slug: pixels
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    pink = color(255, 102, 204)
-    load_pixels()
-    for i in range(0, (width*height//2)-width//2):
-        pixels[i] = pink
-
-    update_pixels()
+    def setup():
+        pink = py5.color(255, 102, 204)
+        py5.load_pixels()
+        for i in range(0, (py5.width*py5.height//2)-py5.width//2):
+            py5.pixels[i] = pink
+    
+        py5.update_pixels()
 
 .. raw:: html
 
@@ -55,5 +56,5 @@ Before accessing this array, the data must loaded with the ``load_pixels()`` fun
 Underlying Java field: `pixels <https://processing.org/reference/pixels.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

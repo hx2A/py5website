@@ -1,6 +1,6 @@
 .. title: triangle()
 .. slug: triangle
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    triangle(30, 75, 58, 20, 86, 75)
+    def setup():
+        py5.triangle(30, 75, 58, 20, 86, 75)
 
 .. raw:: html
 
@@ -65,5 +66,5 @@ Parameters
 * **y3**: `float` - y-coordinate of the third point
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

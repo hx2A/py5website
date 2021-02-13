@@ -1,6 +1,6 @@
 .. title: frame_count
 .. slug: frame_count
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,12 +28,12 @@ Examples
     :number-lines:
 
     def setup():
-        frame_rate(30)
+        py5.frame_rate(30)
 
 
     def draw():
-        line(0, 0, width, height)
-        print(frame_count)
+        py5.line(0, 0, py5.width, py5.height)
+        print(py5.frame_count)
 
 .. raw:: html
 
@@ -51,5 +51,5 @@ The system variable ``frame_count`` contains the number of frames that have been
 Underlying Java field: `frameCount <https://processing.org/reference/frameCount.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

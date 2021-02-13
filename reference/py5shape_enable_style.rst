@@ -1,6 +1,6 @@
 .. title: enable_style()
 .. slug: py5shape_enable_style
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,14 +34,14 @@ Examples
         global s
         # the file "bot.svg" must be in the data folder
         # of the current sketch to load successfully
-        s = load_shape("bot.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
         s.disable_style()
-        shape(s, -30, 10, 80, 80)
+        py5.shape(s, -30, 10, 80, 80)
         s.enable_style()
-        shape(s, 50, 10, 80, 80)
+        py5.shape(s, 50, 10, 80, 80)
 
 .. raw:: html
 
@@ -65,5 +65,5 @@ Syntax
 
     enable_style() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: no_fill()
 .. slug: no_fill
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,9 +30,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    rect(15, 10, 55, 55)
-    no_fill()
-    rect(30, 20, 55, 55)
+    def setup():
+        py5.rect(15, 10, 55, 55)
+        py5.no_fill()
+        py5.rect(30, 20, 55, 55)
 
 .. raw:: html
 
@@ -56,5 +57,5 @@ Syntax
 
     no_fill() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

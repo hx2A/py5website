@@ -1,6 +1,6 @@
 .. title: box()
 .. slug: box
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    translate(58, 48, 0)
-    rotate_y(0.5)
-    no_fill()
-    box(40)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.translate(58, 48, 0)
+        py5.rotate_y(0.5)
+        py5.no_fill()
+        py5.box(40)
 
 .. raw:: html
 
@@ -54,11 +58,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    translate(58, 48, 0)
-    rotate_y(0.5)
-    no_fill()
-    box(40, 20, 50)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.translate(58, 48, 0)
+        py5.rotate_y(0.5)
+        py5.no_fill()
+        py5.box(40, 20, 50)
 
 .. raw:: html
 
@@ -92,5 +100,5 @@ Parameters
 * **w**: `float` - dimension of the box in the x-dimension
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

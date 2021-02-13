@@ -1,6 +1,6 @@
 .. title: stroke_cap()
 .. slug: stroke_cap
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    stroke_weight(12.0)
-    stroke_cap(ROUND)
-    line(20, 30, 80, 30)
-    stroke_cap(SQUARE)
-    line(20, 50, 80, 50)
-    stroke_cap(PROJECT)
-    line(20, 70, 80, 70)
+    def setup():
+        py5.stroke_weight(12.0)
+        py5.stroke_cap(py5.ROUND)
+        py5.line(20, 30, 80, 30)
+        py5.stroke_cap(py5.SQUARE)
+        py5.line(20, 50, 80, 50)
+        py5.stroke_cap(py5.PROJECT)
+        py5.line(20, 70, 80, 70)
 
 .. raw:: html
 
@@ -68,5 +69,5 @@ Parameters
 * **cap**: `int` - either SQUARE, PROJECT, or ROUND
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: mouse_x
 .. slug: mouse_x
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,8 +28,8 @@ Examples
     :number-lines:
 
     def draw():
-        background(204)
-        line(mouse_x, 20, mouse_x, 80)
+        py5.background(204)
+        py5.line(py5.mouse_x, 20, py5.mouse_x, 80)
 
 .. raw:: html
 
@@ -49,5 +49,5 @@ Note that Processing can only track the mouse position when the pointer is over 
 Underlying Java field: `mouseX <https://processing.org/reference/mouseX.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

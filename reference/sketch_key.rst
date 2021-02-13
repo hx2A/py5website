@@ -1,6 +1,6 @@
 .. title: key
 .. slug: key
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,14 +31,13 @@ Examples
     # and press the 'b' key.
 
     def draw():
-        if key_pressed:
-            if key == 'b' | | key == 'b':
-                fill(0)
-
+        if py5.is_key_pressed():
+            if py5.key in ['b', 'B']:
+               py5.fill(0)
         else:
-            fill(255)
+            py5.fill(255)
 
-        rect(25, 25, 50, 50)
+        py5.rect(25, 25, 50, 50)
 
 .. raw:: html
 
@@ -60,5 +59,5 @@ There are issues with how ``key_code`` behaves across different renderers and op
 Underlying Java field: `key <https://processing.org/reference/key.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

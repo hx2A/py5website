@@ -1,6 +1,6 @@
 .. title: frame_rate()
 .. slug: frame_rate
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,18 +27,19 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
-        frame_rate(4)
-
-
     pos = 0
 
 
+    def setup():
+        py5.frame_rate(4)
+
+
     def draw():
-        background(204)
-        pos++
-        line(pos, 20, pos, 80)
-        if pos > width:
+        py5.background(204)
+        global pos
+        pos += 1
+        py5.line(pos, 20, pos, 80)
+        if pos > py5.width:
             pos = 0
 
 .. raw:: html
@@ -69,5 +70,5 @@ Parameters
 * **fps**: `float` - number of desired frames per second
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: arc()
 .. slug: arc
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    arc(50, 55, 50, 50, 0, HALF_PI)
-    no_fill()
-    arc(50, 55, 60, 60, HALF_PI, PI)
-    arc(50, 55, 70, 70, PI, PI+QUARTER_PI)
-    arc(50, 55, 80, 80, PI+QUARTER_PI, TWO_PI)
+    def setup():
+        py5.arc(50, 55, 50, 50, 0, py5.HALF_PI)
+        py5.no_fill()
+        py5.arc(50, 55, 60, 60, py5.HALF_PI, py5.PI)
+        py5.arc(50, 55, 70, 70, py5.PI, py5.PI+py5.QUARTER_PI)
+        py5.arc(50, 55, 80, 80, py5.PI+py5.QUARTER_PI, py5.TWO_PI)
 
 .. raw:: html
 
@@ -54,7 +55,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    arc(50, 50, 80, 80, 0, PI+QUARTER_PI, OPEN)
+    def setup():
+        py5.arc(50, 50, 80, 80, 0, py5.PI+py5.QUARTER_PI, py5.OPEN)
 
 .. raw:: html
 
@@ -74,7 +76,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    arc(50, 50, 80, 80, 0, PI+QUARTER_PI, CHORD)
+    def setup():
+        py5.arc(50, 50, 80, 80, 0, py5.PI+py5.QUARTER_PI, py5.CHORD)
 
 .. raw:: html
 
@@ -94,7 +97,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    arc(50, 50, 80, 80, 0, PI+QUARTER_PI, PIE)
+    def setup():
+        py5.arc(50, 50, 80, 80, 0, py5.PI+py5.QUARTER_PI, py5.PIE)
 
 .. raw:: html
 
@@ -135,5 +139,5 @@ Parameters
 * **stop**: `float` - angle to stop the arc, specified in radians
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

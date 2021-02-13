@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: text
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    text_size(32)
-    text("word", 10, 30)
-    fill(0, 102, 153)
-    text("word", 10, 60)
-    fill(0, 102, 153, 51)
-    text("word", 10, 90)
+    def setup():
+        py5.text_size(32)
+        py5.text("word", 10, 30)
+        py5.fill(0, 102, 153)
+        py5.text("word", 10, 60)
+        py5.fill(0, 102, 153, 51)
+        py5.text("word", 10, 90)
 
 .. raw:: html
 
@@ -55,11 +56,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    text_size(32)
-    fill(0, 102, 153, 204)
-    text("word", 12, 45, -30)  # specify a z-axis value
-    text("word", 12, 60)  # default depth, no z-value specified
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.text_size(32)
+        py5.fill(0, 102, 153, 204)
+        py5.text("word", 12, 45, -30)  # specify a z-axis value
+        py5.text("word", 12, 60)  # default depth, no z-value specified
 
 .. raw:: html
 
@@ -79,9 +84,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    s = "The quick brown fox jumps over the lazy dog."
-    fill(50)
-    text(s, 10, 10, 70, 80)  # text wraps within text box
+    def setup():
+        s = "The quick brown fox jumps over the lazy dog."
+        py5.fill(50)
+        py5.text(s, 10, 10, 70, 80)  # text wraps within text box
 
 .. raw:: html
 
@@ -138,5 +144,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

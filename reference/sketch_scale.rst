@@ -1,6 +1,6 @@
 .. title: scale()
 .. slug: scale
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,9 +30,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    rect(30, 20, 50, 50)
-    scale(0.5)
-    rect(30, 20, 50, 50)
+    def setup():
+        py5.rect(30, 20, 50, 50)
+        py5.scale(0.5)
+        py5.rect(30, 20, 50, 50)
 
 .. raw:: html
 
@@ -52,9 +53,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    rect(30, 20, 50, 50)
-    scale(0.5, 1.3)
-    rect(30, 20, 50, 50)
+    def setup():
+        py5.rect(30, 20, 50, 50)
+        py5.scale(0.5, 1.3)
+        py5.rect(30, 20, 50, 50)
 
 .. raw:: html
 
@@ -74,14 +76,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    # scaling in 3D requires P3D
-    # as a parameter to size()
-    size(100, 100, P3D)
-    no_fill()
-    translate(width//2+12, height//2)
-    box(20, 20, 20)
-    scale(2.5, 2.5, 2.5)
-    box(20, 20, 20)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        # scaling in 3D requires P3D
+        # as a parameter to size()
+        py5.no_fill()
+        py5.translate(py5.width//2+12, py5.height//2)
+        py5.box(20, 20, 20)
+        py5.scale(2.5, 2.5, 2.5)
+        py5.box(20, 20, 20)
 
 .. raw:: html
 
@@ -118,5 +124,5 @@ Parameters
 * **z**: `float` - percentage to scale the object in the z-axis
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

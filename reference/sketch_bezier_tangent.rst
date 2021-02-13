@@ -1,6 +1,6 @@
 .. title: bezier_tangent()
 .. slug: bezier_tangent
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,28 +30,29 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    bezier(85, 20, 10, 10, 90, 90, 15, 80)
-    steps = 6
-    fill(255)
-    for i in range(0, steps + 1):
-        t = i / float(steps)
-        # get the location of the point
-        x = bezier_point(85, 10, 90, 15, t)
-        y = bezier_point(20, 10, 90, 80, t)
-        # get the tangent points
-        tx = bezier_tangent(85, 10, 90, 15, t)
-        ty = bezier_tangent(20, 10, 90, 80, t)
-        # calculate an angle from_ the tangent points
-        a = atan2(ty, tx)
-        a += PI
-        stroke(255, 102, 0)
-        line(x, y, cos(a)*30 + x, sin(a)*30 + y)
-        # the following line of code makes a line
-        # inverse of the above line
-        #line(x, y, cos(a)*-30 + x, sin(a)*-30 + y)
-        stroke(0)
-        ellipse(x, y, 5, 5)
+    def setup():
+        py5.no_fill()
+        py5.bezier(85, 20, 10, 10, 90, 90, 15, 80)
+        steps = 6
+        py5.fill(255)
+        for i in range(0, steps + 1):
+            t = i / float(steps)
+            # get the location of the point
+            x = py5.bezier_point(85, 10, 90, 15, t)
+            y = py5.bezier_point(20, 10, 90, 80, t)
+            # get the tangent points
+            tx = py5.bezier_tangent(85, 10, 90, 15, t)
+            ty = py5.bezier_tangent(20, 10, 90, 80, t)
+            # calculate an angle from_ the tangent points
+            a = py5.atan2(ty, tx)
+            a += py5.PI
+            py5.stroke(255, 102, 0)
+            py5.line(x, y, py5.cos(a)*30 + x, py5.sin(a)*30 + y)
+            # the following line of code makes a line
+            # inverse of the above line
+            #line(x, y, cos(a)*-30 + x, sin(a)*-30 + y)
+            py5.stroke(0)
+            py5.ellipse(x, y, 5, 5)
 
 .. raw:: html
 
@@ -71,19 +72,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    bezier(85, 20, 10, 10, 90, 90, 15, 80)
-    stroke(255, 102, 0)
-    steps = 16
-    for i in range(0, steps + 1):
-        t = i / float(steps)
-        x = bezier_point(85, 10, 90, 15, t)
-        y = bezier_point(20, 10, 90, 80, t)
-        tx = bezier_tangent(85, 10, 90, 15, t)
-        ty = bezier_tangent(20, 10, 90, 80, t)
-        a = atan2(ty, tx)
-        a -= HALF_PI
-        line(x, y, cos(a)*8 + x, sin(a)*8 + y)
+    def setup():
+        py5.no_fill()
+        py5.bezier(85, 20, 10, 10, 90, 90, 15, 80)
+        py5.stroke(255, 102, 0)
+        steps = 16
+        for i in range(0, steps + 1):
+            t = i / float(steps)
+            x = py5.bezier_point(85, 10, 90, 15, t)
+            y = py5.bezier_point(20, 10, 90, 80, t)
+            tx = py5.bezier_tangent(85, 10, 90, 15, t)
+            ty = py5.bezier_tangent(20, 10, 90, 80, t)
+            a = py5.atan2(ty, tx)
+            a -= py5.HALF_PI
+            py5.line(x, y, py5.cos(a)*8 + x, py5.sin(a)*8 + y)
 
 .. raw:: html
 
@@ -117,5 +119,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

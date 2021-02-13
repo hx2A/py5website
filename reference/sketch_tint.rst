@@ -1,6 +1,6 @@
 .. title: tint()
 .. slug: tint
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,10 +30,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("laDefense.jpg")
-    image(img, 0, 0)
-    tint(0, 153, 204)  # tint blue
-    image(img, 50, 0)
+    def setup():
+        img = py5.load_image("laDefense.jpg")
+        py5.image(img, 0, 0)
+        py5.tint(0, 153, 204)  # tint blue
+        py5.image(img, 50, 0)
 
 .. raw:: html
 
@@ -53,10 +54,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("laDefense.jpg")
-    image(img, 0, 0)
-    tint(0, 153, 204, 126)  # tint blue and set transparency
-    image(img, 50, 0)
+    def setup():
+        img = py5.load_image("laDefense.jpg")
+        py5.image(img, 0, 0)
+        py5.tint(0, 153, 204, 126)  # tint blue and set transparency
+        py5.image(img, 50, 0)
 
 .. raw:: html
 
@@ -76,10 +78,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    img = load_image("laDefense.jpg")
-    image(img, 0, 0)
-    tint(255, 126)  # apply transparency without changing color
-    image(img, 50, 0)
+    def setup():
+        img = py5.load_image("laDefense.jpg")
+        py5.image(img, 0, 0)
+        py5.tint(255, 126)  # apply transparency without changing color
+        py5.image(img, 50, 0)
 
 .. raw:: html
 
@@ -127,5 +130,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

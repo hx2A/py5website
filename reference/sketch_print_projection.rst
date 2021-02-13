@@ -1,6 +1,6 @@
 .. title: print_projection()
 .. slug: print_projection
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,14 +27,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    print_projection()
+    def settings():
+        py5.size(100, 100, py5.P3D)
 
-    # the program above prints this data:
-    # 01.7321  00.0000  00.0000  00.0000
-    # 00.0000 -01.7321  00.0000  00.0000
-    # 00.0000  00.0000 -01.0202 -17.4955
-    # 00.0000  00.0000 -01.0000  00.0000
+
+    def setup():
+        py5.print_projection()
+    
+        # the program above prints this data:
+        # 01.7321  00.0000  00.0000  00.0000
+        # 00.0000 -01.7321  00.0000  00.0000
+        # 00.0000  00.0000 -01.0202 -17.4955
+        # 00.0000  00.0000 -01.0000  00.0000
 
 .. raw:: html
 
@@ -58,5 +62,5 @@ Syntax
 
     print_projection() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

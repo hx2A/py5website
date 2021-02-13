@@ -1,6 +1,6 @@
 .. title: text_leading()
 .. slug: text_leading
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,19 +30,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    # text to display. the "\n" is a "new line" character
-    lines = "L1\nL2\nL3"
-    text_size(12)
-    fill(0)  # set fill to black
-
-    text_leading(10)  # set leading to 10
-    text(lines, 10, 25)
-
-    text_leading(20)  # set leading to 20
-    text(lines, 40, 25)
-
-    text_leading(30)  # set leading to 30
-    text(lines, 70, 25)
+    def setup():
+        # text to display. the "\n" is a "new line" character
+        lines_of_text = "L1\nL2\nL3"
+        py5.text_size(12)
+        py5.fill(0)  # set fill to black
+    
+        py5.text_leading(10)  # set leading to 10
+        py5.text(lines_of_text, 10, 25)
+    
+        py5.text_leading(20)  # set leading to 20
+        py5.text(lines_of_text, 40, 25)
+    
+        py5.text_leading(30)  # set leading to 30
+        py5.text(lines_of_text, 70, 25)
 
 .. raw:: html
 
@@ -72,5 +73,5 @@ Parameters
 * **leading**: `float` - the size in pixels for spacing between lines
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

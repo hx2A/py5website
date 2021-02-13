@@ -1,6 +1,6 @@
 .. title: ambient_light()
 .. slug: ambient_light
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,16 +30,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    # the spheres are white by default so
-    # the ambient light changes their color
-    ambient_light(51, 102, 126)
-    translate(20, 50, 0)
-    sphere(30)
-    translate(60, 0, 0)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        # the spheres are white by default so
+        # the ambient light changes their color
+        py5.ambient_light(51, 102, 126)
+        py5.translate(20, 50, 0)
+        py5.sphere(30)
+        py5.translate(60, 0, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -59,16 +63,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    directional_light(126, 126, 126, 0, 0, -1)
-    ambient_light(102, 102, 102)
-    translate(32, 50, 0)
-    rotate_y(PI/5)
-    box(40)
-    translate(60, 0, 0)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        py5.directional_light(126, 126, 126, 0, 0, -1)
+        py5.ambient_light(102, 102, 102)
+        py5.translate(32, 50, 0)
+        py5.rotate_y(py5.PI/5)
+        py5.box(40)
+        py5.translate(60, 0, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -104,5 +112,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

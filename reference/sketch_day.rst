@@ -1,6 +1,6 @@
 .. title: day()
 .. slug: day
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,16 +27,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    d = day()    # values from_ 1 - 31
-    m = month()  # values from_ 1 - 12
-    y = year()   # 2003, 2004, 2005, etc.
-
-    s = string.value_of(d)
-    text(s, 10, 28)
-    s = string.value_of(m)
-    text(s, 10, 56)
-    s = string.value_of(y)
-    text(s, 10, 84)
+    def setup():
+        d = py5.day()    # values from_ 1 - 31
+        m = py5.month()  # values from_ 1 - 12
+        y = py5.year()   # 2003, 2004, 2005, etc.
+    
+        py5.text(str(d), 10, 28)
+        py5.text(str(m), 10, 56)
+        py5.text(str(y), 10, 84)
 
 .. raw:: html
 
@@ -60,5 +58,5 @@ Syntax
 
     day() -> int
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

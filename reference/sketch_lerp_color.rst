@@ -1,6 +1,6 @@
 .. title: lerp_color()
 .. slug: lerp_color
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,20 +30,21 @@ Examples
 .. code:: python
     :number-lines:
 
-    stroke(255)
-    background(51)
-    from_ = color(204, 102, 0)
-    to = color(0, 102, 153)
-    inter_a = lerp_color(from_, to, .33)
-    inter_b = lerp_color(from_, to, .66)
-    fill(from_)
-    rect(10, 20, 20, 60)
-    fill(inter_a)
-    rect(30, 20, 20, 60)
-    fill(inter_b)
-    rect(50, 20, 20, 60)
-    fill(to)
-    rect(70, 20, 20, 60)
+    def setup():
+        py5.stroke(255)
+        py5.background(51)
+        from_ = py5.color(204, 102, 0)
+        to = py5.color(0, 102, 153)
+        inter_a = py5.lerp_color(from_, to, .33)
+        inter_b = py5.lerp_color(from_, to, .66)
+        py5.fill(from_)
+        py5.rect(10, 20, 20, 60)
+        py5.fill(inter_a)
+        py5.rect(30, 20, 20, 60)
+        py5.fill(inter_b)
+        py5.rect(50, 20, 20, 60)
+        py5.fill(to)
+        py5.rect(70, 20, 20, 60)
 
 .. raw:: html
 
@@ -79,5 +80,5 @@ Parameters
 * **mode**: `int` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

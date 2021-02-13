@@ -1,6 +1,6 @@
 .. title: brightness()
 .. slug: brightness
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_stroke()
-    color_mode(HSB, 255)
-    c = color(0, 126, 255)
-    fill(c)
-    rect(15, 20, 35, 60)
-    value = brightness(c)  # sets 'value' to 255
-    fill(value)
-    rect(50, 20, 35, 60)
+    def setup():
+        py5.no_stroke()
+        py5.color_mode(py5.HSB, 255)
+        c = py5.color(0, 126, 255)
+        py5.fill(c)
+        py5.rect(15, 20, 35, 60)
+        value = py5.brightness(c)  # sets 'value' to 255
+        py5.fill(value)
+        py5.rect(50, 20, 35, 60)
 
 .. raw:: html
 
@@ -67,5 +68,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

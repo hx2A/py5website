@@ -1,6 +1,6 @@
 .. title: mask()
 .. slug: py5image_mask
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,15 +33,14 @@ Examples
     def setup():
         global photo
         global mask_image
-        size(100, 100)
-        photo = load_image("test.jpg")
-        mask_image = load_image("mask.jpg")
+        photo = py5.load_image("test.jpg")
+        mask_image = py5.load_image("mask.jpg")
         photo.mask(mask_image)
 
 
     def draw():
-        image(photo, 0, 0)
-        image(photo, width/4, 0)
+        py5.image(photo, 0, 0)
+        py5.image(photo, py5.width/4, 0)
 
 .. raw:: html
 
@@ -75,5 +74,5 @@ Parameters
 * **mask_array**: `JArray(JInt)` - array of integers used as the alpha channel, needs to be the same length as the image's pixel array.
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: text_width()
 .. slug: text_width
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    text_size(28)
-
-    c = 't'
-    cw = text_width(c)
-    text(c, 0, 40)
-    line(cw, 0, cw, 50)
-
-    s = "Tokyo"
-    sw = text_width(s)
-    text(s, 0, 85)
-    line(sw, 50, sw, 100)
+    def setup():
+        py5.text_size(28)
+    
+        c = 't'
+        cw = py5.text_width(c)
+        py5.text(c, 0, 40)
+        py5.line(cw, 0, cw, 50)
+    
+        s = "Tokyo"
+        sw = py5.text_width(s)
+        py5.text(s, 0, 85)
+        py5.line(sw, 50, sw, 100)
 
 .. raw:: html
 
@@ -76,5 +77,5 @@ Parameters
 * **str**: `str` - the String of characters to measure
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

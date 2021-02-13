@@ -1,6 +1,6 @@
 .. title: apply_matrix()
 .. slug: apply_matrix
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,22 +30,26 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_fill()
-    translate(50, 50, 0)
-    rotate_y(PI/6)
-    stroke(153)
-    box(35)
-    # set rotation angles
-    ct = cos(PI/9.0)
-    st = sin(PI/9.0)
-    # matrix for rotation around the Y axis
-    apply_matrix(ct, 0.0,  st,  0.0,
-                 0.0, 1.0, 0.0,  0.0,
-                 -st, 0.0,  ct,  0.0,
-                 0.0, 0.0, 0.0,  1.0)
-    stroke(255)
-    box(50)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.no_fill()
+        py5.translate(50, 50, 0)
+        py5.rotate_y(py5.PI/6)
+        py5.stroke(153)
+        py5.box(35)
+        # set rotation angles
+        ct = py5.cos(py5.PI/9.0)
+        st = py5.sin(py5.PI/9.0)
+        # matrix for rotation around the Y axis
+        py5.apply_matrix(ct, 0.0,  st,  0.0,
+                     0.0, 1.0, 0.0,  0.0,
+                     -st, 0.0,  ct,  0.0,
+                     0.0, 0.0, 0.0,  1.0)
+        py5.stroke(255)
+        py5.box(50)
 
 .. raw:: html
 
@@ -95,5 +99,5 @@ Parameters
 * **source**: `NDArray[(4, 4), Float]` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

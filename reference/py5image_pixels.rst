@@ -1,6 +1,6 @@
 .. title: pixels[]
 .. slug: py5image_pixels
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,18 +32,17 @@ Examples
 
     def setup():
         global tower
-        size(100, 100)
-        tower = load_image("tower.jpg")
+        tower = py5.load_image("tower.jpg")
         dimension = tower.width * tower.height
         tower.load_pixels()
         for i in range(0, dimension, 2):
-            tower.pixels[i] = color(0, 0, 0)
+            tower.pixels[i] = py5.color(0, 0, 0)
 
         tower.update_pixels()
 
 
     def draw():
-        image(tower, 0, 0)
+        py5.image(tower, 0, 0)
 
 .. raw:: html
 
@@ -63,5 +62,5 @@ Before accessing this array, the data must loaded with the ``load_pixels()`` met
 Underlying Java field: `PImage.pixels <https://processing.org/reference/PImage_pixels.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

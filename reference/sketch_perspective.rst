@@ -1,6 +1,6 @@
 .. title: perspective()
 .. slug: perspective
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,21 @@ Examples
 .. code:: python
     :number-lines:
 
-    # re-creates the default perspective
-    size(100, 100, P3D)
-    no_fill()
-    fov = PI/3.0
-    camera_z = (height//2.0) / tan(fov/2.0)
-    perspective(fov, float(width)/float(height),
-                camera_z/10.0, camera_z*10.0)
-    translate(50, 50, 0)
-    rotate_x(-PI/6)
-    rotate_y(PI/3)
-    box(45)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        # re-creates the default perspective
+        py5.no_fill()
+        fov = py5.PI/3.0
+        camera_z = (py5.height//2.0) / py5.tan(fov/2.0)
+        py5.perspective(fov, float(py5.width)/float(py5.height),
+                    camera_z/10.0, camera_z*10.0)
+        py5.translate(50, 50, 0)
+        py5.rotate_x(-py5.PI/6)
+        py5.rotate_y(py5.PI/3)
+        py5.box(45)
 
 .. raw:: html
 
@@ -74,5 +78,5 @@ Parameters
 * **z_near**: `float` - z-position of nearest clipping plane
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

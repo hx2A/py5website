@@ -1,6 +1,6 @@
 .. title: red()
 .. slug: red
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    c = color(255, 204, 0)  # define color 'c'
-    fill(c)  # use color variable 'c' as fill color
-    rect(15, 20, 35, 60)  # draw left rectangle
-
-    red_value = red(c)  # get red in 'c'
-    print(red_value)  # print "255.0"
-    fill(red_value, 0, 0)  # use 'red_value' in new fill
-    rect(50, 20, 35, 60)  # draw right rectangle
+    def setup():
+        c = py5.color(255, 204, 0)  # define color 'c'
+        py5.fill(c)  # use color variable 'c' as fill color
+        py5.rect(15, 20, 35, 60)  # draw left rectangle
+    
+        red_value = py5.red(c)  # get red in 'c'
+        print(red_value)  # print "255.0"
+        py5.fill(red_value, 0, 0)  # use 'red_value' in new fill
+        py5.rect(50, 20, 35, 60)  # draw right rectangle
 
 .. raw:: html
 
@@ -72,5 +73,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: pop_matrix()
 .. slug: pop_matrix
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,17 +30,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    fill(255)
-    rect(0, 0, 50, 50)  # white rectangle
-
-    push_matrix()
-    translate(30, 20)
-    fill(0)
-    rect(0, 0, 50, 50)  # black rectangle
-    pop_matrix()
-
-    fill(100)
-    rect(15, 10, 50, 50)  # gray rectangle
+    def setup():
+        py5.fill(255)
+        py5.rect(0, 0, 50, 50)  # white rectangle
+    
+        py5.push_matrix()
+        py5.translate(30, 20)
+        py5.fill(0)
+        py5.rect(0, 0, 50, 50)  # black rectangle
+        py5.pop_matrix()
+    
+        py5.fill(100)
+        py5.rect(15, 10, 50, 50)  # gray rectangle
 
 .. raw:: html
 
@@ -64,5 +65,5 @@ Syntax
 
     pop_matrix() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

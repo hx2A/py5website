@@ -1,6 +1,6 @@
 .. title: focused
 .. slug: focused
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    if focused:  # or "if (focused == true)"
-        ellipse(25, 25, 50, 50)
-    else:
-        line(0, 0, 100, 100)
-        line(100, 0, 0, 100)
+    def setup():
+        if py5.focused:  # or "if (focused == true)"
+            py5.ellipse(25, 25, 50, 50)
+        else:
+            py5.line(0, 0, 100, 100)
+            py5.line(100, 0, 0, 100)
 
 .. raw:: html
 
@@ -49,5 +50,5 @@ Confirms if a Processing program is "focused," meaning that it is active and wil
 Underlying Java field: `focused <https://processing.org/reference/focused.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

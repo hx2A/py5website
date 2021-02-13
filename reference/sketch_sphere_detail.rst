@@ -1,6 +1,6 @@
 .. title: sphere_detail()
 .. slug: sphere_detail
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,19 +27,19 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
-        size(100, 100, P3D)
+    def settings():
+        py5.size(100, 100, py5.P3D)
 
 
     def draw():
-        background(200)
-        stroke(255, 50)
-        translate(50, 50, 0)
-        rotate_x(mouse_y * 0.05)
-        rotate_y(mouse_x * 0.05)
-        fill(mouse_x * 2, 0, 160)
-        sphere_detail(mouse_x / 4)
-        sphere(40)
+        py5.background(200)
+        py5.stroke(255, 50)
+        py5.translate(50, 50, 0)
+        py5.rotate_x(py5.mouse_y * 0.05)
+        py5.rotate_y(py5.mouse_x * 0.05)
+        py5.fill(py5.mouse_x * 2, 0, 160)
+        py5.sphere_detail(py5.mouse_x / 4)
+        py5.sphere(40)
 
 .. raw:: html
 
@@ -72,5 +72,5 @@ Parameters
 * **vres**: `int` - number of segments used latitudinally from top to bottom
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

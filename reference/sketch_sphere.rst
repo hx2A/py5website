@@ -1,6 +1,6 @@
 .. title: sphere()
 .. slug: sphere
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,10 +30,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_stroke()
-    lights()
-    translate(58, 48, 0)
-    sphere(28)
+    def setup():
+        py5.no_stroke()
+        py5.lights()
+        py5.translate(58, 48, 0)
+        py5.sphere(28)
 
 .. raw:: html
 
@@ -63,5 +64,5 @@ Parameters
 * **r**: `float` - the radius of the sphere
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

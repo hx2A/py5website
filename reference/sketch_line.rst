@@ -1,6 +1,6 @@
 .. title: line()
 .. slug: line
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    line(30, 20, 85, 75)
+    def setup():
+        py5.line(30, 20, 85, 75)
 
 .. raw:: html
 
@@ -50,11 +51,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    line(30, 20, 85, 20)
-    stroke(126)
-    line(85, 20, 85, 75)
-    stroke(255)
-    line(85, 75, 30, 75)
+    def setup():
+        py5.line(30, 20, 85, 20)
+        py5.stroke(126)
+        py5.line(85, 20, 85, 75)
+        py5.stroke(255)
+        py5.line(85, 75, 30, 75)
 
 .. raw:: html
 
@@ -74,14 +76,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    # drawing lines in 3D requires P3D
-    # as a parameter to size()
-    size(100, 100, P3D)
-    line(30, 20, 0, 85, 20, 15)
-    stroke(126)
-    line(85, 20, 15, 85, 75, 0)
-    stroke(255)
-    line(85, 75, 0, 30, 75, -50)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        # drawing lines in 3D requires P3D
+        # as a parameter to size()
+        py5.line(30, 20, 0, 85, 20, 15)
+        py5.stroke(126)
+        py5.line(85, 20, 15, 85, 75, 0)
+        py5.stroke(255)
+        py5.line(85, 75, 0, 30, 75, -50)
 
 .. raw:: html
 
@@ -117,5 +123,5 @@ Parameters
 * **z2**: `float` - z-coordinate of the second point
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

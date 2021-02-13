@@ -1,6 +1,6 @@
 .. title: Py5Graphics
 .. slug: py5graphics
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,18 +29,17 @@ Examples
 
     def setup():
         global pg
-        size(100, 100)
-        pg = create_graphics(40, 40)
+        pg = py5.create_graphics(40, 40)
 
 
     def draw():
         pg.begin_draw()
         pg.background(100)
         pg.stroke(255)
-        pg.line(20, 20, mouse_x, mouse_y)
+        pg.line(20, 20, py5.mouse_x, py5.mouse_y)
         pg.end_draw()
-        image(pg, 9, 30)
-        image(pg, 51, 30)
+        py5.image(pg, 9, 30)
+        py5.image(pg, 51, 30)
 
 .. raw:: html
 
@@ -63,5 +62,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5graphics_include.rst
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: redraw()
 .. slug: redraw
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,19 +30,22 @@ Examples
     x = 0
 
 
+    def settings():
+        py5.size(200, 200)
+
+
     def setup():
-        size(200, 200)
-        no_loop()
+        py5.no_loop()
 
 
     def draw():
-        background(204)
-        line(x, 0, x, height)
+        py5.background(204)
+        py5.line(x, 0, x, py5.height)
 
 
     def mouse_pressed():
         x += 1
-        redraw()
+        py5.redraw()
 
 .. raw:: html
 
@@ -70,5 +73,5 @@ Syntax
 
     redraw() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

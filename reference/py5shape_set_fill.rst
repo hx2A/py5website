@@ -1,6 +1,6 @@
 .. title: set_fill()
 .. slug: py5shape_set_fill
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,18 +27,21 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(640, 360, py5.P2D)
+
+
     def setup():
-        global circle
-        size(640, 360, P2D)
-        circle = create_shape(ELLIPSE, 0, 0, 200, 200)
-        circle.set_stroke(color(255))
+        global c
+        c = py5.create_shape(py5.ELLIPSE, 0, 0, 200, 200)
+        c.set_stroke(py5.color(255))
 
 
     def draw():
-        background(51)
-        circle.set_fill(color(random(255)))
-        translate(mouse_x, mouse_y)
-        shape(circle)
+        py5.background(51)
+        c.set_fill(py5.color(py5.random(255)))
+        py5.translate(py5.mouse_x, py5.mouse_y)
+        py5.shape(c)
 
 .. raw:: html
 
@@ -72,5 +75,5 @@ Parameters
 * **index**: `int` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

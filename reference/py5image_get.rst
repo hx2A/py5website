@@ -1,6 +1,6 @@
 .. title: get()
 .. slug: py5image_get
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,12 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    mountains = load_image("rockies.jpg")
-    background(mountains)
-    no_stroke()
-    c = mountains.get(60, 90)
-    fill(c)
-    rect(25, 25, 50, 50)
+    def setup():
+        mountains = py5.load_image("rockies.jpg")
+        py5.background(mountains)
+        py5.no_stroke()
+        c = mountains.get(60, 90)
+        py5.fill(c)
+        py5.rect(25, 25, 50, 50)
 
 .. raw:: html
 
@@ -55,10 +56,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    mountains = load_image("rockies.jpg")
-    background(mountains)
-    new_mountains = mountains.get(50, 0, 50, 100)
-    image(new_mountains, 0, 0)
+    def setup():
+        mountains = py5.load_image("rockies.jpg")
+        py5.background(mountains)
+        new_mountains = mountains.get(50, 0, 50, 100)
+        py5.image(new_mountains, 0, 0)
 
 .. raw:: html
 
@@ -97,5 +99,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

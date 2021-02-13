@@ -1,6 +1,6 @@
 .. title: exit_sketch()
 .. slug: exit_sketch
-.. date: 2020-11-13 19:13:07 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     def draw():
-        line(mouse_x, mouse_y, 50, 50)
+        py5.line(py5.mouse_x, py5.mouse_y, 50, 50)
 
 
     def mouse_pressed():
@@ -60,5 +60,5 @@ Syntax
 
     exit_sketch() -> None
 
-Updated on November 13, 2020 19:13:07pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

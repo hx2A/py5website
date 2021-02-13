@@ -1,6 +1,6 @@
 .. title: texture_wrap()
 .. slug: texture_wrap
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:12:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,27 +29,27 @@ Examples
 
     def setup():
         global img
-        size(300, 300, P2D)
-        img = load_image("berlin-1.jpg")
-        texture_mode(NORMAL)
+        py5.size(300, 300, py5.P2D)
+        img = py5.load_image("berlin-1.jpg")
+        py5.texture_mode(py5.NORMAL)
 
 
     def draw():
-        background(0)
-        translate(width//2, height//2)
-        rotate(map(mouse_x, 0, width, -PI, PI))
-        if is_mouse_pressed():
-            texture_wrap(REPEAT)
+        py5.background(0)
+        py5.translate(py5.width//2, py5.height//2)
+        py5.rotate(py5.remap(py5.mouse_x, 0, py5.width, -py5.PI, py5.PI))
+        if py5.is_mouse_pressed():
+            py5.texture_wrap(py5.REPEAT)
         else:
-            texture_wrap(CLAMP)
+            py5.texture_wrap(py5.CLAMP)
 
-        begin_shape()
-        texture(img)
-        vertex(-100, -100, 0, 0)
-        vertex(100, -100, 2, 0)
-        vertex(100, 100, 2, 2)
-        vertex(-100, 100, 0, 2)
-        end_shape()
+        py5.begin_shape()
+        py5.texture(img)
+        py5.vertex(-100, -100, 0, 0)
+        py5.vertex(100, -100, 2, 0)
+        py5.vertex(100, 100, 2, 2)
+        py5.vertex(-100, 100, 0, 2)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -79,5 +79,5 @@ Parameters
 * **wrap**: `int` - Either CLAMP (default) or REPEAT
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:12:32pm UTC
 

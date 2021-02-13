@@ -1,6 +1,6 @@
 .. title: pmouse_x
 .. slug: pmouse_x
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,9 +30,9 @@ Examples
     # move the mouse quickly to see the difference
     # between the current and previous position
     def draw():
-        background(204)
-        line(mouse_x, 20, pmouse_x, 80)
-        print(mouse_x + " : " + pmouse_x)
+        py5.background(204)
+        py5.line(py5.mouse_x, 20, py5.pmouse_x, 80)
+        print(py5.mouse_x + " : " + py5.pmouse_x)
 
 .. raw:: html
 
@@ -53,5 +53,5 @@ If you want values relative to the previous frame, use ``pmouse_x`` and ``pmouse
 Underlying Java field: `pmouseX <https://processing.org/reference/pmouseX.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

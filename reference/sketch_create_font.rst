@@ -1,6 +1,6 @@
 .. title: create_font()
 .. slug: create_font
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,14 +29,14 @@ Examples
 
     def setup():
         global my_font
-        size(200, 200)
+        py5.size(200, 200)
         # uncomment the following two lines to see the available fonts
         # string[] font_list = Py5Font.list()
         # print_array(font_list)
-        my_font = create_font("Georgia", 32)
-        text_font(my_font)
-        text_align(CENTER, CENTER)
-        text("!@#$%", width//2, height//2)
+        my_font = py5.create_font("Georgia", 32)
+        py5.text_font(my_font)
+        py5.text_align(py5.CENTER, py5.CENTER)
+        py5.text("!@#$%", width//2, height//2)
 
 .. raw:: html
 
@@ -75,5 +75,5 @@ Parameters
 * **smooth**: `bool` - true for an antialiased font, false for aliased
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

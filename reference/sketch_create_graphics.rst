@@ -1,6 +1,6 @@
 .. title: create_graphics()
 .. slug: create_graphics
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,19 +27,22 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(200, 200)
+
+
     def setup():
         global pg
-        size(200, 200)
-        pg = create_graphics(100, 100)
+        pg = py5.create_graphics(100, 100)
 
 
     def draw():
         pg.begin_draw()
         pg.background(102)
         pg.stroke(255)
-        pg.line(pg.width*0.5, pg.height*0.5, mouse_x, mouse_y)
+        pg.line(pg.width*0.5, pg.height*0.5, py5.mouse_x, py5.mouse_y)
         pg.end_draw()
-        image(pg, 50, 50)
+        py5.image(pg, 50, 50)
 
 .. raw:: html
 
@@ -82,5 +85,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

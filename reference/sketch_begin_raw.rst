@@ -1,6 +1,6 @@
 .. title: begin_raw()
 .. slug: begin_raw
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,17 +28,17 @@ Examples
     :number-lines:
 
     def setup():
-        size(400, 400)
-        begin_raw(PDF, "raw.pdf")
+        py5.size(400, 400)
+        py5.begin_raw(py5.PDF, "raw.pdf")
 
 
     def draw():
-        line(pmouse_x, pmouse_y, mouse_x, mouse_y)
+        py5.line(py5.pmouse_x, py5.pmouse_y, py5.mouse_x, py5.mouse_y)
 
 
     def key_pressed():
-        if key == ' ':
-            end_raw()
+        if py5.key == ' ':
+            py5.end_raw()
             exit()
 
 .. raw:: html
@@ -80,5 +80,5 @@ Parameters
 * **renderer**: `str` - for example, PDF or DXF
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

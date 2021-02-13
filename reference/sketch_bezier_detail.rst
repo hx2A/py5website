@@ -1,6 +1,6 @@
 .. title: bezier_detail()
 .. slug: bezier_detail
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:12:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,16 +29,19 @@ Examples
 
     # move the mouse left and right to see the detail change
 
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
     def setup():
-        size(100, 100, P3D)
-        no_fill()
+        py5.no_fill()
 
 
     def draw():
-        background(204)
-        d = int(map(mouse_x, 0, 100, 1, 20))
-        bezier_detail(d)
-        bezier(85, 20, 10, 10, 90, 90, 15, 80)
+        py5.background(204)
+        d = int(py5.remap(py5.mouse_x, 0, 100, 1, 20))
+        py5.bezier_detail(d)
+        py5.bezier(85, 20, 10, 10, 90, 90, 15, 80)
 
 .. raw:: html
 
@@ -68,5 +71,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:12:32pm UTC
 

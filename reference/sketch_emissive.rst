@@ -1,6 +1,6 @@
 .. title: emissive()
 .. slug: emissive
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,18 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    background(0)
-    directional_light(204, 204, 204, .5, 0, -1)
-    emissive(0, 26, 51)
-    translate(70, 50, 0)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        py5.background(0)
+        py5.directional_light(204, 204, 204, .5, 0, -1)
+        py5.emissive(0, 26, 51)
+        py5.translate(70, 50, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -73,5 +77,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

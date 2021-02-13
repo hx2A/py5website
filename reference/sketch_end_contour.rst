@@ -1,6 +1,6 @@
 .. title: end_contour()
 .. slug: end_contour
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,23 +30,23 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100)
-    translate(50, 50)
-    stroke(255, 0, 0)
-    begin_shape()
-    # exterior part of shape, clockwise winding
-    vertex(-40, -40)
-    vertex(40, -40)
-    vertex(40, 40)
-    vertex(-40, 40)
-    # interior part of shape, counter-clockwise winding
-    begin_contour()
-    vertex(-20, -20)
-    vertex(-20, 20)
-    vertex(20, 20)
-    vertex(20, -20)
-    end_contour()
-    end_shape(CLOSE)
+    def setup():
+        py5.translate(50, 50)
+        py5.stroke(255, 0, 0)
+        py5.begin_shape()
+        # exterior part of shape, clockwise winding
+        py5.vertex(-40, -40)
+        py5.vertex(40, -40)
+        py5.vertex(40, 40)
+        py5.vertex(-40, 40)
+        # interior part of shape, counter-clockwise winding
+        py5.begin_contour()
+        py5.vertex(-20, -20)
+        py5.vertex(-20, 20)
+        py5.vertex(20, 20)
+        py5.vertex(20, -20)
+        py5.end_contour()
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -72,5 +72,5 @@ Syntax
 
     end_contour() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

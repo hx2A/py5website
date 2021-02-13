@@ -1,6 +1,6 @@
 .. title: no_loop()
 .. slug: no_loop
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,13 +27,16 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(200, 200)
+
+
     def setup():
-        size(200, 200)
-        no_loop()
+        py5.no_loop()
 
 
     def draw():
-        line(10, 10, 190, 190)
+        py5.line(10, 10, 190, 190)
 
 .. raw:: html
 
@@ -50,28 +53,28 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
-        size(200, 200)
-
-
     x = 0.0
 
 
-    def draw():
-        background(204)
-        x = x + 0.1
-        if x > width:
-            x = 0
+    def settings():
+        py5.size(200, 200)
 
-        line(x, 0, x, height)
+
+    def draw():
+        py5.background(204)
+        global x
+        x = x + 0.1
+        if x > py5.width:
+            x = 0
+        py5.line(x, 0, x, py5.height)
 
 
     def mouse_pressed():
-        no_loop()
+        py5.no_loop()
 
 
     def mouse_released():
-        loop()
+        py5.loop()
 
 .. raw:: html
 
@@ -92,17 +95,18 @@ Examples
 
 
     def setup():
-        no_loop()
+        py5.no_loop()
 
 
     def draw():
         if some_mode:
             # do something
+            pass
 
 
     def mouse_pressed():
         some_mode = True
-        redraw()  # or loop()
+        py5.redraw()  # or call loop()
 
 .. raw:: html
 
@@ -130,5 +134,5 @@ Syntax
 
     no_loop() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

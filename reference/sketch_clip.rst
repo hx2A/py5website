@@ -1,6 +1,6 @@
 .. title: clip()
 .. slug: clip
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,19 +28,19 @@ Examples
     :number-lines:
 
     def setup():
-        size(200, 200)
-        image_mode(CENTER)
+        py5.size(200, 200)
+        py5.image_mode(py5.CENTER)
 
 
     def draw():
-        background(204)
-        if is_mouse_pressed():
-            clip(mouse_x, mouse_y, 100, 100)
+        py5.background(204)
+        if py5.is_mouse_pressed():
+            py5.clip(py5.mouse_x, py5.mouse_y, 100, 100)
         else:
-            no_clip()
+            py5.no_clip()
 
-        line(0, 0, width, height)
-        line(0, height, width, 0)
+        py5.line(0, 0, py5.width, py5.height)
+        py5.line(0, py5.height, py5.width, 0)
 
 .. raw:: html
 
@@ -73,5 +73,5 @@ Parameters
 * **d**: `float` - height of the rectangle, by default
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

@@ -1,6 +1,6 @@
 .. title: width
 .. slug: width
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,10 +30,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_stroke()
-    background(0)
-    rect(0, 40, width, 20)
-    rect(0, 60, width//2, 20)
+    def setup():
+        py5.no_stroke()
+        py5.background(0)
+        py5.rect(0, 40, py5.width, 20)
+        py5.rect(0, 60, py5.width//2, 20)
 
 .. raw:: html
 
@@ -51,5 +52,5 @@ System variable that stores the width of the display window. This value is set b
 Underlying Java field: `width <https://processing.org/reference/width.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

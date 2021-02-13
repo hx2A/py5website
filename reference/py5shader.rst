@@ -1,6 +1,6 @@
 .. title: Py5Shader
 .. slug: py5shader
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,17 +29,17 @@ Examples
 
     def setup():
         global blur
-        size(640, 360, P2D)
+        py5.size(640, 360, py5.P2D)
         # shaders files must be in the "data" folder to load correctly
-        blur = load_shader("blur.glsl")
-        stroke(0, 102, 153)
-        rect_mode(CENTER)
+        blur = py5.load_shader("blur.glsl")
+        py5.stroke(0, 102, 153)
+        py5.rect_mode(py5.CENTER)
 
 
     def draw():
-        apply_filter(blur)
-        rect(mouse_x-75, mouse_y, 150, 150)
-        ellipse(mouse_x+75, mouse_y, 150, 150)
+        py5.apply_filter(blur)
+        py5.rect(py5.mouse_x-75, py5.mouse_y, 150, 150)
+        py5.ellipse(py5.mouse_x+75, py5.mouse_y, 150, 150)
 
 .. raw:: html
 
@@ -60,5 +60,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shader_include.rst
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

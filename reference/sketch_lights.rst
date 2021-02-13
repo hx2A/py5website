@@ -1,6 +1,6 @@
 .. title: lights()
 .. slug: lights
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,16 +30,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    # sets the default ambient
-    # and directional light
-    lights()
-    translate(20, 50, 0)
-    sphere(30)
-    translate(60, 0, 0)
-    sphere(30)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        # sets the default ambient
+        # and directional light
+        py5.lights()
+        py5.translate(20, 50, 0)
+        py5.sphere(30)
+        py5.translate(60, 0, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -59,20 +63,23 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
     def setup():
-        size(100, 100, P3D)
-        background(0)
-        no_stroke()
+        py5.background(0)
+        py5.no_stroke()
 
 
     def draw():
         # include lights() at the beginning
         # of draw() to keep them persistent
-        lights()
-        translate(20, 50, 0)
-        sphere(30)
-        translate(60, 0, 0)
-        sphere(30)
+        py5.lights()
+        py5.translate(20, 50, 0)
+        py5.sphere(30)
+        py5.translate(60, 0, 0)
+        py5.sphere(30)
 
 .. raw:: html
 
@@ -96,5 +103,5 @@ Syntax
 
     lights() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

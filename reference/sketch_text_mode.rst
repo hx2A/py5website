@@ -1,6 +1,6 @@
 .. title: text_mode()
 .. slug: text_mode
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,14 +27,17 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(500, 500, py5.PDF, "TypeDemo.pdf")
+
+
     def setup():
-        size(500, 500, PDF, "TypeDemo.pdf")
-        text_mode(SHAPE)
-        text_size(180)
+        py5.text_mode(py5.SHAPE)
+        py5.text_size(180)
 
 
     def draw():
-        text("ABC", 75, 350)
+        py5.text("ABC", 75, 350)
         exit()  # quit the program
 
 .. raw:: html
@@ -67,5 +70,5 @@ Parameters
 * **mode**: `int` - either MODEL or SHAPE
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

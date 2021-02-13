@@ -1,6 +1,6 @@
 .. title: create_shape()
 .. slug: create_shape
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,17 +28,16 @@ Examples
     :number-lines:
 
     def setup():
-        global square  # the Py5Shape object
-        size(100, 100)
+        global s  # the Py5Shape object
         # creating the Py5Shape as a square. the
         # numeric arguments are similar to rect().
-        square = create_shape(RECT, 0, 0, 50, 50)
-        square.set_fill(color(0, 0, 255))
-        square.set_stroke(False)
+        s = py5.create_shape(py5.RECT, 0, 0, 50, 50)
+        s.set_fill(py5.color(0, 0, 255))
+        s.set_stroke(False)
 
 
     def draw():
-        shape(square, 25, 25)
+        py5.shape(s, 25, 25)
 
 .. raw:: html
 
@@ -57,10 +56,9 @@ Examples
 
     def setup():
         global s  # the Py5Shape object
-        size(100, 100)
         # creating a custom Py5Shape as a square, by
         # specifying a series of vertices.
-        s = create_shape()
+        s = py5.create_shape()
         s.begin_shape()
         s.fill(0, 0, 255)
         s.no_stroke()
@@ -68,11 +66,11 @@ Examples
         s.vertex(0, 50)
         s.vertex(50, 50)
         s.vertex(50, 0)
-        s.end_shape(CLOSE)
+        s.end_shape(py5.CLOSE)
 
 
     def draw():
-        shape(s, 25, 25)
+        py5.shape(s, 25, 25)
 
 .. raw:: html
 
@@ -89,11 +87,14 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(100, 100, py5.P2D)
+
+
     def setup():
         global s
-        size(100, 100, P2D)
-        s = create_shape()
-        s.begin_shape(TRIANGLE_STRIP)
+        s = py5.create_shape()
+        s.begin_shape(py5.TRIANGLE_STRIP)
         s.vertex(30, 75)
         s.vertex(40, 20)
         s.vertex(50, 75)
@@ -105,7 +106,7 @@ Examples
 
 
     def draw():
-        shape(s, 0, 0)
+        py5.shape(s, 0, 0)
 
 .. raw:: html
 
@@ -122,21 +123,17 @@ Examples
 .. code:: python
     :number-lines:
 
-    Py5Shape alien, head, body
-
-
     def setup():
-        size(100, 100)
-
         # create the shape group
-        alien = create_shape(GROUP)
+        global alien
+        alien = py5.create_shape(py5.GROUP)
 
         # make two shapes
-        ellipse_mode(CORNER)
-        head = create_shape(ELLIPSE, -25, 0, 50, 50)
-        head.set_fill(color(255))
-        body = create_shape(RECT, -25, 45, 50, 40)
-        body.set_fill(color(0))
+        py5.ellipse_mode(py5.CORNER)
+        head = py5.create_shape(py5.ELLIPSE, -25, 0, 50, 50)
+        head.set_fill(py5.color(255))
+        body = py5.create_shape(py5.RECT, -25, 45, 50, 40)
+        body.set_fill(py5.color(0))
 
         # add the two "child" shapes to the parent group
         alien.add_child(body)
@@ -144,9 +141,9 @@ Examples
 
 
     def draw():
-        background(204)
-        translate(50, 15)
-        shape(alien)  # draw the group
+        py5.background(204)
+        py5.translate(50, 15)
+        py5.shape(alien)  # draw the group
 
 .. raw:: html
 
@@ -186,5 +183,5 @@ Parameters
 * **type**: `int` - missing variable description
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

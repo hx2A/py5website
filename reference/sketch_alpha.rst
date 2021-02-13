@@ -1,6 +1,6 @@
 .. title: alpha()
 .. slug: alpha
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_stroke()
-    c = color(0, 126, 255, 102)
-    fill(c)
-    rect(15, 15, 35, 70)
-    value = alpha(c)  # sets 'value' to 102
-    fill(value)
-    rect(50, 15, 35, 70)
+    def setup():
+        py5.no_stroke()
+        c = py5.color(0, 126, 255, 102)
+        py5.fill(c)
+        py5.rect(15, 15, 35, 70)
+        value = py5.alpha(c)  # sets 'value' to 102
+        py5.fill(value)
+        py5.rect(50, 15, 35, 70)
 
 .. raw:: html
 
@@ -66,5 +67,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

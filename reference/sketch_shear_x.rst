@@ -1,6 +1,6 @@
 .. title: shear_x()
 .. slug: shear_x
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,10 +30,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100)
-    translate(width/4, height/4)
-    shear_x(PI/4.0)
-    rect(0, 0, 30, 30)
+    def setup():
+        py5.translate(py5.width/4, py5.height/4)
+        py5.shear_x(py5.PI/4.0)
+        py5.rect(0, 0, 30, 30)
 
 .. raw:: html
 
@@ -65,5 +65,5 @@ Parameters
 * **angle**: `float` - angle of shear specified in radians
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

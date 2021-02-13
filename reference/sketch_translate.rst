@@ -1,6 +1,6 @@
 .. title: translate()
 .. slug: translate
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,8 +30,9 @@ Examples
 .. code:: python
     :number-lines:
 
-    translate(30, 20)
-    rect(0, 0, 55, 55)
+    def setup():
+        py5.translate(30, 20)
+        py5.rect(0, 0, 55, 55)
 
 .. raw:: html
 
@@ -51,13 +52,17 @@ Examples
 .. code:: python
     :number-lines:
 
-    # translating in 3D requires P3D
-    # as the parameter to size()
-    size(100, 100, P3D)
-    # translate 30 across, 20 down, and
-    # 50 back, or "away" from_ the screen.
-    translate(30, 20, -50)
-    rect(0, 0, 55, 55)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        # translating in 3D requires P3D
+        # as the parameter to size()
+        # translate 30 across, 20 down, and
+        # 50 back, or "away" from_ the screen.
+        py5.translate(30, 20, -50)
+        py5.rect(0, 0, 55, 55)
 
 .. raw:: html
 
@@ -77,11 +82,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    rect(0, 0, 55, 55)  # draw rect at original 0,0
-    translate(30, 20)
-    rect(0, 0, 55, 55)  # draw rect at new 0,0
-    translate(14, 14)
-    rect(0, 0, 55, 55)  # draw rect at new 0,0
+    def setup():
+        py5.rect(0, 0, 55, 55)  # draw rect at original 0,0
+        py5.translate(30, 20)
+        py5.rect(0, 0, 55, 55)  # draw rect at new 0,0
+        py5.translate(14, 14)
+        py5.rect(0, 0, 55, 55)  # draw rect at new 0,0
 
 .. raw:: html
 
@@ -116,5 +122,5 @@ Parameters
 * **z**: `float` - forward/backward translation
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

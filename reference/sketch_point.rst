@@ -1,6 +1,6 @@
 .. title: point()
 .. slug: point
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_smooth()
-    point(30, 20)
-    point(85, 20)
-    point(85, 75)
-    point(30, 75)
+    def settings():
+        py5.no_smooth()
+
+
+    def setup():
+        py5.point(30, 20)
+        py5.point(85, 20)
+        py5.point(85, 75)
+        py5.point(30, 75)
 
 .. raw:: html
 
@@ -54,12 +58,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    no_smooth()
-    point(30, 20, -50)
-    point(85, 20, -50)
-    point(85, 75, -50)
-    point(30, 75, -50)
+    def settings():
+        py5.size(100, 100, py5.P3D)
+        py5.no_smooth()
+
+
+    def setup():
+        py5.point(30, 20, -50)
+        py5.point(85, 20, -50)
+        py5.point(85, 75, -50)
+        py5.point(30, 75, -50)
 
 .. raw:: html
 
@@ -98,5 +106,5 @@ Parameters
 * **z**: `float` - z-coordinate of the point
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

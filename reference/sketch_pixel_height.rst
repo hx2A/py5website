@@ -1,6 +1,6 @@
 .. title: pixel_height
 .. slug: pixel_height
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,14 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(600, 400)
+        py5.pixel_density(2)
+
+
     def setup():
-        size(600, 400)
-        pixel_density(2)
-        print(width, height)
-        print(pixel_width, pixel_height)
+        print(py5.width, py5.height)
+        print(py5.pixel_width, py5.pixel_height)
 
 .. raw:: html
 
@@ -48,29 +51,32 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(600, 400)
+        py5.pixel_density(2)  # double the pixel density
+
+
     def setup():
-        size(600, 400)
-        pixel_density(2)  # double the pixel density
-        print(width, height)
-        print(pixel_width, pixel_height)
+        print(py5.width, py5.height)
+        print(py5.pixel_width, py5.pixel_height)
 
 
     def draw():
-        load_pixels()
+        py5.load_pixels()
         # fill all the pixels to blue with using
         # pixel_width and pixel_height
-        for i in range(0, pixel_width * pixel_height):
-            pixels[i] = color(0, 0, 255)
+        for i in range(0, py5.pixel_width * py5.pixel_height):
+            py5.pixels[i] = py5.color(0, 0, 255)
 
         # fill one quarter of the pixels to yellow
         # because the pixel density is set to 2 in setup()
         # and 'width' and 'height' don't reflect the pixel
         # dimensions of the sketch
-        for i in range(0, width * height):
-            pixels[i] = color(255, 255, 0)
+        for i in range(0, py5.width * py5.height):
+            py5.pixels[i] = py5.color(255, 255, 0)
 
-        update_pixels()
-        no_loop()
+        py5.update_pixels()
+        py5.no_loop()
 
 .. raw:: html
 
@@ -88,5 +94,5 @@ When ``pixel_density(2)`` is used to make use of a high resolution display (call
 Underlying Java field: `pixelHeight <https://processing.org/reference/pixelHeight.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

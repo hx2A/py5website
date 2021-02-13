@@ -1,6 +1,6 @@
 .. title: blend_mode()
 .. slug: blend_mode
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,13 +27,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100)
-    background(0)
-    blend_mode(ADD)
-    stroke(102)
-    stroke_weight(30)
-    line(25, 25, 75, 75)
-    line(75, 25, 25, 75)
+    def setup():
+        py5.background(0)
+        py5.blend_mode(py5.ADD)
+        py5.stroke(102)
+        py5.stroke_weight(30)
+        py5.line(25, 25, 75, 75)
+        py5.line(75, 25, 25, 75)
 
 .. raw:: html
 
@@ -50,12 +50,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P2D)
-    blend_mode(MULTIPLY)
-    stroke(51)
-    stroke_weight(30)
-    line(25, 25, 75, 75)
-    line(75, 25, 25, 75)
+    def settings():
+        py5.size(100, 100, py5.P2D)
+
+
+    def setup():
+        py5.blend_mode(py5.MULTIPLY)
+        py5.stroke(51)
+        py5.stroke_weight(30)
+        py5.line(25, 25, 75, 75)
+        py5.line(75, 25, 25, 75)
 
 .. raw:: html
 
@@ -107,5 +111,5 @@ Parameters
 * **mode**: `int` - the blending mode to use
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

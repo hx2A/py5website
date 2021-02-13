@@ -1,6 +1,6 @@
 .. title: bezier_point()
 .. slug: bezier_point
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,15 +30,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    no_fill()
-    bezier(85, 20, 10, 10, 90, 90, 15, 80)
-    fill(255)
-    steps = 10
-    for i in range(0, steps + 1):
-        t = i / float(steps)
-        x = bezier_point(85, 10, 90, 15, t)
-        y = bezier_point(20, 10, 90, 80, t)
-        ellipse(x, y, 5, 5)
+    def setup():
+        py5.no_fill()
+        py5.bezier(85, 20, 10, 10, 90, 90, 15, 80)
+        py5.fill(255)
+        steps = 10
+        for i in range(0, steps + 1):
+            t = i / float(steps)
+            x = py5.bezier_point(85, 10, 90, 15, t)
+            y = py5.bezier_point(20, 10, 90, 80, t)
+            py5.ellipse(x, y, 5, 5)
 
 .. raw:: html
 
@@ -72,5 +73,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

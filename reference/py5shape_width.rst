@@ -1,6 +1,6 @@
 .. title: width
 .. slug: py5shape_width
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,7 +31,7 @@ Examples
         global s
         # the file "bot.svg" must be in the data folder
         # of the current sketch to load successfully
-        s = load_shape("bot.svg")
+        s = py5.load_shape("bot.svg")
         print(s.width)  # prints "281.0", the width of the shape
 
 .. raw:: html
@@ -50,5 +50,5 @@ The width of the PShape document.
 Underlying Java field: `PShape.width <https://processing.org/reference/PShape_width.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

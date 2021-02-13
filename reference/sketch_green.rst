@@ -1,6 +1,6 @@
 .. title: green()
 .. slug: green
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,14 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    c = color(20, 75, 200)  # define color 'c'
-    fill(c)  # use color variable 'c' as fill color
-    rect(15, 20, 35, 60)  # draw left rectangle
-
-    green_value = green(c)  # get green in 'c'
-    print(green_value)  # print "75.0"
-    fill(0, green_value, 0)  # use 'green_value' in new fill
-    rect(50, 20, 35, 60)  # draw right rectangle
+    def setup():
+        c = py5.color(20, 75, 200)  # define color 'c'
+        py5.fill(c)  # use color variable 'c' as fill color
+        py5.rect(15, 20, 35, 60)  # draw left rectangle
+    
+        green_value = py5.green(c)  # get green in 'c'
+        print(green_value)  # print "75.0"
+        py5.fill(0, green_value, 0)  # use 'green_value' in new fill
+        py5.rect(50, 20, 35, 60)  # draw right rectangle
 
 .. raw:: html
 
@@ -72,5 +73,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

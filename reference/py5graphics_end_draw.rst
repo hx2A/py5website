@@ -1,6 +1,6 @@
 .. title: end_draw()
 .. slug: py5graphics_end_draw
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,18 +29,17 @@ Examples
 
     def setup():
         global pg
-        size(100, 100)
-        pg = create_graphics(80, 80, P2D)
+        pg = py5.create_graphics(80, 80, py5.P2D)
         pg.begin_draw()
         pg.background(102)
         pg.stroke(255)
         pg.line(20, 20, 80, 80)
         pg.end_draw()
-        no_loop()
+        py5.no_loop()
 
 
     def draw():
-        image(pg, 10, 10)
+        py5.image(pg, 10, 10)
 
 .. raw:: html
 
@@ -64,5 +63,5 @@ Syntax
 
     end_draw() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

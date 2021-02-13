@@ -1,6 +1,6 @@
 .. title: key_code
 .. slug: key_code
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,19 +27,20 @@ Examples
 .. code:: python
     :number-lines:
 
-    fill_val = color(126)
+    fill_val = py5.color(126)
 
 
     def draw():
-        fill(fill_val)
-        rect(25, 25, 50, 50)
+        py5.fill(fill_val)
+        py5.rect(25, 25, 50, 50)
 
 
     def key_pressed():
-        if key == CODED:
-            if key_code == UP:
+        global fill_val
+        if py5.key == py5.CODED:
+            if py5.key_code == py5.UP:
                 fill_val = 255
-            key_code == DOWN:
+            elif py5.key_code == py5.DOWN:
                 fill_val = 0
 
         else:
@@ -71,5 +72,5 @@ If you are using P2D or P3D as your renderer, use the NEWT KeyEvent constants.
 Underlying Java field: `keyCode <https://processing.org/reference/keyCode.html>`_
 
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

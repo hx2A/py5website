@@ -1,6 +1,6 @@
 .. title: shininess()
 .. slug: shininess
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,21 +30,25 @@ Examples
 .. code:: python
     :number-lines:
 
-    size(100, 100, P3D)
-    background(0)
-    no_stroke()
-    background(0)
-    fill(0, 51, 102)
-    ambient_light(102, 102, 102)
-    light_specular(204, 204, 204)
-    directional_light(102, 102, 102, 0, 0, -1)
-    specular(255, 255, 255)
-    translate(30, 50, 0)
-    shininess(1.0)
-    sphere(20)  # left sphere
-    translate(40, 0, 0)
-    shininess(5.0)
-    sphere(20)  # right sphere
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.no_stroke()
+        py5.background(0)
+        py5.fill(0, 51, 102)
+        py5.ambient_light(102, 102, 102)
+        py5.light_specular(204, 204, 204)
+        py5.directional_light(102, 102, 102, 0, 0, -1)
+        py5.specular(255, 255, 255)
+        py5.translate(30, 50, 0)
+        py5.shininess(1.0)
+        py5.sphere(20)  # left sphere
+        py5.translate(40, 0, 0)
+        py5.shininess(5.0)
+        py5.sphere(20)  # right sphere
 
 .. raw:: html
 
@@ -74,5 +78,5 @@ Parameters
 * **shine**: `float` - degree of shininess
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

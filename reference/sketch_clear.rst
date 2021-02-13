@@ -1,6 +1,6 @@
 .. title: clear()
 .. slug: clear
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,27 +27,30 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(200, 200)
+
+
     def setup():
         global pg
-        size(200, 200)
-        pg = create_graphics(width, height)
+        pg = py5.create_graphics(py5.width, py5.height)
 
 
     def draw():
-        background(204)
+        py5.background(204)
 
         # clear the Py5Graphics when the mouse is pressed
-        if mouse_pressed:
+        if py5.is_mouse_pressed():
             pg.begin_draw()
             pg.clear()
             pg.end_draw()
         else:
             pg.begin_draw()
             pg.stroke(0, 102, 153)
-            pg.line(width//2, height//2, mouse_x, mouse_y)
+            pg.line(py5.width//2, py5.height//2, py5.mouse_x, py5.mouse_y)
             pg.end_draw()
 
-        image(pg, 0, 0)
+        py5.image(pg, 0, 0)
 
 .. raw:: html
 
@@ -71,5 +74,5 @@ Syntax
 
     clear() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 

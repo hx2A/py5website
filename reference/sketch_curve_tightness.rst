@@ -1,6 +1,6 @@
 .. title: curve_tightness()
 .. slug: curve_tightness
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:12:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,22 +30,21 @@ Examples
     # move the mouse left and right to see the curve change
 
     def setup():
-        size(100, 100)
-        no_fill()
+        py5.no_fill()
 
 
     def draw():
-        background(204)
-        t = map(mouse_x, 0, width, -5, 5)
-        curve_tightness(t)
-        begin_shape()
-        curve_vertex(10, 26)
-        curve_vertex(10, 26)
-        curve_vertex(83, 24)
-        curve_vertex(83, 61)
-        curve_vertex(25, 65)
-        curve_vertex(25, 65)
-        end_shape()
+        py5.background(204)
+        t = py5.remap(py5.mouse_x, 0, py5.width, -5, 5)
+        py5.curve_tightness(t)
+        py5.begin_shape()
+        py5.curve_vertex(10, 26)
+        py5.curve_vertex(10, 26)
+        py5.curve_vertex(83, 24)
+        py5.curve_vertex(83, 61)
+        py5.curve_vertex(25, 65)
+        py5.curve_vertex(25, 65)
+        py5.end_shape()
 
 .. raw:: html
 
@@ -75,5 +74,5 @@ Parameters
 * **tightness**: `float` - amount of deformation from the original vertices
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:12:32pm UTC
 

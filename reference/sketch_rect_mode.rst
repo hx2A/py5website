@@ -1,6 +1,6 @@
 .. title: rect_mode()
 .. slug: rect_mode
-.. date: 2020-11-24 21:22:32 UTC+00:00
+.. date: 2021-02-13 18:02:35 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    rect_mode(CORNER)  # default rect_mode is CORNER
-    fill(255)  # set fill to white
-    rect(25, 25, 50, 50)  # draw white rect using CORNER mode
-
-    rect_mode(CORNERS)  # set rect_mode to CORNERS
-    fill(100)  # set fill to gray
-    rect(25, 25, 50, 50)  # draw gray rect using CORNERS mode
+    def setup():
+        py5.rect_mode(py5.CORNER)  # default rect_mode is CORNER
+        py5.fill(255)  # set fill to white
+        py5.rect(25, 25, 50, 50)  # draw white rect using CORNER mode
+    
+        py5.rect_mode(py5.CORNERS)  # set rect_mode to CORNERS
+        py5.fill(100)  # set fill to gray
+        py5.rect(25, 25, 50, 50)  # draw gray rect using CORNERS mode
 
 .. raw:: html
 
@@ -56,13 +57,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    rect_mode(RADIUS)  # set rect_mode to RADIUS
-    fill(255)  # set fill to white
-    rect(50, 50, 30, 30)  # draw white rect using RADIUS mode
-
-    rect_mode(CENTER)  # set rect_mode to CENTER
-    fill(100)  # set fill to gray
-    rect(50, 50, 30, 30)  # draw gray rect using CENTER mode
+    def setup():
+        py5.rect_mode(py5.RADIUS)  # set rect_mode to RADIUS
+        py5.fill(255)  # set fill to white
+        py5.rect(50, 50, 30, 30)  # draw white rect using RADIUS mode
+    
+        py5.rect_mode(py5.CENTER)  # set rect_mode to CENTER
+        py5.fill(100)  # set fill to gray
+        py5.rect(50, 50, 30, 30)  # draw gray rect using CENTER mode
 
 .. raw:: html
 
@@ -102,5 +104,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER, or RADIUS
 
 
-Updated on November 24, 2020 21:22:32pm UTC
+Updated on February 13, 2021 18:02:35pm UTC
 
