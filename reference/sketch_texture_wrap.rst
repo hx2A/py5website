@@ -1,6 +1,6 @@
 .. title: texture_wrap()
 .. slug: texture_wrap
-.. date: 2021-02-13 18:12:32 UTC+00:00
+.. date: 2021-02-14 14:40:26 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -38,7 +38,7 @@ Examples
         py5.background(0)
         py5.translate(py5.width//2, py5.height//2)
         py5.rotate(py5.remap(py5.mouse_x, 0, py5.width, -py5.PI, py5.PI))
-        if py5.is_mouse_pressed():
+        if py5.is_mouse_pressed:
             py5.texture_wrap(py5.REPEAT)
         else:
             py5.texture_wrap(py5.CLAMP)
@@ -79,5 +79,5 @@ Parameters
 * **wrap**: `int` - Either CLAMP (default) or REPEAT
 
 
-Updated on February 13, 2021 18:12:32pm UTC
+Updated on February 14, 2021 14:40:26pm UTC
 

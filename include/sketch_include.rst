@@ -117,14 +117,14 @@ Files
 Keyboard
 --------
 
-* `is_key_pressed() <is_key_pressed/>`_
+* `is_key_pressed <is_key_pressed/>`_
 * `key <key/>`_
 * `key_code <key_code/>`_
 
 Mouse
 -----
 
-* `is_mouse_pressed() <is_mouse_pressed/>`_
+* `is_mouse_pressed <is_mouse_pressed/>`_
 * `mouse_button <mouse_button/>`_
 * `mouse_x <mouse_x/>`_
 * `mouse_y <mouse_y/>`_

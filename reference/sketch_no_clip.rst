@@ -1,6 +1,6 @@
 .. title: no_clip()
 .. slug: no_clip
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-14 14:40:26 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,7 +34,7 @@ Examples
 
     def draw():
         py5.background(204)
-        if py5.is_mouse_pressed():
+        if py5.is_mouse_pressed:
             py5.clip(py5.mouse_x, py5.mouse_y, 100, 100)
         else:
             py5.no_clip()
@@ -64,5 +64,5 @@ Syntax
 
     no_clip() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 14, 2021 14:40:26pm UTC
 

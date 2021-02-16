@@ -1,6 +1,6 @@
 .. title: clear()
 .. slug: clear
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-14 14:40:26 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -40,7 +40,7 @@ Examples
         py5.background(204)
 
         # clear the Py5Graphics when the mouse is pressed
-        if py5.is_mouse_pressed():
+        if py5.is_mouse_pressed:
             pg.begin_draw()
             pg.clear()
             pg.end_draw()
@@ -74,5 +74,5 @@ Syntax
 
     clear() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 14, 2021 14:40:26pm UTC
 

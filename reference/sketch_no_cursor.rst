@@ -1,6 +1,6 @@
 .. title: no_cursor()
 .. slug: no_cursor
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-14 14:40:26 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,7 +29,7 @@ Examples
 
     # press the mouse to hide the cursor
     def draw():
-        if py5.is_mouse_pressed():
+        if py5.is_mouse_pressed:
             py5.no_cursor()
         else:
             py5.cursor(py5.HAND)
@@ -56,5 +56,5 @@ Syntax
 
     no_cursor() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 14, 2021 14:40:26pm UTC
 
