@@ -1,6 +1,6 @@
 .. title: load_font()
 .. slug: load_font
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,7 +33,7 @@ Examples
     def setup():
         # the font must be located in the sketch's
         # "data" directory to load successfully
-        font = py5.load_font("LetterGothicStd-32.vlw")
+        font = py5.load_font("FreeSans-32.vlw")
         py5.text_font(font, 32)
         py5.text("word", 10, 50)
 
@@ -73,5 +73,5 @@ Parameters
 * **filename**: `str` - name of the font to load
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 

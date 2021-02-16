@@ -1,6 +1,6 @@
 .. title: perspective()
 .. slug: perspective
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -39,7 +39,7 @@ Examples
         py5.no_fill()
         fov = py5.PI/3.0
         camera_z = (py5.height//2.0) / py5.tan(fov/2.0)
-        py5.perspective(fov, float(py5.width)/float(py5.height),
+        py5.perspective(fov, py5.width / py5.height,
                     camera_z/10.0, camera_z*10.0)
         py5.translate(50, 50, 0)
         py5.rotate_x(-py5.PI/6)
@@ -78,5 +78,5 @@ Parameters
 * **z_near**: `float` - z-position of nearest clipping plane
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 

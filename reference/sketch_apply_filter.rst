@@ -1,6 +1,6 @@
 .. title: apply_filter()
 .. slug: apply_filter
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -191,10 +191,13 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(100, 100, py5.P2D)
+
+
     def setup():
         global blur
         global img
-        py5.size(100, 100, py5.P2D)
         blur = py5.load_shader("blur.glsl")
         img = py5.load_image("apples.jpg")
         py5.image(img, 0, 0)
@@ -261,5 +264,5 @@ Parameters
 * **shader**: `Py5Shader` - the fragment shader to apply
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 

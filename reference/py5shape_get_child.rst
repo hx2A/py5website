@@ -1,6 +1,6 @@
 .. title: get_child()
 .. slug: py5shape_get_child
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,16 +33,18 @@ Examples
     def setup():
         global states
         global ohio
-        states = py5.load_shape("tristate.svg")
+        states = py5.load_shape("us_map.svg")
         ohio = states.get_child("OH")
         ohio.disable_style()
 
 
     def draw():
-        py5.background(0)
-        py5.shape(states, -48, 5)
-        py5.fill(102, 0, 0)
-        py5.shape(ohio, -48, 5)
+        py5.background(192)
+        py5.scale(0.1)
+        py5.translate(25, 225)
+        py5.shape(states, 0, 0)
+        py5.fill(255, 0, 0)
+        py5.shape(ohio, 0, 0)
 
 .. raw:: html
 
@@ -74,5 +76,5 @@ Parameters
 * **target**: `str` - the name of the shape to get
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 

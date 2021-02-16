@@ -1,6 +1,6 @@
 .. title: curve_detail()
 .. slug: curve_detail
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -36,7 +36,6 @@ Examples
 
     def setup():
         py5.no_fill()
-        py5.no_loop()
 
 
     def draw():
@@ -83,5 +82,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 

@@ -1,6 +1,6 @@
 .. title: bezier_tangent()
 .. slug: bezier_tangent
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -36,7 +36,7 @@ Examples
         steps = 6
         py5.fill(255)
         for i in range(0, steps + 1):
-            t = i / float(steps)
+            t = i / steps
             # get the location of the point
             x = py5.bezier_point(85, 10, 90, 15, t)
             y = py5.bezier_point(20, 10, 90, 80, t)
@@ -78,7 +78,7 @@ Examples
         py5.stroke(255, 102, 0)
         steps = 16
         for i in range(0, steps + 1):
-            t = i / float(steps)
+            t = i / steps
             x = py5.bezier_point(85, 10, 90, 15, t)
             y = py5.bezier_point(20, 10, 90, 80, t)
             tx = py5.bezier_tangent(85, 10, 90, 15, t)
@@ -119,5 +119,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 

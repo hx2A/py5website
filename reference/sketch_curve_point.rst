@@ -1,6 +1,6 @@
 .. title: curve_point()
 .. slug: curve_point
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 15:03:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -38,7 +38,7 @@ Examples
         py5.ellipse_mode(py5.CENTER)
         steps = 6
         for i in range(0, steps + 1):
-            t = i / float(steps)
+            t = i / steps
             x = py5.curve_point(5, 5, 73, 73, t)
             y = py5.curve_point(26, 26, 24, 61, t)
             py5.ellipse(x, y, 5, 5)
@@ -78,5 +78,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 15:03:15pm UTC
 
