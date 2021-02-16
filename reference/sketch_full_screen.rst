@@ -1,6 +1,6 @@
 .. title: full_screen()
 .. slug: full_screen
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,6 +44,7 @@ Examples
 
 
     def draw():
+        global x
         py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
@@ -80,6 +81,7 @@ Examples
 
 
     def draw():
+        global x
         py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
@@ -114,6 +116,7 @@ Examples
 
 
     def draw():
+        global x
         py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
@@ -149,6 +152,7 @@ Examples
 
 
     def draw():
+        global x
         py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
@@ -188,5 +192,5 @@ Parameters
 * **renderer**: `str` - the renderer to use, e.g. P2D, P3D, JAVA2D (default)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

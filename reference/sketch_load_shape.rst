@@ -1,6 +1,6 @@
 .. title: load_shape()
 .. slug: load_shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,9 +52,12 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
     def setup():
         global s
-        py5.size(100, 100, py5.P3D)
         # the file "bot.obj" must be in the data folder
         # of the current sketch to load successfully
         s = py5.load_shape("bot.obj")
@@ -99,5 +102,5 @@ Parameters
 * **options**: `str` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

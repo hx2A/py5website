@@ -1,6 +1,6 @@
 .. title: text_mode()
 .. slug: text_mode
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -38,7 +38,7 @@ Examples
 
     def draw():
         py5.text("ABC", 75, 350)
-        exit()  # quit the program
+        py5.exit_sketch()  # quit the program
 
 .. raw:: html
 
@@ -70,5 +70,5 @@ Parameters
 * **mode**: `int` - either MODEL or SHAPE
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

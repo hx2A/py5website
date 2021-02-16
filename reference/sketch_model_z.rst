@@ -1,6 +1,6 @@
 .. title: model_z()
 .. slug: model_z
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,8 +27,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
+    def settings():
         py5.size(500, 500, py5.P3D)
+
+
+    def setup():
         py5.no_fill()
 
 
@@ -96,5 +99,5 @@ Parameters
 * **z**: `float` - 3D z-coordinate to be mapped
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

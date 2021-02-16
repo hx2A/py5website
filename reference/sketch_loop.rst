@@ -1,6 +1,6 @@
 .. title: loop()
 .. slug: loop
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,15 +27,19 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
-        py5.size(200, 200)
-        py5.no_loop()  # draw() will not loop
-
-
     x = 0
 
 
+    def settings():
+        py5.size(200, 200)
+
+
+    def setup():
+        py5.no_loop()  # draw() will not loop
+
+
     def draw():
+        global x
         py5.background(204)
         x = x + .1
         if x > py5.width:
@@ -73,5 +77,5 @@ Syntax
 
     loop() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

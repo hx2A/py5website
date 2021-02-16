@@ -1,6 +1,6 @@
 .. title: begin_draw()
 .. slug: py5graphics_begin_draw
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,6 +27,10 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(200, 200, py5.P2D)
+
+
     def setup():
         global pg
         pg = py5.create_graphics(80, 80, py5.P2D)
@@ -35,7 +39,6 @@ Examples
         pg.stroke(255)
         pg.line(20, 20, 80, 80)
         pg.end_draw()
-        py5.no_loop()
 
 
     def draw():
@@ -63,5 +66,5 @@ Syntax
 
     begin_draw() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

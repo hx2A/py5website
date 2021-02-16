@@ -1,6 +1,6 @@
 .. title: reset_shader()
 .. slug: reset_shader
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,10 +27,13 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(640, 360, py5.P2D)
+
+
     def setup():
         global edges
         global img
-        py5.size(640, 360, py5.P2D)
         img = py5.load_image("leaves.jpg")
         edges = py5.load_shader("edges.glsl")
 
@@ -70,5 +73,5 @@ Parameters
 * **kind**: `int` - type of shader, either POINTS, LINES, or TRIANGLES
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

@@ -1,6 +1,6 @@
 .. title: pmouse_x
 .. slug: pmouse_x
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
     def draw():
         py5.background(204)
         py5.line(py5.mouse_x, 20, py5.pmouse_x, 80)
-        print(py5.mouse_x + " : " + py5.pmouse_x)
+        print(py5.mouse_x, ":", py5.pmouse_x)
 
 .. raw:: html
 
@@ -53,5 +53,5 @@ If you want values relative to the previous frame, use ``pmouse_x`` and ``pmouse
 Underlying Java field: `pmouseX <https://processing.org/reference/pmouseX.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

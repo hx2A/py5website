@@ -1,6 +1,6 @@
 .. title: texture_wrap()
 .. slug: texture_wrap
-.. date: 2021-02-14 14:40:26 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,9 +27,12 @@ Examples
 .. code:: python
     :number-lines:
 
+    def settings():
+        py5.size(300, 300, py5.P2D)
+
+
     def setup():
         global img
-        py5.size(300, 300, py5.P2D)
         img = py5.load_image("berlin-1.jpg")
         py5.texture_mode(py5.NORMAL)
 
@@ -79,5 +82,5 @@ Parameters
 * **wrap**: `int` - Either CLAMP (default) or REPEAT
 
 
-Updated on February 14, 2021 14:40:26pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

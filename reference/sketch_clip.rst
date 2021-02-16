@@ -1,6 +1,6 @@
 .. title: clip()
 .. slug: clip
-.. date: 2021-02-14 14:40:26 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,8 +27,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    def setup():
+    def settings():
         py5.size(200, 200)
+
+
+    def setup():
         py5.image_mode(py5.CENTER)
 
 
@@ -73,5 +76,5 @@ Parameters
 * **d**: `float` - height of the rectangle, by default
 
 
-Updated on February 14, 2021 14:40:26pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 

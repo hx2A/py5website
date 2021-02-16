@@ -1,6 +1,6 @@
 .. title: sphere_detail()
 .. slug: sphere_detail
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-16 16:54:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -38,7 +38,7 @@ Examples
         py5.rotate_x(py5.mouse_y * 0.05)
         py5.rotate_y(py5.mouse_x * 0.05)
         py5.fill(py5.mouse_x * 2, 0, 160)
-        py5.sphere_detail(py5.mouse_x / 4)
+        py5.sphere_detail(py5.mouse_x // 4)
         py5.sphere(40)
 
 .. raw:: html
@@ -72,5 +72,5 @@ Parameters
 * **vres**: `int` - number of segments used latitudinally from top to bottom
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 16, 2021 16:54:21pm UTC
 
