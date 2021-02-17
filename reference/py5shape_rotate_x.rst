@@ -1,6 +1,6 @@
 .. title: rotate_x()
 .. slug: py5shape_rotate_x
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-17 21:05:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,12 +33,13 @@ Examples
 
     def setup():
         global s
-        s = py5.load_shape("ohio.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
         py5.background(204)
-        py5.shape(s)
+        py5.scale(0.2)
+        py5.shape(s, py5.width // 2, py5.height // 2)
 
 
     def mouse_pressed():
@@ -77,5 +78,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 17, 2021 21:05:39pm UTC
 

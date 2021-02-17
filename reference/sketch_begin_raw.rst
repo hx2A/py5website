@@ -1,13 +1,13 @@
 .. title: begin_raw()
 .. slug: begin_raw
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-17 18:39:13 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 begin_raw() documentation
 .. type: text
 
-To create vectors from 3D data, use the ``begin_raw()`` and ``end_raw()`` commands.
+To create vectors from 3D data, use the ``begin_raw()`` and :doc:`end_raw()` commands.
 
 Examples
 ========
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     def settings():
-        py5.size(400, 400, py5.PDF)
+        py5.size(400, 400, py5.P2D)
 
 
     def setup():
@@ -55,9 +55,9 @@ Examples
 Description
 ===========
 
-To create vectors from 3D data, use the ``begin_raw()`` and ``end_raw()`` commands. These commands will grab the shape data just before it is rendered to the screen. At this stage, your entire scene is nothing but a long list of individual lines and triangles. This means that a shape created with ``sphere()`` function will be made up of hundreds of triangles, rather than a single object. Or that a multi-segment line shape (such as a curve) will be rendered as individual segments.
+To create vectors from 3D data, use the ``begin_raw()`` and :doc:`end_raw()` commands. These commands will grab the shape data just before it is rendered to the screen. At this stage, your entire scene is nothing but a long list of individual lines and triangles. This means that a shape created with ``sphere()`` function will be made up of hundreds of triangles, rather than a single object. Or that a multi-segment line shape (such as a curve) will be rendered as individual segments.
 
-When using ``begin_raw()`` and ``end_raw()``, it's possible to write to either a 2D or 3D renderer. For instance, ``begin_raw()`` with the PDF library will write the geometry as flattened triangles and lines, even if recording from the ``P3D`` renderer. 
+When using ``begin_raw()`` and :doc:`end_raw()`, it's possible to write to either a 2D or 3D renderer. For instance, ``begin_raw()`` with the PDF library will write the geometry as flattened triangles and lines, even if recording from the ``P3D`` renderer. 
 
 If you want a background to show up in your files, use ``rect(0, 0, width, height)`` after setting the ``fill()`` to the background color. Otherwise the background will not be rendered to the file because the background is not shape.
 
@@ -79,9 +79,9 @@ Parameters
 ==========
 
 * **filename**: `str` - filename for output
-* **raw_graphics**: `Py5Graphics` - ???
+* **raw_graphics**: `Py5Graphics` - Graphics object to apply draw commands to
 * **renderer**: `str` - for example, PDF or DXF
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 17, 2021 18:39:13pm UTC
 

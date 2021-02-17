@@ -1,6 +1,6 @@
 .. title: rotate()
 .. slug: py5shape_rotate
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-17 21:05:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,12 +29,13 @@ Examples
 
     def setup():
         global s
-        s = py5.load_shape("ohio.svg")
+        s = py5.load_shape("bot.svg")
 
 
     def draw():
         py5.background(204)
-        py5.shape(s)
+        py5.scale(0.2)
+        py5.shape(s, py5.width // 2, py5.height // 2)
 
 
     def mouse_pressed():
@@ -75,5 +76,5 @@ Parameters
 * **v2**: `float` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 17, 2021 21:05:39pm UTC
 
