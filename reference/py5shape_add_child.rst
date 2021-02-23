@@ -1,13 +1,13 @@
 .. title: add_child()
 .. slug: py5shape_add_child
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 add_child() documentation
 .. type: text
 
-Adds a child PShape to a parent PShape that is defined as a GROUP.
+Adds a child ``Py5Shape`` to a parent ``Py5Shape`` that is defined as a ``GROUP``.
 
 Examples
 ========
@@ -68,7 +68,7 @@ Examples
 Description
 ===========
 
-Adds a child PShape to a parent PShape that is defined as a GROUP. In the example, the three shapes ``path``, ``rectangle``, and ``circle`` are added to a parent PShape variable named ``house`` that is a GROUP.
+Adds a child ``Py5Shape`` to a parent ``Py5Shape`` that is defined as a ``GROUP``. In the example, the three shapes ``path``, ``rectangle``, and ``circle`` are added to a parent ``Py5Shape`` variable named ``house`` that is a ``GROUP``.
 
 Underlying Java method: `PShape.addChild <https://processing.org/reference/PShape_addChild_.html>`_
 
@@ -87,5 +87,5 @@ Parameters
 * **who**: `Py5Shape` - any variable of type PShape
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

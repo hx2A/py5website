@@ -1,6 +1,6 @@
 .. title: pixels[]
 .. slug: py5image_pixels
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-23 15:51:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,10 +57,10 @@ Description
 
 The pixels[] array contains the values for all the pixels in the image. These values are of the color datatype. This array is the size of the image, meaning if the image is 100 x 100 pixels, there will be 10,000 values and if the window is 200 x 300 pixels, there will be 60,000 values. 
 
-Before accessing this array, the data must loaded with the ``load_pixels()`` method. Failure to do so may result in a NullPointerException. After the array data has been modified, the ``update_pixels()`` method must be run to update the content of the display window.
+Before accessing this array, the data must loaded with the ``load_pixels()`` method. Failure to do so may result in a Java ``NullPointerException``. After the array data has been modified, the ``update_pixels()`` method must be run to update the content of the display window.
 
 Underlying Java field: `PImage.pixels <https://processing.org/reference/PImage_pixels.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 23, 2021 15:51:57pm UTC
 

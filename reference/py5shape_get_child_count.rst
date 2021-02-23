@@ -1,13 +1,13 @@
 .. title: get_child_count()
 .. slug: py5shape_get_child_count
-.. date: 2021-02-17 21:05:39 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 get_child_count() documentation
 .. type: text
 
-Returns the number of children within the PShape.
+Returns the number of children within the ``Py5Shape``.
 
 Examples
 ========
@@ -44,7 +44,7 @@ Examples
 Description
 ===========
 
-Returns the number of children within the PShape.
+Returns the number of children within the ``Py5Shape``.
 
 Underlying Java method: `PShape.getChildCount <https://processing.org/reference/PShape_getChildCount_.html>`_
 
@@ -55,5 +55,5 @@ Syntax
 
     get_child_count() -> int
 
-Updated on February 17, 2021 21:05:39pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

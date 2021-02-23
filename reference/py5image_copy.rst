@@ -1,6 +1,6 @@
 .. title: copy()
 .. slug: py5image_copy
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-23 15:29:45 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,7 +53,7 @@ Description
 
 Copies a region of pixels from one image into another. If the source and destination regions aren't the same size, it will automatically resize source pixels to fit the specified target region. No alpha information is used in the process, however if the source image has an alpha channel set, it will be copied as well.
 
-As of release 0149, this function ignores ``image_mode()``.
+As of Processing's release 0149, this function ignores ``image_mode()``.
 
 Underlying Java method: `PImage.copy <https://processing.org/reference/PImage_copy_.html>`_
 
@@ -80,5 +80,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 23, 2021 15:29:45pm UTC
 

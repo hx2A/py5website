@@ -1,13 +1,13 @@
 .. title: height
 .. slug: py5shape_height
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 height documentation
 .. type: text
 
-The height of the PShape document.
+The height of the ``Py5Shape`` document.
 
 Examples
 ========
@@ -45,10 +45,10 @@ Examples
 Description
 ===========
 
-The height of the PShape document.
+The height of the ``Py5Shape`` document.
 
 Underlying Java field: `PShape.height <https://processing.org/reference/PShape_height.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

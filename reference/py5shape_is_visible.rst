@@ -1,13 +1,13 @@
 .. title: is_visible()
 .. slug: py5shape_is_visible
-.. date: 2021-02-14 14:40:26 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 is_visible() documentation
 .. type: text
 
-Returns a boolean value "true" if the image is set to be visible, "false" if not.
+Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
 
 Examples
 ========
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-Returns a boolean value "true" if the image is set to be visible, "false" if not. This value can be modified with the ``set_visible()`` method.
+Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not. This value can be modified with the ``set_visible()`` method.
 
 The default visibility of a shape is usually controlled by whatever program created the SVG file. For instance, this parameter is controlled by showing or hiding the shape in the layers palette in Adobe Illustrator.
 
@@ -69,5 +69,5 @@ Syntax
 
     is_visible() -> bool
 
-Updated on February 14, 2021 14:40:26pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

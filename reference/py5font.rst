@@ -1,6 +1,6 @@
 .. title: Py5Font
 .. slug: py5font
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-02-23 15:51:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,7 +50,7 @@ Description
 
 PFont is the font class for Processing. To create a font to use with Processing, select "Create Font..." from the Tools menu. This will create a font in the format Processing requires and also adds it to the current sketch's data directory. Processing displays fonts using the .vlw font format, which uses images for each letter, rather than defining them through vector data. The ``load_font()`` function constructs a new font and ``text_font()`` makes a font active. The ``list()`` method creates a list of the fonts installed on the computer, which is useful information to use with the ``create_font()`` function for dynamically converting fonts into a format to use with Processing.
 
-To create a new font dynamically, use the ``create_font()`` function. Do not use the syntax ``new Py5Font()``.
+To create a new font dynamically, use the ``create_font()`` function. Do not use the syntax ``Py5Font()``.
 
 Underlying Java class: `PFont <https://processing.org/reference/PFont.html>`_
 
@@ -58,5 +58,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5font_include.rst
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on February 23, 2021 15:51:57pm UTC
 

@@ -1,6 +1,6 @@
 .. title: set_vertex()
 .. slug: py5shape_set_vertex
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -76,11 +76,11 @@ Parameters
 ==========
 
 * **index**: `int` - the location of the vertex
-* **vec**: `NDArray[(Any,), Float]` - the PVector to define the x, y, z coordinates
+* **vec**: `NDArray[(Any,), Float]` - the numpy array to define the x, y, z coordinates
 * **x**: `float` - the x value for the vertex
 * **y**: `float` - the y value for the vertex
 * **z**: `float` - the z value for the vertex
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

@@ -1,6 +1,6 @@
 .. title: rotate()
 .. slug: py5shape_rotate
-.. date: 2021-02-17 21:05:39 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,7 +53,7 @@ Examples
 Description
 ===========
 
-Rotates the shape the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to TWO_PI) or converted from degrees to radians with the ``radians()`` method.
+Rotates the shape the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to ``TWO_PI``) or converted from degrees to radians with the ``radians()`` method.
 
 Shapes are always rotated around the upper-left corner of their bounding box. Positive numbers rotate objects in a clockwise direction. Transformations apply to everything that happens after and subsequent calls to the method accumulates the effect. For example, calling ``rotate(HALF_PI)`` and then ``rotate(HALF_PI)`` is the same as ``rotate(PI)``. This transformation is applied directly to the shape, it's not refreshed each time ``draw()`` is run.
 
@@ -76,5 +76,5 @@ Parameters
 * **v2**: `float` - missing variable description
 
 
-Updated on February 17, 2021 21:05:39pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

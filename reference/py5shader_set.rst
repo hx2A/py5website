@@ -1,6 +1,6 @@
 .. title: set()
 .. slug: py5shader_set
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-23 15:51:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -92,15 +92,15 @@ Parameters
 ==========
 
 * **boolvec**: `JArray(JBoolean)` - missing variable description
-* **mat**: `NDArray[(2, 3), Float]` - matrix of values
-* **mat**: `NDArray[(4, 4), Float]` - matrix of values
+* **mat**: `NDArray[(2, 3), Float]` - numpy array of values
+* **mat**: `NDArray[(4, 4), Float]` - numpy array of values
 * **name**: `str` - the name of the uniform variable to modify
 * **ncoords**: `int` - number of coordinates per element, max 4
 * **tex**: `Py5Image` - sets the sampler uniform variable to read from this image texture
-* **use3x3**: `bool` - enforces the matrix is 3 x 3
-* **vec**: `JArray(JBoolean)` - modifies all the components of an array/vector uniform variable. PVector can only be used if the type of the variable is vec3.
-* **vec**: `JArray(JInt)` - modifies all the components of an array/vector uniform variable. PVector can only be used if the type of the variable is vec3.
-* **vec**: `NDArray[(Any,), Float]` - modifies all the components of an array/vector uniform variable. PVector can only be used if the type of the variable is vec3.
+* **use3x3**: `bool` - enforces the numpy array is 3 x 3
+* **vec**: `JArray(JBoolean)` - modifies all the components of an array/vector uniform variable
+* **vec**: `JArray(JInt)` - modifies all the components of an array/vector uniform variable
+* **vec**: `NDArray[(Any,), Float]` - numpy array of values to modify all the components of an array/vector uniform variable
 * **w**: `bool` - fourth component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[4], vec4)
 * **w**: `float` - fourth component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[4], vec4)
 * **w**: `int` - fourth component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[4], vec4)
@@ -115,5 +115,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 23, 2021 15:51:57pm UTC
 

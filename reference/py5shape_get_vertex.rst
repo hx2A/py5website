@@ -1,13 +1,13 @@
 .. title: get_vertex()
 .. slug: py5shape_get_vertex
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 get_vertex() documentation
 .. type: text
 
-The ``get_vertex()`` method returns a PVector with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
+The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 
 Examples
 ========
@@ -59,7 +59,7 @@ Examples
 Description
 ===========
 
-The ``get_vertex()`` method returns a PVector with the coordinates of the vertex point located at the position defined by the ``index`` parameter. This method works when shapes are created as shown in the example above, but won't work properly when a shape is defined explicitly (e.g. ``create_shape(RECT, 20, 20, 80, 80)``.
+The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter. This method works when shapes are created as shown in the example, but won't work properly when a shape is defined explicitly (e.g. ``create_shape(RECT, 20, 20, 80, 80)``.
 
 Underlying Java method: `PShape.getVertex <https://processing.org/reference/PShape_getVertex_.html>`_
 
@@ -75,8 +75,8 @@ Parameters
 ==========
 
 * **index**: `int` - the location of the vertex
-* **vec**: `NDArray[(Any,), Float]` - PVector to assign the data to
+* **vec**: `NDArray[(Any,), Float]` - properly sized numpy array to assign the data to
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 

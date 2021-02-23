@@ -1,4 +1,4 @@
-* `add_child() <../py5shape_add_child/>`_: Adds a child PShape to a parent PShape that is defined as a GROUP.
+* `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` to a parent ``Py5Shape`` that is defined as a ``GROUP``.
 * `add_name() <../py5shape_add_name/>`_: The documentation for this field or method has not yet been written.
 * `ambient() <../py5shape_ambient/>`_: The documentation for this field or method has not yet been written.
 * `apply_matrix() <../py5shape_apply_matrix/>`_: The documentation for this field or method has not yet been written.
@@ -25,7 +25,7 @@
 * `find_child() <../py5shape_find_child/>`_: The documentation for this field or method has not yet been written.
 * `get_ambient() <../py5shape_get_ambient/>`_: The documentation for this field or method has not yet been written.
 * `get_child() <../py5shape_get_child/>`_: Extracts a child shape from a parent shape.
-* `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the PShape.
+* `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the ``Py5Shape``.
 * `get_child_index() <../py5shape_get_child_index/>`_: The documentation for this field or method has not yet been written.
 * `get_children() <../py5shape_get_children/>`_: The documentation for this field or method has not yet been written.
 * `get_depth() <../py5shape_get_depth/>`_: The documentation for this field or method has not yet been written.
@@ -50,20 +50,20 @@
 * `get_texture_u() <../py5shape_get_texture_u/>`_: The documentation for this field or method has not yet been written.
 * `get_texture_v() <../py5shape_get_texture_v/>`_: The documentation for this field or method has not yet been written.
 * `get_tint() <../py5shape_get_tint/>`_: The documentation for this field or method has not yet been written.
-* `get_vertex() <../py5shape_get_vertex/>`_: The ``get_vertex()`` method returns a PVector with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
+* `get_vertex() <../py5shape_get_vertex/>`_: The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 * `get_vertex_code() <../py5shape_get_vertex_code/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_code_count() <../py5shape_get_vertex_code_count/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_codes() <../py5shape_get_vertex_codes/>`_: The documentation for this field or method has not yet been written.
-* `get_vertex_count() <../py5shape_get_vertex_count/>`_: The ``get_vertex_count()`` method returns the number of vertices that make up a PShape.
+* `get_vertex_count() <../py5shape_get_vertex_count/>`_: The ``get_vertex_count()`` method returns the number of vertices that make up a ``Py5Shape``.
 * `get_vertex_x() <../py5shape_get_vertex_x/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_y() <../py5shape_get_vertex_y/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_z() <../py5shape_get_vertex_z/>`_: The documentation for this field or method has not yet been written.
 * `get_width() <../py5shape_get_width/>`_: The documentation for this field or method has not yet been written.
-* `height <../py5shape_height/>`_: The height of the PShape document.
+* `height <../py5shape_height/>`_: The height of the ``Py5Shape`` document.
 * `is2d() <../py5shape_is2d/>`_: The documentation for this field or method has not yet been written.
 * `is3d() <../py5shape_is3d/>`_: The documentation for this field or method has not yet been written.
 * `is_closed() <../py5shape_is_closed/>`_: The documentation for this field or method has not yet been written.
-* `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value "true" if the image is set to be visible, "false" if not.
+* `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
 * `no_fill() <../py5shape_no_fill/>`_: The documentation for this field or method has not yet been written.
 * `no_stroke() <../py5shape_no_stroke/>`_: The documentation for this field or method has not yet been written.
 * `no_texture() <../py5shape_no_texture/>`_: The documentation for this field or method has not yet been written.
@@ -110,4 +110,4 @@
 * `tint() <../py5shape_tint/>`_: The documentation for this field or method has not yet been written.
 * `translate() <../py5shape_translate/>`_: Specifies an amount to displace the shape.
 * `vertex() <../py5shape_vertex/>`_: The documentation for this field or method has not yet been written.
-* `width <../py5shape_width/>`_: The width of the PShape document.
+* `width <../py5shape_width/>`_: The width of the ``Py5Shape`` document.

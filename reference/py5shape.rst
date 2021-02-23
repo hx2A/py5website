@@ -1,6 +1,6 @@
 .. title: Py5Shape
 .. slug: py5shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-23 15:51:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,7 +77,7 @@ Datatype for storing shapes. Before a shape is used, it must be loaded with the 
 
 The ``Py5Shape`` object contains a group of methods that can operate on the shape data. Some of the methods are listed below, but the full list used for creating and modifying shapes is available here in the Processing Javadoc.
 
-To create a new shape, use the ``create_shape()`` function. Do not use the syntax ``new Py5Shape()``.
+To create a new shape, use the ``create_shape()`` function. Do not use the syntax ``Py5Shape()``.
 
 Underlying Java class: `PShape <https://processing.org/reference/PShape.html>`_
 
@@ -85,5 +85,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shape_include.rst
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 23, 2021 15:51:57pm UTC
 

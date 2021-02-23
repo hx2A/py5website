@@ -1,6 +1,6 @@
 .. title: Py5Graphics
 .. slug: py5graphics
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-23 15:51:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,9 +52,9 @@ Examples
 Description
 ===========
 
-Main graphics and rendering context, as well as the base API implementation for processing "core". Use this class if you need to draw into an off-screen graphics buffer. A PGraphics object can be constructed with the ``create_graphics()`` function. The ``begin_draw()`` and ``end_draw()`` methods (see above example) are necessary to set up the buffer and to finalize it. The fields and methods for this class are extensive. For a complete list, visit the developer's reference.
+Main graphics and rendering context, as well as the base API implementation for processing "core". Use this class if you need to draw into an off-screen graphics buffer. A Py5Graphics object can be constructed with the ``create_graphics()`` function. The ``begin_draw()`` and ``end_draw()`` methods (see example) are necessary to set up the buffer and to finalize it. The fields and methods for this class are extensive.
 
-To create a new graphics context, use the ``create_graphics()`` function. Do not use the syntax ``new Py5Graphics()``.
+To create a new graphics context, use the ``create_graphics()`` function. Do not use the syntax ``Py5Graphics()``.
 
 Underlying Java class: `PGraphics <https://processing.org/reference/PGraphics.html>`_
 
@@ -62,5 +62,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5graphics_include.rst
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 23, 2021 15:51:57pm UTC
 

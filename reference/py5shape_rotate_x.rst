@@ -1,6 +1,6 @@
 .. title: rotate_x()
 .. slug: py5shape_rotate_x
-.. date: 2021-02-17 21:05:39 UTC+00:00
+.. date: 2021-02-23 16:06:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,7 +57,7 @@ Examples
 Description
 ===========
 
-Rotates the shape around the x-axis the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to TWO_PI) or converted from degrees to radians with the ``radians()`` method.
+Rotates the shape around the x-axis the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to ``TWO_PI``) or converted from degrees to radians with the ``radians()`` method.
 
 Shapes are always rotated around the upper-left corner of their bounding box. Positive numbers rotate objects in a clockwise direction. Subsequent calls to the method accumulates the effect. For example, calling ``rotate_x(HALF_PI)`` and then ``rotate_x(HALF_PI)`` is the same as ``rotate_x(PI)``. This transformation is applied directly to the shape, it's not refreshed each time ``draw()`` is run.  
 
@@ -78,5 +78,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on February 17, 2021 21:05:39pm UTC
+Updated on February 23, 2021 16:06:03pm UTC
 
