@@ -1,6 +1,6 @@
 .. title: rotate_z()
 .. slug: py5shape_rotate_z
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-02-25 18:50:59 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -61,7 +61,7 @@ Rotates the shape around the z-axis the amount specified by the ``angle`` parame
 
 Shapes are always rotated around the upper-left corner of their bounding box. Positive numbers rotate objects in a clockwise direction. Subsequent calls to the method accumulates the effect. For example, calling ``rotate_z(HALF_PI)`` and then ``rotate_z(HALF_PI)`` is the same as ``rotate_z(PI)``. This transformation is applied directly to the shape, it's not refreshed each time ``draw()`` is run. 
 
-This method requires a 3D renderer. You need to use P3D as a third parameter for the ``size()`` function as shown in the example above.
+This method requires a 3D renderer. You need to use P3D as a third parameter for the ``size()`` function as shown in the example.
 
 Underlying Java method: `PShape.rotateZ <https://processing.org/reference/PShape_rotateZ_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on February 25, 2021 18:50:59pm UTC
 

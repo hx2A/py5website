@@ -1,6 +1,6 @@
 .. title: curve_point()
 .. slug: curve_point
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-02-25 18:50:59 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,7 +57,7 @@ Examples
 Description
 ===========
 
-Evaluates the curve at point ``t`` for points ``a``, ``b``, ``c``, ``d``. The parameter ``t`` may range from 0 (the start of the curve) and 1 (the end of the curve). ``a`` and ``d`` are the control points, and ``b`` and ``c`` are points on the curve. As seen in the example above, this can be used once with the ``x`` coordinates and a second time with the ``y`` coordinates to get the location of a curve at ``t``.
+Evaluates the curve at point ``t`` for points ``a``, ``b``, ``c``, ``d``. The parameter ``t`` may range from 0 (the start of the curve) and 1 (the end of the curve). ``a`` and ``d`` are the control points, and ``b`` and ``c`` are points on the curve. As seen in the example, this can be used once with the ``x`` coordinates and a second time with the ``y`` coordinates to get the location of a curve at ``t``.
 
 Underlying Java method: `curvePoint <https://processing.org/reference/curvePoint_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on February 25, 2021 18:50:59pm UTC
 

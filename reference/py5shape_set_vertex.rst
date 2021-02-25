@@ -1,6 +1,6 @@
 .. title: set_vertex()
 .. slug: py5shape_set_vertex
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-02-25 18:50:59 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,7 +59,7 @@ Examples
 Description
 ===========
 
-The ``set_vertex()`` method defines the coordinates of the vertex point located at the position defined by the ``index`` parameter. This method works when shapes are created as shown in the example above, but won't work properly when a shape is defined explicitly (e.g. ``create_shape(RECT, 20, 20, 80, 80)``.
+The ``set_vertex()`` method defines the coordinates of the vertex point located at the position defined by the ``index`` parameter. This method works when shapes are created as shown in the example, but won't work properly when a shape is defined explicitly (e.g. ``create_shape(RECT, 20, 20, 80, 80)``.
 
 Underlying Java method: `PShape.setVertex <https://processing.org/reference/PShape_setVertex_.html>`_
 
@@ -82,5 +82,5 @@ Parameters
 * **z**: `float` - the z value for the vertex
 
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on February 25, 2021 18:50:59pm UTC
 

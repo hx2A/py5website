@@ -1,6 +1,6 @@
 .. title: pixel_density()
 .. slug: pixel_density
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 18:50:59 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -80,7 +80,7 @@ Examples
 Description
 ===========
 
-This function is new with Processing 3.0. It makes it possible for Processing to render using all of the pixels on high resolutions screens like Apple Retina displays and Windows High-DPI displays. This function can only be run once within a program and it must be called in ``settings()``.  The ``pixel_density()`` should only be used with hardcoded numbers (in almost all cases this number will be 2) or in combination with ``display_density()`` as in the second example above.
+This function is new with Processing 3.0. It makes it possible for Processing to render using all of the pixels on high resolutions screens like Apple Retina displays and Windows High-DPI displays. This function can only be run once within a program and it must be called in ``settings()``.  The ``pixel_density()`` should only be used with hardcoded numbers (in almost all cases this number will be 2) or in combination with ``display_density()`` as in the second example.
 
 When the pixel density is set to more than 1, it changes all of the pixel operations including the way ``get()``, ``set()``, ``blend()``, ``copy()``, and ``update_pixels()`` all work. See the reference for ``pixel_width`` and ``pixel_height`` for more information. 
 
@@ -101,5 +101,5 @@ Parameters
 * **density**: `int` - 1 or 2
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 18:50:59pm UTC
 
