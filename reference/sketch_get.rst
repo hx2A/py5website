@@ -1,6 +1,6 @@
 .. title: get()
 .. slug: get
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,7 +77,7 @@ Reads the color of any pixel or grabs a section of an image. If no parameters ar
 
 If the pixel requested is outside of the image window, black is returned. The numbers returned are scaled according to the current color ranges, but only RGB values are returned by this function. For example, even though you may have drawn a shape with ``color_mode(HSB)``, the numbers returned will be in RGB format.
 
-If a width and a height are specified, ``get(x, y, w, h)`` returns a PImage corresponding to the part of the original PImage where the top left pixel is at the ``(x, y)`` position with a width of ``w`` a height of ``h``.
+If a width and a height are specified, ``get(x, y, w, h)`` returns a Py5Image corresponding to the part of the original Py5Image where the top left pixel is at the ``(x, y)`` position with a width of ``w`` a height of ``h``.
 
 Getting the color of a single pixel with ``get(x, y)`` is easy, but not as fast as grabbing the data directly from ``pixels[]``. The equivalent statement to ``get(x, y)`` using ``pixels[]`` is ``pixels[y*width+x]``. See the reference for pixels[] for more information.
 
@@ -101,5 +101,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

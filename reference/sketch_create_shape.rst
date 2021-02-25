@@ -1,6 +1,6 @@
 .. title: create_shape()
 .. slug: create_shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -156,13 +156,13 @@ Examples
 Description
 ===========
 
-The ``create_shape()`` function is used to define a new shape. Once created, this shape can be drawn with the ``shape()`` function. The basic way to use the function defines new primitive shapes. One of the following parameters are used as the first parameter: ``ELLIPSE``, ``RECT``, ``ARC``, ``TRIANGLE``, ``SPHERE``, ``BOX``, ``QUAD``, or ``LINE``. The parameters for each of these different shapes are the same as their corresponding functions: ``ellipse()``, ``rect()``, ``arc()``, ``triangle()``, ``sphere()``, ``box()``, ``quad()``, and ``line()``. The first example above clarifies how this works.
+The ``create_shape()`` function is used to define a new shape. Once created, this shape can be drawn with the ``shape()`` function. The basic way to use the function defines new primitive shapes. One of the following parameters are used as the first parameter: ``ELLIPSE``, ``RECT``, ``ARC``, ``TRIANGLE``, ``SPHERE``, ``BOX``, ``QUAD``, or ``LINE``. The parameters for each of these different shapes are the same as their corresponding functions: ``ellipse()``, ``rect()``, ``arc()``, ``triangle()``, ``sphere()``, ``box()``, ``quad()``, and ``line()``. The first example clarifies how this works.
 
 Custom, unique shapes can be made by using ``create_shape()`` without a parameter. After the shape is started, the drawing attributes and geometry can be set directly to the shape within the ``begin_shape()`` and ``end_shape()`` methods. See the second example above for specifics, and the reference for ``begin_shape()`` for all of its options.
 
-The  ``create_shape()`` function can also be used to make a complex shape made of other shapes. This is called a "group" and it's created by using the parameter ``GROUP`` as the first parameter. See the fourth example above to see how it works.
+The  ``create_shape()`` function can also be used to make a complex shape made of other shapes. This is called a "group" and it's created by using the parameter ``GROUP`` as the first parameter. See the fourth example to see how it works.
 
-After using ``create_shape()``, stroke and fill color can be set by calling methods like ``set_fill()`` and ``set_stroke()``, as seen in the examples above. The complete list of methods and fields for the PShape class are in the Processing Javadoc.
+After using ``create_shape()``, stroke and fill color can be set by calling methods like ``set_fill()`` and ``set_stroke()``, as seen in the examples. The complete list of methods and fields for the Py5Shape class are in the py5 documentation.
 
 Underlying Java method: `createShape <https://processing.org/reference/createShape_.html>`_
 
@@ -183,5 +183,5 @@ Parameters
 * **type**: `int` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

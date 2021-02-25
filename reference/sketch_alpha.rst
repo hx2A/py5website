@@ -1,13 +1,13 @@
 .. title: alpha()
 .. slug: alpha
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 alpha() documentation
 .. type: text
 
-Extracts the alpha value from a color.
+Extracts the alpha value from a color, scaled to match current ``color_mode()``.
 
 Examples
 ========
@@ -50,7 +50,9 @@ Examples
 Description
 ===========
 
-Extracts the alpha value from a color.
+Extracts the alpha value from a color, scaled to match current ``color_mode()``. The value is always returned as a float, so be careful not to assign it to an int value.
+
+The ``alpha()`` function is easy to use and understand, but it is slower than a technique called bit shifting. When working in ``color_mode(RGB, 255)``, you can achieve the same results as ``alpha()`` but with greater speed by using the right shift operator (``>>``) with a bit mask. For example, ``alpha(c)`` and ``c >> 24 & 0xFF`` both extract the alpha value from a color variable ``c`` but the later is faster.
 
 Underlying Java method: `alpha <https://processing.org/reference/alpha_.html>`_
 
@@ -67,5 +69,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

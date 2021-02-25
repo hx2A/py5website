@@ -1,13 +1,13 @@
 .. title: end_raw()
 .. slug: end_raw
-.. date: 2021-02-17 18:39:13 UTC+00:00
+.. date: 2021-02-25 16:37:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 end_raw() documentation
 .. type: text
 
-Complement to :doc:`begin_raw()`; they must always be used together.
+Complement to :doc:`begin_raw`; they must always be used together.
 
 Examples
 ========
@@ -55,7 +55,7 @@ Examples
 Description
 ===========
 
-Complement to :doc:`begin_raw()`; they must always be used together. See the :doc:`begin_raw()` reference for details.
+Complement to :doc:`begin_raw`; they must always be used together. See the :doc:`begin_raw` reference for details.
 
 Underlying Java method: `endRaw <https://processing.org/reference/endRaw_.html>`_
 
@@ -66,5 +66,5 @@ Syntax
 
     end_raw() -> None
 
-Updated on February 17, 2021 18:39:13pm UTC
+Updated on February 25, 2021 16:37:22pm UTC
 

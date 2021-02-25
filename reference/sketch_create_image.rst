@@ -1,13 +1,13 @@
 .. title: create_image()
 .. slug: create_image
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 create_image() documentation
 .. type: text
 
-Creates a new PImage (the datatype for storing images).
+Creates a new Py5Image (the datatype for storing images).
 
 Examples
 ========
@@ -78,11 +78,11 @@ Examples
 Description
 ===========
 
-Creates a new PImage (the datatype for storing images). This provides a fresh buffer of pixels to play with. Set the size of the buffer with the ``width`` and ``height`` parameters. The ``format`` parameter defines how the pixels are stored. See the PImage reference for more information.
+Creates a new Py5Image (the datatype for storing images). This provides a fresh buffer of pixels to play with. Set the size of the buffer with the ``width`` and ``height`` parameters. The ``format`` parameter defines how the pixels are stored. See the :doc:`Py5Image` reference for more information.
  
 Be sure to include all three parameters, specifying only the width and height (but no format) will produce a strange error.
  
-Advanced users please note that ``create_image()`` should be used instead of the syntax ``new Py5Image()``.
+Advanced users please note that ``create_image()`` should be used instead of the syntax ``Py5Image()``.
 
 Underlying Java method: `createImage <https://processing.org/reference/createImage_.html>`_
 
@@ -101,5 +101,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

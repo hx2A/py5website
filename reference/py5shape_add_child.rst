@@ -1,6 +1,6 @@
 .. title: add_child()
 .. slug: py5shape_add_child
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -84,8 +84,8 @@ Parameters
 ==========
 
 * **idx**: `int` - the layer position in which to insert the new child
-* **who**: `Py5Shape` - any variable of type PShape
+* **who**: `Py5Shape` - any variable of type Py5Shape
 
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

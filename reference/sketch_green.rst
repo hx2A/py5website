@@ -1,6 +1,6 @@
 .. title: green()
 .. slug: green
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,10 +53,7 @@ Description
 
 Extracts the green value from a color, scaled to match current ``color_mode()``. The value is always returned as a float, so be careful not to assign it to an int value.
 
-The ``green()`` function is easy to use and understand, but it is slower than a technique called bit shifting. When working in ``color_mode(RGB, 255)``, you can acheive the same results as ``green()`` but with greater speed by using the right shift operator (``>>``) with a bit mask. For example, the following two lines of code are equivalent means of getting the green value of the color value ``c``:
-
-``g1 = green(c)  # simpler, but slower to calculate
-g2 = c >> 8 & 0xFF  # very fast to calculate``
+The ``green()`` function is easy to use and understand, but it is slower than a technique called bit shifting. When working in ``color_mode(RGB, 255)``, you can achieve the same results as ``green()`` but with greater speed by using the right shift operator (``>>``) with a bit mask. For example, ``green(c)`` and ``c >> 8 & 0xFF`` both extract the green value from a color variable ``c`` but the later is faster.
 
 Underlying Java method: `green <https://processing.org/reference/green_.html>`_
 
@@ -73,5 +70,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

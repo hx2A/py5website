@@ -1,13 +1,13 @@
 .. title: begin_draw()
 .. slug: py5graphics_begin_draw
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 begin_draw() documentation
 .. type: text
 
-Sets the default properties for a PGraphics object.
+Sets the default properties for a Py5Graphics object.
 
 Examples
 ========
@@ -55,7 +55,7 @@ Examples
 Description
 ===========
 
-Sets the default properties for a PGraphics object. It should be called before anything is drawn into the object.
+Sets the default properties for a Py5Graphics object. It should be called before anything is drawn into the object.
 
 Underlying Java method: `PGraphics.beginDraw <https://processing.org/reference/PGraphics_beginDraw_.html>`_
 
@@ -66,5 +66,5 @@ Syntax
 
     begin_draw() -> None
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

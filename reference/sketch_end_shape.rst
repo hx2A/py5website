@@ -1,6 +1,6 @@
 .. title: end_shape()
 .. slug: end_shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:37:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-The ``end_shape()`` function is the companion to ``begin_shape()`` and may only be called after ``begin_shape()``. When ``end_shape()`` is called, all of image data defined since the previous call to ``begin_shape()`` is written into the image buffer. The constant CLOSE as the value for the MODE parameter to close the shape (to connect the beginning and the end).
+The ``end_shape()`` function is the companion to ``begin_shape()`` and may only be called after ``begin_shape()``. When ``end_shape()`` is called, all of image data defined since the previous call to ``begin_shape()`` is written into the image buffer. The constant ``CLOSE`` as the value for the MODE parameter to close the shape (to connect the beginning and the end).
 
 Underlying Java method: `endShape <https://processing.org/reference/endShape_.html>`_
 
@@ -74,5 +74,5 @@ Parameters
 * **mode**: `int` - use CLOSE to close the shape
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:37:22pm UTC
 

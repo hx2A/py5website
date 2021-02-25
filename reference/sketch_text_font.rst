@@ -1,6 +1,6 @@
 .. title: text_font()
 .. slug: text_font
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -66,8 +66,8 @@ Parameters
 ==========
 
 * **size**: `float` - the size of the letters in units of pixels
-* **which**: `Py5Font` - any variable of the type PFont
+* **which**: `Py5Font` - any variable of the type Py5Font
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

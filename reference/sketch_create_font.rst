@@ -1,6 +1,6 @@
 .. title: create_font()
 .. slug: create_font
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,7 +56,7 @@ Dynamically converts a font to the format used by Processing from a .ttf or .otf
 
 The ``size`` parameter states the font size you want to generate. The ``smooth`` parameter specifies if the font should be antialiased or not. The ``charset`` parameter is an array of chars that specifies the characters to generate.
 
-This function allows Processing to work with the font natively in the default renderer, so the letters are defined by vector geometry and are rendered quickly. In the ``P2D`` and ``P3D`` renderers, the function sets the project to render the font as a series of small textures. For instance, when using the default renderer, the actual native version of the font will be employed by the sketch, improving drawing quality and performance. With the ``P2D`` and ``P3D`` renderers, the bitmapped version will be used to improve speed and appearance, but the results are poor when exporting if the sketch does not include the .otf or .ttf file, and the requested font is not available on the machine running the sketch.
+This function allows py5 to work with the font natively in the default renderer, so the letters are defined by vector geometry and are rendered quickly. In the ``P2D`` and ``P3D`` renderers, the function sets the project to render the font as a series of small textures. For instance, when using the default renderer, the actual native version of the font will be employed by the sketch, improving drawing quality and performance. With the ``P2D`` and ``P3D`` renderers, the bitmapped version will be used to improve speed and appearance, but the results are poor when exporting if the sketch does not include the .otf or .ttf file, and the requested font is not available on the machine running the sketch.
 
 Underlying Java method: `createFont <https://processing.org/reference/createFont_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **smooth**: `bool` - true for an antialiased font, false for aliased
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

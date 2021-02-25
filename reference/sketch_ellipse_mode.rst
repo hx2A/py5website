@@ -1,6 +1,6 @@
 .. title: ellipse_mode()
 .. slug: ellipse_mode
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:37:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -87,7 +87,7 @@ The default mode is ``ellipse_mode(CENTER)``, which interprets the first two par
 
 ``ellipse_mode(CORNERS)`` interprets the first two parameters of ``ellipse()`` as the location of one corner of the ellipse's bounding box, and the third and fourth parameters as the location of the opposite corner.
 
-The parameter must be written in ALL CAPS because Processing is a case-sensitive language.
+The parameter must be written in ALL CAPS because Python is a case-sensitive language.
 
 Underlying Java method: `ellipseMode <https://processing.org/reference/ellipseMode_.html>`_
 
@@ -104,5 +104,5 @@ Parameters
 * **mode**: `int` - either CENTER, RADIUS, CORNER, or CORNERS
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:37:22pm UTC
 

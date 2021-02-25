@@ -1,13 +1,13 @@
 .. title: day()
 .. slug: day
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:37:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 day() documentation
 .. type: text
 
-Processing communicates with the clock on your computer.
+Py5 communicates with the clock on your computer.
 
 Examples
 ========
@@ -47,7 +47,7 @@ Examples
 Description
 ===========
 
-Processing communicates with the clock on your computer. The ``day()`` function returns the current day as a value from 1 - 31.
+Py5 communicates with the clock on your computer. The ``day()`` function returns the current day as a value from 1 - 31.
 
 Underlying Java method: `day <https://processing.org/reference/day_.html>`_
 
@@ -58,5 +58,5 @@ Syntax
 
     day() -> int
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:37:22pm UTC
 

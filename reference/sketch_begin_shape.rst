@@ -1,6 +1,6 @@
 .. title: begin_shape()
 .. slug: begin_shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -328,7 +328,7 @@ Examples
 Description
 ===========
 
-Using the ``begin_shape()`` and ``end_shape()`` functions allow creating more complex forms. ``begin_shape()`` begins recording vertices for a shape and ``end_shape()`` stops recording. The value of the ``kind`` parameter tells it which types of shapes to create from the provided vertices. With no mode specified, the shape can be any irregular polygon. The parameters available for ``begin_shape()`` are POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, and QUAD_STRIP. After calling the ``begin_shape()`` function, a series of ``vertex()`` commands must follow. To stop drawing the shape, call ``end_shape()``. The ``vertex()`` function with two parameters specifies a position in 2D and the ``vertex()`` function with three parameters specifies a position in 3D. Each shape will be outlined with the current stroke color and filled with the fill color. 
+Using the ``begin_shape()`` and ``end_shape()`` functions allow creating more complex forms. ``begin_shape()`` begins recording vertices for a shape and ``end_shape()`` stops recording. The value of the ``kind`` parameter tells it which types of shapes to create from the provided vertices. With no mode specified, the shape can be any irregular polygon. The parameters available for ``begin_shape()`` are ``POINTS``, ``LINES``, ``TRIANGLES``, ``TRIANGLE_FAN``, ``TRIANGLE_STRIP``, ``QUADS``, and ``QUAD_STRIP``. After calling the ``begin_shape()`` function, a series of ``vertex()`` commands must follow. To stop drawing the shape, call ``end_shape()``. The ``vertex()`` function with two parameters specifies a position in 2D and the ``vertex()`` function with three parameters specifies a position in 3D. Each shape will be outlined with the current stroke color and filled with the fill color. 
 
 Transformations such as ``translate()``, ``rotate()``, and ``scale()`` do not work within ``begin_shape()``. It is also not possible to use other shapes, such as ``ellipse()`` or ``rect()`` within ``begin_shape()``. 
 
@@ -350,5 +350,5 @@ Parameters
 * **kind**: `int` - Either POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, or QUAD_STRIP
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

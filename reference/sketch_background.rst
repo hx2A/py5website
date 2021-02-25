@@ -1,6 +1,6 @@
 .. title: background()
 .. slug: background
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -113,12 +113,12 @@ Parameters
 
 * **alpha**: `float` - opacity of the background
 * **gray**: `float` - specifies a value between white and black
-* **image**: `Py5Image` - PImage to set as background (must be same size as the sketch window)
+* **image**: `Py5Image` - Py5Image to set as background (must be same size as the sketch window)
 * **rgb**: `int` - any value of the color datatype
 * **v1**: `float` - red or hue value (depending on the current color mode)
 * **v2**: `float` - green or saturation value (depending on the current color mode)
 * **v3**: `float` - blue or brightness value (depending on the current color mode)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

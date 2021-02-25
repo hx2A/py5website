@@ -1,6 +1,6 @@
 .. title: texture()
 .. slug: texture
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -72,8 +72,8 @@ Syntax
 Parameters
 ==========
 
-* **image**: `Py5Image` - reference to a PImage object
+* **image**: `Py5Image` - reference to a Py5Image object
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

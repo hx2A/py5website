@@ -1,13 +1,13 @@
 .. title: end_draw()
 .. slug: py5graphics_end_draw
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 end_draw() documentation
 .. type: text
 
-Finalizes the rendering of a PGraphics object so that it can be shown on screen.
+Finalizes the rendering of a Py5Graphics object so that it can be shown on screen.
 
 Examples
 ========
@@ -55,7 +55,7 @@ Examples
 Description
 ===========
 
-Finalizes the rendering of a PGraphics object so that it can be shown on screen.
+Finalizes the rendering of a Py5Graphics object so that it can be shown on screen.
 
 Underlying Java method: `PGraphics.endDraw <https://processing.org/reference/PGraphics_endDraw_.html>`_
 
@@ -66,5 +66,5 @@ Syntax
 
     end_draw() -> None
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

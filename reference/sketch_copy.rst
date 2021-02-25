@@ -1,6 +1,6 @@
 .. title: copy()
 .. slug: copy
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,7 +52,7 @@ Description
 
 Copies a region of pixels from the display window to another area of the display window and copies a region of pixels from an image used as the ``src_img`` parameter into the display window. If the source and destination regions aren't the same size, it will automatically resize the source pixels to fit the specified target region. No alpha information is used in the process, however if the source image has an alpha channel set, it will be copied as well.
 
-As of release 0149, this function ignores ``image_mode()``.
+As of Processing release 0149, this function ignores ``image_mode()``.
 
 Underlying Java method: `copy <https://processing.org/reference/copy_.html>`_
 
@@ -73,11 +73,11 @@ Parameters
 * **dx**: `int` - X coordinate of the destination's upper left corner
 * **dy**: `int` - Y coordinate of the destination's upper left corner
 * **sh**: `int` - source image height
-* **src**: `Py5Image` - an image variable referring to the source image.
+* **src**: `Py5Image` - an image variable referring to the source image
 * **sw**: `int` - source image width
 * **sx**: `int` - X coordinate of the source's upper left corner
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

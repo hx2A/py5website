@@ -1,6 +1,6 @@
 .. title: begin_record()
 .. slug: begin_record
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -74,9 +74,9 @@ Parameters
 ==========
 
 * **filename**: `str` - filename for output
-* **recorder**: `Py5Graphics` - missing variable description
+* **recorder**: `Py5Graphics` - Py5Graphics object to record drawing commands to
 * **renderer**: `str` - PDF or SVG
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: cursor()
 .. slug: cursor
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:27:06 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,7 +51,7 @@ Sets the cursor to a predefined symbol or an image, or makes it visible if alrea
 
 Setting or hiding the cursor does not generally work with "Present" mode (when running full-screen).
 
-With the P2D and P3D renderers, a generic set of cursors are used because the OpenGL renderer doesn't have access to the default cursor images for each platform (Issue 3791).
+With the P2D and P3D renderers, a generic set of cursors are used because the OpenGL renderer doesn't have access to the default cursor images for each platform (Processing Issue 3791).
 
 Underlying Java method: `cursor <https://processing.org/reference/cursor_.html>`_
 
@@ -68,11 +68,11 @@ Syntax
 Parameters
 ==========
 
-* **img**: `Py5Image` - any variable of type PImage
+* **img**: `Py5Image` - any variable of type Py5Image
 * **kind**: `int` - either ARROW, CROSS, HAND, MOVE, TEXT, or WAIT
 * **x**: `int` - the horizontal active spot of the cursor
 * **y**: `int` - the vertical active spot of the cursor
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:27:06pm UTC
 

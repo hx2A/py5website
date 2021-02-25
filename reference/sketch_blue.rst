@@ -1,6 +1,6 @@
 .. title: blue()
 .. slug: blue
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:17:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,10 +53,7 @@ Description
 
 Extracts the blue value from a color, scaled to match current ``color_mode()``. The value is always returned as a float, so be careful not to assign it to an int value.
 
-The ``blue()`` function is easy to use and understand, but it is slower than a technique called bit masking. When working in ``color_mode(RGB, 255)``, you can acheive the same results as ``blue()`` but with greater speed by using a bit mask to remove the other color components. For example, the following two lines of code are equivalent means of getting the blue value of the color value ``c``:
-
-``b1 = blue(c)   # simpler, but slower to calculate
-b2 = c & 0xFF  # very fast to calculate``
+The ``blue()`` function is easy to use and understand, but it is slower than a technique called bit masking. When working in ``color_mode(RGB, 255)``, you can achieve the same results as ``blue()`` but with greater speed by using a bit mask to remove the other color components. For example, ``blue(c)`` and ``c & 0xFF`` both extract the blue value from a color variable ``c`` but the later is faster.
 
 Underlying Java method: `blue <https://processing.org/reference/blue_.html>`_
 
@@ -73,5 +70,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:17:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: exit_sketch()
 .. slug: exit_sketch
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 16:37:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,11 +45,11 @@ Examples
 Description
 ===========
 
-Quits/stops/exits the program. Programs without a ``draw()`` function stop automatically after the last line has run, but programs with ``draw()`` run continuously until the program is manually stopped or ``exit()`` is run.
+Quits/stops/exits the program. Programs without a ``draw()`` function stop automatically after the last line has run, but programs with ``draw()`` run continuously until the program is manually stopped or ``exit_sketch()`` is run.
 
-Rather than terminating immediately, ``exit()`` will cause the sketch to exit after ``draw()`` has completed (or after ``setup()`` completes if called during the ``setup()`` function).
+Rather than terminating immediately, ``exit_sketch()`` will cause the sketch to exit after ``draw()`` has completed (or after ``setup()`` completes if called during the ``setup()`` function).
 
-For Java programmers, this is *not* the same as System.``exit()``. Further, System.``exit()`` should not be used because closing out an application while ``draw()`` is running may cause a crash (particularly with P3D).
+For Python programmers, this is *not* the same as ``sys.exit()``. Further, ``sys.exit()`` should not be used because closing out an application while ``draw()`` is running may cause a crash (particularly with P3D).
 
 Underlying Java method: `exit <https://processing.org/reference/exit_.html>`_
 
@@ -60,5 +60,5 @@ Syntax
 
     exit_sketch() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 16:37:22pm UTC
 
