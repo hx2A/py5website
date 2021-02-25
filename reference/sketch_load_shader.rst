@@ -1,13 +1,13 @@
 .. title: load_shader()
 .. slug: load_shader
-.. date: 2021-02-25 16:27:06 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 load_shader() documentation
 .. type: text
 
-Loads a shader into the Py5Shader object.
+Loads a shader into a ``Py5Shader`` object.
 
 Examples
 ========
@@ -55,11 +55,11 @@ Examples
 Description
 ===========
 
-Loads a shader into the Py5Shader object. The shader file must be loaded in the sketch's "data" folder/directory to load correctly. Shaders are compatible with the P2D and P3D renderers, but not with the default renderer.
+Loads a shader into a ``Py5Shader`` object. The shader file must be loaded in the sketch's "data" directory to load correctly. Shaders are compatible with the P2D and P3D renderers, but not with the default renderer.
 
 Alternatively, the file maybe be loaded from anywhere on the local computer using an absolute path (something that starts with / on Unix and Linux, or a drive letter on Windows), or the filename parameter can be a URL for a file found on a network.
 
-If the file is not available or an error occurs, ``None`` will be returned and an error message will be printed to the console. The error message does not halt the program, however the null value may cause a NullPointerException if your code does not check whether the value returned is null.
+If the file is not available or an error occurs, ``None`` will be returned and an error message will be printed to the console. The error message does not halt the program, however the ``None`` value may cause an error if your code does not check whether the value returned is ``None``.
 
 Underlying Java method: `loadShader <https://processing.org/reference/loadShader_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **vert_filename**: `str` - name of vertex shader file
 
 
-Updated on February 25, 2021 16:27:06pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

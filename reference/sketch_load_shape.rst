@@ -1,6 +1,6 @@
 .. title: load_shape()
 .. slug: load_shape
-.. date: 2021-02-17 21:05:39 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -84,7 +84,7 @@ Loads geometry into a variable of type ``Py5Shape``. SVG and OBJ files may be lo
 
 Alternatively, the file maybe be loaded from anywhere on the local computer using an absolute path (something that starts with / on Unix and Linux, or a drive letter on Windows), or the filename parameter can be a URL for a file found on a network.
 
-If the file is not available or an error occurs, ``None`` will be returned and an error message will be printed to the console. The error message does not halt the program, however the null value may cause a NullPointerException if your code does not check whether the value returned is null.
+If the file is not available or an error occurs, ``None`` will be returned and an error message will be printed to the console. The error message does not halt the program, however the ``None`` value may cause errors if your code does not check whether the value returned is ``None``.
 
 Underlying Java method: `loadShape <https://processing.org/reference/loadShape_.html>`_
 
@@ -103,5 +103,5 @@ Parameters
 * **options**: `str` - missing variable description
 
 
-Updated on February 17, 2021 21:05:39pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

@@ -1,6 +1,6 @@
 .. title: is_mouse_pressed
 .. slug: is_mouse_pressed
-.. date: 2021-02-14 14:40:26 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,8 +51,8 @@ Examples
 Description
 ===========
 
-The ``is_mouse_pressed`` variable stores whether or not a mouse button is currently being pressed. The value is true when `any` mouse button is pressed, and false if no button is pressed. The :doc:`mouse_button` variable (see the related reference entry) can be used to determine which button has been pressed.
+The ``is_mouse_pressed`` variable stores whether or not a mouse button is currently being pressed. The value is ``True`` when `any` mouse button is pressed, and ``False`` if no button is pressed. The :doc:`mouse_button` variable (see the related reference entry) can be used to determine which button has been pressed.
 
 
-Updated on February 14, 2021 14:40:26pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

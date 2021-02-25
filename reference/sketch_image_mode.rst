@@ -1,6 +1,6 @@
 .. title: image_mode()
 .. slug: image_mode
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -112,7 +112,7 @@ The default mode is ``image_mode(CORNER)``, which interprets the second and thir
 
 ``image_mode(CENTER)`` interprets the second and third parameters of ``image()`` as the image's center point. If two additional parameters are specified, they are used to set the image's width and height.
 
-The parameter must be written in ALL CAPS because Processing is a case-sensitive language.
+The parameter must be written in ALL CAPS because Python is a case-sensitive language.
 
 Underlying Java method: `imageMode <https://processing.org/reference/imageMode_.html>`_
 
@@ -129,5 +129,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, or CENTER
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

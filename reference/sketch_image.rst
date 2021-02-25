@@ -1,6 +1,6 @@
 .. title: image()
 .. slug: image
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -78,7 +78,7 @@ Examples
 Description
 ===========
 
-The ``image()`` function draws an image to the display window. Images must be in the sketch's "data" directory to load correctly. Select "Add file..." from the "Sketch" menu to add the image to the data directory, or just drag the image file onto the sketch window. Processing currently works with GIF, JPEG, and PNG images. 
+The ``image()`` function draws an image to the display window. Images must be in the sketch's "data" directory to load correctly. Py5 currently works with GIF, JPEG, and PNG images. 
 
 The ``img`` parameter specifies the image to display and by default the ``a`` and ``b`` parameters define the location of its upper-left corner. The image is displayed at its original size unless the ``c`` and ``d`` parameters specify a different size. The ``image_mode()`` function can be used to change the way these parameters draw the image.
 
@@ -109,5 +109,5 @@ Parameters
 * **v2**: `int` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

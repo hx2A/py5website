@@ -1,6 +1,6 @@
 .. title: lights()
 .. slug: lights
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -92,7 +92,7 @@ Examples
 Description
 ===========
 
-Sets the default ambient light, directional light, falloff, and specular values. The defaults are ambientLight(128, 128, 128) and directionalLight(128, 128, 128, 0, 0, -1), lightFalloff(1, 0, 0), and lightSpecular(0, 0, 0). Lights need to be included in the ``draw()`` to remain persistent in a looping program. Placing them in the ``setup()`` of a looping program will cause them to only have an effect the first time through the loop.
+Sets the default ambient light, directional light, falloff, and specular values. The defaults are ``ambientLight(128, 128, 128)`` and ``directionalLight(128, 128, 128, 0, 0, -1)``, ``lightFalloff(1, 0, 0)``, and ``lightSpecular(0, 0, 0)``. Lights need to be included in the ``draw()`` to remain persistent in a looping program. Placing them in the ``setup()`` of a looping program will cause them to only have an effect the first time through the loop.
 
 Underlying Java method: `lights <https://processing.org/reference/lights_.html>`_
 
@@ -103,5 +103,5 @@ Syntax
 
     lights() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

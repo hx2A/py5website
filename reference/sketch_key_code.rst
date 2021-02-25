@@ -1,6 +1,6 @@
 .. title: key_code
 .. slug: key_code
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 18:37:48 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,7 +59,7 @@ Description
 
 The variable ``key_code`` is used to detect special keys such as the arrow keys (UP, DOWN, LEFT, and RIGHT) as well as ALT, CONTROL, and SHIFT.
 
-When checking for these keys, it can be useful to first check if the key is coded. This is done with the conditional ``if (key == CODED)``, as shown in the example above.
+When checking for these keys, it can be useful to first check if the key is coded. This is done with the conditional ``if (key == CODED)``, as shown in the example.
 
 The keys included in the ASCII specification (BACKSPACE, TAB, ENTER, RETURN, ESC, and DELETE) do not require checking to see if the key is coded; for those keys, you should simply use the ``key`` variable directly (and not ``key_code``).  If you're making cross-platform projects, note that the ENTER key is commonly used on PCs and Unix, while the RETURN key is used on Macs. Make sure your program will work on all platforms by checking for both ENTER and RETURN.
 
@@ -72,5 +72,5 @@ If you are using P2D or P3D as your renderer, use the NEWT KeyEvent constants.
 Underlying Java field: `keyCode <https://processing.org/reference/keyCode.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 18:37:48pm UTC
 

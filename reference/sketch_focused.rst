@@ -1,13 +1,13 @@
 .. title: focused
 .. slug: focused
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-25 17:49:54 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 focused documentation
 .. type: text
 
-Confirms if a Processing program is "focused," meaning that it is active and will accept mouse or keyboard input.
+Confirms if a py5 program is "focused," meaning that it is active and will accept mouse or keyboard input.
 
 Examples
 ========
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     def setup():
-        if py5.focused:  # or "if (focused == true)"
+        if py5.focused:  # or "if (py5.focused == true)"
             py5.ellipse(25, 25, 50, 50)
         else:
             py5.line(0, 0, 100, 100)
@@ -45,10 +45,10 @@ Examples
 Description
 ===========
 
-Confirms if a Processing program is "focused," meaning that it is active and will accept mouse or keyboard input. This variable is "true" if it is focused and "false" if not.
+Confirms if a py5 program is "focused," meaning that it is active and will accept mouse or keyboard input. This variable is ``True`` if it is focused and ``False`` if not.
 
 Underlying Java field: `focused <https://processing.org/reference/focused.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 25, 2021 17:49:54pm UTC
 
