@@ -1,6 +1,6 @@
 .. title: point()
 .. slug: point
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-27 02:51:56 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -86,7 +86,7 @@ Use ``stroke()`` to set the color of a ``point()``.
 
 Point appears round with the default ``stroke_cap(ROUND)`` and square with ``stroke_cap(PROJECT)``. Points are invisible with ``stroke_cap(SQUARE)`` (no cap).
 
-Using ``point()`` with strokeWeight(1) or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using ``set()`` or drawing the point using either ``circle()`` or ``square()``.
+Using ``point()`` with ``strokeWeight(1)`` or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using ``set()`` or drawing the point using either ``circle()`` or ``square()``.
 
 Underlying Java method: `point <https://processing.org/reference/point_.html>`_
 
@@ -106,5 +106,5 @@ Parameters
 * **z**: `float` - z-coordinate of the point
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 27, 2021 02:51:56am UTC
 

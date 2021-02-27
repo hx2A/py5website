@@ -1,13 +1,13 @@
 .. title: print_projection()
 .. slug: print_projection
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-27 02:51:56 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 print_projection() documentation
 .. type: text
 
-Prints the current projection matrix to the Console (the text window at the bottom of Processing).
+Prints the current projection matrix to standard output.
 
 Examples
 ========
@@ -51,7 +51,7 @@ Examples
 Description
 ===========
 
-Prints the current projection matrix to the Console (the text window at the bottom of Processing).
+Prints the current projection matrix to standard output.
 
 Underlying Java method: `printProjection <https://processing.org/reference/printProjection_.html>`_
 
@@ -62,5 +62,5 @@ Syntax
 
     print_projection() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 27, 2021 02:51:56am UTC
 

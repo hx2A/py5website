@@ -1,6 +1,6 @@
 .. title: no_cursor()
 .. slug: no_cursor
-.. date: 2021-02-14 14:40:26 UTC+00:00
+.. date: 2021-02-27 02:51:56 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,7 +45,7 @@ Examples
 Description
 ===========
 
-Hides the cursor from view. Will not work when running the program in a web browser or in full screen (Present) mode.
+Hides the cursor from view. Will not work when running the program in full screen (Present) mode.
 
 Underlying Java method: `noCursor <https://processing.org/reference/noCursor_.html>`_
 
@@ -56,5 +56,5 @@ Syntax
 
     no_cursor() -> None
 
-Updated on February 14, 2021 14:40:26pm UTC
+Updated on February 27, 2021 02:51:56am UTC
 
