@@ -1,13 +1,13 @@
 .. title: disable_style()
 .. slug: py5shape_disable_style
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 disable_style() documentation
 .. type: text
 
-Disables the shape's style data and uses Processing's current styles.
+Disables the shape's style data and uses py5's current styles.
 
 Examples
 ========
@@ -54,7 +54,7 @@ Examples
 Description
 ===========
 
-Disables the shape's style data and uses Processing's current styles. Styles include attributes such as colors, stroke weight, and stroke joints.
+Disables the shape's style data and uses py5's current styles. Styles include attributes such as colors, stroke weight, and stroke joints.
 
 Underlying Java method: `PShape.disableStyle <https://processing.org/reference/PShape_disableStyle_.html>`_
 
@@ -65,5 +65,5 @@ Syntax
 
     disable_style() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

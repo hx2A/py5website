@@ -1,13 +1,13 @@
 .. title: month()
 .. slug: month
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 month() documentation
 .. type: text
 
-Processing communicates with the clock on your computer.
+Py5 communicates with the clock on your computer.
 
 Examples
 ========
@@ -47,7 +47,7 @@ Examples
 Description
 ===========
 
-Processing communicates with the clock on your computer. The ``month()`` function returns the current month as a value from 1 - 12.
+Py5 communicates with the clock on your computer. The ``month()`` function returns the current month as a value from 1 - 12.
 
 Underlying Java method: `month <https://processing.org/reference/month_.html>`_
 
@@ -58,5 +58,5 @@ Syntax
 
     month() -> int
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

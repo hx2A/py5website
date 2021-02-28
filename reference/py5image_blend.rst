@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: py5image_blend
-.. date: 2021-02-23 15:35:36 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -142,7 +142,7 @@ Blends a region of pixels into the image specified by the ``img`` parameter. The
 
 All modes use the alpha information (highest byte) of source image pixels as the blending factor. If the source and destination regions are different sizes, the image will be automatically resized to match the destination size. If the ``src`` parameter is not used, the display window is used as the source image.
 
-As of Processing's release 0149, this function ignores ``image_mode()``.
+This function ignores ``image_mode()``.
 
 Underlying Java method: `PImage.blend <https://processing.org/reference/PImage_blend_.html>`_
 
@@ -169,5 +169,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on February 23, 2021 15:35:36pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

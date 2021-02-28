@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: blend
-.. date: 2021-02-25 16:37:22 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -138,7 +138,7 @@ Blends a region of pixels from one image into another (or in itself again) with 
 
 All modes use the alpha information (highest byte) of source image pixels as the blending factor. If the source and destination regions are different sizes, the image will be automatically resized to match the destination size. If the ``src`` parameter is not used, the display window is used as the source image.
 
-As of Processing release 0149, this function ignores ``image_mode()``.
+This function ignores ``image_mode()``.
 
 Underlying Java method: `blend <https://processing.org/reference/blend_.html>`_
 
@@ -165,5 +165,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on February 25, 2021 16:37:22pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

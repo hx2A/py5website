@@ -1,13 +1,13 @@
 .. title: minute()
 .. slug: minute
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 minute() documentation
 .. type: text
 
-Processing communicates with the clock on your computer.
+Py5 communicates with the clock on your computer.
 
 Examples
 ========
@@ -47,7 +47,7 @@ Examples
 Description
 ===========
 
-Processing communicates with the clock on your computer. The ``minute()`` function returns the current minute as a value from 0 - 59.
+Py5 communicates with the clock on your computer. The ``minute()`` function returns the current minute as a value from 0 - 59.
 
 Underlying Java method: `minute <https://processing.org/reference/minute_.html>`_
 
@@ -58,5 +58,5 @@ Syntax
 
     minute() -> int
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

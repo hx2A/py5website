@@ -1,6 +1,6 @@
 .. title: Py5Shape
 .. slug: py5shape
-.. date: 2021-02-23 15:51:57 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -73,9 +73,9 @@ Examples
 Description
 ===========
 
-Datatype for storing shapes. Before a shape is used, it must be loaded with the ``load_shape()`` or created with the ``create_shape()``. The ``shape()`` function is used to draw the shape to the display window. Processing can currently load and display SVG (Scalable Vector Graphics) and OBJ shapes. OBJ files can only be opened using the ``P3D`` renderer. The ``load_shape()`` function supports SVG files created with Inkscape and Adobe Illustrator. It is not a full SVG implementation, but offers some straightforward support for handling vector data.
+Datatype for storing shapes. Before a shape is used, it must be loaded with the ``load_shape()`` or created with the ``create_shape()``. The ``shape()`` function is used to draw the shape to the display window. Py5 can currently load and display SVG (Scalable Vector Graphics) and OBJ shapes. OBJ files can only be opened using the ``P3D`` renderer. The ``load_shape()`` function supports SVG files created with Inkscape and Adobe Illustrator. It is not a full SVG implementation, but offers some straightforward support for handling vector data.
 
-The ``Py5Shape`` object contains a group of methods that can operate on the shape data. Some of the methods are listed below, but the full list used for creating and modifying shapes is available here in the Processing Javadoc.
+The ``Py5Shape`` object contains a group of methods that can operate on the shape data.
 
 To create a new shape, use the ``create_shape()`` function. Do not use the syntax ``Py5Shape()``.
 
@@ -85,5 +85,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shape_include.rst
 
-Updated on February 23, 2021 15:51:57pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

@@ -1,6 +1,6 @@
 .. title: shape_mode()
 .. slug: shape_mode
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,7 +52,7 @@ Examples
 Description
 ===========
 
-Modifies the location from which shapes draw. The default mode is ``shape_mode(CORNER)``, which specifies the location to be the upper left corner of the shape and uses the third and fourth parameters of ``shape()`` to specify the width and height. The syntax ``shape_mode(CORNERS)`` uses the first and second parameters of ``shape()`` to set the location of one corner and uses the third and fourth parameters to set the opposite corner. The syntax ``shape_mode(CENTER)`` draws the shape from its center point and uses the third and forth parameters of ``shape()`` to specify the width and height. The parameter must be written in "ALL CAPS" because Processing is a case sensitive language.
+Modifies the location from which shapes draw. The default mode is ``shape_mode(CORNER)``, which specifies the location to be the upper left corner of the shape and uses the third and fourth parameters of ``shape()`` to specify the width and height. The syntax ``shape_mode(CORNERS)`` uses the first and second parameters of ``shape()`` to set the location of one corner and uses the third and fourth parameters to set the opposite corner. The syntax ``shape_mode(CENTER)`` draws the shape from its center point and uses the third and forth parameters of ``shape()`` to specify the width and height. The parameter must be written in "ALL CAPS" because Python is a case sensitive language.
 
 Underlying Java method: `shapeMode <https://processing.org/reference/shapeMode_.html>`_
 
@@ -69,5 +69,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 

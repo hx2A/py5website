@@ -1,13 +1,13 @@
 .. title: background()
 .. slug: background
-.. date: 2021-02-25 16:27:06 UTC+00:00
+.. date: 2021-02-28 03:52:50 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 background() documentation
 .. type: text
 
-The ``background()`` function sets the color used for the background of the Processing window.
+The ``background()`` function sets the color used for the background of the py5 window.
 
 Examples
 ========
@@ -87,7 +87,7 @@ Examples
 Description
 ===========
 
-The ``background()`` function sets the color used for the background of the Processing window. The default background is light gray. This function is typically used within ``draw()`` to clear the display window at the beginning of each frame, but it can be used inside ``setup()`` to set the background on the first frame of animation or if the backgound need only be set once.
+The ``background()`` function sets the color used for the background of the py5 window. The default background is light gray. This function is typically used within ``draw()`` to clear the display window at the beginning of each frame, but it can be used inside ``setup()`` to set the background on the first frame of animation or if the backgound need only be set once.
  
 An image can also be used as the background for a sketch, although the image's width and height must match that of the sketch window. Images used with ``background()`` will ignore the current ``tint()`` setting. To resize an image to the size of the sketch window, use image.resize(width, height).
  
@@ -120,5 +120,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on the current color mode)
 
 
-Updated on February 25, 2021 16:27:06pm UTC
+Updated on February 28, 2021 03:52:50am UTC
 
