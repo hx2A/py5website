@@ -1,13 +1,13 @@
 .. title: year()
 .. slug: year
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:31:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 year() documentation
 .. type: text
 
-Processing communicates with the clock on your computer.
+Py5 communicates with the clock on your computer.
 
 Examples
 ========
@@ -47,7 +47,7 @@ Examples
 Description
 ===========
 
-Processing communicates with the clock on your computer. The ``year()`` function returns the current year as an integer (2003, 2004, 2005, etc).
+Py5 communicates with the clock on your computer. The ``year()`` function returns the current year as an integer (2003, 2004, 2005, etc).
 
 Underlying Java method: `year <https://processing.org/reference/year_.html>`_
 
@@ -58,5 +58,5 @@ Syntax
 
     year() -> int
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:31:12am UTC
 

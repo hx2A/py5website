@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: text
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-02-28 03:31:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -104,7 +104,7 @@ Draws text to the screen. Displays the information specified in the first parame
 
 The ``x2`` and ``y2`` parameters define a rectangular area to display within and may only be used with string data. When these parameters are specified, they are interpreted based on the current ``rect_mode()`` setting. Text that does not fit completely within the rectangle specified will not be drawn to the screen.
 
-Note that Processing now lets you call ``text()`` without first specifying a Py5Font with ``text_font()``. In that case, a generic sans-serif font will be used instead. (See the third example.)
+Note that py5 lets you call ``text()`` without first specifying a Py5Font with ``text_font()``. In that case, a generic sans-serif font will be used instead. (See the third example.)
 
 Underlying Java method: `text <https://processing.org/reference/text_.html>`_
 
@@ -144,5 +144,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on February 28, 2021 03:31:12am UTC
 
