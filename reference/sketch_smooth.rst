@@ -1,6 +1,6 @@
 .. title: smooth()
 .. slug: smooth
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:13:08 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -121,7 +121,7 @@ With the P2D and P3D renderers, ``smooth(2)`` is the default, this is called "2x
 
 The default renderer uses ``smooth(3)`` by default. This is bicubic smoothing. The other option for the default renderer is ``smooth(2)``, which is bilinear smoothing.
 
-With Processing 3.0, ``smooth()`` is different than before. It was common to use ``smooth()`` and ``no_smooth()`` to turn on and off antialiasing within a sketch. Now, because of how the software has changed, ``smooth()`` can only be set once within a sketch. It must be called from the `settings()`` function. The ``no_smooth()`` function also follows the same rules. 
+The ``smooth()`` function can only be set once within a sketch. It must be called from the `settings()`` function. The ``no_smooth()`` function also follows the same rules. 
 
 When ``smooth()`` is used with a ``Py5Graphics`` object, it should be run right after the object is created with ``create_graphics()``, as shown in the Reference in the third example.
 
@@ -141,5 +141,5 @@ Parameters
 * **level**: `int` - either 2, 3, 4, or 8 depending on the renderer
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:13:08am UTC
 

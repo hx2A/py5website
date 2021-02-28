@@ -1,6 +1,6 @@
 .. title: rect_mode()
 .. slug: rect_mode
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 02:52:45 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -87,7 +87,7 @@ The default mode is ``rect_mode(CORNER)``, which interprets the first two parame
 
 ``rect_mode(RADIUS)`` also uses the first two parameters of ``rect()`` as the shape's center point, but uses the third and fourth parameters to specify half of the shapes's width and height.
 
-The parameter must be written in ALL CAPS because Processing is a case-sensitive language.
+The parameter must be written in ALL CAPS because Python is a case-sensitive language.
 
 Underlying Java method: `rectMode <https://processing.org/reference/rectMode_.html>`_
 
@@ -104,5 +104,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER, or RADIUS
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 02:52:45am UTC
 

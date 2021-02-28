@@ -1,6 +1,6 @@
 .. title: shape()
 .. slug: shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:13:08 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -49,7 +49,7 @@ Examples
 Description
 ===========
 
-Draws shapes to the display window. Shapes must be in the sketch's "data" directory to load correctly. Select "Add file..." from the "Sketch" menu to add the shape. Processing currently works with SVG, OBJ, and custom-created shapes. The ``shape`` parameter specifies the shape to display and the coordinate parameters define the location of the shape from its upper-left corner. The shape is displayed at its original size unless the ``c`` and ``d`` parameters specify a different size. The ``shape_mode()`` function can be used to change the way these parameters are interpreted.
+Draws shapes to the display window. Shapes must be in the sketch's "data" directory to load correctly. Py5 currently works with SVG, OBJ, and custom-created shapes. The ``shape`` parameter specifies the shape to display and the coordinate parameters define the location of the shape from its upper-left corner. The shape is displayed at its original size unless the ``c`` and ``d`` parameters specify a different size. The ``shape_mode()`` function can be used to change the way these parameters are interpreted.
 
 Underlying Java method: `shape <https://processing.org/reference/shape_.html>`_
 
@@ -74,5 +74,5 @@ Parameters
 * **y**: `float` - y-coordinate of the shape
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:13:08am UTC
 

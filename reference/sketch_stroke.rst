@@ -1,6 +1,6 @@
 .. title: stroke()
 .. slug: stroke
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-02-28 03:13:08 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -67,9 +67,9 @@ Examples
 Description
 ===========
 
-Sets the color used to draw lines and borders around shapes. This color is either specified in terms of the RGB or HSB color depending on the current ``c``olor_mode()``.`` The default color space is RGB, with each value in the range from 0 to 255. 
+Sets the color used to draw lines and borders around shapes. This color is either specified in terms of the RGB or HSB color depending on the current :doc:`color_mode`. The default color space is RGB, with each value in the range from 0 to 255. 
  
-When using hexadecimal notation to specify a color, use "``#``" or "``0x``" before the values (e.g., ``0xCCFFAA`` or ``0xFFCCFFAA``). The ``#`` syntax uses six digits to specify a color (just as colors are typically specified in HTML and CSS). When using the hexadecimal notation starting with "``0x``", the hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components. 
+When using hexadecimal notation to specify a color, use "``0x``" before the values (e.g., ``0xFFCCFFAA``). The hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components.
  
 The value for the gray parameter must be less than or equal to the current maximum value as specified by ``color_mode()``. The default maximum value is 255.
  
@@ -100,5 +100,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on February 28, 2021 03:13:08am UTC
 
