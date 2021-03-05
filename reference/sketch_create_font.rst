@@ -1,6 +1,6 @@
 .. title: create_font()
 .. slug: create_font
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -78,5 +78,5 @@ Parameters
 * **smooth**: `bool` - true for an antialiased font, false for aliased
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

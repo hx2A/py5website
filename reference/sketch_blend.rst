@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: blend
-.. date: 2021-03-04 19:43:58 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -165,5 +165,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on March 04, 2021 19:43:58pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

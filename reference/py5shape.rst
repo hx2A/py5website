@@ -1,6 +1,6 @@
 .. title: Py5Shape
 .. slug: py5shape
-.. date: 2021-03-04 18:15:08 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -85,5 +85,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shape_include.rst
 
-Updated on March 04, 2021 18:15:08pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

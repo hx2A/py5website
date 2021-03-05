@@ -1,6 +1,6 @@
 .. title: point()
 .. slug: point
-.. date: 2021-03-05 14:12:21 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -106,5 +106,5 @@ Parameters
 * **z**: `float` - z-coordinate of the point
 
 
-Updated on March 05, 2021 14:12:21pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

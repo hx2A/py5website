@@ -1,6 +1,6 @@
 .. title: text_align()
 .. slug: text_align
-.. date: 2021-03-05 14:33:21 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -108,5 +108,5 @@ Parameters
 * **align_y**: `int` - vertical alignment, either TOP, BOTTOM, CENTER, or BASELINE
 
 
-Updated on March 05, 2021 14:33:21pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

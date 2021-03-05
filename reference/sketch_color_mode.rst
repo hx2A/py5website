@@ -1,6 +1,6 @@
 .. title: color_mode()
 .. slug: color_mode
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -131,5 +131,5 @@ Parameters
 * **mode**: `int` - Either RGB or HSB, corresponding to Red/Green/Blue and Hue/Saturation/Brightness
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

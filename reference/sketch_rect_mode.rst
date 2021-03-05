@@ -1,6 +1,6 @@
 .. title: rect_mode()
 .. slug: rect_mode
-.. date: 2021-03-04 20:16:29 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -104,5 +104,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, CENTER, or RADIUS
 
 
-Updated on March 04, 2021 20:16:29pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

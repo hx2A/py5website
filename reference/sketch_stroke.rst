@@ -1,6 +1,6 @@
 .. title: stroke()
 .. slug: stroke
-.. date: 2021-03-05 14:33:21 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -100,5 +100,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on March 05, 2021 14:33:21pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

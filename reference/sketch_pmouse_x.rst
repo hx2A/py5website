@@ -1,6 +1,6 @@
 .. title: pmouse_x
 .. slug: pmouse_x
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,5 +54,5 @@ If you want values relative to the previous frame, use ``pmouse_x`` and :doc:`pm
 Underlying Java field: `pmouseX <https://processing.org/reference/pmouseX.html>`_
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 

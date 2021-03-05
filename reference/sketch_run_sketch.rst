@@ -1,6 +1,6 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-03-05 15:24:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -100,5 +100,5 @@ Parameters
 * **sketch_args**: `List = None` - command line arguments that become Sketch arguments
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on March 05, 2021 15:24:25pm UTC
 
