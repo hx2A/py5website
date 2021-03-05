@@ -1,6 +1,6 @@
 .. title: pop_matrix()
 .. slug: pop_matrix
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,7 +54,7 @@ Examples
 Description
 ===========
 
-Pops the current transformation matrix off the matrix stack. Understanding pushing and popping requires understanding the concept of a matrix stack. The ``push_matrix()`` function saves the current coordinate system to the stack and ``pop_matrix()`` restores the prior coordinate system. ``push_matrix()`` and ``pop_matrix()`` are used in conjuction with the other transformation functions and may be embedded to control the scope of the transformations.
+Pops the current transformation matrix off the matrix stack. Understanding pushing and popping requires understanding the concept of a matrix stack. The :doc:`push_matrix` function saves the current coordinate system to the stack and ``pop_matrix()`` restores the prior coordinate system. :doc:`push_matrix` and ``pop_matrix()`` are used in conjuction with the other transformation functions and may be embedded to control the scope of the transformations.
 
 Underlying Java method: `popMatrix <https://processing.org/reference/popMatrix_.html>`_
 
@@ -65,5 +65,5 @@ Syntax
 
     pop_matrix() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

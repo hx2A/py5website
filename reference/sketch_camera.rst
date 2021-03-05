@@ -1,6 +1,6 @@
 .. title: camera()
 .. slug: camera
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -37,8 +37,7 @@ Examples
     def setup():
         py5.no_fill()
         py5.background(204)
-        py5.camera(70.0, 35.0, 120.0, 50.0, 50.0, 0.0,
-               0.0, 1.0, 0.0)
+        py5.camera(70.0, 35.0, 120.0, 50.0, 50.0, 0.0, 0.0, 1.0, 0.0)
         py5.translate(50, 50, 0)
         py5.rotate_x(-py5.PI/6)
         py5.rotate_y(py5.PI/3)
@@ -81,5 +80,5 @@ Parameters
 * **up_z**: `float` - usually 0.0, 1.0, or -1.0
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

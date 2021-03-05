@@ -1,6 +1,6 @@
 .. title: circle()
 .. slug: circle
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,7 +44,7 @@ Examples
 Description
 ===========
 
-Draws a circle to the screen. By default, the first two parameters set the location of the center, and the third sets the shape's width and height. The origin may be changed with the ``ellipse_mode()`` function.
+Draws a circle to the screen. By default, the first two parameters set the location of the center, and the third sets the shape's width and height. The origin may be changed with the :doc:`ellipse_mode` function.
 
 Underlying Java method: `circle <https://processing.org/reference/circle_.html>`_
 
@@ -63,5 +63,5 @@ Parameters
 * **y**: `float` - y-coordinate of the ellipse
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

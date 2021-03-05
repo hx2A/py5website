@@ -1,6 +1,6 @@
 .. title: light_falloff()
 .. slug: light_falloff
-.. date: 2021-02-25 18:37:48 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,7 +57,7 @@ Examples
 Description
 ===========
 
-Sets the falloff rates for point lights, spot lights, and ambient lights. Like ``fill()``, it affects only the elements which are created after it in the code. The default value is ``light_falloff(1.0, 0.0, 0.0)``, and the parameters are used to calculate the falloff with the equation ``falloff = 1 / (CONSTANT + d * LINEAR + (d*d) * QUADRATIC)``, where ``d`` is the distance from light position to vertex position.
+Sets the falloff rates for point lights, spot lights, and ambient lights. Like :doc:`fill`, it affects only the elements which are created after it in the code. The default value is ``light_falloff(1.0, 0.0, 0.0)``, and the parameters are used to calculate the falloff with the equation ``falloff = 1 / (CONSTANT + d * ``LINEAR`` + (d*d) * QUADRATIC)``, where ``d`` is the distance from light position to vertex position.
 
 Thinking about an ambient light with a falloff can be tricky. If you want a region of your scene to be lit ambiently with one color and another region to be lit ambiently with another color, you could use an ambient light with location and falloff. You can think of it as a point light that doesn't care which direction a surface is facing.
 
@@ -78,5 +78,5 @@ Parameters
 * **quadratic**: `float` - quadratic value for determining falloff
 
 
-Updated on February 25, 2021 18:37:48pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

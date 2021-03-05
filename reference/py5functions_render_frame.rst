@@ -1,6 +1,6 @@
 .. title: render_frame()
 .. slug: render_frame
-.. date: 2021-02-02 21:26:46 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
         s.fill(255, 0, 0)
         s.text_size(20)
         s.text_align(s.CENTER, s.CENTER)
-        s.text('hello world', s.width / 2, s.height / 2)
+        s.text('hello world', s.width/2, s.height/2)
 
     frame = py5.render_frame(draw_message, 400, 200)
 
@@ -56,7 +56,7 @@ Examples
         s.fill(*color)
         s.text_size(20)
         s.text_align(s.CENTER, s.CENTER)
-        s.text(message, s.width / 2, s.height / 2)
+        s.text(message, s.width/2, s.height/2)
 
     frame = py5.render_frame(draw_message, 400, 200, py5.P2D,
                              draw_args=('I LIKE ORANGE THINGS',),
@@ -101,5 +101,5 @@ Parameters
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on February 02, 2021 21:26:46pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

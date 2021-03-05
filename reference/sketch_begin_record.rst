@@ -1,6 +1,6 @@
 .. title: begin_record()
 .. slug: begin_record
-.. date: 2021-02-25 16:17:14 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,11 +54,11 @@ Examples
 Description
 ===========
 
-Opens a new file and all subsequent drawing functions are echoed to this file as well as the display window. The ``begin_record()`` function requires two parameters, the first is the renderer and the second is the file name. This function is always used with ``end_record()`` to stop the recording process and close the file.
+Opens a new file and all subsequent drawing functions are echoed to this file as well as the display window. The ``begin_record()`` function requires two parameters, the first is the renderer and the second is the file name. This function is always used with :doc:`end_record` to stop the recording process and close the file.
 
-Note that ``begin_record()`` will only pick up any settings that happen after it has been called. For instance, if you call ``text_font()`` before ``begin_record()``, then that font will not be set for the file that you're recording to.
+Note that ``begin_record()`` will only pick up any settings that happen after it has been called. For instance, if you call :doc:`text_font` before ``begin_record()``, then that font will not be set for the file that you're recording to.
 
-``begin_record()`` works only with the PDF and SVG renderers.
+``begin_record()`` works only with the ``PDF`` and ``SVG`` renderers.
 
 Underlying Java method: `beginRecord <https://processing.org/reference/beginRecord_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **renderer**: `str` - PDF or SVG
 
 
-Updated on February 25, 2021 16:17:14pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

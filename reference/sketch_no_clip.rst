@@ -1,13 +1,13 @@
 .. title: no_clip()
 .. slug: no_clip
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 no_clip() documentation
 .. type: text
 
-Disables the clipping previously started by the ``clip()`` function.
+Disables the clipping previously started by the :doc:`clip` function.
 
 Examples
 ========
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-Disables the clipping previously started by the ``clip()`` function.
+Disables the clipping previously started by the :doc:`clip` function.
 
 Underlying Java method: `noClip <https://processing.org/reference/noClip_.html>`_
 
@@ -67,5 +67,5 @@ Syntax
 
     no_clip() -> None
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

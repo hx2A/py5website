@@ -1,6 +1,6 @@
 .. title: spot_light()
 .. slug: spot_light
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,7 +68,7 @@ Examples
         py5.background(0)
         py5.no_stroke()
         py5.spot_light(51, 102, 126, 50, 50, 400,
-                   0, 0, -1, py5.PI/16, concentration)
+                       0, 0, -1, py5.PI/16, concentration)
         py5.translate(80, 50, 0)
         py5.sphere(30)
 
@@ -110,5 +110,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

@@ -1,6 +1,6 @@
 .. title: emissive()
 .. slug: emissive
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,7 +54,7 @@ Examples
 Description
 ===========
 
-Sets the emissive color of the material used for drawing shapes drawn to the screen. Used in combination with ``ambient()``, ``specular()``, and ``shininess()`` in setting the material properties of shapes.
+Sets the emissive color of the material used for drawing shapes drawn to the screen. Used in combination with :doc:`ambient`, :doc:`specular`, and :doc:`shininess` in setting the material properties of shapes.
 
 Underlying Java method: `emissive <https://processing.org/reference/emissive_.html>`_
 
@@ -77,5 +77,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

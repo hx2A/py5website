@@ -1,6 +1,6 @@
 .. title: specular()
 .. slug: specular
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,7 +59,7 @@ Examples
 Description
 ===========
 
-Sets the specular color of the materials used for shapes drawn to the screen, which sets the color of highlights. Specular refers to light which bounces off a surface in a preferred direction (rather than bouncing in all directions like a diffuse light). Used in combination with ``emissive()``, ``ambient()``, and ``shininess()`` in setting the material properties of shapes.
+Sets the specular color of the materials used for shapes drawn to the screen, which sets the color of highlights. Specular refers to light which bounces off a surface in a preferred direction (rather than bouncing in all directions like a diffuse light). Used in combination with :doc:`emissive`, :doc:`ambient`, and :doc:`shininess` in setting the material properties of shapes.
 
 Underlying Java method: `specular <https://processing.org/reference/specular_.html>`_
 
@@ -82,5 +82,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

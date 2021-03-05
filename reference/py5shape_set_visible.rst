@@ -1,6 +1,6 @@
 .. title: set_visible()
 .. slug: py5shape_set_visible
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-03-04 18:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -72,5 +72,5 @@ Parameters
 * **visible**: `bool` - ``False`` makes the shape invisible and ``True`` makes it visible
 
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on March 04, 2021 18:12:39pm UTC
 

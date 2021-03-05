@@ -1,6 +1,6 @@
 .. title: light_specular()
 .. slug: light_specular
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,7 +59,7 @@ Examples
 Description
 ===========
 
-Sets the specular color for lights. Like ``fill()``, it affects only the elements which are created after it in the code. Specular refers to light which bounces off a surface in a preferred direction (rather than bouncing in all directions like a diffuse light) and is used for creating highlights. The specular quality of a light interacts with the specular material qualities set through the ``specular()`` and ``shininess()`` functions.
+Sets the specular color for lights. Like :doc:`fill`, it affects only the elements which are created after it in the code. Specular refers to light which bounces off a surface in a preferred direction (rather than bouncing in all directions like a diffuse light) and is used for creating highlights. The specular quality of a light interacts with the specular material qualities set through the :doc:`specular` and :doc:`shininess` functions.
 
 Underlying Java method: `lightSpecular <https://processing.org/reference/lightSpecular_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: perspective()
 .. slug: perspective
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -39,8 +39,8 @@ Examples
         py5.no_fill()
         fov = py5.PI/3.0
         camera_z = (py5.height//2.0) / py5.tan(fov/2.0)
-        py5.perspective(fov, py5.width / py5.height,
-                    camera_z/10.0, camera_z*10.0)
+        py5.perspective(fov, py5.width/py5.height,
+                        camera_z/10.0, camera_z*10.0)
         py5.translate(50, 50, 0)
         py5.rotate_x(-py5.PI/6)
         py5.rotate_y(py5.PI/3)
@@ -57,7 +57,7 @@ Examples
 Description
 ===========
 
-Sets a perspective projection applying foreshortening, making distant objects appear smaller than closer ones. The parameters define a viewing volume with the shape of truncated pyramid. Objects near to the front of the volume appear their actual size, while farther objects appear smaller. This projection simulates the perspective of the world more accurately than orthographic projection. The version of perspective without parameters sets the default perspective and the version with four parameters allows the programmer to set the area precisely. The default values are: perspective(PI/3.0, width/height, cameraZ/10.0, cameraZ*10.0) where cameraZ is ((height/2.0) / tan(PI*60.0/360.0));
+Sets a perspective projection applying foreshortening, making distant objects appear smaller than closer ones. The parameters define a viewing volume with the shape of truncated pyramid. Objects near to the front of the volume appear their actual size, while farther objects appear smaller. This projection simulates the perspective of the world more accurately than orthographic projection. The version of perspective without parameters sets the default perspective and the version with four parameters allows the programmer to set the area precisely. The default values are: ``perspective(PI/3.0, width/height, cameraZ/10.0, cameraZ*10.0)`` where cameraZ is ``((height/2.0) / tan(PI*60.0/360.0))``.
 
 Underlying Java method: `perspective <https://processing.org/reference/perspective_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **z_near**: `float` - z-position of nearest clipping plane
 
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

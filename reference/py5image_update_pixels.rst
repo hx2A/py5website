@@ -1,13 +1,13 @@
 .. title: update_pixels()
 .. slug: py5image_update_pixels
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:20:51 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 update_pixels() documentation
 .. type: text
 
-Updates the image with the data in its ``pixels[]`` array.
+Updates the image with the data in its :doc:`py5image_pixels` array.
 
 Examples
 ========
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-Updates the image with the data in its ``pixels[]`` array. Use in conjunction with ``load_pixels()``. If you're only reading pixels from the array, there's no need to call ``update_pixels()``.
+Updates the image with the data in its :doc:`py5image_pixels` array. Use in conjunction with :doc:`py5image_load_pixels`. If you're only reading pixels from the array, there's no need to call ``update_pixels()``.
 
 Underlying Java method: `PImage.updatePixels <https://processing.org/reference/PImage_updatePixels_.html>`_
 
@@ -77,5 +77,5 @@ Parameters
 * **y**: `int` - y-coordinate of the upper-left corner
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:20:51pm UTC
 

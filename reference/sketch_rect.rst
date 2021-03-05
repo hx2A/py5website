@@ -1,6 +1,6 @@
 .. title: rect()
 .. slug: rect
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -86,7 +86,7 @@ Examples
 Description
 ===========
 
-Draws a rectangle to the screen. A rectangle is a four-sided shape with every angle at ninety degrees. By default, the first two parameters set the location of the upper-left corner, the third sets the width, and the fourth sets the height. The way these parameters are interpreted, however, may be changed with the ``rect_mode()`` function.
+Draws a rectangle to the screen. A rectangle is a four-sided shape with every angle at ninety degrees. By default, the first two parameters set the location of the upper-left corner, the third sets the width, and the fourth sets the height. The way these parameters are interpreted, however, may be changed with the :doc:`rect_mode` function.
 
 To draw a rounded rectangle, add a fifth parameter, which is used as the radius value for all four corners.
 
@@ -117,5 +117,5 @@ Parameters
 * **tr**: `float` - radius for top-right corner
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

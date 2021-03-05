@@ -1,13 +1,13 @@
 .. title: end_shape()
 .. slug: py5shape_end_shape
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 end_shape() documentation
 .. type: text
 
-This method is used to complete a custom shape created with the ``create_shape()`` function.
+This method is used to complete a custom shape created with the :doc:`create_shape` function.
 
 Examples
 ========
@@ -53,7 +53,7 @@ Examples
 Description
 ===========
 
-This method is used to complete a custom shape created with the ``create_shape()`` function. It's always and only used with ``create_shape()``.
+This method is used to complete a custom shape created with the :doc:`create_shape` function. It's always and only used with :doc:`create_shape`.
 
 Underlying Java method: `PShape.endShape <https://processing.org/reference/PShape_endShape_.html>`_
 
@@ -71,5 +71,5 @@ Parameters
 * **mode**: `int` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

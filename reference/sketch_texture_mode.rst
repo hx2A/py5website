@@ -1,6 +1,6 @@
 .. title: texture_mode()
 .. slug: texture_mode
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -91,7 +91,7 @@ Examples
 Description
 ===========
 
-Sets the coordinate space for texture mapping. The default mode is ``IMAGE``, which refers to the actual coordinates of the image. ``NORMAL`` refers to a normalized space of values ranging from 0 to 1. This function only works with the P2D and P3D renderers.
+Sets the coordinate space for texture mapping. The default mode is ``IMAGE``, which refers to the actual coordinates of the image. ``NORMAL`` refers to a normalized space of values ranging from 0 to 1. This function only works with the ``P2D`` and ``P3D`` renderers.
 
 With ``IMAGE``, if an image is 100 x 200 pixels, mapping the image onto the entire size of a quad would require the points (0,0) (100, 0) (100,200) (0,200). The same mapping in ``NORMAL`` is (0,0) (1,0) (1,1) (0,1).
 
@@ -110,5 +110,5 @@ Parameters
 * **mode**: `int` - either IMAGE or NORMAL
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

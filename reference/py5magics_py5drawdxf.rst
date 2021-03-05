@@ -1,6 +1,6 @@
 .. title: %%py5drawdxf
 .. slug: py5drawdxf
-.. date: 2021-02-06 21:07:03 UTC+00:00
+.. date: 2021-03-04 19:43:58 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     %%py5drawdxf 200 200 /tmp/test.dxf
-    py5.translate(py5.width / 2, py5.height / 2)
+    py5.translate(py5.width//2, py5.height//2)
     py5.rotate_x(0.4)
     py5.rotate_y(0.8)
     py5.box(80)
@@ -46,7 +46,7 @@ Description
 
 Create a DXF file with py5.
 
-For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a sketch with no ``draw()`` function and your code in the ``setup()`` function. It will use the DXF renderer.
+For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a sketch with no ``draw()`` function and your code in the ``setup()`` function. It will use the ``DXF`` renderer.
 
 As this is creating a DXF file, your code will be limited to the capabilities of that renderer.
 
@@ -72,5 +72,5 @@ Arguments
     optional arguments:
       --unsafe  allow new variables to enter the global namespace
 
-Updated on February 06, 2021 21:07:03pm UTC
+Updated on March 04, 2021 19:43:58pm UTC
 

@@ -1,6 +1,6 @@
 .. title: pmouse_y
 .. slug: pmouse_y
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,10 +47,10 @@ Description
 
 The system variable ``pmouse_y`` always contains the vertical position of the mouse in the frame previous to the current frame.
 
-For more detail on how ``pmouse_y`` is updated inside of mouse events and ``draw()``, see the reference for ``pmouse_x``.
+For more detail on how ``pmouse_y`` is updated inside of mouse events and ``draw()``, see the reference for :doc:`pmouse_x`.
 
 Underlying Java field: `pmouseY <https://processing.org/reference/pmouseY.html>`_
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

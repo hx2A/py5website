@@ -1,5 +1,5 @@
 .. title: np_pixels[]
-.. slug: np_pixels
+.. slug: py5image_np_pixels
 .. date: 2021-03-04 18:57:53 UTC+00:00
 .. tags:
 .. category:

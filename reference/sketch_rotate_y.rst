@@ -1,6 +1,6 @@
 .. title: rotate_y()
 .. slug: rotate_y
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-03-05 14:12:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,7 +77,7 @@ Examples
 Description
 ===========
 
-Rotates around the y-axis the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to TWO_PI) or converted from degrees to radians with the ``radians()`` function. Coordinates are always rotated around their relative position to the origin. Positive numbers rotate in a clockwise direction and negative numbers rotate in a counterclockwise direction. Transformations apply to everything that happens after and subsequent calls to the function accumulates the effect. For example, calling ``rotate_y(PI/2)`` and then ``rotate_y(PI/2)`` is the same as ``rotate_y(PI)``. If ``rotate_y()`` is run within the ``draw()``, the transformation is reset when the loop begins again. This function requires using P3D as a third parameter to ``size()`` as shown in the example.
+Rotates around the y-axis the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from ``0`` to ``TWO_PI``) or converted from degrees to radians with the :doc:`radians` function. Coordinates are always rotated around their relative position to the origin. Positive numbers rotate in a clockwise direction and negative numbers rotate in a counterclockwise direction. Transformations apply to everything that happens after and subsequent calls to the function accumulates the effect. For example, calling ``rotate_y(PI/2)`` and then ``rotate_y(PI/2)`` is the same as ``rotate_y(PI)``. If ``rotate_y()`` is run within the ``draw()``, the transformation is reset when the loop begins again. This function requires using ``P3D`` as a third parameter to :doc:`size` as shown in the example.
 
 Underlying Java method: `rotateY <https://processing.org/reference/rotateY_.html>`_
 
@@ -94,5 +94,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on March 05, 2021 14:12:21pm UTC
 

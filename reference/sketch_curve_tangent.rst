@@ -1,6 +1,6 @@
 .. title: curve_tangent()
 .. slug: curve_tangent
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,7 +34,7 @@ Examples
         py5.no_fill()
         py5.curve(5, 26, 73, 24, 73, 61, 15, 65)
         steps = 6
-        for i in range(0, steps + 1):
+        for i in range(0, steps+1):
             t = i / steps
             x = py5.curve_point(5, 73, 73, 15, t)
             y = py5.curve_point(26, 24, 61, 65, t)
@@ -77,5 +77,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

@@ -1,6 +1,6 @@
 .. title: cursor()
 .. slug: cursor
-.. date: 2021-02-25 16:27:06 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,7 +51,7 @@ Sets the cursor to a predefined symbol or an image, or makes it visible if alrea
 
 Setting or hiding the cursor does not generally work with "Present" mode (when running full-screen).
 
-With the P2D and P3D renderers, a generic set of cursors are used because the OpenGL renderer doesn't have access to the default cursor images for each platform (Processing Issue 3791).
+With the ``P2D`` and ``P3D`` renderers, a generic set of cursors are used because the OpenGL renderer doesn't have access to the default cursor images for each platform (Processing Issue 3791).
 
 Underlying Java method: `cursor <https://processing.org/reference/cursor_.html>`_
 
@@ -74,5 +74,5 @@ Parameters
 * **y**: `int` - the vertical active spot of the cursor
 
 
-Updated on February 25, 2021 16:27:06pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

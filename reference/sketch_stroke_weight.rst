@@ -1,6 +1,6 @@
 .. title: stroke_weight()
 .. slug: stroke_weight
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 14:33:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -51,7 +51,7 @@ Description
 
 Sets the width of the stroke used for lines, points, and the border around shapes. All widths are set in units of pixels.
 
-Using ``point()`` with strokeWeight(1) or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using ``set()`` or drawing the point using either ``circle()`` or ``square()``.
+Using :doc:`point` with ``strokeWeight(1)`` or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using the :doc:`pixels` or :doc:`np_pixels` arrays or drawing the point using either :doc:`circle` or :doc:`square`.
 
 Underlying Java method: `strokeWeight <https://processing.org/reference/strokeWeight_.html>`_
 
@@ -68,5 +68,5 @@ Parameters
 * **weight**: `float` - the weight (in pixels) of the stroke
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 14:33:21pm UTC
 

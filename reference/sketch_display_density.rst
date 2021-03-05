@@ -1,13 +1,13 @@
 .. title: display_density()
 .. slug: display_density
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-04 20:16:29 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 display_density() documentation
 .. type: text
 
-This function returns the number "2" if the screen is a high-density screen (called a Retina display on OS X or high-dpi on Windows and Linux) and a "1" if not.
+This function returns the number "2" if the screen is a high-density screen (called a Retina display on OSX or high-dpi on Windows and Linux) and a "1" if not.
 
 Examples
 ========
@@ -51,7 +51,7 @@ Examples
 Description
 ===========
 
-This function returns the number "2" if the screen is a high-density screen (called a Retina display on OS X or high-dpi on Windows and Linux) and a "1" if not. This information is useful for a program to adapt to run at double the pixel density on a screen that supports it.
+This function returns the number "2" if the screen is a high-density screen (called a Retina display on OSX or high-dpi on Windows and Linux) and a "1" if not. This information is useful for a program to adapt to run at double the pixel density on a screen that supports it.
 
 Underlying Java method: `displayDensity <https://processing.org/reference/displayDensity_.html>`_
 
@@ -69,5 +69,5 @@ Parameters
 * **display**: `int` - the display number to check (1-indexed to match the Preferences dialog box)
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 04, 2021 20:16:29pm UTC
 

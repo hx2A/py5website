@@ -1,13 +1,13 @@
 .. title: curve_tightness()
 .. slug: curve_tightness
-.. date: 2021-02-13 18:12:32 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 curve_tightness() documentation
 .. type: text
 
-Modifies the quality of forms created with ``curve()`` and ``curve_vertex()``.
+Modifies the quality of forms created with :doc:`curve` and :doc:`curve_vertex`.
 
 Examples
 ========
@@ -57,7 +57,7 @@ Examples
 Description
 ===========
 
-Modifies the quality of forms created with ``curve()`` and ``curve_vertex()``. The parameter ``tightness`` determines how the curve fits to the vertex points. The value 0.0 is the default value for ``tightness`` (this value defines the curves to be Catmull-Rom splines) and the value 1.0 connects all the points with straight lines. Values within the range -5.0 and 5.0 will deform the curves but will leave them recognizable and as values increase in magnitude, they will continue to deform.
+Modifies the quality of forms created with :doc:`curve` and :doc:`curve_vertex`. The parameter ``tightness`` determines how the curve fits to the vertex points. The value 0.0 is the default value for ``tightness`` (this value defines the curves to be Catmull-Rom splines) and the value 1.0 connects all the points with straight lines. Values within the range -5.0 and 5.0 will deform the curves but will leave them recognizable and as values increase in magnitude, they will continue to deform.
 
 Underlying Java method: `curveTightness <https://processing.org/reference/curveTightness_.html>`_
 
@@ -74,5 +74,5 @@ Parameters
 * **tightness**: `float` - amount of deformation from the original vertices
 
 
-Updated on February 13, 2021 18:12:32pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

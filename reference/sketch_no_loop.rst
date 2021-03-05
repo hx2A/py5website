@@ -1,13 +1,13 @@
 .. title: no_loop()
 .. slug: no_loop
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 no_loop() documentation
 .. type: text
 
-Stops Processing from continuously executing the code within ``draw()``.
+Stops py5 from continuously executing the code within ``draw()``.
 
 Examples
 ========
@@ -119,11 +119,11 @@ Examples
 Description
 ===========
 
-Stops Processing from continuously executing the code within ``draw()``. If ``loop()`` is called, the code in ``draw()`` begins to run continuously again. If using ``no_loop()`` in ``setup()``, it should be the last line inside the block.
+Stops py5 from continuously executing the code within ``draw()``. If :doc:`loop` is called, the code in ``draw()`` begins to run continuously again. If using ``no_loop()`` in ``setup()``, it should be the last line inside the block.
 
-When ``no_loop()`` is used, it's not possible to manipulate or access the screen inside event handling functions such as ``mouse_pressed()`` or ``key_pressed()``. Instead, use those functions to call ``redraw()`` or ``loop()``, which will run ``draw()``, which can update the screen properly. This means that when ``no_loop()`` has been called, no drawing can happen, and functions like ``save_frame()`` or ``load_pixels()`` may not be used.
+When ``no_loop()`` is used, it's not possible to manipulate or access the screen inside event handling functions such as ``mouse_pressed()`` or ``key_pressed()``. Instead, use those functions to call :doc:`redraw` or :doc:`loop`, which will run ``draw()``, which can update the screen properly. This means that when ``no_loop()`` has been called, no drawing can happen, and functions like :doc:`save_frame` or :doc:`load_pixels` may not be used.
 
-Note that if the sketch is resized, ``redraw()`` will be called to update the sketch, even after ``no_loop()`` has been specified. Otherwise, the sketch would enter an odd state until ``loop()`` was called.
+Note that if the sketch is resized, :doc:`redraw` will be called to update the sketch, even after ``no_loop()`` has been specified. Otherwise, the sketch would enter an odd state until :doc:`loop` was called.
 
 Underlying Java method: `noLoop <https://processing.org/reference/noLoop_.html>`_
 
@@ -134,5 +134,5 @@ Syntax
 
     no_loop() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

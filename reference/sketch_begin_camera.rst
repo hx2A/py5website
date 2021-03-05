@@ -1,13 +1,13 @@
 .. title: begin_camera()
 .. slug: begin_camera
-.. date: 2021-02-25 16:17:14 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 begin_camera() documentation
 .. type: text
 
-The ``begin_camera()`` and ``end_camera()`` functions enable advanced customization of the camera space.
+The ``begin_camera()`` and :doc:`end_camera` functions enable advanced customization of the camera space.
 
 Examples
 ========
@@ -57,9 +57,9 @@ Examples
 Description
 ===========
 
-The ``begin_camera()`` and ``end_camera()`` functions enable advanced customization of the camera space. The functions are useful if you want to more control over camera movement, however for most users, the ``camera()`` function will be sufficient. The camera functions will replace any transformations (such as ``rotate()`` or ``translate()``) that occur before them in ``draw()``, but they will not automatically replace the camera transform itself. For this reason, camera functions should be placed at the beginning of ``draw()`` (so that transformations happen afterwards), and the ``camera()`` function can be used after ``begin_camera()`` if you want to reset the camera before applying transformations.
+The ``begin_camera()`` and :doc:`end_camera` functions enable advanced customization of the camera space. The functions are useful if you want to more control over camera movement, however for most users, the :doc:`camera` function will be sufficient. The camera functions will replace any transformations (such as :doc:`rotate` or :doc:`translate`) that occur before them in ``draw()``, but they will not automatically replace the camera transform itself. For this reason, camera functions should be placed at the beginning of ``draw()`` (so that transformations happen afterwards), and the :doc:`camera` function can be used after ``begin_camera()`` if you want to reset the camera before applying transformations.
 
-This function sets the matrix mode to the camera matrix so calls such as ``translate()``, ``rotate()``, ``apply_matrix()`` and ``reset_matrix()`` affect the camera. ``begin_camera()`` should always be used with a following ``end_camera()`` and pairs of ``begin_camera()`` and ``end_camera()`` cannot be nested.
+This function sets the matrix mode to the camera matrix so calls such as :doc:`translate`, :doc:`rotate`, :doc:`apply_matrix` and :doc:`reset_matrix` affect the camera. ``begin_camera()`` should always be used with a following :doc:`end_camera` and pairs of ``begin_camera()`` and :doc:`end_camera` cannot be nested.
 
 Underlying Java method: `beginCamera <https://processing.org/reference/beginCamera_.html>`_
 
@@ -70,5 +70,5 @@ Syntax
 
     begin_camera() -> None
 
-Updated on February 25, 2021 16:17:14pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

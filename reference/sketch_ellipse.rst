@@ -1,6 +1,6 @@
 .. title: ellipse()
 .. slug: ellipse
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,7 +44,7 @@ Examples
 Description
 ===========
 
-Draws an ellipse (oval) to the screen. An ellipse with equal width and height is a circle. By default, the first two parameters set the location, and the third and fourth parameters set the shape's width and height. The origin may be changed with the ``ellipse_mode()`` function.
+Draws an ellipse (oval) to the screen. An ellipse with equal width and height is a circle. By default, the first two parameters set the location, and the third and fourth parameters set the shape's width and height. The origin may be changed with the :doc:`ellipse_mode` function.
 
 Underlying Java method: `ellipse <https://processing.org/reference/ellipse_.html>`_
 
@@ -64,5 +64,5 @@ Parameters
 * **d**: `float` - height of the ellipse by default
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

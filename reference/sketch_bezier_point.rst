@@ -1,6 +1,6 @@
 .. title: bezier_point()
 .. slug: bezier_point
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -35,7 +35,7 @@ Examples
         py5.bezier(85, 20, 10, 10, 90, 90, 15, 80)
         py5.fill(255)
         steps = 10
-        for i in range(0, steps + 1):
+        for i in range(0, steps+1):
             t = i / steps
             x = py5.bezier_point(85, 10, 90, 15, t)
             y = py5.bezier_point(20, 10, 90, 80, t)
@@ -73,5 +73,5 @@ Parameters
 * **t**: `float` - value between 0 and 1
 
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

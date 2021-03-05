@@ -1,6 +1,6 @@
 .. title: focused
 .. slug: focused
-.. date: 2021-02-25 17:49:54 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     def setup():
-        if py5.focused:  # or "if (py5.focused == true)"
+        if py5.focused:
             py5.ellipse(25, 25, 50, 50)
         else:
             py5.line(0, 0, 100, 100)
@@ -50,5 +50,5 @@ Confirms if a py5 program is "focused," meaning that it is active and will accep
 Underlying Java field: `focused <https://processing.org/reference/focused.html>`_
 
 
-Updated on February 25, 2021 17:49:54pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

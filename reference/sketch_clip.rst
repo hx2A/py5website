@@ -1,6 +1,6 @@
 .. title: clip()
 .. slug: clip
-.. date: 2021-02-25 16:17:14 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-Limits the rendering to the boundaries of a rectangle defined by the parameters. The boundaries are drawn based on the state of the ``image_mode()`` fuction, either ``CORNER``, ``CORNERS``, or ``CENTER``.
+Limits the rendering to the boundaries of a rectangle defined by the parameters. The boundaries are drawn based on the state of the :doc:`image_mode` fuction, either ``CORNER``, ``CORNERS``, or ``CENTER``.
 
 Underlying Java method: `clip <https://processing.org/reference/clip_.html>`_
 
@@ -76,5 +76,5 @@ Parameters
 * **d**: `float` - height of the rectangle, by default
 
 
-Updated on February 25, 2021 16:17:14pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

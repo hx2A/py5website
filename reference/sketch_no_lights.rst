@@ -1,6 +1,6 @@
 .. title: no_lights()
 .. slug: no_lights
-.. date: 2020-11-10 15:41:45 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -12,7 +12,7 @@ Disable all lighting.
 Description
 ===========
 
-Disable all lighting. Lighting is turned off by default and enabled with the ``lights()`` function. This function can be used to disable lighting so that 2D geometry (which does not require lighting) can be drawn after a set of lighted 3D geometry.
+Disable all lighting. Lighting is turned off by default and enabled with the :doc:`lights` function. This function can be used to disable lighting so that 2D geometry (which does not require lighting) can be drawn after a set of lighted 3D geometry.
 
 Underlying Java method: `noLights <https://processing.org/reference/noLights_.html>`_
 
@@ -23,5 +23,5 @@ Syntax
 
     no_lights() -> None
 
-Updated on November 10, 2020 15:41:45pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

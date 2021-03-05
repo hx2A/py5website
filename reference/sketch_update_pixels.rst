@@ -1,13 +1,13 @@
 .. title: update_pixels()
 .. slug: update_pixels
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 update_pixels() documentation
 .. type: text
 
-Updates the display window with the data in the ``pixels[]`` array.
+Updates the display window with the data in the :doc:`pixels` array.
 
 Examples
 ========
@@ -51,7 +51,7 @@ Examples
 Description
 ===========
 
-Updates the display window with the data in the ``pixels[]`` array. Use in conjunction with ``load_pixels()``. If you're only reading pixels from the array, there's no need to call ``update_pixels()`` — updating is only necessary to apply changes.
+Updates the display window with the data in the :doc:`pixels` array. Use in conjunction with :doc:`load_pixels`. If you're only reading pixels from the array, there's no need to call ``update_pixels()`` — updating is only necessary to apply changes.
 
 Underlying Java method: `updatePixels <https://processing.org/reference/updatePixels_.html>`_
 
@@ -72,5 +72,5 @@ Parameters
 * **y2**: `int` - height of the region
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

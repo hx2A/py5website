@@ -1,6 +1,6 @@
 .. title: shader()
 .. slug: shader
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -53,7 +53,7 @@ Examples
 Description
 ===========
 
-Applies the shader specified by the parameters. It's compatible with the P2D and P3D renderers, but not with the default renderer.
+Applies the shader specified by the parameters. It's compatible with the ``P2D`` and ``P3D`` renderers, but not with the default renderer.
 
 Underlying Java method: `shader <https://processing.org/reference/shader_.html>`_
 
@@ -72,5 +72,5 @@ Parameters
 * **shader**: `Py5Shader` - name of shader file
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

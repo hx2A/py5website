@@ -1,13 +1,13 @@
 .. title: ellipse_mode()
 .. slug: ellipse_mode
-.. date: 2021-02-25 16:37:22 UTC+00:00
+.. date: 2021-03-04 20:16:29 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 ellipse_mode() documentation
 .. type: text
 
-Modifies the location from which ellipses are drawn by changing the way in which parameters given to ``ellipse()`` are intepreted.
+Modifies the location from which ellipses are drawn by changing the way in which parameters given to :doc:`ellipse` are intepreted.
 
 Examples
 ========
@@ -77,15 +77,15 @@ Examples
 Description
 ===========
 
-Modifies the location from which ellipses are drawn by changing the way in which parameters given to ``ellipse()`` are intepreted.
+Modifies the location from which ellipses are drawn by changing the way in which parameters given to :doc:`ellipse` are intepreted.
 
-The default mode is ``ellipse_mode(CENTER)``, which interprets the first two parameters of ``ellipse()`` as the shape's center point, while the third and fourth parameters are its width and height.
+The default mode is ``ellipse_mode(CENTER)``, which interprets the first two parameters of :doc:`ellipse` as the shape's center point, while the third and fourth parameters are its width and height.
 
-``ellipse_mode(RADIUS)`` also uses the first two parameters of ``ellipse()`` as the shape's center point, but uses the third and fourth parameters to specify half of the shapes's width and height.
+``ellipse_mode(RADIUS)`` also uses the first two parameters of :doc:`ellipse` as the shape's center point, but uses the third and fourth parameters to specify half of the shapes's width and height.
 
-``ellipse_mode(CORNER)`` interprets the first two parameters of ``ellipse()`` as the upper-left corner of the shape, while the third and fourth parameters are its width and height.
+``ellipse_mode(CORNER)`` interprets the first two parameters of :doc:`ellipse` as the upper-left corner of the shape, while the third and fourth parameters are its width and height.
 
-``ellipse_mode(CORNERS)`` interprets the first two parameters of ``ellipse()`` as the location of one corner of the ellipse's bounding box, and the third and fourth parameters as the location of the opposite corner.
+``ellipse_mode(CORNERS)`` interprets the first two parameters of :doc:`ellipse` as the location of one corner of the ellipse's bounding box, and the third and fourth parameters as the location of the opposite corner.
 
 The parameter must be written in ALL CAPS because Python is a case-sensitive language.
 
@@ -104,5 +104,5 @@ Parameters
 * **mode**: `int` - either CENTER, RADIUS, CORNER, or CORNERS
 
 
-Updated on February 25, 2021 16:37:22pm UTC
+Updated on March 04, 2021 20:16:29pm UTC
 

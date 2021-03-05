@@ -1,13 +1,13 @@
 .. title: end_record()
 .. slug: end_record
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 end_record() documentation
 .. type: text
 
-Stops the recording process started by ``begin_record()`` and closes the file.
+Stops the recording process started by :doc:`begin_record` and closes the file.
 
 Examples
 ========
@@ -54,7 +54,7 @@ Examples
 Description
 ===========
 
-Stops the recording process started by ``begin_record()`` and closes the file.
+Stops the recording process started by :doc:`begin_record` and closes the file.
 
 Underlying Java method: `endRecord <https://processing.org/reference/endRecord_.html>`_
 
@@ -65,5 +65,5 @@ Syntax
 
     end_record() -> None
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

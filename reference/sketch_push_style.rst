@@ -1,13 +1,13 @@
 .. title: push_style()
 .. slug: push_style
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 push_style() documentation
 .. type: text
 
-The ``push_style()`` function saves the current style settings and ``pop_style()`` restores the prior settings.
+The ``push_style()`` function saves the current style settings and :doc:`pop_style` restores the prior settings.
 
 Examples
 ========
@@ -87,10 +87,9 @@ Examples
 Description
 ===========
 
-The ``push_style()`` function saves the current style settings and ``pop_style()`` restores the prior settings. Note that these functions are always used together. They allow you to change the style settings and later return to what you had. When a new style is started with ``push_style()``, it builds on the current style information. The ``push_style()`` and ``pop_style()`` functions can be embedded to provide more control. (See the second example for a demonstration.)
+The ``push_style()`` function saves the current style settings and :doc:`pop_style` restores the prior settings. Note that these functions are always used together. They allow you to change the style settings and later return to what you had. When a new style is started with ``push_style()``, it builds on the current style information. The ``push_style()`` and :doc:`pop_style` functions can be embedded to provide more control. (See the second example for a demonstration.)
 
-The style information controlled by the following functions are included in the style:
-``fill()``, ``stroke()``, ``tint()``, ``stroke_weight()``, ``stroke_cap()``, ``stroke_join()``, ``image_mode()``, ``rect_mode()``, ``ellipse_mode()``, ``shape_mode()``, ``color_mode()``, ``text_align()``, ``text_font()``, ``text_mode()``, ``text_size()``, ``text_leading()``, ``emissive()``, ``specular()``, ``shininess()``, ``ambient()``
+The style information controlled by the following functions are included in the style: :doc:`fill`, :doc:`stroke`, :doc:`tint`, :doc:`stroke_weight`, :doc:`stroke_cap`, :doc:`stroke_join`, :doc:`image_mode`, :doc:`rect_mode`, :doc:`ellipse_mode`, :doc:`shape_mode`, :doc:`color_mode`, :doc:`text_align`, :doc:`text_font`, :doc:`text_mode`, :doc:`text_size`, :doc:`text_leading`, :doc:`emissive`, :doc:`specular`, :doc:`shininess`, and :doc:`ambient`.
 
 Underlying Java method: `pushStyle <https://processing.org/reference/pushStyle_.html>`_
 
@@ -101,5 +100,5 @@ Syntax
 
     push_style() -> None
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

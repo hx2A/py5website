@@ -1,13 +1,13 @@
 .. title: second()
 .. slug: second
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 second() documentation
 .. type: text
 
-Processing communicates with the clock on your computer.
+Py5 communicates with the clock on your computer.
 
 Examples
 ========
@@ -47,7 +47,7 @@ Examples
 Description
 ===========
 
-Processing communicates with the clock on your computer. The ``second()`` function returns the current second as a value from 0 - 59.
+Py5 communicates with the clock on your computer. The ``second()`` function returns the current second as a value from 0 - 59.
 
 Underlying Java method: `second <https://processing.org/reference/second_.html>`_
 
@@ -58,5 +58,5 @@ Syntax
 
     second() -> int
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

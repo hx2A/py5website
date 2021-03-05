@@ -1,6 +1,6 @@
 .. title: stroke_cap()
 .. slug: stroke_cap
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,9 +50,9 @@ Examples
 Description
 ===========
 
-Sets the style for rendering line endings. These ends are either squared, extended, or rounded, each of which specified with the corresponding parameters: SQUARE, PROJECT, and ROUND. The default cap is ROUND.
+Sets the style for rendering line endings. These ends are either squared, extended, or rounded, each of which specified with the corresponding parameters: ``SQUARE``, ``PROJECT``, and ``ROUND``. The default cap is ``ROUND``.
 
-To make ``point()`` appear square, use ``stroke_cap(PROJECT)``. Using ``stroke_cap(SQUARE)`` (no cap) causes points to become invisible.
+To make :doc:`point` appear square, use ``stroke_cap(PROJECT)``. Using ``stroke_cap(SQUARE)`` (no cap) causes points to become invisible.
 
 Underlying Java method: `strokeCap <https://processing.org/reference/strokeCap_.html>`_
 
@@ -69,5 +69,5 @@ Parameters
 * **cap**: `int` - either SQUARE, PROJECT, or ROUND
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

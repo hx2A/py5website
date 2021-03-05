@@ -1,6 +1,6 @@
 .. title: %%py5drawsvg
 .. slug: py5drawsvg
-.. date: 2021-02-06 21:15:00 UTC+00:00
+.. date: 2021-03-03 21:31:13 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,9 +45,9 @@ Description
 
 Create a SVG drawing with py5 and embed result in the notebook.
 
-For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a sketch with no ``draw()`` function and your code in the ``setup()`` function. It will use the SVG renderer.
+For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a sketch with no ``draw()`` function and your code in the ``setup()`` function. It will use the ``SVG`` renderer.
 
-As this is creating a SVG drawing, you cannot do operations on the ``pixels`` or ``np_pixels`` arrays. Use ``%%py5draw`` instead.
+As this is creating a SVG drawing, you cannot do operations on the :doc:`pixels` or :doc:`np_pixels` arrays. Use :doc:`py5draw` instead.
 
 Code used in this cell can reference functions and variables defined in other cells. By default, variables and functions created in this cell will be local to only this cell because to do otherwise would be unsafe. If you understand the risks, you can use the ``global`` keyword to add a single function or variable to the notebook namespace or the ``--unsafe`` argument to add everything to the notebook namespace. Either option may be very useful to you, but be aware that using py5 objects in a different notebook cell or reusing them in another sketch can result in nasty errors and bizzare consequences.
 
@@ -72,5 +72,5 @@ Arguments
                             save SVG drawing to file
       --unsafe              allow new variables to enter the global namespace
 
-Updated on February 06, 2021 21:15:00pm UTC
+Updated on March 03, 2021 21:31:13pm UTC
 

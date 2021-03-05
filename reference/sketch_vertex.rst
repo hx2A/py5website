@@ -1,6 +1,6 @@
 .. title: vertex()
 .. slug: vertex
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -118,11 +118,11 @@ Examples
 Description
 ===========
 
-All shapes are constructed by connecting a series of vertices. ``vertex()`` is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the ``begin_shape()`` and ``end_shape()`` functions.
+All shapes are constructed by connecting a series of vertices. ``vertex()`` is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the :doc:`begin_shape` and :doc:`end_shape` functions.
 
-Drawing a vertex in 3D using the ``z`` parameter requires the P3D parameter in combination with size, as shown in the above example.
+Drawing a vertex in 3D using the ``z`` parameter requires the ``P3D`` parameter in combination with size, as shown in the above example.
 
-This function is also used to map a texture onto geometry. The ``texture()`` function declares the texture to apply to the geometry and the ``u`` and ``v`` coordinates set define the mapping of this texture to the form. By default, the coordinates used for ``u`` and ``v`` are specified in relation to the image's size in pixels, but this relation can be changed with ``texture_mode()``.
+This function is also used to map a texture onto geometry. The :doc:`texture` function declares the texture to apply to the geometry and the ``u`` and ``v`` coordinates set define the mapping of this texture to the form. By default, the coordinates used for ``u`` and ``v`` are specified in relation to the image's size in pixels, but this relation can be changed with :doc:`texture_mode`.
 
 Underlying Java method: `vertex <https://processing.org/reference/vertex_.html>`_
 
@@ -148,5 +148,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

@@ -90,7 +90,7 @@ Pixels
 * `get() <get/>`_
 * `load_np_pixels() <load_np_pixels/>`_
 * `load_pixels() <load_pixels/>`_
-* `np_pixels <np_pixels/>`_
+* `np_pixels[] <np_pixels/>`_
 * `pixels[] <pixels/>`_
 * `set_np_pixels() <set_np_pixels/>`_
 * `update_np_pixels() <update_np_pixels/>`_

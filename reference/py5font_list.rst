@@ -1,6 +1,6 @@
 .. title: list()
 .. slug: py5font_list
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -41,7 +41,7 @@ Examples
 Description
 ===========
 
-Gets a list of the fonts installed on the system. The data is returned as a list of strings. This list provides the names of each font for input into ``create_font()``, which allows py5 to dynamically format fonts.
+Gets a list of the fonts installed on the system. The data is returned as a list of strings. This list provides the names of each font for input into :doc:`create_font`, which allows py5 to dynamically format fonts.
 
 This works outside of a running sketch.
 
@@ -54,5 +54,5 @@ Syntax
 
     list() -> List[str]
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

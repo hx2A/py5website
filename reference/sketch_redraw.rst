@@ -1,6 +1,6 @@
 .. title: redraw()
 .. slug: redraw
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,7 +62,7 @@ Executes the code within ``draw()`` one time. This functions allows the program 
 
 In structuring a program, it only makes sense to call ``redraw()`` within events such as ``mouse_pressed()``. This is because ``redraw()`` does not run ``draw()`` immediately (it only sets a flag that indicates an update is needed). 
 
-The ``redraw()`` function does not work properly when called inside ``draw()``. To enable/disable animations, use ``loop()`` and ``no_loop()``.
+The ``redraw()`` function does not work properly when called inside ``draw()``. To enable/disable animations, use :doc:`loop` and :doc:`no_loop`.
 
 Underlying Java method: `redraw <https://processing.org/reference/redraw_.html>`_
 
@@ -73,5 +73,5 @@ Syntax
 
     redraw() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

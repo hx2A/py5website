@@ -1,6 +1,6 @@
 .. title: %py5animatedgif
 .. slug: py5animatedgif
-.. date: 2021-02-06 21:15:00 UTC+00:00
+.. date: 2021-03-03 21:29:41 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -69,5 +69,5 @@ Arguments
       -l LOOP, --loop LOOP  number of times for the GIF to loop (default of 0 loops indefinitely)
       --optimize            optimize GIF palette
 
-Updated on February 06, 2021 21:15:00pm UTC
+Updated on March 03, 2021 21:29:41pm UTC
 

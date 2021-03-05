@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: blend
-.. date: 2021-02-25 16:37:22 UTC+00:00
+.. date: 2021-03-04 19:43:58 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -121,24 +121,24 @@ Description
 
 Blends a region of pixels from one image into another (or in itself again) with full alpha channel support. There is a choice of the following modes to blend the source pixels (A) with the ones of pixels in the destination image (B):
 
-* BLEND: linear interpolation of colors: C = A*factor + B
-* ADD: additive blending with white clip: C = min(A*factor + B, 255)
-* SUBTRACT: subtractive blending with black clip: C = max(B - A*factor, 0)
-* DARKEST: only the darkest color succeeds: C = min(A*factor, B)
-* LIGHTEST: only the lightest color succeeds: C = max(A*factor, B)
+* BLEND: linear interpolation of colors: ``C = A*factor + B``
+* ADD: additive blending with white clip: ``C = min(A*factor + B, 255)``
+* SUBTRACT: subtractive blending with black clip: ``C = max(B - A*factor, 0)``
+* DARKEST: only the darkest color succeeds: ``C = min(A*factor, B)``
+* LIGHTEST: only the lightest color succeeds: ``C = max(A*factor, B)``
 * DIFFERENCE: subtract colors from underlying image.
-* EXCLUSION: similar to DIFFERENCE, but less extreme.
+* EXCLUSION: similar to ``DIFFERENCE``, but less extreme.
 * MULTIPLY: Multiply the colors, result will always be darker.
 * SCREEN: Opposite multiply, uses inverse values of the colors.
-* OVERLAY: A mix of MULTIPLY and SCREEN. Multiplies dark values, and screens light values.
-* HARD_LIGHT: SCREEN when greater than 50% gray, MULTIPLY when lower.
-* SOFT_LIGHT: Mix of DARKEST and LIGHTEST.  Works like OVERLAY, but not as harsh.
+* OVERLAY: A mix of ``MULTIPLY`` and SCREEN. Multiplies dark values, and screens light values.
+* HARD_LIGHT: ``SCREEN`` when greater than 50% gray, ``MULTIPLY`` when lower.
+* SOFT_LIGHT: Mix of ``DARKEST`` and LIGHTEST.  Works like ``OVERLAY``, but not as harsh.
 * DODGE: Lightens light tones and increases contrast, ignores darks. Called "Color Dodge" in Illustrator and Photoshop.
 * BURN: Darker areas are applied, increasing contrast, ignores lights. Called "Color Burn" in Illustrator and Photoshop.
 
 All modes use the alpha information (highest byte) of source image pixels as the blending factor. If the source and destination regions are different sizes, the image will be automatically resized to match the destination size. If the ``src`` parameter is not used, the display window is used as the source image.
 
-As of Processing release 0149, this function ignores ``image_mode()``.
+This function ignores :doc:`image_mode`.
 
 Underlying Java method: `blend <https://processing.org/reference/blend_.html>`_
 
@@ -165,5 +165,5 @@ Parameters
 * **sy**: `int` - Y coordinate of the source's upper left corner
 
 
-Updated on February 25, 2021 16:37:22pm UTC
+Updated on March 04, 2021 19:43:58pm UTC
 

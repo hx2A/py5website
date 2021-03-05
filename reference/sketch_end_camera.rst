@@ -1,13 +1,13 @@
 .. title: end_camera()
 .. slug: end_camera
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 end_camera() documentation
 .. type: text
 
-The ``begin_camera()`` and ``end_camera()`` functions enable advanced customization of the camera space.
+The :doc:`begin_camera` and ``end_camera()`` functions enable advanced customization of the camera space.
 
 Examples
 ========
@@ -57,7 +57,7 @@ Examples
 Description
 ===========
 
-The ``begin_camera()`` and ``end_camera()`` functions enable advanced customization of the camera space. Please see the reference for ``begin_camera()`` for a description of how the functions are used.
+The :doc:`begin_camera` and ``end_camera()`` functions enable advanced customization of the camera space. Please see the reference for :doc:`begin_camera` for a description of how the functions are used.
 
 Underlying Java method: `endCamera <https://processing.org/reference/endCamera_.html>`_
 
@@ -68,5 +68,5 @@ Syntax
 
     end_camera() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

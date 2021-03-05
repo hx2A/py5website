@@ -1,6 +1,6 @@
 .. title: height
 .. slug: height
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,10 +47,10 @@ Examples
 Description
 ===========
 
-System variable that stores the height of the display window. This value is set by the second parameter of the ``size()`` function. For example, the function call ``size(320, 240)`` sets the ``height`` variable to the value 240. The value of ``height`` defaults to 100 if ``size()`` is not used in a program.
+System variable that stores the height of the display window. This value is set by the second parameter of the :doc:`size` function. For example, the function call ``size(320, 240)`` sets the ``height`` variable to the value 240. The value of ``height`` defaults to 100 if :doc:`size` is not used in a program.
 
 Underlying Java field: `height <https://processing.org/reference/height.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

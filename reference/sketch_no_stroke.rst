@@ -1,6 +1,6 @@
 .. title: no_stroke()
 .. slug: no_stroke
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,7 +45,7 @@ Examples
 Description
 ===========
 
-Disables drawing the stroke (outline). If both ``no_stroke()`` and ``no_fill()`` are called, nothing will be drawn to the screen.
+Disables drawing the stroke (outline). If both ``no_stroke()`` and :doc:`no_fill` are called, nothing will be drawn to the screen.
 
 Underlying Java method: `noStroke <https://processing.org/reference/noStroke_.html>`_
 
@@ -56,5 +56,5 @@ Syntax
 
     no_stroke() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: text
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -100,11 +100,11 @@ Examples
 Description
 ===========
 
-Draws text to the screen. Displays the information specified in the first parameter on the screen in the position specified by the additional parameters. A default font will be used unless a font is set with the ``text_font()`` function and a default size will be used unless a font is set with ``text_size()``. Change the color of the text with the ``fill()`` function. The text displays in relation to the ``text_align()`` function, which gives the option to draw to the left, right, and center of the coordinates.
+Draws text to the screen. Displays the information specified in the first parameter on the screen in the position specified by the additional parameters. A default font will be used unless a font is set with the :doc:`text_font` function and a default size will be used unless a font is set with :doc:`text_size`. Change the color of the text with the :doc:`fill` function. The text displays in relation to the :doc:`text_align` function, which gives the option to draw to the left, right, and center of the coordinates.
 
-The ``x2`` and ``y2`` parameters define a rectangular area to display within and may only be used with string data. When these parameters are specified, they are interpreted based on the current ``rect_mode()`` setting. Text that does not fit completely within the rectangle specified will not be drawn to the screen.
+The ``x2`` and ``y2`` parameters define a rectangular area to display within and may only be used with string data. When these parameters are specified, they are interpreted based on the current :doc:`rect_mode` setting. Text that does not fit completely within the rectangle specified will not be drawn to the screen.
 
-Note that Processing now lets you call ``text()`` without first specifying a Py5Font with ``text_font()``. In that case, a generic sans-serif font will be used instead. (See the third example.)
+Note that py5 lets you call ``text()`` without first specifying a Py5Font with :doc:`text_font`. In that case, a generic sans-serif font will be used instead. (See the third example.)
 
 Underlying Java method: `text <https://processing.org/reference/text_.html>`_
 
@@ -144,5 +144,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

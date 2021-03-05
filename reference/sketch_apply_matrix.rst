@@ -1,6 +1,6 @@
 .. title: apply_matrix()
 .. slug: apply_matrix
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,10 +44,10 @@ Examples
         ct = py5.cos(py5.PI/9.0)
         st = py5.sin(py5.PI/9.0)
         # matrix for rotation around the Y axis
-        py5.apply_matrix(ct, 0.0,  st,  0.0,
-                     0.0, 1.0, 0.0,  0.0,
-                     -st, 0.0,  ct,  0.0,
-                     0.0, 0.0, 0.0,  1.0)
+        py5.apply_matrix(ct, 0.0, st, 0.0,
+                         0.0, 1.0, 0.0, 0.0,
+                         -st, 0.0, ct, 0.0,
+                         0.0, 0.0, 0.0, 1.0)
         py5.stroke(255)
         py5.box(50)
 
@@ -99,5 +99,5 @@ Parameters
 * **source**: `NDArray[(4, 4), Float]` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

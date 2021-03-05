@@ -1,6 +1,6 @@
 .. title: key
 .. slug: key
-.. date: 2021-02-25 18:37:48 UTC+00:00
+.. date: 2021-03-04 20:27:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,12 +52,12 @@ Description
 
 The system variable ``key`` always contains the value of the most recent key on the keyboard that was used (either pressed or released). 
  
-For non-ASCII keys, use the ``key_code`` variable. The keys included in the ASCII specification (BACKSPACE, TAB, ENTER, RETURN, ESC, and DELETE) do not require checking to see if the key is coded, and you should simply use the ``key`` variable instead of ``key_code``. If you're making cross-platform projects, note that the ENTER key is commonly used on PCs and Unix and the RETURN key is used instead on Macintosh. Check for both ENTER and RETURN to make sure your program will work for all platforms.
+For non-ASCII keys, use the :doc:`key_code` variable. The keys included in the ASCII specification (``BACKSPACE``, ``TAB``, ``ENTER``, ``RETURN``, ``ESC``, and ``DELETE``) do not require checking to see if the key is coded, and you should simply use the ``key`` variable instead of :doc:`key_code`. If you're making cross-platform projects, note that the ``ENTER`` key is commonly used on PCs and Unix and the ``RETURN`` key is used instead on Macintosh. Check for both ``ENTER`` and ``RETURN`` to make sure your program will work for all platforms.
 
-There are issues with how ``key_code`` behaves across different renderers and operating systems. Watch out for unexpected behavior as you switch renderers and operating systems.
+There are issues with how :doc:`key_code` behaves across different renderers and operating systems. Watch out for unexpected behavior as you switch renderers and operating systems.
 
 Underlying Java field: `key <https://processing.org/reference/key.html>`_
 
 
-Updated on February 25, 2021 18:37:48pm UTC
+Updated on March 04, 2021 20:27:21pm UTC
 

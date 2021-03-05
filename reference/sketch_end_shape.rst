@@ -1,13 +1,13 @@
 .. title: end_shape()
 .. slug: end_shape
-.. date: 2021-02-25 16:37:22 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 end_shape() documentation
 .. type: text
 
-The ``end_shape()`` function is the companion to ``begin_shape()`` and may only be called after ``begin_shape()``.
+The ``end_shape()`` function is the companion to :doc:`begin_shape` and may only be called after :doc:`begin_shape`.
 
 Examples
 ========
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-The ``end_shape()`` function is the companion to ``begin_shape()`` and may only be called after ``begin_shape()``. When ``end_shape()`` is called, all of image data defined since the previous call to ``begin_shape()`` is written into the image buffer. The constant ``CLOSE`` as the value for the MODE parameter to close the shape (to connect the beginning and the end).
+The ``end_shape()`` function is the companion to :doc:`begin_shape` and may only be called after :doc:`begin_shape`. When ``end_shape()`` is called, all of image data defined since the previous call to :doc:`begin_shape` is written into the image buffer. The constant ``CLOSE`` as the value for the ``MODE`` parameter to close the shape (to connect the beginning and the end).
 
 Underlying Java method: `endShape <https://processing.org/reference/endShape_.html>`_
 
@@ -74,5 +74,5 @@ Parameters
 * **mode**: `int` - use CLOSE to close the shape
 
 
-Updated on February 25, 2021 16:37:22pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

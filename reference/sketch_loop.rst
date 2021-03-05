@@ -1,13 +1,13 @@
 .. title: loop()
 .. slug: loop
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 loop() documentation
 .. type: text
 
-By default, Processing loops through ``draw()`` continuously, executing the code within it.
+By default, py5 loops through ``draw()`` continuously, executing the code within it.
 
 Examples
 ========
@@ -66,7 +66,7 @@ Examples
 Description
 ===========
 
-By default, Processing loops through ``draw()`` continuously, executing the code within it. However, the ``draw()`` loop may be stopped by calling ``no_loop()``. In that case, the ``draw()`` loop can be resumed with ``loop()``.
+By default, py5 loops through ``draw()`` continuously, executing the code within it. However, the ``draw()`` loop may be stopped by calling :doc:`no_loop`. In that case, the ``draw()`` loop can be resumed with ``loop()``.
 
 Underlying Java method: `loop <https://processing.org/reference/loop_.html>`_
 
@@ -77,5 +77,5 @@ Syntax
 
     loop() -> None
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: point()
 .. slug: point
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 14:12:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -80,13 +80,13 @@ Examples
 Description
 ===========
 
-Draws a point, a coordinate in space at the dimension of one pixel. The first parameter is the horizontal value for the point, the second value is the vertical value for the point, and the optional third value is the depth value. Drawing this shape in 3D with the ``z`` parameter requires the P3D parameter in combination with ``size()`` as shown in the above example.
+Draws a point, a coordinate in space at the dimension of one pixel. The first parameter is the horizontal value for the point, the second value is the vertical value for the point, and the optional third value is the depth value. Drawing this shape in 3D with the ``z`` parameter requires the ``P3D`` parameter in combination with :doc:`size` as shown in the above example.
 
-Use ``stroke()`` to set the color of a ``point()``.
+Use :doc:`stroke` to set the color of a ``point()``.
 
 Point appears round with the default ``stroke_cap(ROUND)`` and square with ``stroke_cap(PROJECT)``. Points are invisible with ``stroke_cap(SQUARE)`` (no cap).
 
-Using ``point()`` with strokeWeight(1) or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using ``set()`` or drawing the point using either ``circle()`` or ``square()``.
+Using ``point()`` with ``strokeWeight(1)`` or smaller may draw nothing to the screen, depending on the graphics settings of the computer. Workarounds include setting the pixel using the :doc:`pixels` or :doc:`np_pixels` arrays or drawing the point using either :doc:`circle` or :doc:`square`.
 
 Underlying Java method: `point <https://processing.org/reference/point_.html>`_
 
@@ -106,5 +106,5 @@ Parameters
 * **z**: `float` - z-coordinate of the point
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 14:12:21pm UTC
 

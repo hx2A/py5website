@@ -1,6 +1,6 @@
 .. title: square()
 .. slug: square
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,7 +44,7 @@ Examples
 Description
 ===========
 
-Draws a square to the screen. A square is a four-sided shape with every angle at ninety degrees and each side is the same length. By default, the first two parameters set the location of the upper-left corner, the third sets the width and height. The way these parameters are interpreted, however, may be changed with the ``rect_mode()`` function.
+Draws a square to the screen. A square is a four-sided shape with every angle at ninety degrees and each side is the same length. By default, the first two parameters set the location of the upper-left corner, the third sets the width and height. The way these parameters are interpreted, however, may be changed with the :doc:`rect_mode` function.
 
 Underlying Java method: `square <https://processing.org/reference/square_.html>`_
 
@@ -63,5 +63,5 @@ Parameters
 * **y**: `float` - y-coordinate of the rectangle by default
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

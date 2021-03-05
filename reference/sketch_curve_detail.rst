@@ -1,6 +1,6 @@
 .. title: curve_detail()
 .. slug: curve_detail
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,7 +50,7 @@ Examples
 
 
     def draw_curves(y):
-        py5.curve(5, 28+y,  5, 28+y, 73, 26+y, 73, 63+y)
+        py5.curve(5, 28+y, 5, 28+y, 73, 26+y, 73, 63+y)
         py5.curve(5, 28+y, 73, 26+y, 73, 63+y, 15, 67+y)
         py5.curve(73, 26+y, 73, 63+y, 15, 67+y, 15, 67+y)
 
@@ -65,7 +65,7 @@ Examples
 Description
 ===========
 
-Sets the resolution at which curves display. The default value is 20. This function is only useful when using the P3D renderer as the default P2D renderer does not use this information.
+Sets the resolution at which curves display. The default value is 20. This function is only useful when using the ``P3D`` renderer as the default ``P2D`` renderer does not use this information.
 
 Underlying Java method: `curveDetail <https://processing.org/reference/curveDetail_.html>`_
 
@@ -82,5 +82,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

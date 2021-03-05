@@ -1,6 +1,6 @@
 .. title: smooth()
 .. slug: smooth
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -117,13 +117,13 @@ Description
 
 Draws all geometry with smooth (anti-aliased) edges. This behavior is the default, so ``smooth()`` only needs to be used when a program needs to set the smoothing in a different way. The ``level`` parameter increases the amount of smoothness. This is the level of over sampling applied to the graphics buffer.
 
-With the P2D and P3D renderers, ``smooth(2)`` is the default, this is called "2x anti-aliasing." The code ``smooth(4)`` is used for 4x anti-aliasing and ``smooth(8)`` is specified for "8x anti-aliasing." The maximum anti-aliasing level is determined by the hardware of the machine that is running the software, so ``smooth(4)`` and ``smooth(8)`` will not work with every computer.
+With the ``P2D`` and ``P3D`` renderers, ``smooth(2)`` is the default, this is called "2x anti-aliasing." The code ``smooth(4)`` is used for 4x anti-aliasing and ``smooth(8)`` is specified for "8x anti-aliasing." The maximum anti-aliasing level is determined by the hardware of the machine that is running the software, so ``smooth(4)`` and ``smooth(8)`` will not work with every computer.
 
 The default renderer uses ``smooth(3)`` by default. This is bicubic smoothing. The other option for the default renderer is ``smooth(2)``, which is bilinear smoothing.
 
-With Processing 3.0, ``smooth()`` is different than before. It was common to use ``smooth()`` and ``no_smooth()`` to turn on and off antialiasing within a sketch. Now, because of how the software has changed, ``smooth()`` can only be set once within a sketch. It must be called from the `settings()`` function. The ``no_smooth()`` function also follows the same rules. 
+The ``smooth()`` function can only be set once within a sketch. It must be called from the `settings()`` function. The :doc:`no_smooth` function also follows the same rules. 
 
-When ``smooth()`` is used with a ``Py5Graphics`` object, it should be run right after the object is created with ``create_graphics()``, as shown in the Reference in the third example.
+When ``smooth()`` is used with a ``Py5Graphics`` object, it should be run right after the object is created with :doc:`create_graphics`, as shown in the Reference in the third example.
 
 Underlying Java method: `smooth <https://processing.org/reference/smooth_.html>`_
 
@@ -141,5 +141,5 @@ Parameters
 * **level**: `int` - either 2, 3, 4, or 8 depending on the renderer
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

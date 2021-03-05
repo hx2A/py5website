@@ -1,6 +1,6 @@
 .. title: curve()
 .. slug: curve
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,7 +50,7 @@ Examples
 Description
 ===========
 
-Draws a curved line on the screen. The first and second parameters specify the beginning control point and the last two parameters specify the ending control point. The middle parameters specify the start and stop of the curve. Longer curves can be created by putting a series of ``curve()`` functions together or using ``curve_vertex()``. An additional function called ``curve_tightness()`` provides control for the visual quality of the curve. The ``curve()`` function is an implementation of Catmull-Rom splines. Using the 3D version requires rendering with P3D (see the Environment reference for more information).
+Draws a curved line on the screen. The first and second parameters specify the beginning control point and the last two parameters specify the ending control point. The middle parameters specify the start and stop of the curve. Longer curves can be created by putting a series of ``curve()`` functions together or using :doc:`curve_vertex`. An additional function called :doc:`curve_tightness` provides control for the visual quality of the curve. The ``curve()`` function is an implementation of Catmull-Rom splines. Using the 3D version requires rendering with ``P3D`` (see the Environment reference for more information).
 
 Underlying Java method: `curve <https://processing.org/reference/curve_.html>`_
 
@@ -79,5 +79,5 @@ Parameters
 * **z4**: `float` - coordinates for the ending control point
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

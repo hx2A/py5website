@@ -1,6 +1,6 @@
 .. title: millis()
 .. slug: millis
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,7 @@ Examples
     def draw():
         m = py5.millis()
         py5.no_stroke()
-        py5.fill(m % 255)
+        py5.fill(m%255)
         py5.rect(25, 25, 50, 50)
 
 .. raw:: html
@@ -55,5 +55,5 @@ Syntax
 
     millis() -> int
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

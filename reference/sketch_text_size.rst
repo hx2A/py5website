@@ -1,6 +1,6 @@
 .. title: text_size()
 .. slug: text_size
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -49,7 +49,7 @@ Examples
 Description
 ===========
 
-Sets the current font size. This size will be used in all subsequent calls to the ``text()`` function. Font size is measured in units of pixels.
+Sets the current font size. This size will be used in all subsequent calls to the :doc:`text` function. Font size is measured in units of pixels.
 
 Underlying Java method: `textSize <https://processing.org/reference/textSize_.html>`_
 
@@ -66,5 +66,5 @@ Parameters
 * **size**: `float` - the size of the letters in units of pixels
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

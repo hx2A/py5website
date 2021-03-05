@@ -1,13 +1,13 @@
 .. title: load_pixels()
 .. slug: load_pixels
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 14:12:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 load_pixels() documentation
 .. type: text
 
-Loads the pixel data of the current display window into the ``pixels[]`` array.
+Loads the pixel data of the current display window into the :doc:`pixels` array.
 
 Examples
 ========
@@ -52,7 +52,7 @@ Examples
 Description
 ===========
 
-Loads the pixel data of the current display window into the ``pixels[]`` array. This function must always be called before reading from or writing to ``pixels[]``. Subsequent changes to the display window will not be reflected in ``pixels`` until ``load_pixels()`` is called again.
+Loads the pixel data of the current display window into the :doc:`pixels` array. This function must always be called before reading from or writing to :doc:`pixels`. Subsequent changes to the display window will not be reflected in :doc:`pixels` until ``load_pixels()`` is called again.
 
 Underlying Java method: `loadPixels <https://processing.org/reference/loadPixels_.html>`_
 
@@ -63,5 +63,5 @@ Syntax
 
     load_pixels() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 14:12:21pm UTC
 

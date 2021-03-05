@@ -1,6 +1,6 @@
 .. title: lerp_color()
 .. slug: lerp_color
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -59,7 +59,7 @@ Description
 
 Calculates a color between two colors at a specific increment. The ``amt`` parameter is the amount to interpolate between the two values where 0.0 is equal to the first point, 0.1 is very near the first point, 0.5 is halfway in between, etc. 
 
-An amount below 0 will be treated as 0. Likewise, amounts above 1 will be capped at 1. This is different from the behavior of ``lerp()``, but necessary because otherwise numbers outside the range will produce strange and unexpected colors.
+An amount below 0 will be treated as 0. Likewise, amounts above 1 will be capped at 1. This is different from the behavior of :doc:`lerp`, but necessary because otherwise numbers outside the range will produce strange and unexpected colors.
 
 Underlying Java method: `lerpColor <https://processing.org/reference/lerpColor_.html>`_
 
@@ -80,5 +80,5 @@ Parameters
 * **mode**: `int` - missing variable description
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

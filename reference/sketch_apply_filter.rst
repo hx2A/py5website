@@ -1,6 +1,6 @@
 .. title: apply_filter()
 .. slug: apply_filter
-.. date: 2021-02-25 16:17:14 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -217,7 +217,7 @@ Examples
 Description
 ===========
 
-Filters the display window using a preset filter or with a custom shader. Using a shader with ``apply_filter()`` is much faster than without. Shaders require the P2D or P3D renderer in ``size()``.
+Filters the display window using a preset filter or with a custom shader. Using a shader with ``apply_filter()`` is much faster than without. Shaders require the ``P2D`` or ``P3D`` renderer in :doc:`size`.
 
 The presets options are:
 
@@ -249,5 +249,5 @@ Parameters
 * **shader**: `Py5Shader` - the fragment shader to apply
 
 
-Updated on February 25, 2021 16:17:14pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

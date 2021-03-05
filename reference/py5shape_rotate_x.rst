@@ -1,6 +1,6 @@
 .. title: rotate_x()
 .. slug: py5shape_rotate_x
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-03-04 18:02:19 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -39,7 +39,7 @@ Examples
     def draw():
         py5.background(204)
         py5.scale(0.2)
-        py5.shape(s, py5.width // 2, py5.height // 2)
+        py5.shape(s, py5.width//2, py5.height//2)
 
 
     def mouse_pressed():
@@ -57,11 +57,11 @@ Examples
 Description
 ===========
 
-Rotates the shape around the x-axis the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to ``TWO_PI``) or converted from degrees to radians with the ``radians()`` method.
+Rotates the shape around the x-axis the amount specified by the ``angle`` parameter. Angles should be specified in radians (values from 0 to ``TWO_PI``) or converted from degrees to radians with the :doc:`radians` method.
 
 Shapes are always rotated around the upper-left corner of their bounding box. Positive numbers rotate objects in a clockwise direction. Subsequent calls to the method accumulates the effect. For example, calling ``rotate_x(HALF_PI)`` and then ``rotate_x(HALF_PI)`` is the same as ``rotate_x(PI)``. This transformation is applied directly to the shape, it's not refreshed each time ``draw()`` is run.  
 
-This method requires a 3D renderer. You need to use P3D as a third parameter for the ``size()`` function as shown in the example.
+This method requires a 3D renderer. You need to use ``P3D`` as a third parameter for the :doc:`size` function as shown in the example.
 
 Underlying Java method: `PShape.rotateX <https://processing.org/reference/PShape_rotateX_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on March 04, 2021 18:02:19pm UTC
 

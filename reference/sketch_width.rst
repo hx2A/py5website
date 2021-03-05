@@ -1,6 +1,6 @@
 .. title: width
 .. slug: width
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,10 +47,10 @@ Examples
 Description
 ===========
 
-System variable that stores the width of the display window. This value is set by the first parameter of the ``size()`` function. For example, the function call ``size(320, 240)`` sets the ``width`` variable to the value 320. The value of ``width`` defaults to 100 if ``size()`` is not used in a program.
+System variable that stores the width of the display window. This value is set by the first parameter of the :doc:`size` function. For example, the function call ``size(320, 240)`` sets the ``width`` variable to the value 320. The value of ``width`` defaults to 100 if :doc:`size` is not used in a program.
 
 Underlying Java field: `width <https://processing.org/reference/width.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

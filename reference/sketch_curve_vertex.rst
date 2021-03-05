@@ -1,6 +1,6 @@
 .. title: curve_vertex()
 .. slug: curve_vertex
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,10 +33,10 @@ Examples
     def setup():
         py5.no_fill()
         py5.begin_shape()
-        py5.curve_vertex(84,  91)
-        py5.curve_vertex(84,  91)
-        py5.curve_vertex(68,  19)
-        py5.curve_vertex(21,  17)
+        py5.curve_vertex(84, 91)
+        py5.curve_vertex(84, 91)
+        py5.curve_vertex(68, 19)
+        py5.curve_vertex(21, 17)
         py5.curve_vertex(32, 100)
         py5.curve_vertex(32, 100)
         py5.end_shape()
@@ -52,7 +52,7 @@ Examples
 Description
 ===========
 
-Specifies vertex coordinates for curves. This function may only be used between ``begin_shape()`` and ``end_shape()`` and only when there is no MODE parameter specified to ``begin_shape()``. The first and last points in a series of ``curve_vertex()`` lines will be used to guide the beginning and end of a the curve. A minimum of four points is required to draw a tiny curve between the second and third points. Adding a fifth point with ``curve_vertex()`` will draw the curve between the second, third, and fourth points. The ``curve_vertex()`` function is an implementation of Catmull-Rom splines. Using the 3D version requires rendering with P3D (see the Environment reference for more information).
+Specifies vertex coordinates for curves. This function may only be used between :doc:`begin_shape` and :doc:`end_shape` and only when there is no ``MODE`` parameter specified to :doc:`begin_shape`. The first and last points in a series of ``curve_vertex()`` lines will be used to guide the beginning and end of a the curve. A minimum of four points is required to draw a tiny curve between the second and third points. Adding a fifth point with ``curve_vertex()`` will draw the curve between the second, third, and fourth points. The ``curve_vertex()`` function is an implementation of Catmull-Rom splines. Using the 3D version requires rendering with ``P3D`` (see the Environment reference for more information).
 
 Underlying Java method: `curveVertex <https://processing.org/reference/curveVertex_.html>`_
 
@@ -72,5 +72,5 @@ Parameters
 * **z**: `float` - the z-coordinate of the vertex
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

@@ -7,7 +7,7 @@
 * `attrib_normal() <../py5shape_attrib_normal/>`_: The documentation for this field or method has not yet been written.
 * `attrib_position() <../py5shape_attrib_position/>`_: The documentation for this field or method has not yet been written.
 * `begin_contour() <../py5shape_begin_contour/>`_: The documentation for this field or method has not yet been written.
-* `begin_shape() <../py5shape_begin_shape/>`_: This method is used to start a custom shape created with the ``create_shape()`` function.
+* `begin_shape() <../py5shape_begin_shape/>`_: This method is used to start a custom shape created with the :doc:`create_shape` function.
 * `bezier_detail() <../py5shape_bezier_detail/>`_: The documentation for this field or method has not yet been written.
 * `bezier_vertex() <../py5shape_bezier_vertex/>`_: The documentation for this field or method has not yet been written.
 * `color_mode() <../py5shape_color_mode/>`_: The documentation for this field or method has not yet been written.
@@ -16,11 +16,11 @@
 * `curve_tightness() <../py5shape_curve_tightness/>`_: The documentation for this field or method has not yet been written.
 * `curve_vertex() <../py5shape_curve_vertex/>`_: The documentation for this field or method has not yet been written.
 * `depth <../py5shape_depth/>`_: The documentation for this field or method has not yet been written.
-* `disable_style() <../py5shape_disable_style/>`_: Disables the shape's style data and uses Processing's current styles.
+* `disable_style() <../py5shape_disable_style/>`_: Disables the shape's style data and uses py5's current styles.
 * `emissive() <../py5shape_emissive/>`_: The documentation for this field or method has not yet been written.
-* `enable_style() <../py5shape_enable_style/>`_: Enables the shape's style data and ignores Processing's current styles.
+* `enable_style() <../py5shape_enable_style/>`_: Enables the shape's style data and ignores py5's current styles.
 * `end_contour() <../py5shape_end_contour/>`_: The documentation for this field or method has not yet been written.
-* `end_shape() <../py5shape_end_shape/>`_: This method is used to complete a custom shape created with the ``create_shape()`` function.
+* `end_shape() <../py5shape_end_shape/>`_: This method is used to complete a custom shape created with the :doc:`create_shape` function.
 * `fill() <../py5shape_fill/>`_: The documentation for this field or method has not yet been written.
 * `find_child() <../py5shape_find_child/>`_: The documentation for this field or method has not yet been written.
 * `get_ambient() <../py5shape_get_ambient/>`_: The documentation for this field or method has not yet been written.

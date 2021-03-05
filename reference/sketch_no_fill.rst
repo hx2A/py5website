@@ -1,6 +1,6 @@
 .. title: no_fill()
 .. slug: no_fill
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -46,7 +46,7 @@ Examples
 Description
 ===========
 
-Disables filling geometry. If both ``no_stroke()`` and ``no_fill()`` are called, nothing will be drawn to the screen.
+Disables filling geometry. If both :doc:`no_stroke` and ``no_fill()`` are called, nothing will be drawn to the screen.
 
 Underlying Java method: `noFill <https://processing.org/reference/noFill_.html>`_
 
@@ -57,5 +57,5 @@ Syntax
 
     no_fill() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

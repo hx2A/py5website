@@ -1,6 +1,6 @@
 .. title: translate()
 .. slug: py5shape_translate
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,7 +54,7 @@ Description
 
 Specifies an amount to displace the shape. The ``x`` parameter specifies left/right translation, the ``y`` parameter specifies up/down translation, and the ``z`` parameter specifies translations toward/away from the screen. Subsequent calls to the method accumulates the effect. For example, calling ``translate(50, 0)`` and then ``translate(20, 0)`` is the same as ``translate(70, 0)``. This transformation is applied directly to the shape, it's not refreshed each time ``draw()`` is run. 
 
-Using this method with the ``z`` parameter requires using the P3D parameter in combination with size.
+Using this method with the ``z`` parameter requires using the ``P3D`` parameter in combination with size.
 
 Underlying Java method: `PShape.translate <https://processing.org/reference/PShape_translate_.html>`_
 
@@ -74,5 +74,5 @@ Parameters
 * **z**: `float` - forward/back translation
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

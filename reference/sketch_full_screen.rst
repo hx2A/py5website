@@ -1,6 +1,6 @@
 .. title: full_screen()
 .. slug: full_screen
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,7 +45,7 @@ Examples
 
     def draw():
         global x
-        py5.rect(x, py5.height * 0.2, 1, py5.height * 0.6)
+        py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
 .. raw:: html
@@ -82,7 +82,7 @@ Examples
 
     def draw():
         global x
-        py5.rect(x, py5.height * 0.2, 1, py5.height * 0.6)
+        py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
 .. raw:: html
@@ -117,7 +117,7 @@ Examples
 
     def draw():
         global x
-        py5.rect(x, py5.height * 0.2, 1, py5.height * 0.6)
+        py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
 .. raw:: html
@@ -153,7 +153,7 @@ Examples
 
     def draw():
         global x
-        py5.rect(x, py5.height * 0.2, 1, py5.height * 0.6)
+        py5.rect(x, py5.height*0.2, 1, py5.height*0.6)
         x = x + 2
 
 .. raw:: html
@@ -167,7 +167,7 @@ Examples
 Description
 ===========
 
-Open a sketch using the full size of the computer's display. This function must be called in ``settings()``. The ``size()`` and ``full_screen()`` functions cannot both be used in the same program.
+Open a sketch using the full size of the computer's display. This function must be called in ``settings()``. The :doc:`size` and ``full_screen()`` functions cannot both be used in the same program.
 
 When ``full_screen()`` is used without a parameter on a computer with multiple monitors, it will (probably) draw the sketch to the primary display. When it is used with a single parameter, this number defines the screen to display to program on (e.g. 1, 2, 3...). When used with two parameters, the first defines the renderer to use (e.g. P2D) and the second defines the screen. The ``SPAN`` parameter can be used in place of a screen number to draw the sketch as a full-screen window across all of the attached displays if there are more than one.
 
@@ -190,5 +190,5 @@ Parameters
 * **renderer**: `str` - the renderer to use, e.g. P2D, P3D, JAVA2D (default)
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

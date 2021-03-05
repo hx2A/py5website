@@ -1,6 +1,6 @@
 .. title: model_x()
 .. slug: model_x
-.. date: 2021-02-16 16:54:21 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -45,7 +45,7 @@ Examples
         py5.rotate_y(1.0)  # yrot)
         py5.rotate_z(2.0)  # zrot)
         # rotate in X a little more each frame
-        py5.rotate_x(py5.frame_count / 100.0)
+        py5.rotate_x(py5.frame_count/100.0)
         # offset from_ center
         py5.translate(0, 150, 0)
 
@@ -80,7 +80,7 @@ Description
 
 Returns the three-dimensional X, Y, Z position in model space. This returns the X value for a given coordinate based on the current set of transformations (scale, rotate, translate, etc.) The X value can be used to place an object in space relative to the location of the original point once the transformations are no longer in use. 
  
-In the example, the ``model_x()``, ``model_y()``, and ``model_z()`` functions record the location of a box in space after being placed using a series of translate and rotate commands. After ``pop_matrix()`` is called, those transformations no longer apply, but the (x, y, z) coordinate returned by the model functions is used to place another box in the same location.
+In the example, the ``model_x()``, :doc:`model_y`, and :doc:`model_z` functions record the location of a box in space after being placed using a series of translate and rotate commands. After :doc:`pop_matrix` is called, those transformations no longer apply, but the (x, y, z) coordinate returned by the model functions is used to place another box in the same location.
 
 Underlying Java method: `modelX <https://processing.org/reference/modelX_.html>`_
 
@@ -99,5 +99,5 @@ Parameters
 * **z**: `float` - 3D z-coordinate to be mapped
 
 
-Updated on February 16, 2021 16:54:21pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

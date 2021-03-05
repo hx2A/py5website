@@ -1,6 +1,6 @@
 .. title: create_image()
 .. slug: create_image
-.. date: 2021-02-25 16:17:14 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -61,7 +61,7 @@ Examples
         img = py5.create_image(66, 66, py5.ARGB)
         img.load_pixels()
         for i in range(0, len(img.pixels)):
-            img.pixels[i] = py5.color(0, 90, 102, i % img.width * 2)
+            img.pixels[i] = py5.color(0, 90, 102, i%img.width*2)
     
         img.update_pixels()
         py5.image(img, 17, 17)
@@ -78,7 +78,7 @@ Examples
 Description
 ===========
 
-Creates a new Py5Image (the datatype for storing images). This provides a fresh buffer of pixels to play with. Set the size of the buffer with the ``width`` and ``height`` parameters. The ``format`` parameter defines how the pixels are stored. See the :doc:`Py5Image` reference for more information.
+Creates a new Py5Image (the datatype for storing images). This provides a fresh buffer of pixels to play with. Set the size of the buffer with the ``w`` and ``h`` parameters. The ``format`` parameter defines how the pixels are stored. See the :doc:`Py5Image` reference for more information.
  
 Be sure to include all three parameters, specifying only the width and height (but no format) will produce a strange error.
  
@@ -101,5 +101,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on February 25, 2021 16:17:14pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

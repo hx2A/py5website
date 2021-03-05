@@ -1,6 +1,6 @@
 .. title: bezier()
 .. slug: bezier
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 15:12:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,7 +62,7 @@ Examples
         py5.line(30, 20, 80, 5)
         py5.line(80, 75, 30, 75)
         py5.stroke(0, 0, 0)
-        py5.bezier(30, 20,  80, 5,  80, 75,  30, 75)
+        py5.bezier(30, 20, 80, 5, 80, 75, 30, 75)
 
 .. raw:: html
 
@@ -75,7 +75,7 @@ Examples
 Description
 ===========
 
-Draws a Bezier curve on the screen. These curves are defined by a series of anchor and control points. The first two parameters specify the first anchor point and the last two parameters specify the other anchor point. The middle parameters specify the control points which define the shape of the curve. Bezier curves were developed by French engineer Pierre Bezier. Using the 3D version requires rendering with P3D (see the Environment reference for more information).
+Draws a Bezier curve on the screen. These curves are defined by a series of anchor and control points. The first two parameters specify the first anchor point and the last two parameters specify the other anchor point. The middle parameters specify the control points which define the shape of the curve. Bezier curves were developed by French engineer Pierre Bezier. Using the 3D version requires rendering with ``P3D`` (see the Environment reference for more information).
 
 Underlying Java method: `bezier <https://processing.org/reference/bezier_.html>`_
 
@@ -104,5 +104,5 @@ Parameters
 * **z4**: `float` - coordinates for the second anchor point
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 15:12:39pm UTC
 

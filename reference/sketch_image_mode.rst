@@ -1,13 +1,13 @@
 .. title: image_mode()
 .. slug: image_mode
-.. date: 2021-02-25 18:37:48 UTC+00:00
+.. date: 2021-03-04 20:16:29 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 image_mode() documentation
 .. type: text
 
-Modifies the location from which images are drawn by changing the way in which parameters given to ``image()`` are intepreted.
+Modifies the location from which images are drawn by changing the way in which parameters given to :doc:`image` are intepreted.
 
 Examples
 ========
@@ -104,13 +104,13 @@ Examples
 Description
 ===========
 
-Modifies the location from which images are drawn by changing the way in which parameters given to ``image()`` are intepreted.
+Modifies the location from which images are drawn by changing the way in which parameters given to :doc:`image` are intepreted.
 
-The default mode is ``image_mode(CORNER)``, which interprets the second and third parameters of ``image()`` as the upper-left corner of the image. If two additional parameters are specified, they are used to set the image's width and height.
+The default mode is ``image_mode(CORNER)``, which interprets the second and third parameters of :doc:`image` as the upper-left corner of the image. If two additional parameters are specified, they are used to set the image's width and height.
 
-``image_mode(CORNERS)`` interprets the second and third parameters of ``image()`` as the  location of one corner, and the fourth and fifth parameters as the opposite corner.
+``image_mode(CORNERS)`` interprets the second and third parameters of :doc:`image` as the  location of one corner, and the fourth and fifth parameters as the opposite corner.
 
-``image_mode(CENTER)`` interprets the second and third parameters of ``image()`` as the image's center point. If two additional parameters are specified, they are used to set the image's width and height.
+``image_mode(CENTER)`` interprets the second and third parameters of :doc:`image` as the image's center point. If two additional parameters are specified, they are used to set the image's width and height.
 
 The parameter must be written in ALL CAPS because Python is a case-sensitive language.
 
@@ -129,5 +129,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, or CENTER
 
 
-Updated on February 25, 2021 18:37:48pm UTC
+Updated on March 04, 2021 20:16:29pm UTC
 

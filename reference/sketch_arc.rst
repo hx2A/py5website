@@ -1,6 +1,6 @@
 .. title: arc()
 .. slug: arc
-.. date: 2021-02-25 16:17:14 UTC+00:00
+.. date: 2021-03-04 19:43:58 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -111,11 +111,11 @@ Examples
 Description
 ===========
 
-Draws an arc to the screen. Arcs are drawn along the outer edge of an ellipse defined by the ``a``, ``b``, ``c``, and ``d`` parameters. The origin of the arc's ellipse may be changed with the ``ellipse_mode()`` function. Use the ``start`` and ``stop`` parameters to specify the angles (in radians) at which to draw the arc. The start/stop values must be in clockwise order.
+Draws an arc to the screen. Arcs are drawn along the outer edge of an ellipse defined by the ``a``, ``b``, ``c``, and ``d`` parameters. The origin of the arc's ellipse may be changed with the :doc:`ellipse_mode` function. Use the ``start`` and ``stop`` parameters to specify the angles (in radians) at which to draw the arc. The start/stop values must be in clockwise order.
 
-There are three ways to draw an arc; the rendering technique used is defined by the optional seventh parameter. The three options, depicted in the examples, are ``PIE``, ``OPEN``, and ``CHORD``. The default mode is the ``OPEN`` stroke with a PIE fill.
+There are three ways to draw an arc; the rendering technique used is defined by the optional seventh parameter. The three options, depicted in the examples, are ``PIE``, ``OPEN``, and ``CHORD``. The default mode is the ``OPEN`` stroke with a ``PIE`` fill.
 
-In some cases, the ``arc()`` function isn't accurate enough for smooth drawing. For example, the shape may jitter on screen when rotating slowly. If you're having an issue with how arcs are rendered, you'll need to draw the arc yourself with ``begin_shape()``/``end_shape()`` or a ``Py5Shape``.
+In some cases, the ``arc()`` function isn't accurate enough for smooth drawing. For example, the shape may jitter on screen when rotating slowly. If you're having an issue with how arcs are rendered, you'll need to draw the arc yourself with :doc:`begin_shape` & :doc:`end_shape` or a ``Py5Shape``.
 
 Underlying Java method: `arc <https://processing.org/reference/arc_.html>`_
 
@@ -139,5 +139,5 @@ Parameters
 * **stop**: `float` - angle to stop the arc, specified in radians
 
 
-Updated on February 25, 2021 16:17:14pm UTC
+Updated on March 04, 2021 19:43:58pm UTC
 

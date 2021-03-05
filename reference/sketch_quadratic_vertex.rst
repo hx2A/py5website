@@ -1,6 +1,6 @@
 .. title: quadratic_vertex()
 .. slug: quadratic_vertex
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 14:12:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,7 +77,7 @@ Examples
 Description
 ===========
 
-Specifies vertex coordinates for quadratic Bezier curves. Each call to ``quadratic_vertex()`` defines the position of one control point and one anchor point of a Bezier curve, adding a new segment to a line or shape. The first time ``quadratic_vertex()`` is used within a ``begin_shape()`` call, it must be prefaced with a call to ``vertex()`` to set the first anchor point. This function must be used between ``begin_shape()`` and ``end_shape()`` and only when there is no MODE parameter specified to ``begin_shape()``. Using the 3D version requires rendering with P3D (see the Environment reference for more information).
+Specifies vertex coordinates for quadratic Bezier curves. Each call to ``quadratic_vertex()`` defines the position of one control point and one anchor point of a Bezier curve, adding a new segment to a line or shape. The first time ``quadratic_vertex()`` is used within a :doc:`begin_shape` call, it must be prefaced with a call to :doc:`vertex` to set the first anchor point. This function must be used between :doc:`begin_shape` and :doc:`end_shape` and only when there is no ``MODE`` parameter specified to :doc:`begin_shape`. Using the 3D version requires rendering with ``P3D``.
 
 Underlying Java method: `quadraticVertex <https://processing.org/reference/quadraticVertex_.html>`_
 
@@ -100,5 +100,5 @@ Parameters
 * **z3**: `float` - the z-coordinate of the anchor point
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 14:12:21pm UTC
 

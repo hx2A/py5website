@@ -1,13 +1,13 @@
 .. title: print_camera()
 .. slug: print_camera
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 print_camera() documentation
 .. type: text
 
-Prints the current camera matrix to the Console (the text window at the bottom of Processing).
+Prints the current camera matrix to standard output.
 
 Examples
 ========
@@ -51,7 +51,7 @@ Examples
 Description
 ===========
 
-Prints the current camera matrix to the Console (the text window at the bottom of Processing).
+Prints the current camera matrix to standard output.
 
 Underlying Java method: `printCamera <https://processing.org/reference/printCamera_.html>`_
 
@@ -62,5 +62,5 @@ Syntax
 
     print_camera() -> None
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

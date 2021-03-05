@@ -1,6 +1,6 @@
 .. title: get()
 .. slug: get
-.. date: 2021-02-25 17:49:54 UTC+00:00
+.. date: 2021-03-04 20:27:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -73,13 +73,13 @@ Examples
 Description
 ===========
 
-Reads the color of any pixel or grabs a section of an image. If no parameters are specified, the entire image is returned. Use the ``x`` and ``y`` parameters to get the value of one pixel. Get a section of the display window by specifying additional ``w`` and ``h`` parameters. When getting an image, the ``x`` and ``y`` parameters define the coordinates for the upper-left corner of the image, regardless of the current ``image_mode()``.
+Reads the color of any pixel or grabs a section of an image. If no parameters are specified, the entire image is returned. Use the ``x`` and ``y`` parameters to get the value of one pixel. Get a section of the display window by specifying additional ``w`` and ``h`` parameters. When getting an image, the ``x`` and ``y`` parameters define the coordinates for the upper-left corner of the image, regardless of the current :doc:`image_mode`.
 
-If the pixel requested is outside of the image window, black is returned. The numbers returned are scaled according to the current color ranges, but only RGB values are returned by this function. For example, even though you may have drawn a shape with ``color_mode(HSB)``, the numbers returned will be in RGB format.
+If the pixel requested is outside of the image window, black is returned. The numbers returned are scaled according to the current color ranges, but only ``RGB`` values are returned by this function. For example, even though you may have drawn a shape with ``color_mode(HSB)``, the numbers returned will be in ``RGB`` format.
 
 If a width and a height are specified, ``get(x, y, w, h)`` returns a Py5Image corresponding to the part of the original Py5Image where the top left pixel is at the ``(x, y)`` position with a width of ``w`` a height of ``h``.
 
-Getting the color of a single pixel with ``get(x, y)`` is easy, but not as fast as grabbing the data directly from ``pixels[]``. The equivalent statement to ``get(x, y)`` using ``pixels[]`` is ``pixels[y*width+x]``. See the reference for :doc:`pixels` for more information.
+Getting the color of a single pixel with ``get(x, y)`` is easy, but not as fast as grabbing the data directly from :doc:`pixels` or :doc:`np_pixels`. The equivalent statement to ``get(x, y)`` using :doc:`pixels` is ``pixels[y*width+x]``. Using :doc:`np_pixels` it is ``np_pixels[y, x]``. See the reference for :doc:`pixels` and :doc:`np_pixels` for more information.
 
 Underlying Java method: `get <https://processing.org/reference/get_.html>`_
 
@@ -101,5 +101,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on February 25, 2021 17:49:54pm UTC
+Updated on March 04, 2021 20:27:21pm UTC
 

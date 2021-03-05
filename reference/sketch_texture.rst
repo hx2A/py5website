@@ -1,6 +1,6 @@
 .. title: texture()
 .. slug: texture
-.. date: 2021-02-25 16:27:06 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,9 +56,9 @@ Examples
 Description
 ===========
 
-Sets a texture to be applied to vertex points. The ``texture()`` function must be called between ``begin_shape()`` and ``end_shape()`` and before any calls to ``vertex()``. This function only works with the P2D and P3D renderers.
+Sets a texture to be applied to vertex points. The ``texture()`` function must be called between :doc:`begin_shape` and :doc:`end_shape` and before any calls to :doc:`vertex`. This function only works with the ``P2D`` and ``P3D`` renderers.
 
-When textures are in use, the fill color is ignored. Instead, use ``tint()`` to specify the color of the texture as it is applied to the shape.
+When textures are in use, the fill color is ignored. Instead, use :doc:`tint` to specify the color of the texture as it is applied to the shape.
 
 Underlying Java method: `texture <https://processing.org/reference/texture_.html>`_
 
@@ -75,5 +75,5 @@ Parameters
 * **image**: `Py5Image` - reference to a Py5Image object
 
 
-Updated on February 25, 2021 16:27:06pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 

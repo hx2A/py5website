@@ -1,6 +1,6 @@
 .. title: point_light()
 .. slug: point_light
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-03-05 14:12:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -74,5 +74,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on March 05, 2021 14:12:21pm UTC
 

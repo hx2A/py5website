@@ -1,6 +1,6 @@
 .. title: color()
 .. slug: color
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-03-03 21:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -109,9 +109,9 @@ Examples
 Description
 ===========
 
-Creates colors for storing in variables of the ``color`` datatype (a 32 bit integer). The parameters are interpreted as RGB or HSB values depending on the current ``color_mode()``. The default mode is RGB values from 0 to 255 and, therefore, ``color(255, 204, 0)`` will return a bright yellow color (see the first example).
+Creates colors for storing in variables of the ``color`` datatype (a 32 bit integer). The parameters are interpreted as ``RGB`` or ``HSB`` values depending on the current :doc:`color_mode`. The default mode is ``RGB`` values from 0 to 255 and, therefore, ``color(255, 204, 0)`` will return a bright yellow color (see the first example).
 
-Note that if only one value is provided to ``color()``, it will be interpreted as a grayscale value. Add a second value, and it will be used for alpha transparency. When three values are specified, they are interpreted as either RGB or HSB values. Adding a fourth value applies alpha transparency.
+Note that if only one value is provided to ``color()``, it will be interpreted as a grayscale value. Add a second value, and it will be used for alpha transparency. When three values are specified, they are interpreted as either ``RGB`` or ``HSB`` values. Adding a fourth value applies alpha transparency.
 
 Note that when using hexadecimal notation, it is not necessary to use ``color()``, as in: ``c = 0x006699``
 
@@ -147,5 +147,5 @@ Parameters
 * **v3**: `int` - blue or brightness values relative to the current color range
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on March 03, 2021 21:11:14pm UTC
 
