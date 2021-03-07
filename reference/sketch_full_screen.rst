@@ -1,13 +1,13 @@
 .. title: full_screen()
 .. slug: full_screen
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 full_screen() documentation
 .. type: text
 
-Open a sketch using the full size of the computer's display.
+Open a Sketch using the full size of the computer's display.
 
 Examples
 ========
@@ -167,9 +167,9 @@ Examples
 Description
 ===========
 
-Open a sketch using the full size of the computer's display. This function must be called in ``settings()``. The :doc:`size` and ``full_screen()`` functions cannot both be used in the same program.
+Open a Sketch using the full size of the computer's display. This function must be called in ``settings()``. The :doc:`size` and ``full_screen()`` functions cannot both be used in the same program.
 
-When ``full_screen()`` is used without a parameter on a computer with multiple monitors, it will (probably) draw the sketch to the primary display. When it is used with a single parameter, this number defines the screen to display to program on (e.g. 1, 2, 3...). When used with two parameters, the first defines the renderer to use (e.g. P2D) and the second defines the screen. The ``SPAN`` parameter can be used in place of a screen number to draw the sketch as a full-screen window across all of the attached displays if there are more than one.
+When ``full_screen()`` is used without a parameter on a computer with multiple monitors, it will (probably) draw the Sketch to the primary display. When it is used with a single parameter, this number defines the screen to display to program on (e.g. 1, 2, 3...). When used with two parameters, the first defines the renderer to use (e.g. P2D) and the second defines the screen. The ``SPAN`` parameter can be used in place of a screen number to draw the Sketch as a full-screen window across all of the attached displays if there are more than one.
 
 Underlying Java method: `fullScreen <https://processing.org/reference/fullScreen_.html>`_
 
@@ -186,9 +186,9 @@ Syntax
 Parameters
 ==========
 
-* **display**: `int` - the screen to run the sketch on (1, 2, 3, etc. or on multiple screens using SPAN)
+* **display**: `int` - the screen to run the Sketch on (1, 2, 3, etc. or on multiple screens using SPAN)
 * **renderer**: `str` - the renderer to use, e.g. P2D, P3D, JAVA2D (default)
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

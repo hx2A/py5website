@@ -1,13 +1,13 @@
 .. title: %py5screenshot
 .. slug: py5screenshot
-.. date: 2021-02-06 21:15:00 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 %py5screenshot documentation
 .. type: text
 
-Take a screenshot of the current running sketch.
+Take a screenshot of the current running Sketch.
 
 Examples
 ========
@@ -43,7 +43,7 @@ Examples
 Description
 ===========
 
-Take a screenshot of the current running sketch.
+Take a screenshot of the current running Sketch.
 
 Use the ``-w`` argument to wait before taking the screenshot.
 
@@ -64,5 +64,5 @@ Arguments
     optional arguments:
       -w WAIT, --wait WAIT  wait time in seconds before taking screenshot
 
-Updated on February 06, 2021 21:15:00pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

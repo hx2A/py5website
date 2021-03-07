@@ -1,6 +1,6 @@
 .. title: reset_py5()
 .. slug: reset_py5
-.. date: 2021-02-10 15:43:05 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,7 +31,7 @@ Examples
 
     assert py5.is_ready
     first_sketch = py5.get_current_sketch()
-    py5.run_sketch()
+    py5.run_sketch(block=False)
     py5.exit_sketch()
     assert py5.is_dead
     py5.reset_py5()
@@ -52,9 +52,9 @@ Description
 
 Reset the py5 module's current ``Sketch`` instance.
 
-When coding py5 in module mode, a Sketch instance is created on your behalf that is referenced within the py5 module itself. That Sketch is called the "current sketch." If the current sketch exits, it will be in a dead state and cannot be re-run. ``reset_py5()`` will discard that exited Sketch instance and replace it with a new one in the ready state.
+When coding py5 in module mode, a Sketch instance is created on your behalf that is referenced within the py5 module itself. That Sketch is called the "Current Sketch." If the current Sketch exits, it will be in a dead state and cannot be re-run. ``reset_py5()`` will discard that exited Sketch instance and replace it with a new one in the ready state.
 
-If ``reset_py5()`` is called when the current sketch is in the ready or running states, it will do nothing and return ``False``. If ``reset_py5()`` is called when the current sketch is in the dead state, ``reset_py5()`` will replace it and return ``True``.
+If ``reset_py5()`` is called when the current Sketch is in the ready or running states, it will do nothing and return ``False``. If ``reset_py5()`` is called when the current Sketch is in the dead state, ``reset_py5()`` will replace it and return ``True``.
 
 Syntax
 ======
@@ -63,5 +63,5 @@ Syntax
 
     reset_py5() -> bool
 
-Updated on February 10, 2021 15:43:05pm UTC
+Updated on March 07, 2021 16:29:38pm UTC
 

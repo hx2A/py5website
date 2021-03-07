@@ -1,6 +1,6 @@
 .. title: load_shader()
 .. slug: load_shader
-.. date: 2021-03-05 14:12:21 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,7 +55,7 @@ Examples
 Description
 ===========
 
-Loads a shader into a ``Py5Shader`` object. The shader file must be loaded in the sketch's "data" directory to load correctly. Shaders are compatible with the ``P2D`` and ``P3D`` renderers, but not with the default renderer.
+Loads a shader into a ``Py5Shader`` object. The shader file must be loaded in the Sketch's "data" directory to load correctly. Shaders are compatible with the ``P2D`` and ``P3D`` renderers, but not with the default renderer.
 
 Alternatively, the file maybe be loaded from anywhere on the local computer using an absolute path (something that starts with / on Unix and Linux, or a drive letter on Windows), or the filename parameter can be a URL for a file found on a network.
 
@@ -78,5 +78,5 @@ Parameters
 * **vert_filename**: `str` - name of vertex shader file
 
 
-Updated on March 05, 2021 14:12:21pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

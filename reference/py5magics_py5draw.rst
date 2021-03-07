@@ -1,6 +1,6 @@
 .. title: %%py5draw
 .. slug: py5draw
-.. date: 2021-03-04 19:43:58 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -48,9 +48,9 @@ Description
 
 Create a PNG image with py5 and embed result in the notebook.
 
-For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a sketch with no ``draw()`` function and your code in the ``setup()`` function. By default it will use the default Processing renderer.
+For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a Sketch with no ``draw()`` function and your code in the ``setup()`` function. By default it will use the default Processing renderer.
 
-Code used in this cell can reference functions and variables defined in other cells. By default, variables and functions created in this cell will be local to only this cell because to do otherwise would be unsafe. If you understand the risks, you can use the ``global`` keyword to add a single function or variable to the notebook namespace or the ``--unsafe`` argument to add everything to the notebook namespace. Either option may be very useful to you, but be aware that using py5 objects in a different notebook cell or reusing them in another sketch can result in nasty errors and bizzare consequences.
+Code used in this cell can reference functions and variables defined in other cells. By default, variables and functions created in this cell will be local to only this cell because to do otherwise would be unsafe. If you understand the risks, you can use the ``global`` keyword to add a single function or variable to the notebook namespace or the ``--unsafe`` argument to add everything to the notebook namespace. Either option may be very useful to you, but be aware that using py5 objects in a different notebook cell or reusing them in another Sketch can result in nasty errors and bizzare consequences.
 
 Usage
 =====
@@ -74,8 +74,8 @@ Arguments
       -v VARIABLE, --var VARIABLE
                             assign image to variable
       -r RENDERER, --renderer RENDERER
-                            processing renderer to use for sketch
+                            processing renderer to use for Sketch
       --unsafe              allow new variables to enter the global namespace
 
-Updated on March 04, 2021 19:43:58pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

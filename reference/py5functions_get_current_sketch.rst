@@ -1,6 +1,6 @@
 .. title: get_current_sketch()
 .. slug: get_current_sketch
-.. date: 2021-02-10 15:43:05 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,7 +29,7 @@ Examples
 
     sketch = py5.get_current_sketch()
     assert sketch.is_ready
-    py5.run_sketch()
+    py5.run_sketch(block=False)
     assert sketch.is_running
     py5.exit_sketch()
     assert sketch.is_dead
@@ -56,5 +56,5 @@ Syntax
 
     get_current_sketch() -> Sketch
 
-Updated on February 10, 2021 15:43:05pm UTC
+Updated on March 07, 2021 16:29:38pm UTC
 

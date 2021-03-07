@@ -1,19 +1,21 @@
 .. title: is_dead
 .. slug: is_dead
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-07 16:32:04 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 is_dead documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Boolean value stating if the Sketch has been run and has now stopped.
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Boolean value stating if the Sketch has been run and has now stopped. This will be ``True`` after calling :doc:`exit_sketch` or if the Sketch throws an error and stops. This will also be ``True`` after calling :doc:`py5surface`'s :doc:`py5surface_stop_thread` method. Once a Sketch reaches the "dead" state, it cannot be rerun.
+
+After an error or a call to :doc:`py5surface_stop_thread`, the Sketch window will still be open. Call :doc:`exit_sketch` to close the window.
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 07, 2021 16:32:04pm UTC
 

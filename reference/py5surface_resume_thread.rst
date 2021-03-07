@@ -1,18 +1,60 @@
 .. title: resume_thread()
 .. slug: py5surface_resume_thread
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 resume_thread() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Resume a paused Sketch.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def draw():
+        py5.rect(py5.random(py5.width), py5.random(py5.height), 10, 10)
+        print(py5.frame_count)
+
+    py5.run_sketch(block=False)
+    surface = py5.get_surface()
+
+    # pause the sketch.
+    surface.pause_thread()
+    # the sketch is no longer running and there is no output
+
+    # after waiting a bit, resume the sketch
+    surface.resume_thread()
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Resume a paused Sketch. The Sketch window will resume operating as it did before :doc:`py5surface_pause_thread` was called.
+
+The :doc:`frame_count` will continue incrementing after the Sketch is resumed.
 
 Underlying Java method: PSurface.resumeThread
 
@@ -23,5 +65,5 @@ Syntax
 
     resume_thread() -> None
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 07, 2021 16:29:38pm UTC
 

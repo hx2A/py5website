@@ -1,6 +1,6 @@
 .. title: create_font_file()
 .. slug: create_font_file
-.. date: 2021-02-03 22:21:58 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,7 +60,7 @@ Description
 
 Utility function to create Processing's vlw font data files. In Processing, users would create these files through the PDE using the Create Font tool. This utility function accomplishes the same task.
 
-This function creates a small helper sketch to create a font file. Do not use this function inside of another sketch.
+This function creates a small helper Sketch to create a font file. Do not use this function inside of another Sketch.
 
 By default it will create data files for every character available in the specified font. To reduce execution time and output file size, limit the characters using the ``characters`` parameter. The default output filename is ``{font_name}-{font_size}.vlw`` and will be saved to the current directory.
 
@@ -85,5 +85,5 @@ Parameters
 * **pause**: `bool = True` - pause after creating font file
 
 
-Updated on February 03, 2021 22:21:58pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

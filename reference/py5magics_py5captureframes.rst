@@ -1,13 +1,13 @@
 .. title: %py5captureframes
 .. slug: py5captureframes
-.. date: 2021-02-06 21:15:00 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 %py5captureframes documentation
 .. type: text
 
-Capture frames from the currently running sketch.
+Capture frames from the currently running Sketch.
 
 Examples
 ========
@@ -42,7 +42,7 @@ Examples
 Description
 ===========
 
-Capture frames from the currently running sketch.
+Capture frames from the currently running Sketch.
 
 Use the ``-w`` argument to wait before starting.
 
@@ -62,9 +62,9 @@ Arguments
       count                 number of Sketch snapshots to capture
 
     optional arguments:
-      -w WAIT, --wait WAIT  wait time in seconds before starting sketch frame capture
+      -w WAIT, --wait WAIT  wait time in seconds before starting Sketch frame capture
       -p PERIOD, --period PERIOD
                             time in seconds between Sketch snapshots (default 0 means no delay)
 
-Updated on February 06, 2021 21:15:00pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

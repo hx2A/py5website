@@ -1,6 +1,6 @@
 .. title: no_loop()
 .. slug: no_loop
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -123,7 +123,7 @@ Stops py5 from continuously executing the code within ``draw()``. If :doc:`loop`
 
 When ``no_loop()`` is used, it's not possible to manipulate or access the screen inside event handling functions such as ``mouse_pressed()`` or ``key_pressed()``. Instead, use those functions to call :doc:`redraw` or :doc:`loop`, which will run ``draw()``, which can update the screen properly. This means that when ``no_loop()`` has been called, no drawing can happen, and functions like :doc:`save_frame` or :doc:`load_pixels` may not be used.
 
-Note that if the sketch is resized, :doc:`redraw` will be called to update the sketch, even after ``no_loop()`` has been specified. Otherwise, the sketch would enter an odd state until :doc:`loop` was called.
+Note that if the Sketch is resized, :doc:`redraw` will be called to update the Sketch, even after ``no_loop()`` has been specified. Otherwise, the Sketch would enter an odd state until :doc:`loop` was called.
 
 Underlying Java method: `noLoop <https://processing.org/reference/noLoop_.html>`_
 
@@ -134,5 +134,5 @@ Syntax
 
     no_loop() -> None
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

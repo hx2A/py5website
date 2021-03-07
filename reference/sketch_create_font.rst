@@ -1,13 +1,13 @@
 .. title: create_font()
 .. slug: create_font
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 create_font() documentation
 .. type: text
 
-Dynamically converts a font to the format used by py5 from a .ttf or .otf file inside the sketch's "data" folder or a font that's installed elsewhere on the computer.
+Dynamically converts a font to the format used by py5 from a .ttf or .otf file inside the Sketch's "data" folder or a font that's installed elsewhere on the computer.
 
 Examples
 ========
@@ -52,11 +52,11 @@ Examples
 Description
 ===========
 
-Dynamically converts a font to the format used by py5 from a .ttf or .otf file inside the sketch's "data" folder or a font that's installed elsewhere on the computer. If you want to use a font installed on your computer, use the ``Py5Font.list()`` method to first determine the names for the fonts recognized by the computer and are compatible with this function. Not all fonts can be used and some might work with one operating system and not others. When sharing a sketch with other people or posting it on the web, you may need to include a .ttf or .otf version of your font in the data directory of the sketch because other people might not have the font installed on their computer. Only fonts that can legally be distributed should be included with a sketch.
+Dynamically converts a font to the format used by py5 from a .ttf or .otf file inside the Sketch's "data" folder or a font that's installed elsewhere on the computer. If you want to use a font installed on your computer, use the ``Py5Font.list()`` method to first determine the names for the fonts recognized by the computer and are compatible with this function. Not all fonts can be used and some might work with one operating system and not others. When sharing a Sketch with other people or posting it on the web, you may need to include a .ttf or .otf version of your font in the data directory of the Sketch because other people might not have the font installed on their computer. Only fonts that can legally be distributed should be included with a Sketch.
 
 The ``size`` parameter states the font size you want to generate. The ``smooth`` parameter specifies if the font should be antialiased or not. The ``charset`` parameter is an array of chars that specifies the characters to generate.
 
-This function allows py5 to work with the font natively in the default renderer, so the letters are defined by vector geometry and are rendered quickly. In the ``P2D`` and ``P3D`` renderers, the function sets the project to render the font as a series of small textures. For instance, when using the default renderer, the actual native version of the font will be employed by the sketch, improving drawing quality and performance. With the ``P2D`` and ``P3D`` renderers, the bitmapped version will be used to improve speed and appearance, but the results are poor when exporting if the sketch does not include the .otf or .ttf file, and the requested font is not available on the machine running the sketch.
+This function allows py5 to work with the font natively in the default renderer, so the letters are defined by vector geometry and are rendered quickly. In the ``P2D`` and ``P3D`` renderers, the function sets the project to render the font as a series of small textures. For instance, when using the default renderer, the actual native version of the font will be employed by the Sketch, improving drawing quality and performance. With the ``P2D`` and ``P3D`` renderers, the bitmapped version will be used to improve speed and appearance, but the results are poor when exporting if the Sketch does not include the .otf or .ttf file, and the requested font is not available on the machine running the Sketch.
 
 Underlying Java method: `createFont <https://processing.org/reference/createFont_.html>`_
 
@@ -78,5 +78,5 @@ Parameters
 * **smooth**: `bool` - true for an antialiased font, false for aliased
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

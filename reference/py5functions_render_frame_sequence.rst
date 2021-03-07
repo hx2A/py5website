@@ -1,6 +1,6 @@
 .. title: render_frame_sequence()
 .. slug: render_frame_sequence
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -83,7 +83,7 @@ Helper function to render a sequence of frames using the passed ``draw`` functio
 
 The passed function's first parameter must be a ``py5.Sketch`` object, and that object must be used for all of the function's py5 commands. The function can have additional positional and keyword arguments. To use them, pass the desired values to ``render_frame_sequence``'s ``draw_args`` and ``draw_kwargs`` arguments.
 
-Optionally, the caller can pass a ``setup`` function, along with corresponding ``setup_args`` and ``setup_kwargs`` arguments. This will be called once, just like it would for any other py5 sketch. As with the passed ``draw`` function, the first parameter must be a ``py5.Sketch`` object.
+Optionally, the caller can pass a ``setup`` function, along with corresponding ``setup_args`` and ``setup_kwargs`` arguments. This will be called once, just like it would for any other py5 Sketch. As with the passed ``draw`` function, the first parameter must be a ``py5.Sketch`` object.
 
 Currently, only the default and OpenGL renderers are supported.
 
@@ -113,5 +113,5 @@ Parameters
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

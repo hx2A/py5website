@@ -1,13 +1,13 @@
 .. title: %py5saveframes
 .. slug: py5saveframes
-.. date: 2021-02-06 21:15:00 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 %py5saveframes documentation
 .. type: text
 
-Save the current running sketch's frames to a directory.
+Save the current running Sketch's frames to a directory.
 
 Examples
 ========
@@ -42,11 +42,11 @@ Examples
 Description
 ===========
 
-Save the current running sketch's frames to a directory.
+Save the current running Sketch's frames to a directory.
 
 Use the ``-w`` argument to wait before starting.
 
-If a limit is given, this line magic will wait to return a list of the filenames. Otherwise, it will return right away as the frames are saved in the background. It will keep doing so as long as the sketch continues to run.
+If a limit is given, this line magic will wait to return a list of the filenames. Otherwise, it will return right away as the frames are saved in the background. It will keep doing so as long as the Sketch continues to run.
 
 Usage
 =====
@@ -70,9 +70,9 @@ Arguments
       -p PERIOD, --period PERIOD
                             time in seconds between Sketch snapshots (default 0 means no delay)
       -s START, --start START
-                            frame starting number instead of sketch frame_count
+                            frame starting number instead of Sketch frame_count
       -l LIMIT, --limit LIMIT
                             limit the number of frames to save (default 0 means no limit)
 
-Updated on February 06, 2021 21:15:00pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

@@ -1,6 +1,6 @@
 .. title: smooth()
 .. slug: smooth
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -121,7 +121,7 @@ With the ``P2D`` and ``P3D`` renderers, ``smooth(2)`` is the default, this is ca
 
 The default renderer uses ``smooth(3)`` by default. This is bicubic smoothing. The other option for the default renderer is ``smooth(2)``, which is bilinear smoothing.
 
-The ``smooth()`` function can only be set once within a sketch. It must be called from the `settings()`` function. The :doc:`no_smooth` function also follows the same rules. 
+The ``smooth()`` function can only be set once within a Sketch. It must be called from the `settings()`` function. The :doc:`no_smooth` function also follows the same rules. 
 
 When ``smooth()`` is used with a ``Py5Graphics`` object, it should be run right after the object is created with :doc:`create_graphics`, as shown in the Reference in the third example.
 
@@ -141,5 +141,5 @@ Parameters
 * **level**: `int` - either 2, 3, 4, or 8 depending on the renderer
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

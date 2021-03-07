@@ -1,18 +1,93 @@
 .. title: set_visible()
 .. slug: py5surface_set_visible
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 set_visible() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Set the Sketch window's visiblity.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def draw():
+        py5.rect(py5.random(py5.width), py5.random(py5.height), 10, 10)
+        print(py5.frame_count)
+
+    py5.run_sketch(block=False)
+    surface = py5.get_surface()
+
+    # hide the sketch.
+    surface.set_visible(False)
+    # the sketch is no longer visible but there is still output
+
+    # after waiting a bit, make the sketch visible again
+    surface.set_visible(True)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    # this sketch will hide itself and reappear elsewhere on your display.
+
+    def setup():
+        global surface
+        global visible
+        surface = py5.get_surface()
+        visible = True
+
+
+    def draw():
+        global visible
+        if py5.frame_count % 250 == 0:
+            if visible:
+                surface.set_location(int(py5.random(py5.display_width)),
+                                     int(py5.random(py5.display_height)))
+                visible = True
+            else:
+                visible = False
+            surface.set_visible(visible)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Set the Sketch window's visiblity. The animation will continue to run but the window will not be visible.
 
 Underlying Java method: PSurface.setVisible
 
@@ -26,8 +101,8 @@ Syntax
 Parameters
 ==========
 
-* **visible**: `bool` - missing variable description
+* **visible**: `bool` - desired surface visiblity
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 07, 2021 16:29:38pm UTC
 

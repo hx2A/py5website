@@ -1,18 +1,62 @@
 .. title: pause_thread()
 .. slug: py5surface_pause_thread
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 pause_thread() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Pause a running Sketch.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def draw():
+        py5.rect(py5.random(py5.width), py5.random(py5.height), 10, 10)
+        print(py5.frame_count)
+
+    py5.run_sketch(block=False)
+    surface = py5.get_surface()
+
+    # pause the sketch.
+    surface.pause_thread()
+    # the sketch is no longer running and there is no output
+
+    # after waiting a bit, resume the sketch
+    surface.resume_thread()
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Pause a running Sketch. The Sketch window will be static and unresponsive. You can resume the Sketch with :doc:`py5surface_resume_thread`.
+
+The :doc:`frame_count` will not increment while the Sketch is paused.
+
+Pausing a Sketch is not the same as stopping a Sketch, so this method will not change the results of :doc:`py5surface_is_stopped`.
 
 Underlying Java method: PSurface.pauseThread
 
@@ -23,5 +67,5 @@ Syntax
 
     pause_thread() -> None
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 07, 2021 16:29:38pm UTC
 

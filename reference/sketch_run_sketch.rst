@@ -1,13 +1,13 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 run_sketch() documentation
 .. type: text
 
-Run the sketch.
+Run the Sketch.
 
 Examples
 ========
@@ -79,11 +79,11 @@ Examples
 Description
 ===========
 
-Run the sketch. Code in the ``settings``, ``setup``, and ``draw`` functions will be used to actualize your sketch.
+Run the Sketch. Code in the ``settings``, ``setup``, and ``draw`` functions will be used to actualize your Sketch.
 
-Use the ``block`` parameter to specify if the call to ``run_sketch`` should return immediately or block until the sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
+Use the ``block`` parameter to specify if the call to ``run_sketch`` should return immediately or block until the Sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the Sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
 
-A list of strings passed to ``py5_options`` will be passed to the Processing PApplet class as arguments to specify characteristics such as the window's location on the screen. A list of strings passed to ``sketch_args`` will be available to a running sketch using :doc:`args`. See the third example for an example of how this can be used.
+A list of strings passed to ``py5_options`` will be passed to the Processing PApplet class as arguments to specify characteristics such as the window's location on the screen. A list of strings passed to ``sketch_args`` will be available to a running Sketch using :doc:`args`. See the third example for an example of how this can be used.
 
 Syntax
 ======
@@ -95,10 +95,10 @@ Syntax
 Parameters
 ==========
 
-* **block**: `bool = None` - method returns immediately (False) or blocks until sketch exits (True)
+* **block**: `bool = None` - method returns immediately (False) or blocks until Sketch exits (True)
 * **py5_options**: `List = None` - command line arguments to pass to Processing as arguments
 * **sketch_args**: `List = None` - command line arguments that become Sketch arguments
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

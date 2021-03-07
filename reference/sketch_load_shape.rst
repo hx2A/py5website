@@ -1,6 +1,6 @@
 .. title: load_shape()
 .. slug: load_shape
-.. date: 2021-03-05 14:12:21 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -80,7 +80,7 @@ Examples
 Description
 ===========
 
-Loads geometry into a variable of type ``Py5Shape``. SVG and OBJ files may be loaded. To load correctly, the file must be located in the data directory of the current sketch. In most cases, ``load_shape()`` should be used inside ``setup()`` because loading shapes inside ``draw()`` will reduce the speed of a sketch.
+Loads geometry into a variable of type ``Py5Shape``. SVG and OBJ files may be loaded. To load correctly, the file must be located in the data directory of the current Sketch. In most cases, ``load_shape()`` should be used inside ``setup()`` because loading shapes inside ``draw()`` will reduce the speed of a Sketch.
 
 Alternatively, the file maybe be loaded from anywhere on the local computer using an absolute path (something that starts with / on Unix and Linux, or a drive letter on Windows), or the filename parameter can be a URL for a file found on a network.
 
@@ -103,5 +103,5 @@ Parameters
 * **options**: `str` - missing variable description
 
 
-Updated on March 05, 2021 14:12:21pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

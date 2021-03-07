@@ -1,18 +1,83 @@
 .. title: set_location()
 .. slug: py5surface_set_location
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 set_location() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Set the Sketch's window location.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    py5.run_sketch(block=False)
+    surface = py5.get_surface()
+    # move the sketch window to the upper left corner of the display
+    surface.set_location(0, 0)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    # this sketch will hide itself and reappear elsewhere on your display.
+    def setup():
+        global surface
+        global visible
+        surface = py5.get_surface()
+        visible = True
+
+
+    def draw():
+        global visible
+        if py5.frame_count % 250 == 0:
+            if visible:
+                surface.set_location(int(py5.random(py5.display_width)),
+                                     int(py5.random(py5.display_height)))
+                visible = True
+            else:
+                visible = False
+            surface.set_visible(visible)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Set the Sketch's window location. Calling this repeatedly from the ``draw()`` function may result in a sluggish Sketch. Negative or invalid coordinates are ignored. To hide a Sketch window, use :doc:`py5surface_set_visible`.
 
 Underlying Java method: PSurface.setLocation
 
@@ -26,9 +91,9 @@ Syntax
 Parameters
 ==========
 
-* **x**: `int` - missing variable description
-* **y**: `int` - missing variable description
+* **x**: `int` - x-coordinate for window location
+* **y**: `int` - y-coordinate for window location
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 07, 2021 16:29:38pm UTC
 

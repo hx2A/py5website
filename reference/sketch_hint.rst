@@ -1,6 +1,6 @@
 .. title: hint()
 .. slug: hint
-.. date: 2021-03-04 20:27:21 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -55,7 +55,7 @@ Examples
 Description
 ===========
 
-This function is used to enable or disable special features that control how graphics are drawn. In the course of developing Processing, the developers had to make hard decisions about tradeoffs between performance and visual quality. They put significant effort into determining what makes most sense for the largest number of users, and then use functions like ``hint()`` to allow people to tune the settings for their particular sketch. Implementing a ``hint()`` is a last resort that's used when a more elegant solution cannot be found. Some options might graduate to standard features instead of hints over time, or be added and removed between (major) releases.
+This function is used to enable or disable special features that control how graphics are drawn. In the course of developing Processing, the developers had to make hard decisions about tradeoffs between performance and visual quality. They put significant effort into determining what makes most sense for the largest number of users, and then use functions like ``hint()`` to allow people to tune the settings for their particular Sketch. Implementing a ``hint()`` is a last resort that's used when a more elegant solution cannot be found. Some options might graduate to standard features instead of hints over time, or be added and removed between (major) releases.
 
 Hints used by the Default Renderer
 ----------------------------------
@@ -93,5 +93,5 @@ Parameters
 * **which**: `int` - hint to use when rendering Sketch
 
 
-Updated on March 04, 2021 20:27:21pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

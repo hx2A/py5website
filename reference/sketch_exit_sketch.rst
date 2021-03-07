@@ -1,6 +1,6 @@
 .. title: exit_sketch()
 .. slug: exit_sketch
-.. date: 2021-03-04 20:16:29 UTC+00:00
+.. date: 2021-03-06 19:17:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,7 +47,7 @@ Description
 
 Quits/stops/exits the program. Programs without a ``draw()`` function stop automatically after the last line has run, but programs with ``draw()`` run continuously until the program is manually stopped or ``exit_sketch()`` is run.
 
-Rather than terminating immediately, ``exit_sketch()`` will cause the sketch to exit after ``draw()`` has completed (or after ``setup()`` completes if called during the ``setup()`` function).
+Rather than terminating immediately, ``exit_sketch()`` will cause the Sketch to exit after ``draw()`` has completed (or after ``setup()`` completes if called during the ``setup()`` function).
 
 For Python programmers, this is *not* the same as ``sys.exit()``. Further, ``sys.exit()`` should not be used because closing out an application while ``draw()`` is running may cause a crash (particularly with ``P3D``).
 
@@ -60,5 +60,5 @@ Syntax
 
     exit_sketch() -> None
 
-Updated on March 04, 2021 20:16:29pm UTC
+Updated on March 06, 2021 19:17:57pm UTC
 

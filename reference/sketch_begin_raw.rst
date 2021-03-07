@@ -1,6 +1,6 @@
 .. title: begin_raw()
 .. slug: begin_raw
-.. date: 2021-03-04 19:43:58 UTC+00:00
+.. date: 2021-03-06 19:46:23 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,9 +77,9 @@ Parameters
 ==========
 
 * **filename**: `str` - filename for output
-* **raw_graphics**: `Py5Graphics` - Graphics object to apply draw commands to
+* **raw_graphics**: `Py5Graphics` - Py5Graphics object to apply draw commands to
 * **renderer**: `str` - for example, PDF or DXF
 
 
-Updated on March 04, 2021 19:43:58pm UTC
+Updated on March 06, 2021 19:46:23pm UTC
 

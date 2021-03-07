@@ -1,18 +1,55 @@
 .. title: set_size()
 .. slug: py5surface_set_size
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-07 16:29:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 set_size() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Set a new width and height for the Sketch window.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def draw():
+        py5.square(py5.random(py5.width), py5.random(py5.height), 10)
+
+    py5.run_sketch(block=False)
+
+    # while the sketch is running, get the surface and change the size
+    surface = py5.get_surface()
+    surface.set_size(400, 400)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Set a new width and height for the Sketch window. You do not need to call :doc:`py5surface_set_resizable` before calling this.
+
+Changing the window size will clear the drawing canvas. If your Sketch uses this, the :doc:`width` and :doc:`height` variables will change.
 
 Underlying Java method: PSurface.setSize
 
@@ -26,9 +63,9 @@ Syntax
 Parameters
 ==========
 
-* **height**: `int` - missing variable description
-* **width**: `int` - missing variable description
+* **height**: `int` - new window height
+* **width**: `int` - new window width
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 07, 2021 16:29:38pm UTC
 
