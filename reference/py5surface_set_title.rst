@@ -1,6 +1,6 @@
 .. title: set_title()
 .. slug: py5surface_set_title
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-03-07 16:59:09 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,7 +44,7 @@ Examples
 Description
 ===========
 
-Set the Sketch window's title. This will typically appear at the window's title bar. The default window title is "Py5Applet".
+Set the Sketch window's title. This will typically appear at the window's title bar. The default window title is "Sketch".
 
 Underlying Java method: PSurface.setTitle
 
@@ -61,5 +61,5 @@ Parameters
 * **title**: `str` - new window title
 
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on March 07, 2021 16:59:09pm UTC
 
