@@ -1,6 +1,6 @@
 .. title: set_location()
 .. slug: py5surface_set_location
-.. date: 2021-03-09 14:45:46 UTC+00:00
+.. date: 2021-03-09 15:28:39 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,12 +58,11 @@ Examples
     def draw():
         global visible
         if py5.frame_count % 250 == 0:
+            # this negates the visible variable
+            visible = not visible
             if visible:
                 surface.set_location(py5.random_int(py5.display_width),
                                      py5.random_int(py5.display_height))
-                visible = True
-            else:
-                visible = False
             surface.set_visible(visible)
 
 .. raw:: html
@@ -95,5 +94,5 @@ Parameters
 * **y**: `int` - y-coordinate for window location
 
 
-Updated on March 09, 2021 14:45:46pm UTC
+Updated on March 09, 2021 15:28:39pm UTC
 
