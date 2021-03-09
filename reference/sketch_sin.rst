@@ -1,18 +1,55 @@
 .. title: sin()
 .. slug: sin
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-09 14:45:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 sin() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Calculates the sine of an angle.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_sin_0.png
+    :alt: example picture for sin()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        a = 0
+        for i in range(25):
+            py5.line(4*i, 50, 4*i, 50+40*py5.sin(a))
+            a += py5.TWO_PI/25
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Calculates the sine of an angle. This function expects the values of the angle parameter to be provided in radians (values from ``0`` to ``TWO_PI``). Values are returned in the range -1 to 1. 
+
+This function makes a call to the numpy ``sin()`` function.
 
 Syntax
 ======
@@ -24,8 +61,8 @@ Syntax
 Parameters
 ==========
 
-* **angle**: `float` - missing variable description
+* **angle**: `float` - angle in radians
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 09, 2021 14:45:46pm UTC
 

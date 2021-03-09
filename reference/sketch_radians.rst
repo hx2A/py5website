@@ -1,18 +1,52 @@
 .. title: radians()
 .. slug: radians
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-09 15:03:25 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 radians() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Converts a degree measurement to its corresponding value in radians.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        deg = 45
+        rad = py5.radians(deg)
+        # prints "45 degrees is 0.7854 radians"
+        print(round(deg, 5), 'degrees is', round(rad, 5), 'radians')
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Converts a degree measurement to its corresponding value in radians. Radians and degrees are two ways of measuring the same thing. There are 360 degrees in a circle and ``2*PI`` radians in a circle. For example, ``90° = PI/2 = 1.5707964``. All trigonometric functions in py5 require their parameters to be specified in radians.
+
+This function makes a call to the numpy ``radians()`` function.
 
 Syntax
 ======
@@ -24,8 +58,8 @@ Syntax
 Parameters
 ==========
 
-* **degrees**: `float` - missing variable description
+* **degrees**: `float` - degree value to convert to radians
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 09, 2021 15:03:25pm UTC
 

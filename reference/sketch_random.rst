@@ -1,6 +1,6 @@
 .. title: random()
 .. slug: random
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-09 14:45:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,6 +19,7 @@ Syntax
 
 .. code:: python
 
+    random() -> float
     random(high: float) -> float
     random(low: float, high: float) -> float
 
@@ -29,5 +30,5 @@ Parameters
 * **low**: `float` - lower limit
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 09, 2021 14:45:46pm UTC
 

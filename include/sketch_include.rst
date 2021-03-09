@@ -241,6 +241,7 @@ Random
 * `noise_seed() <noise_seed/>`_
 * `random() <random/>`_
 * `random_gaussian() <random_gaussian/>`_
+* `random_int() <random_int/>`_
 * `random_seed() <random_seed/>`_
 
 Trigonometry

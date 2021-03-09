@@ -1,10 +1,10 @@
-.. title: random_gaussian()
-.. slug: random_gaussian
+.. title: random_int()
+.. slug: random_int
 .. date: 2021-03-09 14:45:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 random_gaussian() documentation
+.. description: py5 random_int() documentation
 .. type: text
 
 The documentation for this field or method has not yet been written.
@@ -19,15 +19,15 @@ Syntax
 
 .. code:: python
 
-    random_gaussian() -> float
-    random_gaussian(loc: float) -> float
-    random_gaussian(loc: float, scale: float) -> float
+    random_int() -> int
+    random_int(high: int) -> int
+    random_int(low: int, high: int) -> int
 
 Parameters
 ==========
 
-* **loc**: `float` - missing variable description
-* **scale**: `float` - missing variable description
+* **high**: `int` - missing variable description
+* **low**: `int` - missing variable description
 
 
 Updated on March 09, 2021 14:45:46pm UTC

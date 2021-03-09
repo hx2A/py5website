@@ -1,6 +1,6 @@
 .. title: set_visible()
 .. slug: py5surface_set_visible
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-03-09 14:45:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -69,8 +69,8 @@ Examples
         global visible
         if py5.frame_count % 250 == 0:
             if visible:
-                surface.set_location(int(py5.random(py5.display_width)),
-                                     int(py5.random(py5.display_height)))
+                surface.set_location(py5.random_int(py5.display_width),
+                                     py5.random_int(py5.display_height))
                 visible = True
             else:
                 visible = False
@@ -104,5 +104,5 @@ Parameters
 * **visible**: `bool` - desired surface visiblity
 
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on March 09, 2021 14:45:46pm UTC
 

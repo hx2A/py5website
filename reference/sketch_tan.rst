@@ -1,18 +1,55 @@
 .. title: tan()
 .. slug: tan
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-09 14:45:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 tan() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Calculates the ratio of the sine and cosine of an angle.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_tan_0.png
+    :alt: example picture for tan()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        a = 0
+        for i in range(50):
+            py5.line(2*i, 50, 2*i, 50+2*py5.tan(a))
+            a += py5.TWO_PI/50
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Calculates the ratio of the sine and cosine of an angle. This function expects the values of the angle parameter to be provided in radians (values from ``0`` to ``TWO_PI``). Values are returned in the range infinity to -infinity.
+
+This function makes a call to the numpy ``tan()`` function.
 
 Syntax
 ======
@@ -24,8 +61,8 @@ Syntax
 Parameters
 ==========
 
-* **angle**: `float` - missing variable description
+* **angle**: `float` - angle in radians
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 09, 2021 14:45:46pm UTC
 
