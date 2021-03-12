@@ -1,31 +1,78 @@
 .. title: mag()
 .. slug: mag
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-12 16:02:55 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 mag() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Calculates the magnitude (or length) of a vector.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_mag_0.png
+    :alt: example picture for mag()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        x1 = 20
+        x2 = 80
+        y1 = 30
+        y2 = 70
+
+        py5.line(0, 0, x1, y1)
+        print(py5.mag(x1, y1))  # Prints "36.05551"
+        py5.line(0, 0, x2, y1)
+        print(py5.mag(x2, y1))  # Prints "85.44004"
+        py5.line(0, 0, x1, y2)
+        print(py5.mag(x1, y2))  # Prints "72.8011"
+        py5.line(0, 0, x2, y2)
+        print(py5.mag(x2, y2))  # Prints "106.30146"
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Calculates the magnitude (or length) of a vector. A vector is a direction in space commonly used in computer graphics and linear algebra. Because it has no "start" position, the magnitude of a vector can be thought of as the distance from the coordinate ``(0, 0)`` to its ``(x, y)`` value. Therefore, ``mag()`` is a shortcut for writing ``dist(0, 0, x, y)``.
 
 Syntax
 ======
 
 .. code:: python
 
-    mag(args: float) -> float
+    mag(a: float, b: float) -> float
+    mag(a: float, b: float, c: float) -> float
 
 Parameters
 ==========
 
-* **args**: `float` - missing variable description
+* **a**: `float` - first value
+* **b**: `float` - second value
+* **c**: `float` - third value
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 12, 2021 16:02:55pm UTC
 

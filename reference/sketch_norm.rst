@@ -1,18 +1,71 @@
 .. title: norm()
 .. slug: norm
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-12 15:52:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 norm() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Normalizes a number from another range into a value between 0 and 1.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        value = 20
+        n = py5.norm(value, 0, 50)
+        print(n)  # Prints "0.4"
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        value = -10
+        n = py5.norm(value, 0, 100)
+        print(n)  # Prints "-0.1"
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Normalizes a number from another range into a value between 0 and 1. Identical to ``remap(value, low, high, 0, 1)``.
+
+Numbers outside of the range are not clamped to 0 and 1, because out-of-range values are often intentional and useful. (See the second example.) If that isn't what you want, try pairing this function with :doc:`constrain`.
 
 Syntax
 ======
@@ -24,10 +77,10 @@ Syntax
 Parameters
 ==========
 
-* **start**: `float` - missing variable description
-* **stop**: `float` - missing variable description
-* **value**: `float` - missing variable description
+* **start**: `float` - lower bound of the value's current range
+* **stop**: `float` - upper bound of the value's current range
+* **value**: `float` - the incoming value to be converted
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 12, 2021 15:52:46pm UTC
 

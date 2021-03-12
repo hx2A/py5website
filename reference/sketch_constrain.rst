@@ -1,18 +1,49 @@
 .. title: constrain()
 .. slug: constrain
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-12 15:52:46 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 constrain() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Constrains a value to not exceed a maximum and minimum value.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def draw():
+        py5.background(204)
+        mx = py5.constrain(py5.mouse_x, 30, 70)
+        py5.rect(mx-10, 40, 20, 20)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Constrains a value to not exceed a maximum and minimum value.
 
 Syntax
 ======
@@ -24,10 +55,10 @@ Syntax
 Parameters
 ==========
 
-* **amt**: `float` - missing variable description
-* **high**: `float` - missing variable description
-* **low**: `float` - missing variable description
+* **amt**: `float` - the value to constrain
+* **high**: `float` - minimum limit
+* **low**: `float` - maximum limit
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 12, 2021 15:52:46pm UTC
 
