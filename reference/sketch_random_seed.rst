@@ -1,18 +1,74 @@
 .. title: random_seed()
 .. slug: random_seed
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-17 17:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 random_seed() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets the seed value for py5's random functions.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        py5.random_seed(42)
+        a = py5.random()
+        py5.random_seed(42)
+        b = py5.random()
+        # the values a and b will be the same
+        print(a, b)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        py5.random_seed(0)
+        for i in range(100):
+            r = py5.random(255)
+            py5.stroke(r)
+            py5.line(i, 0, i, 100)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets the seed value for py5's random functions. This includes :doc:`random`, :doc:`random_int`, :doc:`random_choice`, and :doc:`random_gaussian`. By default, all of these functions would produce different results each time a program is run. Set the seed parameter to a constant value to return the same pseudo-random numbers each time the software is run.
 
 Syntax
 ======
@@ -27,5 +83,5 @@ Parameters
 * **seed**: `int` - seed value
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 17, 2021 17:11:14pm UTC
 

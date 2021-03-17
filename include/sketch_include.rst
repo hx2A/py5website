@@ -240,6 +240,7 @@ Random
 * `noise_mode() <noise_mode/>`_
 * `noise_seed() <noise_seed/>`_
 * `random() <random/>`_
+* `random_choice() <random_choice/>`_
 * `random_gaussian() <random_gaussian/>`_
 * `random_int() <random_int/>`_
 * `random_seed() <random_seed/>`_
