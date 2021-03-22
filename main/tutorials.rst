@@ -15,6 +15,7 @@ The documentation is very much a work in progress, and I've been struggling with
     * :doc:`py5-modes`
     * :doc:`jupyter-notebooks`
     * :doc:`render-helper-tools`
+    * :doc:`mac-users`
 
 * New Features or Things that Warrant Detailed Explanations
     * Bugs You're Likely to Encounter and Things I Want To Know About
