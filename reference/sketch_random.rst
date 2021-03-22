@@ -1,6 +1,6 @@
 .. title: random()
 .. slug: random
-.. date: 2021-03-17 17:11:14 UTC+00:00
+.. date: 2021-03-22 01:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,6 +31,7 @@ Examples
     :number-lines:
 
     def setup():
+        py5.random_seed(42)
         for i in range(100):
             s = py5.random()
             py5.stroke(255*s)
@@ -94,5 +95,5 @@ Parameters
 * **low**: `float` - lower limit
 
 
-Updated on March 17, 2021 17:11:14pm UTC
+Updated on March 22, 2021 01:11:14am UTC
 

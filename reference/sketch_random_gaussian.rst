@@ -1,6 +1,6 @@
 .. title: random_gaussian()
 .. slug: random_gaussian
-.. date: 2021-03-17 17:13:38 UTC+00:00
+.. date: 2021-03-22 01:11:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,6 +31,7 @@ Examples
     :number-lines:
 
     def setup():
+        py5.random_seed(42)
         for y in range(100):
             x = 15 * py5.random_gaussian()
             py5.line(50, y, 50 + x, y)
@@ -54,7 +55,7 @@ Examples
     :number-lines:
 
     def setup():
-        py5.size(100, 100)
+        py5.random_seed(42)
         py5.stroke(0)
         py5.background(204)
         py5.translate(py5.width/2, py5.width/2)
@@ -99,5 +100,5 @@ Parameters
 * **scale**: `float` - standard deviation of randomly selected numbers
 
 
-Updated on March 17, 2021 17:13:38pm UTC
+Updated on March 22, 2021 01:11:14am UTC
 

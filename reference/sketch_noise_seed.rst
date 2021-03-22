@@ -1,31 +1,98 @@
 .. title: noise_seed()
 .. slug: noise_seed
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-03-22 00:05:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 noise_seed() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets the seed value for :doc:`noise`.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        py5.noise_seed(42)
+        py5.stroke(0, 10)
+
+
+    def draw():
+        n = py5.remap(py5.noise(py5.frame_count / 100), -1, 1, 0, 1) * py5.width
+        py5.line(n, 0, n, py5.height)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        py5.rect_mode(py5.CENTER)
+        py5.noise_seed(42)
+        global xpos, ypos
+        xpos = py5.width / 2
+        ypos = py5.height / 2
+
+
+    def draw():
+        py5.background(128)
+        global xpos, ypos
+        xpos = (xpos + py5.noise(py5.frame_count / 200)) % py5.width
+        ypos = (ypos + py5.noise(500 + py5.frame_count / 200)) % py5.height
+        py5.square(xpos, ypos, 25)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets the seed value for :doc:`noise`. By default, :doc:`noise` produces different results each time the program is run. Set the seed parameter to a constant to return the same pseudo-random numbers each time the Sketch is run.
+
+Py5's noise functionality is provided by the Python noise library. The noise library provides more advanced features than what is documented here. To use the more advanced features, import that library directly.
 
 Syntax
 ======
 
 .. code:: python
 
-    noise_seed(seed: float) -> None
+    noise_seed(seed: int) -> None
 
 Parameters
 ==========
 
-* **seed**: `float` - seed value
+* **seed**: `int` - seed value
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on March 22, 2021 00:05:12am UTC
 
