@@ -7,13 +7,13 @@
 .. description: 
 .. type: text
 
-The py5 is similar to `Processing <https://processing.org/>`_ and `p5 <https://p5js.org/>`_ in that the basic functionality comes from user implemented ``settings``, ``setup``, and ``draw`` methods. These methods will initialize the sketch parameters, run one-time setup code, and draw each frame of your animation.
+The py5 library is similar to `Processing <https://processing.org/>`_ and `p5 <https://p5js.org/>`_ in that the basic functionality comes from user implemented ``settings``, ``setup``, and ``draw`` methods. These methods will initialize the Sketch parameters, run one-time setup code, and draw each frame of your animation.
 
 In addition, py5 supports keyboard and mouse events with methods like ``mouseClicked`` and ``keyPressed``.
 
 All of this is analogous to what users familiar with `Processing <https://processing.org/>`_ and `p5 <https://p5js.org/>`_ might expect.
 
-The py5 library has three "modes" you can use to code these methods and write sketches. They are called Module Mode, Class Mode, and PDE Mode.
+The py5 library has three "modes" that you can use to code these methods and write Sketches. They are called Module Mode, Class Mode, and Imported Mode.
 
 .. contents:: py5 Modes:
     :depth: 1
@@ -21,7 +21,7 @@ The py5 library has three "modes" you can use to code these methods and write sk
 
 .. important::
 
-  There is a known problem using py5 on Mac computers. The best option for Mac users seems to be using py5 through :doc:`jupyter-notebooks`, and after using the ``%gui osx`` magic.
+  There are some known issues using py5 on Mac computers. The best option for Mac users seems to be using py5 through :doc:`jupyter-notebooks`, and after using the ``%gui osx`` magic. See :doc:`mac-users` for more information.
 
 Module Mode
 ===========
@@ -48,7 +48,7 @@ Below is a simple example:
 
     py5.run_sketch()
 
-This will create a small sketch that draws rectangles at the current mouse position.
+This will create a small Sketch that draws rectangles at the current mouse position.
 
 Let's explain each part of the code.
 
@@ -58,7 +58,7 @@ The first statement imports the ``py5`` library in the same way that you would i
 
     import py5
 
-Next, the ``settings`` function. Here you will configure special sketch settings, such as the window size. In this example the window size is 300 pixels wide and 200 pixels tall. Almost always you'll have a ``settings`` function similar to this one. 
+Next, the ``settings`` function. Here you will configure special Sketch settings, such as the window size. In this example the window size is 300 pixels wide and 200 pixels tall. Almost always you'll have a ``settings`` function similar to this one. 
 
 Notice the call to the :doc:`size` function has a "``py5.``" prefix. All of the py5 methods and fields are module level attributes.
 
@@ -76,7 +76,7 @@ In this example, the call to :doc:`rect_mode` configures drawing options for fut
     def setup():
         py5.rect_mode(py5.CENTER)
 
-If the ``draw`` function is not found, the sketch will display a static image using draw commands found in the ``setup`` function. If the ``draw`` function is found, it will be repeatedly called once for each frame of an animation.
+If the ``draw`` function is not found, the Sketch will display a static image using draw commands found in the ``setup`` function. If the ``draw`` function is found, it will be repeatedly called once for each frame of an animation.
 
 In this example, we draw one 10 by 10 pixel rectangle centered at the current mouse position. Accessing the module variables :doc:`mouse_x` and :doc:`mouse_y` will always provide the mouse's x and y coordinates.
 
@@ -91,7 +91,7 @@ Finally, the call to :doc:`run_sketch`. This is will open a window and display y
 
     py5.run_sketch()
 
-Note by default the call to :doc:`run_sketch` will not return until the sketch exits, unless if it is running from a Jupyter notebook or the IPython console. In that case it will return right away so the user can continue working in other cells in the notebook. Read the :doc:`run_sketch` documentation to learn more.
+Note by default the call to :doc:`run_sketch` will not return until the Sketch exits, unless if it is running from a Jupyter Notebook or the IPython console. In that case it will return right away so the user can continue working in other cells in the notebook. Read the :doc:`run_sketch` documentation to learn more.
 
 The design of Module Mode is modeled after matplotlib's pyplot.
 
@@ -107,11 +107,11 @@ The design of Module Mode is modeled after matplotlib's pyplot.
 
     Wildcard imports also conflict with `Python best practices (PEP 8) <https://www.python.org/dev/peps/pep-0008/#id23>`_ and in general should not be used.
 
-    If you don't like prefixing everything with "``py5.``", use PDE Mode instead.
+    If you don't like prefixing everything with "``py5.``", use Imported Mode instead.
 
 .. admonition:: Side Note
 
-    Much like you would do for a Processing sketch, you may want to put supporting materials in a ``data`` subdirectory. A py5 sketch will look for this relative to the current working directory. You can find out what the current working directory is and change it with the ``os`` standard library.
+    Much like you would do for a Processing Sketch, you may want to put supporting materials in a ``data`` subdirectory. A py5 Sketch will look for this relative to the current working directory. You can find out what the current working directory is and change it with the ``os`` standard library.
 
     .. code:: python
 
@@ -185,11 +185,11 @@ Finally, create an instance of the new class and call :doc:`run_sketch`.
     test = TestSketch()
     test.run_sketch()
 
-As before, the call to :doc:`run_sketch` will not return until the sketch exits, unless if it is running from a Jupyter notebook or the IPython console.
+As before, the call to :doc:`run_sketch` will not return until the Sketch exits, unless if it is running from a Jupyter Notebook or the IPython console.
 
-When developing in Jupyter notebooks, Module Mode is the more convenient choice.
+When developing in Jupyter Notebooks, Module Mode is the more convenient choice.
 
-Class mode will let you run multiple sketches at the same time. This cannot be done in Module Mode.
+Class mode will let you run multiple Sketches at the same time. This cannot be done in Module Mode or Imported Mode.
 
 .. caution::
 
@@ -202,18 +202,18 @@ Class mode will let you run multiple sketches at the same time. This cannot be d
 
     Do you see the mistake?
 
-    The ``py5.mouse_x`` and ``py5.mouse_y`` code is suitable for Module Mode, so it is referencing the mouse position in a special default sketch object found in the py5 module. However, in Class Mode you will create your own sketch object, and as is being done here, call your sketch object's ``rect`` method. This code is accidentally mixing one sketch's methods with another's fields. This is most certainly not what is intended, and any error message will not properly explain what is wrong.
+    The ``py5.mouse_x`` and ``py5.mouse_y`` code is suitable for Module Mode, so it is referencing the mouse position in a special default Sketch object found in the py5 module. However, in Class Mode you will create your own Sketch object, and as is being done here, call your Sketch object's ``rect`` method. This code is accidentally mixing one Sketch's methods with another's fields. This is most certainly not what is intended, and any error message will not properly explain what is wrong.
 
-    This mistake will frequently be made when translating py5 code from one mode to another.
+    This mistake will frequently be made when translating py5 code from one mode to another. I make this mistake all the time.
 
     A good way to avoid this is to import the library with only one of "``import py5``" or "``from py5 import Sketch``", depending on which mode you want to use. Importing both ways is asking for trouble.
 
-PDE Mode
-========
+Imported Mode
+=============
 
-PDE Mode is designed to used by beginner programmers in an environment like the Processing Development Editor (PDE). The Processing editor does not currently support py5, but perhaps one day it will.
+Imported Mode was originally designed to be used by beginner programmers. It is analogous the Processing code users write in the Processing Development Editor (PDE). The Processing Editor does not currently support py5, but perhaps one day it will. Until then, you can use the py5 Jupyter Notebook Kernel.
 
-Below is our example sketch written in PDE Mode:
+Below is our example Sketch written in Imported Mode:
 
 .. code:: python
 
@@ -226,43 +226,18 @@ Below is our example sketch written in PDE Mode:
     def draw():
         rect(mouse_x, mouse_y, 10, 10)
 
-Observe that any "``py5.``" and "``self.``" prefixes are removed. There is no "``import py5``" statement or call to :doc:`run_sketch`.
+    run_sketch()
 
-To actually use this, save your code to a file and execute the below command from a terminal:
+Observe that any "``py5.``" and "``self.``" prefixes are removed. There are no "``import py5``" or "``from py5 import *``" statements.
+
+To actually use this, make sure you have installed the py5 Jupyter Notebook Kernel, as described on the :doc:`install` page. Then start Jupyter Lab using this command:
 
 .. code:: bash
 
-    $ run_sketch test_sketch.py
+    $ jupyter lab
 
-The ``run_sketch`` command is installed for you when you install the py5 library. The running sketch will be identical to the other examples.
+You will see the py5 kernel presented as an option in the Launcher. Click on it and put the code in a notebook cell.
 
-In PDE Mode, the ``settings`` function is no longer necessary if its contents are included in the ``setup`` function. This is analogous to what the PDE does for user code when using Processing in the PDE. When using Processing outside of the PDE, you must code a ``settings`` function, but inside the PDE, you put the ``settings`` code in ``setup``.
+Imported Mode might become more interesting once it is integrated into an editor like the PDE, or maybe a different editor intended for Python like `Thonny <https://thonny.org/>`_ or `Mu <https://codewith.mu/>`_.
 
-.. code:: python
-
-    def setup():
-        size(300, 200)
-        rect_mode(CENTER)
-        
-    def draw():
-        rect(mouse_x, mouse_y, 10, 10)
-
-In PDE Mode you can also write code with no functions at all, similar to what can be done in with Processing in the Processing PDE:
-
-.. code:: python
-
-    size(300, 200)
-    background(255)
-    fill(255, 0, 0)
-    rect_mode(CENTER)
-    rect(150, 180, 10, 10)
-
-This will create a non-animated sketch featuring a red square with white background.
-
-PDE Mode will be more interesting and useful once it is integrated into a suitable editor such as the PDE, or maybe a different editor intended for Python like `Thonny <https://thonny.org/>`_ or `Mu <https://codewith.mu/>`_.
-
-The operation of PDE Mode does some inefficient things behind the scenes in order to work correctly, and has a few bugs. This is fixable but will require some C coding.
-
-.. important::
-
-    When coding in PDE Mode without a ``settings`` function or with no functions at all, behind the scenes the py5 library is transforming your code into the standard ``settings``, ``setup``, and ``draw`` structure. As a consequence, the line numbers in the stack traces of any error messages will be a little bit off. This is disadvantageous to beginners and I intend to improve this at a later date.
+The operation of Imported Mode should work just as well as analogous code written in the other py5 modes.

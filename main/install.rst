@@ -17,7 +17,7 @@ I have tested these instructions on Linux, Windows, and OSX, so I believe this w
 
 .. important::
 
-  There is a known issues using py5 on Mac computers. Mac users should read the :doc:`mac-users` page for more information.
+  There are known issues using py5 on Mac computers. Mac users should read the :doc:`mac-users` page for more information.
 
 Requirements
 ============
@@ -39,7 +39,7 @@ If you already have Java 11 and Python 3.8+ available on your computer, you can 
 
     $ pip install py5
 
-You can optionally install Cairo_ and CairoSVG_ to enable py5's extra SVG support.
+You can optionally install Cairo_ and CairoSVG_ to enable py5's extra SVG support. If you like using Jupyter Notebooks, consider installing py5's `Jupyter Notebook Kernel`_.
 
 Quick Example
 =============
@@ -58,12 +58,12 @@ Here is a quick py5 example to test that everything works.
    
     py5.run_sketch()
 
-You should see a small window that draws squares as you move your mouse around. If that works, have a look at the :doc:`tutorials` for more interesting examples.
+You should see a small window that draws squares as you move your mouse around. If that works, have a look at the :doc:`tutorials` for more interesting examples. 
 
 Anaconda Setup
 ==============
 
-`Anaconda <https://www.anaconda.com/products/individual>`_ is a widely used platform for working with Python and the open-source ecosystem. It makes it very easy to create and manage Python environments containing various Python libraries such as py5. Anaconda will also make it easy for you to use other popular Python tools such as Jupyter notebooks.
+`Anaconda <https://www.anaconda.com/products/individual>`_ is a widely used platform for working with Python and the open-source ecosystem. It makes it very easy to create and manage Python environments containing various Python libraries such as py5. Anaconda will also make it easy for you to use other popular Python tools such as Jupyter Notebooks.
 
 First you will need to `download the Anaconda Installer for your Operating System <https://www.anaconda.com/products/individual#Downloads>`_. Anaconda's `installation instructions <https://docs.anaconda.com/anaconda/install/>`_ are extensive and should be able to provide the necessary guidance for your computer.
 
@@ -108,6 +108,8 @@ You can activate the environment using the below command.
     (py5coding) $ 
 
 Try testing with the `Quick Example`_ to verify everything works.
+
+Before moving on, consider also installing py5's `Jupyter Notebook Kernel`_.
 
 Detailed Steps
 --------------
@@ -194,7 +196,18 @@ If you are on Windows (or, as I predict, on a Mac), you may get errors relating 
     (py5coding) $ conda install -c conda-forge noise
     (py5coding) $ conda install -c conda-forge line_profiler
 
-After installing py5, try testing with the `Quick Example`_ to verify everything works.
+After installing py5, try testing with the `Quick Example`_ to verify everything works. Also, consider installing py5's `Jupyter Notebook Kernel`_.
+
+Jupyter Notebook Kernel
+=======================
+
+You can optionally install the py5 Jupyter Notebook Kernel. This is a customized Python kernel that will let you write py5 code in Imported Mode. See :doc:`py5-modes` to learn about the different py5 Modes.
+
+.. code:: bash
+
+    $ python -m py5_tools.kernel.install --sys-prefix
+
+The ``--sys-prefix`` argument is optional but I recommend you use it. It will install the py5 kernel inside the py5 Anaconda environment and Jupyter will only present it as an option when Jupyter is run in that environment.
 
 Keeping py5 Updated
 ===================
