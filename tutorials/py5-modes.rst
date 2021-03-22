@@ -238,6 +238,6 @@ To actually use this, make sure you have installed the py5 Jupyter Notebook Kern
 
 You will see the py5 kernel presented as an option in the Launcher. Click on it and put the code in a notebook cell.
 
-Imported Mode might become more interesting once it is integrated into an editor like the PDE, or maybe a different editor intended for Python like `Thonny <https://thonny.org/>`_ or `Mu <https://codewith.mu/>`_.
+Imported Mode might become more interesting once it is integrated into an editor like the PDE, or maybe a different editor intended for Python like `Thonny <https://thonny.org/>`_ or `Mu <https://codewith.mu/>`_. It might be a good fit for the Jupyter Client `nteract <https://nteract.io/>`_.
 
 The operation of Imported Mode should work just as well as analogous code written in the other py5 modes.
