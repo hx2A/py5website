@@ -9,7 +9,7 @@
 
 Before proceeding, you should know that this is a new project with documentation and setup instructions that are a bit rough around the edges. Additionally, there are some `issues with Mac (OSX) computers <link://slug/mac-users>`_ that still need to be worked out. And finally, you should also know that this project is currently maintained by only me, and in my free time.
 
-I have tested these instructions on Linux, Windows, and OSX, so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or come back later. If you hit a snag and figure out a solution, let me know and I'll update the documentation to share what you've learned.
+I have tested these instructions on Linux, Windows, and OSX, so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or let me know and I'll do what I can to help. If you hit a snag and figure out a solution, tell me about it and I'll update the documentation to share what you've learned.
 
 .. contents:: Table of Contents
     :depth: 2

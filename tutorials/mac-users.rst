@@ -11,9 +11,9 @@ There are some difficulties using py5 on Mac computers that still need to be wor
 
 .. admonition:: TL;DR
 
-    * Mac users must use Jupyter Notebooks with the ``%gui osx`` magic at the start of each notebook.
-    * New Sketch windows might not get focus and will be behind other windows.
-    * Ignore the warnings you see when exiting a Sketch
+    * Mac users must use Jupyter Notebooks with the ``%gui osx`` magic at the start of each notebook. (`Issue #4 <https://github.com/hx2A/py5generator/issues/4>`_)
+    * New Sketch windows might not get focus and will be behind other windows. (`Issue #5 <https://github.com/hx2A/py5generator/issues/5>`_)
+    * Ignore the warnings you see when exiting a Sketch (`Issue #6 <https://github.com/hx2A/py5generator/issues/6>`_)
 
 JPype
 =====
@@ -52,7 +52,7 @@ Mac users won't be able to use the generic ``python`` interpreter to run py5, ei
 
 Of course you can always use a virtual machine or Docker, but those are more complicated to get working. Still, these are valid choices that might meet your needs.
 
-I'm not an expert Mac user so it is very likely there is more to be said about using py5 on Macs. Please experiment based on your own knowledge and ideas. If you discover something useful, let me know and I'll update the documentation.
+I'm not an expert Mac user so it is very likely there is more to be said about using py5 on Macs. Please experiment based on your own knowledge and ideas. If you discover something useful, let me know and I'll update the documentation. Feel free to comment on the `Github Issue (#4) <https://github.com/hx2A/py5generator/issues/4>`_ for this problem.
 
 Window Focus & Dock Icons
 =========================

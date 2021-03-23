@@ -230,7 +230,7 @@ Below is our example Sketch written in Imported Mode:
 
 Observe that any "``py5.``" and "``self.``" prefixes are removed. There are no "``import py5``" or "``from py5 import *``" statements.
 
-To actually use this, make sure you have installed the py5 Jupyter Notebook Kernel, as described on the :doc:`install` page. Then start Jupyter Lab using this command:
+To actually use this, make sure you have installed the py5 Jupyter Notebook Kernel, as described on the `Install py5 </install/#jupyter-notebook-kernel>`_ page. Then start Jupyter Lab using this command:
 
 .. code:: bash
 

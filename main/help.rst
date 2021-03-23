@@ -8,8 +8,8 @@
 .. type: text
 
 
-Right now the most important thing I need is for a few people to try py5 and provide feedback.
+Right now the most important thing I need is for people to try py5 and provide feedback.
 
-I'll also need help debugging and fixing OS specific bugs. I do all of my development work on Linux. I don't have a Mac computer available, so I can't test or debug on those machines. I do have a Windows machine and have done limited testing on it, but I find Windows to be an unpleasant platform to code on and try to avoid it as much as possible.
+I could also use help with the Windows and OSX specific GUI problems listed on Github. In particular, the :doc:`mac-users` describes numerous problems with Mac computers. I do all of my development work on Linux and know very little about platform specific GUI programming. All of the bugs I'd like help with are listed on Github with the `help wanted <https://github.com/hx2A/py5generator/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22>`_ tag.
 
 In time I'll update this page as this project's needs evolve.
