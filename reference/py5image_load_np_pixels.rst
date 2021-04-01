@@ -1,18 +1,58 @@
 .. title: load_np_pixels()
 .. slug: py5image_load_np_pixels
-.. date: 2021-03-04 18:57:53 UTC+00:00
+.. date: 2021-04-01 18:50:16 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 load_np_pixels() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Loads the pixel data of the image into the :doc:`py5image_np_pixels` array.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Image_load_np_pixels_0.png
+    :alt: example picture for load_np_pixels()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        my_image = py5.load_image("apples.jpg")
+        my_image.load_np_pixels()
+        my_image.np_pixels[:50, :, :] = my_image.np_pixels[50:100, :, :]
+        my_image.update_np_pixels()
+        py5.image(my_image, 0, 0)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Loads the pixel data of the image into the :doc:`py5image_np_pixels` array. This method must always be called before reading from or writing to :doc:`py5image_np_pixels`. Subsequent changes to the image will not be reflected in :doc:`py5image_np_pixels` until ``py5image_load_np_pixels()`` is called again.
+
+The ``load_np_pixels()`` method is similar to :doc:`py5image_load_pixels` in that ``load_np_pixels()`` must be called before reading from or writing to :doc:`py5image_np_pixels` just as :doc:`py5image_load_pixels` must be called before reading from or writing to :doc:`py5image_pixels`.
+
+Note that ``load_np_pixels()`` will as a side effect call :doc:`py5image_load_pixels`, so if your code needs to read :doc:`py5image_np_pixels` and :doc:`py5image_pixels` simultaneously, there is no need for a separate call to :doc:`py5image_load_pixels`. However, be aware that modifying both :doc:`py5image_np_pixels` and :doc:`py5image_pixels` simultaneously will likely result in the updates to :doc:`py5image_pixels` being discarded.
 
 Syntax
 ======
@@ -21,5 +61,5 @@ Syntax
 
     load_np_pixels() -> None
 
-Updated on March 04, 2021 18:57:53pm UTC
+Updated on April 01, 2021 18:50:16pm UTC
 

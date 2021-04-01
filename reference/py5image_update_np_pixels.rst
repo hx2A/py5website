@@ -1,18 +1,56 @@
 .. title: update_np_pixels()
 .. slug: py5image_update_np_pixels
-.. date: 2021-03-04 18:57:53 UTC+00:00
+.. date: 2021-04-01 18:50:16 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 update_np_pixels() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Updates the image with the data in the :doc:`py5image_np_pixels` array.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Image_update_np_pixels_0.png
+    :alt: example picture for update_np_pixels()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        my_image = py5.load_image("apples.jpg")
+        my_image.load_np_pixels()
+        my_image.np_pixels[:50, :, :] = my_image.np_pixels[50:100, :, :]
+        my_image.update_np_pixels()
+        py5.image(my_image, 0, 0)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Updates the image with the data in the :doc:`py5image_np_pixels` array. Use in conjunction with :doc:`py5image_load_np_pixels`. If you're only reading pixels from the array, there's no need to call ``update_np_pixels()`` — updating is only necessary to apply changes.
+
+The ``update_np_pixels()`` method is similar to :doc:`py5image_update_pixels` in that ``update_np_pixels()`` must be called after modifying :doc:`py5image_np_pixels` just as :doc:`py5image_update_pixels` must be called after modifying :doc:`py5image_pixels`.
 
 Syntax
 ======
@@ -21,5 +59,5 @@ Syntax
 
     update_np_pixels() -> None
 
-Updated on March 04, 2021 18:57:53pm UTC
+Updated on April 01, 2021 18:50:16pm UTC
 

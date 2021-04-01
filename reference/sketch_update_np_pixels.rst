@@ -1,18 +1,56 @@
 .. title: update_np_pixels()
 .. slug: update_np_pixels
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-01 15:50:23 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 update_np_pixels() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Updates the display window with the data in the :doc:`np_pixels` array.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_update_np_pixels_0.png
+    :alt: example picture for update_np_pixels()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        img = py5.load_image("rockies.jpg")
+        py5.image(img, 0, 0)
+        py5.load_np_pixels()
+        py5.np_pixels[50:100, :, :] = py5.np_pixels[:50, :, :]
+        py5.update_np_pixels()
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Updates the display window with the data in the :doc:`np_pixels` array. Use in conjunction with :doc:`load_np_pixels`. If you're only reading pixels from the array, there's no need to call ``update_np_pixels()`` — updating is only necessary to apply changes.
+
+The ``update_np_pixels()`` method is similar to :doc:`update_pixels` in that ``update_np_pixels()`` must be called after modifying :doc:`np_pixels` just as :doc:`update_pixels` must be called after modifying :doc:`pixels`.
 
 Syntax
 ======
@@ -21,5 +59,5 @@ Syntax
 
     update_np_pixels() -> None
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 01, 2021 15:50:23pm UTC
 
