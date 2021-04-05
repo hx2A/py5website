@@ -1,18 +1,57 @@
 .. title: save_json()
 .. slug: save_json
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-05 00:15:34 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 save_json() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Save JSON data to a file.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    data = dict(mouse_x=[], mouse_y=[])
+
+    def draw():
+        py5.point(py5.mouse_x, py5.mouse_y)
+        if py5.frame_count % 60 == 0:
+            data['mouse_x'].append(py5.mouse_x)
+            data['mouse_y'].append(py5.mouse_y)
+        if py5.frame_count == 600:
+            py5.save_json(data, 'data/mouse_positions.json')
+            py5.exit_sketch()
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Save JSON data to a file. If ``filename`` is not an absolute path, it will be saved relative to the current working directory (:doc:`sketch_path`).
+
+The JSON data is saved using the Python json library with the ``dump`` method, and the ``kwargs`` parameter is passed along to that method.
 
 Syntax
 ======
@@ -24,10 +63,10 @@ Syntax
 Parameters
 ==========
 
-* **filename**: `Union[str, Path]` - missing variable description
-* **json_data**: `Any` - missing variable description
-* **kwargs**: `Dict[str, Any]` - missing variable description
+* **filename**: `Union[str, Path]` - filename to save JSON data object to
+* **json_data**: `Any` - json data object
+* **kwargs**: `Dict[str, Any]` - keyword arguments
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 05, 2021 00:15:34am UTC
 
