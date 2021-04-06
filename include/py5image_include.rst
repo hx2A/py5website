@@ -1,6 +1,5 @@
 * `apply_filter() <../py5image_apply_filter/>`_: Apply an image filter.
 * `blend() <../py5image_blend/>`_: Blends a region of pixels into the image specified by the ``img`` parameter.
-* `check_alpha() <../py5image_check_alpha/>`_: The documentation for this field or method has not yet been written.
 * `copy() <../py5image_copy/>`_: Copies a region of pixels from one image into another.
 * `get() <../py5image_get/>`_: Reads the color of any pixel or grabs a section of an image.
 * `height <../py5image_height/>`_: The height of the image in units of pixels.
