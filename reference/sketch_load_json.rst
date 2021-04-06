@@ -1,6 +1,6 @@
 .. title: load_json()
 .. slug: load_json
-.. date: 2021-04-05 00:15:34 UTC+00:00
+.. date: 2021-04-06 18:19:03 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -66,8 +66,7 @@ Examples
     def draw():
         py5.background(0)
         if promise.is_ready:
-            py5.text(promise.result['msg'], 20, 50)
-            py5.no_loop()
+            py5.text(promise.result['msg'][:(py5.frame_count // 25)], 20, 50)
 
 .. raw:: html
 
@@ -98,5 +97,5 @@ Parameters
 * **kwargs**: `Dict[str, Any]` - keyword arguments
 
 
-Updated on April 05, 2021 00:15:34am UTC
+Updated on April 06, 2021 18:19:03pm UTC
 
