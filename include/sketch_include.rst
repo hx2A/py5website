@@ -34,7 +34,6 @@ Constants
 =========
 
 * `java_platform <java_platform/>`_
-* `java_version <java_version/>`_
 * `java_version_name <java_version_name/>`_
 
 Environment
