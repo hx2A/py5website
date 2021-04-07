@@ -1,18 +1,54 @@
 .. title: is_jvm_running()
 .. slug: is_jvm_running
-.. date: 2021-04-06 20:02:07 UTC+00:00
+.. date: 2021-04-07 18:55:47 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 is_jvm_running() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Determine if the Java Virtual Machine (JVM) is or is not running.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    import py5_tools
+
+    # this will be False
+    print(py5_tools.is_jvm_running())
+
+    import py5
+
+    # now it will be True
+    print(py5_tools.is_jvm_running())
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Determine if the Java Virtual Machine (JVM) is or is not running. When the py5 library is imported it will start the JVM.  Therefore this will be ``False`` before ``import py5`` is executed and ``True`` afterwards. It should continue to always be ``True`` unless somewhere there is some Java code that calls ``System.exit()``. Calling ``System.exit()`` is not recommended. If for some reason the JVM crashes (perhaps through a segmentation fault), the JVM will no longer be running, but that crash will most likely also terminate the Python interpreter.
 
 Syntax
 ======
@@ -21,5 +57,5 @@ Syntax
 
     is_jvm_running() -> bool
 
-Updated on April 06, 2021 20:02:07pm UTC
+Updated on April 07, 2021 18:55:47pm UTC
 

@@ -147,11 +147,8 @@ Jvm
 * `add_classpath() <add_classpath/>`_
 * `add_jars() <add_jars/>`_
 * `add_options() <add_options/>`_
-* `check_jvm_running() <check_jvm_running/>`_
 * `get_classpath() <get_classpath/>`_
 * `is_jvm_running() <is_jvm_running/>`_
-* `set_options() <set_options/>`_
-* `start_jvm() <start_jvm/>`_
 
 
 .. raw:: html

@@ -1,18 +1,53 @@
 .. title: get_classpath()
 .. slug: get_classpath
-.. date: 2021-04-06 20:02:07 UTC+00:00
+.. date: 2021-04-07 18:57:16 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 get_classpath() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Get the Java classpath.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    import py5_tools
+
+    py5_tools.add_jars('path/to/project_jars')
+    py5_tools.add_classpath('path/to/jar/file/java_code.jar')
+
+    import py5
+
+    print(py5_tools.get_classpath())
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Get the Java classpath. If the JVM has not yet started, this will be the classpath the JVM will use when it does start. It will also be possible to change that classpath with :doc:`add_classpath` and :doc:`add_jars`. After the JVM has started, the classpath cannot be changed and the aformentioned functions would throw a ``RuntimeError``. Use :doc:`is_jvm_running` to first determine if the JVM is running.
 
 Syntax
 ======
@@ -21,5 +56,5 @@ Syntax
 
     get_classpath() -> str
 
-Updated on April 06, 2021 20:02:07pm UTC
+Updated on April 07, 2021 18:57:16pm UTC
 
