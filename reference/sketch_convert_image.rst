@@ -1,6 +1,6 @@
 .. title: convert_image()
 .. slug: convert_image
-.. date: 2021-02-17 21:05:39 UTC+00:00
+.. date: 2021-04-10 15:07:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,6 +19,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_convert_image_0.png
+    :alt: example picture for convert_image()
 
 .. raw:: html
 
@@ -50,7 +53,9 @@ Convert non-py5 image objects into Py5Image objects. This facilitates py5 compat
 
 This method is comparable to :doc:`load_image`, except instead of reading image files from disk, it reads image data from other Python objects.
 
-Passed image object types must be known to py5's builtin image conversion tools. New object types and functions to effect conversions can be registered with :doc:`register_image_conversion`.
+Passed image object types must be known to py5's image conversion tools. New object types and functions to effect conversions can be registered with :doc:`register_image_conversion`.
+
+The ``convert_image()`` method has builtin support for conversion of ``PIL.Image`` objects. This will allow users to use image formats that :doc:`load_image` cannot read. To convert a numpy array into a Py5Image, use :doc:`create_image_from_numpy`.
 
 The caller can optionally pass an existing Py5Image object to put the converted image into. This can have performance benefits in code that would otherwise continuously create new Py5Image objects. The converted image width and height must match that of the recycled Py5Image object.
 
@@ -68,5 +73,5 @@ Parameters
 * **obj**: `Any` - object to convert into a Py5Image object
 
 
-Updated on February 17, 2021 21:05:39pm UTC
+Updated on April 10, 2021 15:07:49pm UTC
 
