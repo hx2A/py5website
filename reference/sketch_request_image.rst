@@ -1,31 +1,73 @@
 .. title: request_image()
 .. slug: request_image
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-10 15:07:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 request_image() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Use a Py5Promise object to load an image into a variable of type ``Py5Image``.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def draw():
+        global img_promise
+        if py5.frame_count == 1:
+            # the request should only be made once
+            img_promise = py5.request_image('http://py5.ixora.io/images/examples/apples.jpg')
+
+        py5.background(0)
+        if img_promise.is_ready:
+            py5.image(img_promise.result, 10, 10)
+        else:
+            print('not ready')
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Use a Py5Promise object to load an image into a variable of type ``Py5Image``. This method provides a convenient alternative to combining :doc:`launch_promise_thread` with :doc:`load_image` to load image data.
+
+Consider using ``request_image()`` to load image data from within a Sketch's ``draw()`` function. Using :doc:`load_image` in the ``draw()`` function would slow down the Sketch animation.
+
+The returned Py5Promise object has an ``is_ready`` property that will be ``True`` when the ``result`` property contains the value function ``f`` returned. Before then, the ``result`` property will be ``None``.
 
 Syntax
 ======
 
 .. code:: python
 
-    request_image(filename: Union[str, Path]) -> Py5Promise
+    request_image(image_path: Union[str, Path]) -> Py5Promise
 
 Parameters
 ==========
 
-* **filename**: `Union[str, Path]` - missing variable description
+* **image_path**: `Union[str, Path]` - url or file path for image file
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 10, 2021 15:07:49pm UTC
 
