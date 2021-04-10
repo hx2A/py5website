@@ -1,6 +1,6 @@
 .. title: frame_count
 .. slug: frame_count
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-04-10 15:00:38 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -46,10 +46,10 @@ Examples
 Description
 ===========
 
-The system variable ``frame_count`` contains the number of frames that have been displayed since the program started. Inside ``setup()`` the value is 0, after the first iteration of draw it is 1, etc.
+The system variable ``frame_count`` contains the number of frames that have been displayed since the program started. Inside ``setup()`` the value is 0. Inside the first execution of ``draw()`` it is 1, and it will increase by 1 for every execution of ``draw()`` after that.
 
 Underlying Java field: `frameCount <https://processing.org/reference/frameCount.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on April 10, 2021 15:00:38pm UTC
 
