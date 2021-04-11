@@ -1,21 +1,60 @@
 .. title: finished
 .. slug: finished
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-11 14:57:18 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 finished documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Boolean variable reflecting if the Sketch has stopped permanently.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    import time
+
+    def draw():
+        py5.rect(py5.random_int(py5.width), py5.random_int(py5.height), 10, 10)
+
+
+    py5.run_sketch()
+    print('sketch has stopped:', py5.finished)
+    time.sleep(10)
+
+    py5.exit_sketch()
+    print('sketch has stopped:', py5.finished)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Boolean variable reflecting if the Sketch has stopped permanently.
 
 Underlying Java field: finished
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 11, 2021 14:57:18pm UTC
 
