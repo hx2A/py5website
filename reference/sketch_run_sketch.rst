@@ -1,6 +1,6 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-04-11 14:57:18 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -90,15 +90,15 @@ Syntax
 
 .. code:: python
 
-    run_sketch(block: bool = None, py5_options: List = None, sketch_args: List = None) -> None
+    run_sketch(block: bool = None, py5_options: List[str] = None, sketch_args: List[str] = None) -> None
 
 Parameters
 ==========
 
 * **block**: `bool = None` - method returns immediately (False) or blocks until Sketch exits (True)
-* **py5_options**: `List = None` - command line arguments to pass to Processing as arguments
-* **sketch_args**: `List = None` - command line arguments that become Sketch arguments
+* **py5_options**: `List[str] = None` - command line arguments to pass to Processing as arguments
+* **sketch_args**: `List[str] = None` - command line arguments that become Sketch arguments
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on April 11, 2021 14:57:18pm UTC
 
