@@ -1,21 +1,53 @@
 .. title: args
 .. slug: args
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-11 15:21:11 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 args documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+List of strings passed to the Sketch through the call to :doc:`run_sketch`.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        color = eval(py5.args[0])
+        py5.background(color)
+
+    py5.run_sketch(sketch_args=['0xFF0000'])
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+List of strings passed to the Sketch through the call to :doc:`run_sketch`. Only passing strings is allowed, but you can convert string types to something else to make this more useful.
 
 Underlying Java field: args
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 11, 2021 15:21:11pm UTC
 
