@@ -397,7 +397,6 @@ Structure
 * `is_running <is_running/>`_
 * `loop() <loop/>`_
 * `no_loop() <no_loop/>`_
-* `pause() <pause/>`_
 * `pop() <pop/>`_
 * `pop_style() <pop_style/>`_
 * `print_line_profiler_stats() <print_line_profiler_stats/>`_
@@ -410,11 +409,8 @@ Structure
 * `render_frame() <render_frame/>`_
 * `render_frame_sequence() <render_frame_sequence/>`_
 * `reset_py5() <reset_py5/>`_
-* `resume() <resume/>`_
 * `run_sketch() <run_sketch/>`_
 * `set_stackprinter_style() <set_stackprinter_style/>`_
-* `start() <start/>`_
-* `stop() <stop/>`_
 
 Threading
 ---------
