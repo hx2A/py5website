@@ -1,6 +1,6 @@
 .. title: save()
 .. slug: save
-.. date: 2021-04-09 20:37:07 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,7 +54,7 @@ Syntax
 
 .. code:: python
 
-    save(filename: Union[str, Path], format: str = None, drop_alpha: bool = True, use_thread: bool = True, params) -> None
+    save(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = True, use_thread: bool = True, **params) -> None
 
 Parameters
 ==========
@@ -66,5 +66,5 @@ Parameters
 * **use_thread**: `bool = True` - write file in separate thread
 
 
-Updated on April 09, 2021 20:37:07pm UTC
+Updated on April 12, 2021 18:01:27pm UTC
 

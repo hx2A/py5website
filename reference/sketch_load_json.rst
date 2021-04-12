@@ -1,6 +1,6 @@
 .. title: load_json()
 .. slug: load_json
-.. date: 2021-04-06 18:19:03 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -88,7 +88,7 @@ Syntax
 
 .. code:: python
 
-    load_json(json_path: Union[str, Path], kwargs: Dict[str, Any]) -> Any
+    load_json(json_path: Union[str, Path], **kwargs: Dict[str, Any]) -> Any
 
 Parameters
 ==========
@@ -97,5 +97,5 @@ Parameters
 * **kwargs**: `Dict[str, Any]` - keyword arguments
 
 
-Updated on April 06, 2021 18:19:03pm UTC
+Updated on April 12, 2021 18:01:27pm UTC
 

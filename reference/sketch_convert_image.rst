@@ -1,6 +1,6 @@
 .. title: convert_image()
 .. slug: convert_image
-.. date: 2021-04-12 12:09:55 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -64,7 +64,7 @@ Syntax
 
 .. code:: python
 
-    convert_image(obj: Any, dst: Py5Image = None) -> Py5Image
+    convert_image(obj: Any, *, dst: Py5Image = None) -> Py5Image
 
 Parameters
 ==========
@@ -73,5 +73,5 @@ Parameters
 * **obj**: `Any` - object to convert into a Py5Image object
 
 
-Updated on April 12, 2021 12:09:55pm UTC
+Updated on April 12, 2021 18:01:27pm UTC
 

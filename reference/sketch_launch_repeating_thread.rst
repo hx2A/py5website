@@ -1,6 +1,6 @@
 .. title: launch_repeating_thread()
 .. slug: launch_repeating_thread
-.. date: 2021-04-06 18:19:03 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -69,7 +69,7 @@ Syntax
 
 .. code:: python
 
-    launch_repeating_thread(f: Callable, name: str = None, time_delay: float = 0, daemon: bool = True, args: Tuple = None, kwargs: Dict = None) -> str
+    launch_repeating_thread(f: Callable, name: str = None, *, time_delay: float = 0, daemon: bool = True, args: Tuple = None, kwargs: Dict = None) -> str
 
 Parameters
 ==========
@@ -82,5 +82,5 @@ Parameters
 * **time_delay**: `float = 0` - time delay in seconds between calls to the given function
 
 
-Updated on April 06, 2021 18:19:03pm UTC
+Updated on April 12, 2021 18:01:27pm UTC
 

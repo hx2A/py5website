@@ -1,6 +1,6 @@
 .. title: parse_json()
 .. slug: parse_json
-.. date: 2021-04-05 00:15:34 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -57,7 +57,7 @@ Syntax
 
 .. code:: python
 
-    parse_json(serialized_json: Any, kwargs: Dict[str, Any]) -> Any
+    parse_json(serialized_json: Any, **kwargs: Dict[str, Any]) -> Any
 
 Parameters
 ==========
@@ -66,5 +66,5 @@ Parameters
 * **serialized_json**: `Any` - JSON data object that has been serialized as a string
 
 
-Updated on April 05, 2021 00:15:34am UTC
+Updated on April 12, 2021 18:01:27pm UTC
 

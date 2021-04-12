@@ -1,6 +1,6 @@
 .. title: create_image_from_numpy()
 .. slug: create_image_from_numpy
-.. date: 2021-04-12 12:09:55 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -62,7 +62,7 @@ Syntax
 
 .. code:: python
 
-    create_image_from_numpy(array: np.array, bands: str = 'ARGB', dst: Py5Image = None) -> Py5Image
+    create_image_from_numpy(array: np.array, bands: str = 'ARGB', *, dst: Py5Image = None) -> Py5Image
 
 Parameters
 ==========
@@ -72,5 +72,5 @@ Parameters
 * **dst**: `Py5Image = None` - existing Py5Image object to put the image data into
 
 
-Updated on April 12, 2021 12:09:55pm UTC
+Updated on April 12, 2021 18:01:27pm UTC
 

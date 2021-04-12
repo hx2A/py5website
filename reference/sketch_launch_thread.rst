@@ -1,6 +1,6 @@
 .. title: launch_thread()
 .. slug: launch_thread
-.. date: 2021-04-06 18:19:03 UTC+00:00
+.. date: 2021-04-12 18:01:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -72,7 +72,7 @@ Syntax
 
 .. code:: python
 
-    launch_thread(f: Callable, name: str = None, daemon: bool = True, args: Tuple = None, kwargs: Dict = None) -> str
+    launch_thread(f: Callable, name: str = None, *, daemon: bool = True, args: Tuple = None, kwargs: Dict = None) -> str
 
 Parameters
 ==========
@@ -84,5 +84,5 @@ Parameters
 * **name**: `str = None` - name of thread to be created
 
 
-Updated on April 06, 2021 18:19:03pm UTC
+Updated on April 12, 2021 18:01:27pm UTC
 
