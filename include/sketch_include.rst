@@ -98,7 +98,6 @@ Pixels
 Textures
 --------
 
-* `no_texture() <no_texture/>`_
 * `texture() <texture/>`_
 * `texture_mode() <texture_mode/>`_
 * `texture_wrap() <texture_wrap/>`_
