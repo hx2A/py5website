@@ -1,6 +1,6 @@
 .. title: width()
 .. slug: py5font_width
-.. date: 2021-04-14 14:56:28 UTC+00:00
+.. date: 2021-04-14 15:10:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
 
     def setup():
         font_size = 45
-        font = py5.create_font('FreeSans', font_size, True, 'py5')
+        font = py5.create_font('DejaVu Sans', font_size, True, 'py5')
         py5.text_font(font)
 
         x = 10
@@ -75,5 +75,5 @@ Parameters
 * **c**: `chr` - single character
 
 
-Updated on April 14, 2021 14:56:28pm UTC
+Updated on April 14, 2021 15:10:22pm UTC
 

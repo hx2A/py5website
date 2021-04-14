@@ -1,6 +1,6 @@
 .. title: load_font()
 .. slug: load_font
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-04-14 15:10:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,7 +33,7 @@ Examples
     def setup():
         # the font must be located in the sketch's
         # "data" directory to load successfully
-        font = py5.load_font("FreeSans-32.vlw")
+        font = py5.load_font("DejaVu_Sans-32.vlw")
         py5.text_font(font, 32)
         py5.text("word", 10, 50)
 
@@ -73,5 +73,5 @@ Parameters
 * **filename**: `str` - name of the font to load
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on April 14, 2021 15:10:22pm UTC
 

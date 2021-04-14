@@ -1,6 +1,6 @@
 .. title: get_default_size()
 .. slug: py5font_get_default_size
-.. date: 2021-04-14 13:17:06 UTC+00:00
+.. date: 2021-04-14 15:10:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,7 +31,7 @@ Examples
     :number-lines:
 
     def setup():
-        font = py5.create_font('FreeSans', 15)
+        font = py5.create_font('DejaVu Sans', 15)
         py5.text_font(font)
 
         py5.text(font.get_name(), 5, 20)
@@ -61,5 +61,5 @@ Syntax
 
     get_default_size() -> int
 
-Updated on April 14, 2021 13:17:06pm UTC
+Updated on April 14, 2021 15:10:22pm UTC
 

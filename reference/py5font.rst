@@ -1,6 +1,6 @@
 .. title: Py5Font
 .. slug: py5font
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-04-14 15:10:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,9 +31,7 @@ Examples
     :number-lines:
 
     def setup():
-        # the font must be located in the sketch's
-        # "data" directory to load successfully
-        font = py5.create_font("FreeSans.ttf", 32)
+        font = py5.create_font("DejaVu Sans", 32)
         py5.text_font(font)
         py5.text("word", 10, 50)
 
@@ -58,5 +56,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5font_include.rst
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on April 14, 2021 15:10:22pm UTC
 

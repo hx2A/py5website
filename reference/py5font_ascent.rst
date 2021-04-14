@@ -1,6 +1,6 @@
 .. title: ascent()
 .. slug: py5font_ascent
-.. date: 2021-04-14 13:17:06 UTC+00:00
+.. date: 2021-04-14 15:10:22 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
 
     def setup():
         font_size = 45
-        font = py5.create_font('FreeSans', font_size)
+        font = py5.create_font('DejaVu Sans', font_size)
         py5.text_font(font)
 
         baseline = py5.height / 2
@@ -66,5 +66,5 @@ Syntax
 
     ascent() -> float
 
-Updated on April 14, 2021 13:17:06pm UTC
+Updated on April 14, 2021 15:10:22pm UTC
 
