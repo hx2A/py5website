@@ -1,18 +1,64 @@
 .. title: width()
 .. slug: py5font_width
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-14 14:56:28 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 width() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Get the width of a character in this font.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Font_width_0.png
+    :alt: example picture for width()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        font_size = 45
+        font = py5.create_font('FreeSans', font_size, True, 'py5')
+        py5.text_font(font)
+
+        x = 10
+        py5.text('py5', x, py5.height / 2)
+        py5.line(x, 0, x, py5.height)
+
+        for c in list('py5'):
+            x += font.width(c) * font_size
+            py5.line(x, 0, x, py5.height)
+
+        print(font.width('x'))
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Get the width of a character in this font. The value is based on a font of size 1. Multiply it by the font size to get the horizontal space of the character.
+
+This will return 0 if the character is not in the font's character set.
 
 Underlying Java method: PFont.width
 
@@ -26,8 +72,8 @@ Syntax
 Parameters
 ==========
 
-* **c**: `chr` - missing variable description
+* **c**: `chr` - single character
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 14, 2021 14:56:28pm UTC
 
