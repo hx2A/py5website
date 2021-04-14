@@ -1,6 +1,6 @@
 .. title: get_glyph_count()
 .. slug: py5font_get_glyph_count
-.. date: 2021-04-14 14:56:28 UTC+00:00
+.. date: 2021-04-14 18:06:58 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -35,9 +35,6 @@ Examples
 
 
     def setup():
-        global font1
-        global font2
-        global font3
         font_size = 32
         font1 = py5.create_font('DejaVu Sans', font_size)
         font2 = py5.load_font('DejaVu_Sans-32.vlw')
@@ -47,8 +44,6 @@ Examples
         print(font2.get_glyph_count())
         print(font3.get_glyph_count())
 
-
-    def draw():
         py5.text_font(font1)
         py5.text('py5', 10, 30)
 
@@ -80,5 +75,5 @@ Syntax
 
     get_glyph_count() -> int
 
-Updated on April 14, 2021 14:56:28pm UTC
+Updated on April 14, 2021 18:06:58pm UTC
 
