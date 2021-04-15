@@ -15,7 +15,6 @@
 * `curve_detail() <../py5shape_curve_detail/>`_: The documentation for this field or method has not yet been written.
 * `curve_tightness() <../py5shape_curve_tightness/>`_: The documentation for this field or method has not yet been written.
 * `curve_vertex() <../py5shape_curve_vertex/>`_: The documentation for this field or method has not yet been written.
-* `depth <../py5shape_depth/>`_: The documentation for this field or method has not yet been written.
 * `disable_style() <../py5shape_disable_style/>`_: Disables the shape's style data and uses py5's current styles.
 * `emissive() <../py5shape_emissive/>`_: The documentation for this field or method has not yet been written.
 * `enable_style() <../py5shape_enable_style/>`_: Enables the shape's style data and ignores py5's current styles.
@@ -27,14 +26,14 @@
 * `get_child() <../py5shape_get_child/>`_: Extracts a child shape from a parent shape.
 * `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the ``Py5Shape``.
 * `get_child_index() <../py5shape_get_child_index/>`_: The documentation for this field or method has not yet been written.
-* `get_children() <../py5shape_get_children/>`_: The documentation for this field or method has not yet been written.
+* `get_children() <../py5shape_get_children/>`_: Get the children of a Py5Shape object as a list of Py5Shape objects.
 * `get_depth() <../py5shape_get_depth/>`_: The documentation for this field or method has not yet been written.
 * `get_emissive() <../py5shape_get_emissive/>`_: The documentation for this field or method has not yet been written.
-* `get_family() <../py5shape_get_family/>`_: The documentation for this field or method has not yet been written.
+* `get_family() <../py5shape_get_family/>`_: Get the Py5Shape object's "family" number.
 * `get_fill() <../py5shape_get_fill/>`_: The documentation for this field or method has not yet been written.
 * `get_height() <../py5shape_get_height/>`_: The documentation for this field or method has not yet been written.
-* `get_kind() <../py5shape_get_kind/>`_: The documentation for this field or method has not yet been written.
-* `get_name() <../py5shape_get_name/>`_: The documentation for this field or method has not yet been written.
+* `get_kind() <../py5shape_get_kind/>`_: Get the Py5Shape object's "kind" number.
+* `get_name() <../py5shape_get_name/>`_: Get the name assigned to a Py5Shape object.
 * `get_normal() <../py5shape_get_normal/>`_: The documentation for this field or method has not yet been written.
 * `get_normal_x() <../py5shape_get_normal_x/>`_: The documentation for this field or method has not yet been written.
 * `get_normal_y() <../py5shape_get_normal_y/>`_: The documentation for this field or method has not yet been written.
@@ -59,13 +58,13 @@
 * `get_vertex_y() <../py5shape_get_vertex_y/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_z() <../py5shape_get_vertex_z/>`_: The documentation for this field or method has not yet been written.
 * `get_width() <../py5shape_get_width/>`_: The documentation for this field or method has not yet been written.
-* `height <../py5shape_height/>`_: The height of the ``Py5Shape`` document.
 * `is2d() <../py5shape_is2d/>`_: The documentation for this field or method has not yet been written.
 * `is3d() <../py5shape_is3d/>`_: The documentation for this field or method has not yet been written.
 * `is_closed() <../py5shape_is_closed/>`_: The documentation for this field or method has not yet been written.
 * `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
 * `no_fill() <../py5shape_no_fill/>`_: The documentation for this field or method has not yet been written.
 * `no_stroke() <../py5shape_no_stroke/>`_: The documentation for this field or method has not yet been written.
+* `no_texture() <../py5shape_no_texture/>`_: The documentation for this field or method has not yet been written.
 * `no_tint() <../py5shape_no_tint/>`_: The documentation for this field or method has not yet been written.
 * `normal() <../py5shape_normal/>`_: The documentation for this field or method has not yet been written.
 * `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: The documentation for this field or method has not yet been written.
@@ -76,13 +75,10 @@
 * `rotate_y() <../py5shape_rotate_y/>`_: Rotates the shape around the y-axis the amount specified by the ``angle`` parameter.
 * `rotate_z() <../py5shape_rotate_z/>`_: Rotates the shape around the z-axis the amount specified by the ``angle`` parameter.
 * `scale() <../py5shape_scale/>`_: Increases or decreases the size of a shape by expanding and contracting vertices.
-* `set3d() <../py5shape_set3d/>`_: The documentation for this field or method has not yet been written.
 * `set_ambient() <../py5shape_set_ambient/>`_: The documentation for this field or method has not yet been written.
 * `set_attrib() <../py5shape_set_attrib/>`_: The documentation for this field or method has not yet been written.
 * `set_emissive() <../py5shape_set_emissive/>`_: The documentation for this field or method has not yet been written.
-* `set_family() <../py5shape_set_family/>`_: The documentation for this field or method has not yet been written.
 * `set_fill() <../py5shape_set_fill/>`_: The ``set_fill()`` method defines the fill color of a ``Py5Shape``.
-* `set_kind() <../py5shape_set_kind/>`_: The documentation for this field or method has not yet been written.
 * `set_name() <../py5shape_set_name/>`_: The documentation for this field or method has not yet been written.
 * `set_normal() <../py5shape_set_normal/>`_: The documentation for this field or method has not yet been written.
 * `set_path() <../py5shape_set_path/>`_: The documentation for this field or method has not yet been written.
@@ -109,4 +105,3 @@
 * `tint() <../py5shape_tint/>`_: The documentation for this field or method has not yet been written.
 * `translate() <../py5shape_translate/>`_: Specifies an amount to displace the shape.
 * `vertex() <../py5shape_vertex/>`_: The documentation for this field or method has not yet been written.
-* `width <../py5shape_width/>`_: The width of the ``Py5Shape`` document.

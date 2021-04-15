@@ -1,6 +1,6 @@
 .. title: get_child_count()
 .. slug: py5shape_get_child_count
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-04-15 21:00:57 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,7 +28,6 @@ Examples
     :number-lines:
 
     def setup():
-        global us_map
         us_map = py5.load_shape("us_map.svg")
         count = us_map.get_child_count()
         print(count)
@@ -55,5 +54,5 @@ Syntax
 
     get_child_count() -> int
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on April 15, 2021 21:00:57pm UTC
 
