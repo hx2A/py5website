@@ -1,5 +1,4 @@
 * `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` object to a parent ``Py5Shape`` object that is defined as a ``GROUP``.
-* `add_name() <../py5shape_add_name/>`_: The documentation for this field or method has not yet been written.
 * `ambient() <../py5shape_ambient/>`_: The documentation for this field or method has not yet been written.
 * `apply_matrix() <../py5shape_apply_matrix/>`_: The documentation for this field or method has not yet been written.
 * `attrib() <../py5shape_attrib/>`_: The documentation for this field or method has not yet been written.
