@@ -1,6 +1,6 @@
 .. title: is_visible()
 .. slug: py5shape_is_visible
-.. date: 2021-03-04 18:12:39 UTC+00:00
+.. date: 2021-04-18 14:40:54 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -20,9 +20,6 @@ Examples
 
     <div class="example-row"><div class="example-cell-image">
 
-.. image:: /images/reference/Py5Shape_is_visible_0.png
-    :alt: example picture for is_visible()
-
 .. raw:: html
 
     </div><div class="example-cell-code">
@@ -41,7 +38,7 @@ Examples
         py5.background(204)
         py5.shape(s, 10, 10, 80, 80)  # draw shape
         s.set_visible(py5.is_mouse_pressed)
-        if s.is_visible() == False:  # or use: "if (!s.isVisible)"
+        if s.is_visible() == False:  # or use: "if not s.isVisible"
             py5.no_fill()
             py5.rect(10, 10, 80, 80)
 
@@ -69,5 +66,5 @@ Syntax
 
     is_visible() -> bool
 
-Updated on March 04, 2021 18:12:39pm UTC
+Updated on April 18, 2021 14:40:54pm UTC
 
