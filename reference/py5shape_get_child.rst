@@ -1,13 +1,13 @@
 .. title: get_child()
 .. slug: py5shape_get_child
-.. date: 2021-02-16 15:03:15 UTC+00:00
+.. date: 2021-04-18 14:40:54 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 get_child() documentation
 .. type: text
 
-Extracts a child shape from a parent shape.
+Extracts a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 
 Examples
 ========
@@ -31,14 +31,10 @@ Examples
     :number-lines:
 
     def setup():
-        global states
-        global ohio
         states = py5.load_shape("us_map.svg")
         ohio = states.get_child("OH")
         ohio.disable_style()
 
-
-    def draw():
         py5.background(192)
         py5.scale(0.1)
         py5.translate(25, 225)
@@ -57,7 +53,7 @@ Examples
 Description
 ===========
 
-Extracts a child shape from a parent shape. Specify the name of the shape with the ``target`` parameter. The shape is returned as a ``Py5Shape`` object, or ``None`` is returned if there is an error.
+Extracts a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``. Specify the name of the shape with the ``target`` parameter, or use the index with the ``index`` parameter. The shape is returned as a ``Py5Shape`` object, or ``None`` is returned if there is an error.
 
 Underlying Java method: `PShape.getChild <https://processing.org/reference/PShape_getChild_.html>`_
 
@@ -76,5 +72,5 @@ Parameters
 * **target**: `str` - the name of the shape to get
 
 
-Updated on February 16, 2021 15:03:15pm UTC
+Updated on April 18, 2021 14:40:54pm UTC
 

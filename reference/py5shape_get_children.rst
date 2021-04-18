@@ -1,13 +1,13 @@
 .. title: get_children()
 .. slug: py5shape_get_children
-.. date: 2021-04-15 21:00:57 UTC+00:00
+.. date: 2021-04-18 14:40:54 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 get_children() documentation
 .. type: text
 
-Get the children of a Py5Shape object as a list of Py5Shape objects.
+Get the children of a ``Py5Shape`` object as a list of ``Py5Shape`` objects.
 
 Examples
 ========
@@ -51,7 +51,7 @@ Examples
 Description
 ===========
 
-Get the children of a Py5Shape object as a list of Py5Shape objects. When Processing loads shape objects, it may create a hierarchy of Py5Shapes, depending on the organization of the source data file. This method will retrieve the list of Py5Shapes that are the child objects to a given object.
+Get the children of a ``Py5Shape`` object as a list of ``Py5Shape`` objects. When Processing loads shape objects, it may create a hierarchy of ``Py5Shape`` objects, depending on the organization of the source data file. This method will retrieve the list of Py5Shapes that are the child objects to a given object.
 
 Underlying Java method: PShape.getChildren
 
@@ -62,5 +62,5 @@ Syntax
 
     get_children() -> List[Py5Shape]
 
-Updated on April 15, 2021 21:00:57pm UTC
+Updated on April 18, 2021 14:40:54pm UTC
 

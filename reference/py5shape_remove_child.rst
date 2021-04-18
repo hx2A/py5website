@@ -1,18 +1,58 @@
 .. title: remove_child()
 .. slug: py5shape_remove_child
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-18 14:52:36 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 remove_child() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Removes a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_remove_child_0.png
+    :alt: example picture for remove_child()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        us_map = py5.load_shape("us_map.svg")
+        for child in us_map.get_children():
+            if child.get_name()[0] not in 'AEIOU':
+                us_map.remove_child(us_map.get_child_index(child))
+
+        py5.background(192)
+        py5.scale(0.1)
+        py5.translate(25, 225)
+        py5.shape(us_map, 0, 0)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Removes a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 
 Underlying Java method: PShape.removeChild
 
@@ -29,5 +69,5 @@ Parameters
 * **idx**: `int` - missing variable description
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 18, 2021 14:52:36pm UTC
 

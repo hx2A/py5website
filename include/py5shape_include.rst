@@ -1,4 +1,4 @@
-* `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` to a parent ``Py5Shape`` that is defined as a ``GROUP``.
+* `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` object to a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `add_name() <../py5shape_add_name/>`_: The documentation for this field or method has not yet been written.
 * `ambient() <../py5shape_ambient/>`_: The documentation for this field or method has not yet been written.
 * `apply_matrix() <../py5shape_apply_matrix/>`_: The documentation for this field or method has not yet been written.
@@ -21,12 +21,12 @@
 * `end_contour() <../py5shape_end_contour/>`_: The documentation for this field or method has not yet been written.
 * `end_shape() <../py5shape_end_shape/>`_: This method is used to complete a custom shape created with the :doc:`create_shape` function.
 * `fill() <../py5shape_fill/>`_: The documentation for this field or method has not yet been written.
-* `find_child() <../py5shape_find_child/>`_: The documentation for this field or method has not yet been written.
+* `find_child() <../py5shape_find_child/>`_: Find a target ``Py5Shape`` object from anywhere within a ``Py5Shape`` object that is defined as a ``GROUP``.
 * `get_ambient() <../py5shape_get_ambient/>`_: The documentation for this field or method has not yet been written.
-* `get_child() <../py5shape_get_child/>`_: Extracts a child shape from a parent shape.
-* `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the ``Py5Shape``.
-* `get_child_index() <../py5shape_get_child_index/>`_: The documentation for this field or method has not yet been written.
-* `get_children() <../py5shape_get_children/>`_: Get the children of a Py5Shape object as a list of Py5Shape objects.
+* `get_child() <../py5shape_get_child/>`_: Extracts a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
+* `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the ``Py5Shape`` object.
+* `get_child_index() <../py5shape_get_child_index/>`_: Get a child ``Py5Shape`` object's index from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
+* `get_children() <../py5shape_get_children/>`_: Get the children of a ``Py5Shape`` object as a list of ``Py5Shape`` objects.
 * `get_depth() <../py5shape_get_depth/>`_: The documentation for this field or method has not yet been written.
 * `get_emissive() <../py5shape_get_emissive/>`_: The documentation for this field or method has not yet been written.
 * `get_family() <../py5shape_get_family/>`_: Get the Py5Shape object's "family" number.
@@ -68,7 +68,7 @@
 * `no_tint() <../py5shape_no_tint/>`_: The documentation for this field or method has not yet been written.
 * `normal() <../py5shape_normal/>`_: The documentation for this field or method has not yet been written.
 * `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: The documentation for this field or method has not yet been written.
-* `remove_child() <../py5shape_remove_child/>`_: The documentation for this field or method has not yet been written.
+* `remove_child() <../py5shape_remove_child/>`_: Removes a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `reset_matrix() <../py5shape_reset_matrix/>`_: Replaces the current matrix of a shape with the identity matrix.
 * `rotate() <../py5shape_rotate/>`_: Rotates the shape the amount specified by the ``angle`` parameter.
 * `rotate_x() <../py5shape_rotate_x/>`_: Rotates the shape around the x-axis the amount specified by the ``angle`` parameter.
