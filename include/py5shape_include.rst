@@ -10,7 +10,7 @@
 * `bezier_detail() <../py5shape_bezier_detail/>`_: The documentation for this field or method has not yet been written.
 * `bezier_vertex() <../py5shape_bezier_vertex/>`_: The documentation for this field or method has not yet been written.
 * `color_mode() <../py5shape_color_mode/>`_: The documentation for this field or method has not yet been written.
-* `contains() <../py5shape_contains/>`_: The documentation for this field or method has not yet been written.
+* `contains() <../py5shape_contains/>`_: Boolean value reflecting if the given coordinates are or are not contained within the ``Py5Shape`` object.
 * `curve_detail() <../py5shape_curve_detail/>`_: The documentation for this field or method has not yet been written.
 * `curve_tightness() <../py5shape_curve_tightness/>`_: The documentation for this field or method has not yet been written.
 * `curve_vertex() <../py5shape_curve_vertex/>`_: The documentation for this field or method has not yet been written.
@@ -57,8 +57,8 @@
 * `get_vertex_y() <../py5shape_get_vertex_y/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_z() <../py5shape_get_vertex_z/>`_: The documentation for this field or method has not yet been written.
 * `get_width() <../py5shape_get_width/>`_: The documentation for this field or method has not yet been written.
-* `is2d() <../py5shape_is2d/>`_: The documentation for this field or method has not yet been written.
-* `is3d() <../py5shape_is3d/>`_: The documentation for this field or method has not yet been written.
+* `is2d() <../py5shape_is2d/>`_: Boolean value reflecting if the shape is or is not a 2D shape.
+* `is3d() <../py5shape_is3d/>`_: Boolean value reflecting if the shape is or is not a 3D shape.
 * `is_closed() <../py5shape_is_closed/>`_: The documentation for this field or method has not yet been written.
 * `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
 * `no_fill() <../py5shape_no_fill/>`_: The documentation for this field or method has not yet been written.
