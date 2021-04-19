@@ -1,6 +1,6 @@
 .. title: Py5Shape
 .. slug: py5shape
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-04-19 15:09:09 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,6 +19,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_0.png
+    :alt: example picture for Py5Shape
 
 .. raw:: html
 
@@ -44,6 +47,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_1.png
+    :alt: example picture for Py5Shape
 
 .. raw:: html
 
@@ -85,5 +91,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shape_include.rst
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on April 19, 2021 15:09:09pm UTC
 

@@ -1,6 +1,6 @@
 .. title: create_shape()
 .. slug: create_shape
-.. date: 2021-03-04 20:16:29 UTC+00:00
+.. date: 2021-04-19 15:03:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -19,6 +19,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_create_shape_0.png
+    :alt: example picture for create_shape()
 
 .. raw:: html
 
@@ -46,6 +49,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_create_shape_1.png
+    :alt: example picture for create_shape()
 
 .. raw:: html
 
@@ -79,6 +85,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_create_shape_2.png
+    :alt: example picture for create_shape()
 
 .. raw:: html
 
@@ -115,6 +124,9 @@ Examples
 .. raw:: html
 
     <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_create_shape_3.png
+    :alt: example picture for create_shape()
 
 .. raw:: html
 
@@ -183,5 +195,5 @@ Parameters
 * **type**: `int` - missing variable description
 
 
-Updated on March 04, 2021 20:16:29pm UTC
+Updated on April 19, 2021 15:03:32pm UTC
 
