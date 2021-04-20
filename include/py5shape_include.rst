@@ -9,7 +9,6 @@
 * `begin_shape() <../py5shape_begin_shape/>`_: This method is used to start a custom shape created with the :doc:`create_shape` function.
 * `bezier_detail() <../py5shape_bezier_detail/>`_: The documentation for this field or method has not yet been written.
 * `bezier_vertex() <../py5shape_bezier_vertex/>`_: The documentation for this field or method has not yet been written.
-* `color_mode() <../py5shape_color_mode/>`_: The documentation for this field or method has not yet been written.
 * `contains() <../py5shape_contains/>`_: Boolean value reflecting if the given coordinates are or are not contained within the ``Py5Shape`` object.
 * `curve_detail() <../py5shape_curve_detail/>`_: The documentation for this field or method has not yet been written.
 * `curve_tightness() <../py5shape_curve_tightness/>`_: The documentation for this field or method has not yet been written.
@@ -26,11 +25,11 @@
 * `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the ``Py5Shape`` object.
 * `get_child_index() <../py5shape_get_child_index/>`_: Get a child ``Py5Shape`` object's index from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `get_children() <../py5shape_get_children/>`_: Get the children of a ``Py5Shape`` object as a list of ``Py5Shape`` objects.
-* `get_depth() <../py5shape_get_depth/>`_: The documentation for this field or method has not yet been written.
+* `get_depth() <../py5shape_get_depth/>`_: Get the ``Py5Shape`` object's depth.
 * `get_emissive() <../py5shape_get_emissive/>`_: The documentation for this field or method has not yet been written.
 * `get_family() <../py5shape_get_family/>`_: Get the Py5Shape object's "family" number.
 * `get_fill() <../py5shape_get_fill/>`_: The documentation for this field or method has not yet been written.
-* `get_height() <../py5shape_get_height/>`_: The documentation for this field or method has not yet been written.
+* `get_height() <../py5shape_get_height/>`_: Get the ``Py5Shape`` object's height.
 * `get_kind() <../py5shape_get_kind/>`_: Get the Py5Shape object's "kind" number.
 * `get_name() <../py5shape_get_name/>`_: Get the name assigned to a Py5Shape object.
 * `get_normal() <../py5shape_get_normal/>`_: The documentation for this field or method has not yet been written.
@@ -53,10 +52,10 @@
 * `get_vertex_code_count() <../py5shape_get_vertex_code_count/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_codes() <../py5shape_get_vertex_codes/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_count() <../py5shape_get_vertex_count/>`_: The ``get_vertex_count()`` method returns the number of vertices that make up a ``Py5Shape``.
-* `get_vertex_x() <../py5shape_get_vertex_x/>`_: The documentation for this field or method has not yet been written.
-* `get_vertex_y() <../py5shape_get_vertex_y/>`_: The documentation for this field or method has not yet been written.
-* `get_vertex_z() <../py5shape_get_vertex_z/>`_: The documentation for this field or method has not yet been written.
-* `get_width() <../py5shape_get_width/>`_: The documentation for this field or method has not yet been written.
+* `get_vertex_x() <../py5shape_get_vertex_x/>`_: Get the value of the x coordinate for the vertex ``index``.
+* `get_vertex_y() <../py5shape_get_vertex_y/>`_: Get the value of the y coordinate for the vertex ``index``.
+* `get_vertex_z() <../py5shape_get_vertex_z/>`_: Get the value of the z coordinate for the vertex ``index``.
+* `get_width() <../py5shape_get_width/>`_: Get the ``Py5Shape`` object's width.
 * `is2d() <../py5shape_is2d/>`_: Boolean value reflecting if the shape is or is not a 2D shape.
 * `is3d() <../py5shape_is3d/>`_: Boolean value reflecting if the shape is or is not a 3D shape.
 * `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
@@ -77,7 +76,7 @@
 * `set_attrib() <../py5shape_set_attrib/>`_: The documentation for this field or method has not yet been written.
 * `set_emissive() <../py5shape_set_emissive/>`_: The documentation for this field or method has not yet been written.
 * `set_fill() <../py5shape_set_fill/>`_: The ``set_fill()`` method defines the fill color of a ``Py5Shape``.
-* `set_name() <../py5shape_set_name/>`_: The documentation for this field or method has not yet been written.
+* `set_name() <../py5shape_set_name/>`_: Assign a name to a ``Py5Shape`` object.
 * `set_normal() <../py5shape_set_normal/>`_: The documentation for this field or method has not yet been written.
 * `set_path() <../py5shape_set_path/>`_: The documentation for this field or method has not yet been written.
 * `set_shininess() <../py5shape_set_shininess/>`_: The documentation for this field or method has not yet been written.
