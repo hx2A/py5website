@@ -85,9 +85,9 @@
 * `set_stroke_cap() <../py5shape_set_stroke_cap/>`_: The documentation for this field or method has not yet been written.
 * `set_stroke_join() <../py5shape_set_stroke_join/>`_: The documentation for this field or method has not yet been written.
 * `set_stroke_weight() <../py5shape_set_stroke_weight/>`_: The documentation for this field or method has not yet been written.
-* `set_texture() <../py5shape_set_texture/>`_: The documentation for this field or method has not yet been written.
-* `set_texture_mode() <../py5shape_set_texture_mode/>`_: The documentation for this field or method has not yet been written.
-* `set_texture_uv() <../py5shape_set_texture_uv/>`_: The documentation for this field or method has not yet been written.
+* `set_texture() <../py5shape_set_texture/>`_: Set a ``Py5Shape`` object's texture.
+* `set_texture_mode() <../py5shape_set_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
+* `set_texture_uv() <../py5shape_set_texture_uv/>`_: Set the uv texture mapping coordinates for a given vertex in a ``Py5Shape`` object.
 * `set_tint() <../py5shape_set_tint/>`_: The documentation for this field or method has not yet been written.
 * `set_vertex() <../py5shape_set_vertex/>`_: The ``set_vertex()`` method defines the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 * `set_visible() <../py5shape_set_visible/>`_: Sets the shape to be visible or invisible.
@@ -97,7 +97,7 @@
 * `stroke_cap() <../py5shape_stroke_cap/>`_: The documentation for this field or method has not yet been written.
 * `stroke_join() <../py5shape_stroke_join/>`_: The documentation for this field or method has not yet been written.
 * `stroke_weight() <../py5shape_stroke_weight/>`_: The documentation for this field or method has not yet been written.
-* `texture() <../py5shape_texture/>`_: The documentation for this field or method has not yet been written.
+* `texture() <../py5shape_texture/>`_: Sets a texture to be applied to a ``Py5Shape`` object's vertex points.
 * `texture_mode() <../py5shape_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
 * `tint() <../py5shape_tint/>`_: The documentation for this field or method has not yet been written.
 * `translate() <../py5shape_translate/>`_: Specifies an amount to displace the shape.

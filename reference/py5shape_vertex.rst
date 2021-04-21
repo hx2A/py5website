@@ -1,6 +1,6 @@
 .. title: vertex()
 .. slug: py5shape_vertex
-.. date: 2021-04-21 14:37:22 UTC+00:00
+.. date: 2021-04-21 16:02:51 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -123,7 +123,7 @@ Examples
 Description
 ===========
 
-Add a new vertex to a ``Py5Shape`` object. All shapes are constructed by connecting a series of vertices. The ``vertex()`` method is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` functions.
+Add a new vertex to a ``Py5Shape`` object. All shapes are constructed by connecting a series of vertices. The ``vertex()`` method is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` methods.
 
 Drawing a vertex in 3D using the ``z`` parameter requires the ``P3D`` renderer, as shown in the second example.
 
@@ -151,5 +151,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on April 21, 2021 14:37:22pm UTC
+Updated on April 21, 2021 16:02:51pm UTC
 
