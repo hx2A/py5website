@@ -1,13 +1,13 @@
 .. title: vertex()
 .. slug: vertex
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-21 14:28:52 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 vertex() documentation
 .. type: text
 
-All shapes are constructed by connecting a series of vertices.
+Add a new vertex to a shape.
 
 Examples
 ========
@@ -63,12 +63,12 @@ Examples
     def setup():
         # drawing vertices in 3D requires P3D
         # as a parameter to size()
-        py5.begin_shape(py5.POINTS)
-        py5.vertex(30, 20, -50)
-        py5.vertex(85, 20, -50)
-        py5.vertex(85, 75, -50)
-        py5.vertex(30, 75, -50)
-        py5.end_shape()
+        py5.begin_shape()
+        py5.vertex(30, 20, 10)
+        py5.vertex(85, 20, 10)
+        py5.vertex(85, 75, 10)
+        py5.vertex(30, 75, 10)
+        py5.end_shape(py5.CLOSE)
 
 .. raw:: html
 
@@ -118,11 +118,11 @@ Examples
 Description
 ===========
 
-All shapes are constructed by connecting a series of vertices. ``vertex()`` is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the :doc:`begin_shape` and :doc:`end_shape` functions.
+Add a new vertex to a shape. All shapes are constructed by connecting a series of vertices. The ``vertex()`` method is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the :doc:`begin_shape` and :doc:`end_shape` functions.
 
-Drawing a vertex in 3D using the ``z`` parameter requires the ``P3D`` parameter in combination with size, as shown in the above example.
+Drawing a vertex in 3D using the ``z`` parameter requires the ``P3D`` renderer, as shown in the second example.
 
-This function is also used to map a texture onto geometry. The :doc:`texture` function declares the texture to apply to the geometry and the ``u`` and ``v`` coordinates set define the mapping of this texture to the form. By default, the coordinates used for ``u`` and ``v`` are specified in relation to the image's size in pixels, but this relation can be changed with :doc:`texture_mode`.
+This method is also used to map a texture onto geometry. The :doc:`texture` function declares the texture to apply to the geometry and the ``u`` and ``v`` coordinates define the mapping of this texture to the form. By default, the coordinates used for ``u`` and ``v`` are specified in relation to the image's size in pixels, but this relation can be changed with the Sketch's :doc:`texture_mode` method.
 
 Underlying Java method: `vertex <https://processing.org/reference/vertex_.html>`_
 
@@ -148,5 +148,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 21, 2021 14:28:52pm UTC
 

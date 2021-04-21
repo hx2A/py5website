@@ -38,7 +38,7 @@
 * `get_normal_z() <../py5shape_get_normal_z/>`_: The documentation for this field or method has not yet been written.
 * `get_param() <../py5shape_get_param/>`_: The documentation for this field or method has not yet been written.
 * `get_params() <../py5shape_get_params/>`_: The documentation for this field or method has not yet been written.
-* `get_parent() <../py5shape_get_parent/>`_: The documentation for this field or method has not yet been written.
+* `get_parent() <../py5shape_get_parent/>`_: Locate a child ``Py5Shape`` object's parent ``GROUP`` ``Py5Shape`` object.
 * `get_shininess() <../py5shape_get_shininess/>`_: The documentation for this field or method has not yet been written.
 * `get_specular() <../py5shape_get_specular/>`_: The documentation for this field or method has not yet been written.
 * `get_stroke() <../py5shape_get_stroke/>`_: The documentation for this field or method has not yet been written.
@@ -98,7 +98,7 @@
 * `stroke_join() <../py5shape_stroke_join/>`_: The documentation for this field or method has not yet been written.
 * `stroke_weight() <../py5shape_stroke_weight/>`_: The documentation for this field or method has not yet been written.
 * `texture() <../py5shape_texture/>`_: The documentation for this field or method has not yet been written.
-* `texture_mode() <../py5shape_texture_mode/>`_: The documentation for this field or method has not yet been written.
+* `texture_mode() <../py5shape_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
 * `tint() <../py5shape_tint/>`_: The documentation for this field or method has not yet been written.
 * `translate() <../py5shape_translate/>`_: Specifies an amount to displace the shape.
-* `vertex() <../py5shape_vertex/>`_: The documentation for this field or method has not yet been written.
+* `vertex() <../py5shape_vertex/>`_: Add a new vertex to a ``Py5Shape`` object.
