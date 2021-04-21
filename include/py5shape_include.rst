@@ -61,7 +61,6 @@
 * `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
 * `no_fill() <../py5shape_no_fill/>`_: The documentation for this field or method has not yet been written.
 * `no_stroke() <../py5shape_no_stroke/>`_: The documentation for this field or method has not yet been written.
-* `no_texture() <../py5shape_no_texture/>`_: The documentation for this field or method has not yet been written.
 * `no_tint() <../py5shape_no_tint/>`_: The documentation for this field or method has not yet been written.
 * `normal() <../py5shape_normal/>`_: The documentation for this field or method has not yet been written.
 * `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: The documentation for this field or method has not yet been written.
