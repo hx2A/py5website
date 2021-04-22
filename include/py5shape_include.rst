@@ -44,8 +44,8 @@
 * `get_stroke() <../py5shape_get_stroke/>`_: The documentation for this field or method has not yet been written.
 * `get_stroke_weight() <../py5shape_get_stroke_weight/>`_: The documentation for this field or method has not yet been written.
 * `get_tessellation() <../py5shape_get_tessellation/>`_: The documentation for this field or method has not yet been written.
-* `get_texture_u() <../py5shape_get_texture_u/>`_: The documentation for this field or method has not yet been written.
-* `get_texture_v() <../py5shape_get_texture_v/>`_: The documentation for this field or method has not yet been written.
+* `get_texture_u() <../py5shape_get_texture_u/>`_: Get the horizontal texture mapping coordinate for a particular vertex.
+* `get_texture_v() <../py5shape_get_texture_v/>`_: Get the vertical texture mapping coordinate for a particular vertex.
 * `get_tint() <../py5shape_get_tint/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex() <../py5shape_get_vertex/>`_: The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 * `get_vertex_code() <../py5shape_get_vertex_code/>`_: The documentation for this field or method has not yet been written.

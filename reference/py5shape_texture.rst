@@ -1,6 +1,6 @@
 .. title: texture()
 .. slug: py5shape_texture
-.. date: 2021-04-21 16:02:51 UTC+00:00
+.. date: 2021-04-22 14:50:01 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,5 +77,5 @@ Parameters
 * **tex**: `Py5Image` - reference to a Py5Image object
 
 
-Updated on April 21, 2021 16:02:51pm UTC
+Updated on April 22, 2021 14:50:01pm UTC
 
