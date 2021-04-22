@@ -46,7 +46,7 @@
 * `get_tessellation() <../py5shape_get_tessellation/>`_: The documentation for this field or method has not yet been written.
 * `get_texture_u() <../py5shape_get_texture_u/>`_: Get the horizontal texture mapping coordinate for a particular vertex.
 * `get_texture_v() <../py5shape_get_texture_v/>`_: Get the vertical texture mapping coordinate for a particular vertex.
-* `get_tint() <../py5shape_get_tint/>`_: The documentation for this field or method has not yet been written.
+* `get_tint() <../py5shape_get_tint/>`_: Get the texture tint color assigned to one vertex in a ``Py5Shape`` object.
 * `get_vertex() <../py5shape_get_vertex/>`_: The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 * `get_vertex_code() <../py5shape_get_vertex_code/>`_: The documentation for this field or method has not yet been written.
 * `get_vertex_code_count() <../py5shape_get_vertex_code_count/>`_: The documentation for this field or method has not yet been written.
@@ -61,7 +61,7 @@
 * `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
 * `no_fill() <../py5shape_no_fill/>`_: The documentation for this field or method has not yet been written.
 * `no_stroke() <../py5shape_no_stroke/>`_: The documentation for this field or method has not yet been written.
-* `no_tint() <../py5shape_no_tint/>`_: The documentation for this field or method has not yet been written.
+* `no_tint() <../py5shape_no_tint/>`_: Stop applying a color tint to a shape's texture map.
 * `normal() <../py5shape_normal/>`_: The documentation for this field or method has not yet been written.
 * `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: The documentation for this field or method has not yet been written.
 * `remove_child() <../py5shape_remove_child/>`_: Removes a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
@@ -87,7 +87,7 @@
 * `set_texture() <../py5shape_set_texture/>`_: Set a ``Py5Shape`` object's texture.
 * `set_texture_mode() <../py5shape_set_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
 * `set_texture_uv() <../py5shape_set_texture_uv/>`_: Set the uv texture mapping coordinates for a given vertex in a ``Py5Shape`` object.
-* `set_tint() <../py5shape_set_tint/>`_: The documentation for this field or method has not yet been written.
+* `set_tint() <../py5shape_set_tint/>`_: Apply a color tint to a shape's texture map.
 * `set_vertex() <../py5shape_set_vertex/>`_: The ``set_vertex()`` method defines the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 * `set_visible() <../py5shape_set_visible/>`_: Sets the shape to be visible or invisible.
 * `shininess() <../py5shape_shininess/>`_: The documentation for this field or method has not yet been written.
@@ -98,6 +98,6 @@
 * `stroke_weight() <../py5shape_stroke_weight/>`_: The documentation for this field or method has not yet been written.
 * `texture() <../py5shape_texture/>`_: Sets a texture to be applied to a ``Py5Shape`` object's vertex points.
 * `texture_mode() <../py5shape_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
-* `tint() <../py5shape_tint/>`_: The documentation for this field or method has not yet been written.
+* `tint() <../py5shape_tint/>`_: Apply a color tint to a shape's texture map.
 * `translate() <../py5shape_translate/>`_: Specifies an amount to displace the shape.
 * `vertex() <../py5shape_vertex/>`_: Add a new vertex to a ``Py5Shape`` object.
