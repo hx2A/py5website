@@ -1,6 +1,6 @@
 .. title: set()
 .. slug: py5shader_set
-.. date: 2021-02-23 15:51:57 UTC+00:00
+.. date: 2021-04-23 20:34:52 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -71,10 +71,10 @@ Syntax
     set(name: str, mat: NDArray[(4, 4), Float], use3x3: bool, /) -> None
     set(name: str, tex: Py5Image, /) -> None
     set(name: str, vec: JArray(JBoolean), /) -> None
-    set(name: str, vec: JArray(JInt), /) -> None
-    set(name: str, vec: JArray(JInt), ncoords: int, /) -> None
     set(name: str, vec: NDArray[(Any,), Float], /) -> None
     set(name: str, vec: NDArray[(Any,), Float], ncoords: int, /) -> None
+    set(name: str, vec: NDArray[(Any,), Int], /) -> None
+    set(name: str, vec: NDArray[(Any,), Int], ncoords: int, /) -> None
     set(name: str, x: bool, /) -> None
     set(name: str, x: bool, y: bool, /) -> None
     set(name: str, x: bool, y: bool, z: bool, /) -> None
@@ -99,8 +99,8 @@ Parameters
 * **tex**: `Py5Image` - sets the sampler uniform variable to read from this image texture
 * **use3x3**: `bool` - enforces the numpy array is 3 x 3
 * **vec**: `JArray(JBoolean)` - modifies all the components of an array/vector uniform variable
-* **vec**: `JArray(JInt)` - modifies all the components of an array/vector uniform variable
 * **vec**: `NDArray[(Any,), Float]` - numpy array of values to modify all the components of an array/vector uniform variable
+* **vec**: `NDArray[(Any,), Int]` - modifies all the components of an array/vector uniform variable
 * **w**: `bool` - fourth component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[4], vec4)
 * **w**: `float` - fourth component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[4], vec4)
 * **w**: `int` - fourth component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[4], vec4)
@@ -115,5 +115,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on February 23, 2021 15:51:57pm UTC
+Updated on April 23, 2021 20:34:52pm UTC
 

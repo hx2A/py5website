@@ -1,6 +1,6 @@
 .. title: get_vertex_codes()
 .. slug: py5shape_get_vertex_codes
-.. date: 2021-04-23 20:17:29 UTC+00:00
+.. date: 2021-04-23 20:34:52 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -80,7 +80,7 @@ Syntax
 
 .. code:: python
 
-    get_vertex_codes() -> JArray(JInt)
+    get_vertex_codes() -> NDArray[(Any,), Int]
 
-Updated on April 23, 2021 20:17:29pm UTC
+Updated on April 23, 2021 20:34:52pm UTC
 
