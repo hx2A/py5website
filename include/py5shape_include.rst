@@ -48,9 +48,9 @@
 * `get_texture_v() <../py5shape_get_texture_v/>`_: Get the vertical texture mapping coordinate for a particular vertex.
 * `get_tint() <../py5shape_get_tint/>`_: Get the texture tint color assigned to one vertex in a ``Py5Shape`` object.
 * `get_vertex() <../py5shape_get_vertex/>`_: The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
-* `get_vertex_code() <../py5shape_get_vertex_code/>`_: The documentation for this field or method has not yet been written.
-* `get_vertex_code_count() <../py5shape_get_vertex_code_count/>`_: The documentation for this field or method has not yet been written.
-* `get_vertex_codes() <../py5shape_get_vertex_codes/>`_: The documentation for this field or method has not yet been written.
+* `get_vertex_code() <../py5shape_get_vertex_code/>`_: Get the vertex code for a particular vertex code index.
+* `get_vertex_code_count() <../py5shape_get_vertex_code_count/>`_: Get the number of vertex codes within a ``Py5Shape`` object.
+* `get_vertex_codes() <../py5shape_get_vertex_codes/>`_: Get the vertex codes for a ``Py5Shape`` object.
 * `get_vertex_count() <../py5shape_get_vertex_count/>`_: The ``get_vertex_count()`` method returns the number of vertices that make up a ``Py5Shape``.
 * `get_vertex_x() <../py5shape_get_vertex_x/>`_: Get the value of the x coordinate for the vertex ``index``.
 * `get_vertex_y() <../py5shape_get_vertex_y/>`_: Get the value of the y coordinate for the vertex ``index``.

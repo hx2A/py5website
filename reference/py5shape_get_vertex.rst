@@ -1,6 +1,6 @@
 .. title: get_vertex()
 .. slug: py5shape_get_vertex
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-04-23 20:14:43 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -74,9 +74,9 @@ Syntax
 Parameters
 ==========
 
-* **index**: `int` - the location of the vertex
+* **index**: `int` - vertex index
 * **vec**: `NDArray[(Any,), Float]` - properly sized numpy array to assign the data to
 
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on April 23, 2021 20:14:43pm UTC
 
