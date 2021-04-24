@@ -1,18 +1,60 @@
 .. title: set_path()
 .. slug: py5shape_set_path
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-24 14:16:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 set_path() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Set many vertex points at the same time, using a numpy array.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_set_path_0.png
+    :alt: example picture for set_path()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    import numpy as np
+
+    def setup():
+        vertices = 100 * np.random.rand(25, 2)
+        s = py5.create_shape()
+        s.begin_shape()
+        s.no_fill()
+        s.set_path(vertices.shape[0], vertices)
+        s.end_shape()
+        py5.shape(s)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Set many vertex points at the same time, using a numpy array. This will be faster and more efficient than repeatedly calling :doc:`py5shape_set_vertex` in a loop. Setting the vertex codes is not supported, so the vertices will be regular vertices and not bezier, quadratic or curve vertices.
+
+The ``vcount`` parameter cannot be larger than the first dimension of the ``verts`` array.
 
 Underlying Java method: PShape.setPath
 
@@ -26,9 +68,9 @@ Syntax
 Parameters
 ==========
 
-* **vcount**: `int` - missing variable description
-* **verts**: `NDArray[(Any, Any), Float]` - missing variable description
+* **vcount**: `int` - number of vertices
+* **verts**: `NDArray[(Any, Any), Float]` - array of vertex coordinates
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 24, 2021 14:16:42pm UTC
 

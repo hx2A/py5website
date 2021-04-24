@@ -1,6 +1,6 @@
 * `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` object to a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `ambient() <../py5shape_ambient/>`_: The documentation for this field or method has not yet been written.
-* `apply_matrix() <../py5shape_apply_matrix/>`_: The documentation for this field or method has not yet been written.
+* `apply_matrix() <../py5shape_apply_matrix/>`_: Apply a transformation matrix to a ``Py5Shape`` object.
 * `attrib() <../py5shape_attrib/>`_: The documentation for this field or method has not yet been written.
 * `attrib_color() <../py5shape_attrib_color/>`_: The documentation for this field or method has not yet been written.
 * `attrib_normal() <../py5shape_attrib_normal/>`_: The documentation for this field or method has not yet been written.
@@ -77,7 +77,7 @@
 * `set_fill() <../py5shape_set_fill/>`_: The ``set_fill()`` method defines the fill color of a ``Py5Shape``.
 * `set_name() <../py5shape_set_name/>`_: Assign a name to a ``Py5Shape`` object.
 * `set_normal() <../py5shape_set_normal/>`_: The documentation for this field or method has not yet been written.
-* `set_path() <../py5shape_set_path/>`_: The documentation for this field or method has not yet been written.
+* `set_path() <../py5shape_set_path/>`_: Set many vertex points at the same time, using a numpy array.
 * `set_shininess() <../py5shape_set_shininess/>`_: The documentation for this field or method has not yet been written.
 * `set_specular() <../py5shape_set_specular/>`_: The documentation for this field or method has not yet been written.
 * `set_stroke() <../py5shape_set_stroke/>`_: The ``set_stroke()`` method defines the outline color of a ``Py5Shape``.

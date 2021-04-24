@@ -1,6 +1,6 @@
 .. title: apply_matrix()
 .. slug: apply_matrix
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-04-24 14:14:41 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -95,9 +95,9 @@ Parameters
 * **n31**: `float` - numbers which define the 4x4 matrix to be multiplied
 * **n32**: `float` - numbers which define the 4x4 matrix to be multiplied
 * **n33**: `float` - numbers which define the 4x4 matrix to be multiplied
-* **source**: `NDArray[(2, 3), Float]` - missing variable description
-* **source**: `NDArray[(4, 4), Float]` - missing variable description
+* **source**: `NDArray[(2, 3), Float]` - 2D transformation matrix
+* **source**: `NDArray[(4, 4), Float]` - 3D transformation matrix
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on April 24, 2021 14:14:41pm UTC
 

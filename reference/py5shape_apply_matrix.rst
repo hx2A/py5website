@@ -1,18 +1,61 @@
 .. title: apply_matrix()
 .. slug: py5shape_apply_matrix
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-24 14:14:41 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 apply_matrix() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Apply a transformation matrix to a ``Py5Shape`` object.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        global s
+        s = py5.create_shape(py5.RECT, -40, -40, 80, 80)
+
+
+    def draw():
+        py5.background(255)
+        if py5.is_mouse_pressed:
+            s.apply_matrix(0.99, 0, 0, 0, 0.99, 0)
+        else:
+            s.reset_matrix()
+        py5.shape(s, py5.width / 2, py5.height / 2)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Apply a transformation matrix to a ``Py5Shape`` object. This can be used to scale, rotate, and translate a shape with one call.
+
+Making productive use of this method requires some knowledge of 2D or 3D transformation matrices, and perhaps some knowledge of Processing's source code.
+
+Transformations are cummulative and therefore will be applied on top of existing transformations. Use :doc:`py5shape_reset_matrix` to set the transformation matrix to the identity matrix.
 
 Underlying Java method: PShape.applyMatrix
 
@@ -29,25 +72,25 @@ Syntax
 Parameters
 ==========
 
-* **n00**: `float` - missing variable description
-* **n01**: `float` - missing variable description
-* **n02**: `float` - missing variable description
-* **n03**: `float` - missing variable description
-* **n10**: `float` - missing variable description
-* **n11**: `float` - missing variable description
-* **n12**: `float` - missing variable description
-* **n13**: `float` - missing variable description
-* **n20**: `float` - missing variable description
-* **n21**: `float` - missing variable description
-* **n22**: `float` - missing variable description
-* **n23**: `float` - missing variable description
-* **n30**: `float` - missing variable description
-* **n31**: `float` - missing variable description
-* **n32**: `float` - missing variable description
-* **n33**: `float` - missing variable description
-* **source**: `NDArray[(2, 3), Float]` - missing variable description
-* **source**: `NDArray[(4, 4), Float]` - missing variable description
+* **n00**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n01**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n02**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n03**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n10**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n11**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n12**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n13**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n20**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n21**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n22**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n23**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n30**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n31**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n32**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **n33**: `float` - numbers which define the 4x4 matrix to be multiplied
+* **source**: `NDArray[(2, 3), Float]` - 2D transformation matrix
+* **source**: `NDArray[(4, 4), Float]` - 3D transformation matrix
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 24, 2021 14:14:41pm UTC
 
