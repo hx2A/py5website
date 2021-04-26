@@ -1,6 +1,6 @@
 .. title: bezier_vertex()
 .. slug: bezier_vertex
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -73,7 +73,7 @@ Examples
 Description
 ===========
 
-Specifies vertex coordinates for Bezier curves. Each call to ``bezier_vertex()`` defines the position of two control points and one anchor point of a Bezier curve, adding a new segment to a line or shape. The first time ``bezier_vertex()`` is used within a :doc:`begin_shape` call, it must be prefaced with a call to :doc:`vertex` to set the first anchor point. This function must be used between :doc:`begin_shape` and :doc:`end_shape` and only when there is no ``MODE`` parameter specified to :doc:`begin_shape`. Using the 3D version requires rendering with ``P3D`` (see the Environment reference for more information).
+Specifies vertex coordinates for Bezier curves. Each call to ``bezier_vertex()`` defines the position of two control points and one anchor point of a Bezier curve, adding a new segment to a line or shape. The first time ``bezier_vertex()`` is used within a :doc:`begin_shape` call, it must be prefaced with a call to :doc:`vertex` to set the first anchor point. This function must be used between :doc:`begin_shape` and :doc:`end_shape` and only when there is no ``MODE`` parameter specified to :doc:`begin_shape`. Using the 3D version requires rendering with ``P3D``.
 
 Underlying Java method: `bezierVertex <https://processing.org/reference/bezierVertex_.html>`_
 
@@ -99,5 +99,5 @@ Parameters
 * **z4**: `float` - the z-coordinate of the anchor point
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 25, 2021 23:58:30pm UTC
 

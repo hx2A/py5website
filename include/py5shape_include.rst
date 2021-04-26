@@ -5,20 +5,20 @@
 * `attrib_color() <../py5shape_attrib_color/>`_: The documentation for this field or method has not yet been written.
 * `attrib_normal() <../py5shape_attrib_normal/>`_: The documentation for this field or method has not yet been written.
 * `attrib_position() <../py5shape_attrib_position/>`_: The documentation for this field or method has not yet been written.
-* `begin_contour() <../py5shape_begin_contour/>`_: The documentation for this field or method has not yet been written.
+* `begin_contour() <../py5shape_begin_contour/>`_: Use the ``begin_contour()`` and :doc:`py5shape_end_contour` methods to create negative shapes within a ``Py5Shape`` object such as the center of the letter 'O'.
 * `begin_shape() <../py5shape_begin_shape/>`_: This method is used to start a custom shape created with the :doc:`create_shape` function.
-* `bezier_detail() <../py5shape_bezier_detail/>`_: The documentation for this field or method has not yet been written.
-* `bezier_vertex() <../py5shape_bezier_vertex/>`_: The documentation for this field or method has not yet been written.
+* `bezier_detail() <../py5shape_bezier_detail/>`_: Sets a ``Py5Shape`` object's resolution at which Beziers display.
+* `bezier_vertex() <../py5shape_bezier_vertex/>`_: Specifies a ``Py5Shape`` object's vertex coordinates for Bezier curves.
 * `contains() <../py5shape_contains/>`_: Boolean value reflecting if the given coordinates are or are not contained within the ``Py5Shape`` object.
-* `curve_detail() <../py5shape_curve_detail/>`_: The documentation for this field or method has not yet been written.
-* `curve_tightness() <../py5shape_curve_tightness/>`_: The documentation for this field or method has not yet been written.
-* `curve_vertex() <../py5shape_curve_vertex/>`_: The documentation for this field or method has not yet been written.
+* `curve_detail() <../py5shape_curve_detail/>`_: Sets the resolution at which a ``Py5Shape`` object's curves display.
+* `curve_tightness() <../py5shape_curve_tightness/>`_: Modifies the quality of a ``Py5Shape`` object's forms created with :doc:`py5shape_curve_vertex`.
+* `curve_vertex() <../py5shape_curve_vertex/>`_: Specifies a ``Py5Shape`` object's vertex coordinates for curves.
 * `disable_style() <../py5shape_disable_style/>`_: Disables the shape's style data and uses py5's current styles.
 * `emissive() <../py5shape_emissive/>`_: The documentation for this field or method has not yet been written.
 * `enable_style() <../py5shape_enable_style/>`_: Enables the shape's style data and ignores py5's current styles.
-* `end_contour() <../py5shape_end_contour/>`_: The documentation for this field or method has not yet been written.
+* `end_contour() <../py5shape_end_contour/>`_: Use the :doc:`py5shape_begin_contour` and ``end_contour()`` methods to create negative shapes within a ``Py5Shape`` object such as the center of the letter 'O'.
 * `end_shape() <../py5shape_end_shape/>`_: This method is used to complete a custom shape created with the :doc:`create_shape` function.
-* `fill() <../py5shape_fill/>`_: The documentation for this field or method has not yet been written.
+* `fill() <../py5shape_fill/>`_: Sets the color used to fill the ``Py5Shape`` object.
 * `find_child() <../py5shape_find_child/>`_: Find a target ``Py5Shape`` object from anywhere within a ``Py5Shape`` object that is defined as a ``GROUP``.
 * `get_ambient() <../py5shape_get_ambient/>`_: The documentation for this field or method has not yet been written.
 * `get_child() <../py5shape_get_child/>`_: Extracts a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
@@ -59,11 +59,11 @@
 * `is2d() <../py5shape_is2d/>`_: Boolean value reflecting if the shape is or is not a 2D shape.
 * `is3d() <../py5shape_is3d/>`_: Boolean value reflecting if the shape is or is not a 3D shape.
 * `is_visible() <../py5shape_is_visible/>`_: Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
-* `no_fill() <../py5shape_no_fill/>`_: The documentation for this field or method has not yet been written.
-* `no_stroke() <../py5shape_no_stroke/>`_: The documentation for this field or method has not yet been written.
+* `no_fill() <../py5shape_no_fill/>`_: Disables the ``Py5Shape`` object's filling geometry.
+* `no_stroke() <../py5shape_no_stroke/>`_: Disables the ``Py5Shape`` object's stroke (outline).
 * `no_tint() <../py5shape_no_tint/>`_: Stop applying a color tint to a shape's texture map.
 * `normal() <../py5shape_normal/>`_: The documentation for this field or method has not yet been written.
-* `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: The documentation for this field or method has not yet been written.
+* `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: Specifies a ``Py5Shape`` object's vertex coordinates for quadratic Bezier curves.
 * `remove_child() <../py5shape_remove_child/>`_: Removes a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `reset_matrix() <../py5shape_reset_matrix/>`_: Replaces the current matrix of a shape with the identity matrix.
 * `rotate() <../py5shape_rotate/>`_: Rotates the shape the amount specified by the ``angle`` parameter.
@@ -92,10 +92,10 @@
 * `set_visible() <../py5shape_set_visible/>`_: Sets the shape to be visible or invisible.
 * `shininess() <../py5shape_shininess/>`_: The documentation for this field or method has not yet been written.
 * `specular() <../py5shape_specular/>`_: The documentation for this field or method has not yet been written.
-* `stroke() <../py5shape_stroke/>`_: The documentation for this field or method has not yet been written.
-* `stroke_cap() <../py5shape_stroke_cap/>`_: The documentation for this field or method has not yet been written.
-* `stroke_join() <../py5shape_stroke_join/>`_: The documentation for this field or method has not yet been written.
-* `stroke_weight() <../py5shape_stroke_weight/>`_: The documentation for this field or method has not yet been written.
+* `stroke() <../py5shape_stroke/>`_: Sets the color used to draw the ``Py5Shape`` object's lines.
+* `stroke_cap() <../py5shape_stroke_cap/>`_: Sets the style for rendering line endings in a ``Py5Shape`` object.
+* `stroke_join() <../py5shape_stroke_join/>`_: Sets the style of the joints which connect line segments in a ``Py5Shape`` object.
+* `stroke_weight() <../py5shape_stroke_weight/>`_: Sets the width of the stroke used for lines, and points in a ``Py5Shape`` object.
 * `texture() <../py5shape_texture/>`_: Sets a texture to be applied to a ``Py5Shape`` object's vertex points.
 * `texture_mode() <../py5shape_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
 * `tint() <../py5shape_tint/>`_: Apply a color tint to a shape's texture map.

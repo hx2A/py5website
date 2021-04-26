@@ -1,13 +1,13 @@
 .. title: begin_contour()
 .. slug: begin_contour
-.. date: 2021-03-04 19:43:58 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 begin_contour() documentation
 .. type: text
 
-Use the ``begin_contour()`` and :doc:`end_contour` function to create negative shapes within shapes such as the center of the letter 'O'.
+Use the ``begin_contour()`` and :doc:`end_contour` methods to create negative shapes within shapes such as the center of the letter 'O'.
 
 Examples
 ========
@@ -59,9 +59,9 @@ Examples
 Description
 ===========
 
-Use the ``begin_contour()`` and :doc:`end_contour` function to create negative shapes within shapes such as the center of the letter 'O'. ``begin_contour()`` begins recording vertices for the shape and :doc:`end_contour` stops recording. The vertices that define a negative shape must "wind" in the opposite direction from the exterior shape. First draw vertices for the exterior shape in clockwise order, then for internal shapes, draw vertices counterclockwise.
+Use the ``begin_contour()`` and :doc:`end_contour` methods to create negative shapes within shapes such as the center of the letter 'O'. The ``begin_contour()`` method begins recording vertices for the shape and :doc:`end_contour` stops recording. The vertices that define a negative shape must "wind" in the opposite direction from the exterior shape. First draw vertices for the exterior shape in clockwise order, then for internal shapes, draw vertices counterclockwise.
 
-These functions can only be used within a :doc:`begin_shape` & :doc:`end_shape` pair and transformations such as :doc:`translate`, :doc:`rotate`, and :doc:`scale` do not work within a ``begin_contour()`` & :doc:`end_contour` pair. It is also not possible to use other shapes, such as :doc:`ellipse` or :doc:`rect` within.
+These methods can only be used within a :doc:`begin_shape` & :doc:`end_shape` pair and transformations such as :doc:`translate`, :doc:`rotate`, and :doc:`scale` do not work within a ``begin_contour()`` & :doc:`end_contour` pair. It is also not possible to use other shapes, such as :doc:`ellipse` or :doc:`rect` within.
 
 Underlying Java method: `beginContour <https://processing.org/reference/beginContour_.html>`_
 
@@ -72,5 +72,5 @@ Syntax
 
     begin_contour() -> None
 
-Updated on March 04, 2021 19:43:58pm UTC
+Updated on April 25, 2021 23:58:30pm UTC
 

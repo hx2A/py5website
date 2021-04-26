@@ -1,6 +1,6 @@
 .. title: bezier()
 .. slug: bezier
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -75,7 +75,7 @@ Examples
 Description
 ===========
 
-Draws a Bezier curve on the screen. These curves are defined by a series of anchor and control points. The first two parameters specify the first anchor point and the last two parameters specify the other anchor point. The middle parameters specify the control points which define the shape of the curve. Bezier curves were developed by French engineer Pierre Bezier. Using the 3D version requires rendering with ``P3D`` (see the Environment reference for more information).
+Draws a Bezier curve on the screen. These curves are defined by a series of anchor and control points. The first two parameters specify the first anchor point and the last two parameters specify the other anchor point. The middle parameters specify the control points which define the shape of the curve. Bezier curves were developed by French engineer Pierre Bezier. Using the 3D version requires rendering with ``P3D``.
 
 Underlying Java method: `bezier <https://processing.org/reference/bezier_.html>`_
 
@@ -104,5 +104,5 @@ Parameters
 * **z4**: `float` - coordinates for the second anchor point
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on April 25, 2021 23:58:30pm UTC
 

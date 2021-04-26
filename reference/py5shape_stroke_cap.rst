@@ -1,18 +1,65 @@
 .. title: stroke_cap()
 .. slug: py5shape_stroke_cap
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 stroke_cap() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets the style for rendering line endings in a ``Py5Shape`` object.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_stroke_cap_0.png
+    :alt: example picture for stroke_cap()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def make_line(cap):
+        s = py5.create_shape()
+        s.begin_shape()
+        s.stroke_weight(12.0)
+        s.stroke_cap(cap)
+        s.vertex(20, 0)
+        s.vertex(80, 0)
+        s.end_shape()
+        return s
+
+
+    def setup():
+        py5.shape(make_line(py5.ROUND), 0, 30)
+        py5.shape(make_line(py5.SQUARE), 0, 50)
+        py5.shape(make_line(py5.PROJECT), 0, 70)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets the style for rendering line endings in a ``Py5Shape`` object. These ends are either squared, extended, or rounded, each of which specified with the corresponding parameters: ``SQUARE``, ``PROJECT``, and ``ROUND``. The default cap is ``ROUND``.
+
+This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
 Underlying Java method: PShape.strokeCap
 
@@ -26,8 +73,8 @@ Syntax
 Parameters
 ==========
 
-* **cap**: `int` - missing variable description
+* **cap**: `int` - either SQUARE, PROJECT, or ROUND
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 25, 2021 23:58:30pm UTC
 

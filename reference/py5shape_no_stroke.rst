@@ -1,18 +1,60 @@
 .. title: no_stroke()
 .. slug: py5shape_no_stroke
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-26 00:07:32 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 no_stroke() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Disables the ``Py5Shape`` object's stroke (outline).
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_no_stroke_0.png
+    :alt: example picture for no_stroke()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        s = py5.create_shape()
+        s.begin_shape()
+        s.no_stroke()
+        s.vertex(20, 80)
+        s.vertex(50, 20)
+        s.vertex(80, 80)
+        s.end_shape(py5.CLOSE)
+
+        py5.shape(s)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Disables the ``Py5Shape`` object's stroke (outline). If both ``no_stroke()`` and :doc:`py5shape_no_fill` are called, nothing will be drawn to the screen.
+
+This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
 Underlying Java method: PShape.noStroke
 
@@ -23,5 +65,5 @@ Syntax
 
     no_stroke() -> None
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 26, 2021 00:07:32am UTC
 

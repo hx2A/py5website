@@ -1,18 +1,76 @@
 .. title: curve_tightness()
 .. slug: py5shape_curve_tightness
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-26 00:01:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 curve_tightness() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Modifies the quality of a ``Py5Shape`` object's forms created with :doc:`py5shape_curve_vertex`.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_curve_tightness_0.png
+    :alt: example picture for curve_tightness()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def settings():
+        py5.size(100, 100, py5.P2D)
+
+
+    def draw_curves(y, tightness, color):
+        s = py5.create_shape()
+        s.begin_shape()
+        s.no_fill()
+        s.stroke(color)
+        s.curve_tightness(tightness)
+        s.curve_vertex(0, y)
+        s.curve_vertex(10, y-10)
+        s.curve_vertex(20, y)
+        s.curve_vertex(50, y+20)
+        s.curve_vertex(80, y)
+        s.curve_vertex(90, y+10)
+        s.curve_vertex(100, y)
+        s.end_shape()
+        return s
+
+
+    def setup():
+        py5.shape(draw_curves(30, 0, py5.color(255, 0, 0)))
+        py5.shape(draw_curves(70, 0.9, py5.color(0, 0, 255)))
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Modifies the quality of a ``Py5Shape`` object's forms created with :doc:`py5shape_curve_vertex`. The parameter ``tightness`` determines how the curve fits to the vertex points. The value 0.0 is the default value for ``tightness`` (this value defines the curves to be Catmull-Rom splines) and the value 1.0 connects all the points with straight lines. Values within the range -5.0 and 5.0 will deform the curves but will leave them recognizable and as values increase in magnitude, they will continue to deform.
+
+Drawing 2D curves requires using the ``P2D`` renderer and drawing 3D curves requires using the ``P3D`` renderer. When drawing directly with ``Py5Shape`` objects, curves do not work at all using the default renderer.
+
+This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
 Underlying Java method: PShape.curveTightness
 
@@ -26,8 +84,8 @@ Syntax
 Parameters
 ==========
 
-* **tightness**: `float` - missing variable description
+* **tightness**: `float` - amount of deformation from the original vertices
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 26, 2021 00:01:30am UTC
 

@@ -1,18 +1,64 @@
 .. title: stroke_weight()
 .. slug: py5shape_stroke_weight
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 stroke_weight() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets the width of the stroke used for lines, and points in a ``Py5Shape`` object.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_stroke_weight_0.png
+    :alt: example picture for stroke_weight()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def make_line(weight):
+        s = py5.create_shape()
+        s.begin_shape()
+        s.stroke_weight(weight)
+        s.vertex(20, 0)
+        s.vertex(80, 0)
+        s.end_shape()
+        return s
+
+
+    def setup():
+        py5.shape(make_line(1), 0, 20) # default
+        py5.shape(make_line(4), 0, 40)
+        py5.shape(make_line(10), 0, 70)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets the width of the stroke used for lines, and points in a ``Py5Shape`` object. All widths are set in units of pixels.
+
+This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
 Underlying Java method: PShape.strokeWeight
 
@@ -26,8 +72,8 @@ Syntax
 Parameters
 ==========
 
-* **weight**: `float` - missing variable description
+* **weight**: `float` - the weight (in pixels) of the stroke
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 25, 2021 23:58:30pm UTC
 

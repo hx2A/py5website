@@ -1,18 +1,66 @@
 .. title: fill()
 .. slug: py5shape_fill
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 fill() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets the color used to fill the ``Py5Shape`` object.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_fill_0.png
+    :alt: example picture for fill()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        s = py5.create_shape()
+        s.begin_shape()
+        s.fill(230, 230, 25)
+        s.vertex(20, 80)
+        s.vertex(50, 20)
+        s.vertex(80, 80)
+        s.end_shape(py5.CLOSE)
+
+        py5.shape(s)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets the color used to fill the ``Py5Shape`` object. For example, if you run ``fill(204, 102, 0)``, the shape will be filled with orange. This color is either specified in terms of the ``RGB`` or ``HSB`` color depending on the current :doc:`color_mode`. The default color space is ``RGB``, with each value in the range from 0 to 255.
+
+This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
+
+When using hexadecimal notation to specify a color, use "``0x``" before the values (e.g., ``0xFFCCFFAA``). The hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components.
+
+The value for the "gray" parameter must be less than or equal to the current maximum value as specified by :doc:`color_mode`. The default maximum value is 255.
+
+To change the color of a ``Py5Shape`` object's image or a texture, use :doc:`py5shape_tint`.
 
 Underlying Java method: PShape.fill
 
@@ -31,14 +79,14 @@ Syntax
 Parameters
 ==========
 
-* **a**: `float` - missing variable description
-* **alpha**: `float` - missing variable description
-* **gray**: `float` - missing variable description
-* **rgb**: `int` - missing variable description
-* **x**: `float` - missing variable description
-* **y**: `float` - missing variable description
-* **z**: `float` - missing variable description
+* **a**: `float` - opacity of the fill
+* **alpha**: `float` - opacity of the fill
+* **gray**: `float` - number specifying value between white and black
+* **rgb**: `int` - color variable or hex value
+* **x**: `float` - red or hue value (depending on current color mode)
+* **y**: `float` - green or saturation value (depending on current color mode)
+* **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 25, 2021 23:58:30pm UTC
 

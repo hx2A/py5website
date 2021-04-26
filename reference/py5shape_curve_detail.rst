@@ -1,18 +1,76 @@
 .. title: curve_detail()
 .. slug: py5shape_curve_detail
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-25 23:58:30 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 curve_detail() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets the resolution at which a ``Py5Shape`` object's curves display.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_curve_detail_0.png
+    :alt: example picture for curve_detail()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def settings():
+        py5.size(100, 100, py5.P2D)
+
+
+    def draw_curves(y, detail, color):
+        s = py5.create_shape()
+        s.begin_shape()
+        s.no_fill()
+        s.stroke(color)
+        s.curve_detail(detail)
+        s.curve_vertex(0, y)
+        s.curve_vertex(10, y-10)
+        s.curve_vertex(20, y)
+        s.curve_vertex(50, y+20)
+        s.curve_vertex(80, y)
+        s.curve_vertex(90, y+10)
+        s.curve_vertex(100, y)
+        s.end_shape()
+        return s
+
+
+    def setup():
+        py5.shape(draw_curves(30, 2, py5.color(255, 0, 0)))
+        py5.shape(draw_curves(70, 20, py5.color(0, 0, 255)))
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets the resolution at which a ``Py5Shape`` object's curves display. The default value is 20.
+
+Drawing 2D curves requires using the ``P2D`` renderer and drawing 3D curves requires using the ``P3D`` renderer. When drawing directly with ``Py5Shape`` objects, curves do not work at all using the default renderer.
+
+This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
 Underlying Java method: PShape.curveDetail
 
@@ -26,8 +84,8 @@ Syntax
 Parameters
 ==========
 
-* **detail**: `int` - missing variable description
+* **detail**: `int` - resolution of the curves
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 25, 2021 23:58:30pm UTC
 
