@@ -55,7 +55,7 @@
 * `no_fill() <../py5shape_no_fill/>`_: Disables the ``Py5Shape`` object's filling geometry.
 * `no_stroke() <../py5shape_no_stroke/>`_: Disables the ``Py5Shape`` object's stroke (outline).
 * `no_tint() <../py5shape_no_tint/>`_: Stop applying a color tint to a shape's texture map.
-* `normal() <../py5shape_normal/>`_: The documentation for this field or method has not yet been written.
+* `normal() <../py5shape_normal/>`_: Sets the current normal vector for a ``Py5Shape`` object's vertices.
 * `quadratic_vertex() <../py5shape_quadratic_vertex/>`_: Specifies a ``Py5Shape`` object's vertex coordinates for quadratic Bezier curves.
 * `remove_child() <../py5shape_remove_child/>`_: Removes a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `reset_matrix() <../py5shape_reset_matrix/>`_: Replaces the current matrix of a shape with the identity matrix.

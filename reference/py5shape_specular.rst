@@ -1,6 +1,6 @@
 .. title: specular()
 .. slug: py5shape_specular
-.. date: 2021-04-26 15:39:03 UTC+00:00
+.. date: 2021-04-26 16:21:41 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -35,13 +35,13 @@ Examples
         s.begin_shape(py5.TRIANGLE_STRIP)
         s.fill(0, 51, 102)
         s.specular(r, g, b)
-        s.vertex(30, 40, -25)
-        s.vertex(40, 0, -10)
+        s.vertex(10, 40, -25)
+        s.vertex(20, 0, -10)
+        s.vertex(30, 40, 0)
+        s.vertex(40, 0, 5)
         s.vertex(50, 40, 0)
-        s.vertex(60, 0, 5)
-        s.vertex(70, 40, 0)
-        s.vertex(80, 0, -10)
-        s.vertex(90, 40, -25)
+        s.vertex(60, 0, -10)
+        s.vertex(70, 40, -25)
         s.end_shape()
         return s
 
@@ -93,5 +93,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 26, 2021 15:39:03pm UTC
+Updated on April 26, 2021 16:21:41pm UTC
 
