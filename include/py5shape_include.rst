@@ -1,5 +1,5 @@
 * `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` object to a parent ``Py5Shape`` object that is defined as a ``GROUP``.
-* `ambient() <../py5shape_ambient/>`_: The documentation for this field or method has not yet been written.
+* `ambient() <../py5shape_ambient/>`_: Sets a ``Py5Shape`` object's ambient reflectance.
 * `apply_matrix() <../py5shape_apply_matrix/>`_: Apply a transformation matrix to a ``Py5Shape`` object.
 * `begin_contour() <../py5shape_begin_contour/>`_: Use the ``begin_contour()`` and :doc:`py5shape_end_contour` methods to create negative shapes within a ``Py5Shape`` object such as the center of the letter 'O'.
 * `begin_shape() <../py5shape_begin_shape/>`_: This method is used to start a custom shape created with the :doc:`create_shape` function.
@@ -10,7 +10,7 @@
 * `curve_tightness() <../py5shape_curve_tightness/>`_: Modifies the quality of a ``Py5Shape`` object's forms created with :doc:`py5shape_curve_vertex`.
 * `curve_vertex() <../py5shape_curve_vertex/>`_: Specifies a ``Py5Shape`` object's vertex coordinates for curves.
 * `disable_style() <../py5shape_disable_style/>`_: Disables the shape's style data and uses py5's current styles.
-* `emissive() <../py5shape_emissive/>`_: The documentation for this field or method has not yet been written.
+* `emissive() <../py5shape_emissive/>`_: Sets the emissive color of a ``Py5Shape`` object's material.
 * `enable_style() <../py5shape_enable_style/>`_: Enables the shape's style data and ignores py5's current styles.
 * `end_contour() <../py5shape_end_contour/>`_: Use the :doc:`py5shape_begin_contour` and ``end_contour()`` methods to create negative shapes within a ``Py5Shape`` object such as the center of the letter 'O'.
 * `end_shape() <../py5shape_end_shape/>`_: This method is used to complete a custom shape created with the :doc:`create_shape` function.
@@ -82,8 +82,8 @@
 * `set_tint() <../py5shape_set_tint/>`_: Apply a color tint to a shape's texture map.
 * `set_vertex() <../py5shape_set_vertex/>`_: The ``set_vertex()`` method defines the coordinates of the vertex point located at the position defined by the ``index`` parameter.
 * `set_visible() <../py5shape_set_visible/>`_: Sets the shape to be visible or invisible.
-* `shininess() <../py5shape_shininess/>`_: The documentation for this field or method has not yet been written.
-* `specular() <../py5shape_specular/>`_: The documentation for this field or method has not yet been written.
+* `shininess() <../py5shape_shininess/>`_: Sets the amount of gloss in the surface of a ``Py5Shape`` object.
+* `specular() <../py5shape_specular/>`_: Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight.
 * `stroke() <../py5shape_stroke/>`_: Sets the color used to draw the ``Py5Shape`` object's lines.
 * `stroke_cap() <../py5shape_stroke_cap/>`_: Sets the style for rendering line endings in a ``Py5Shape`` object.
 * `stroke_join() <../py5shape_stroke_join/>`_: Sets the style of the joints which connect line segments in a ``Py5Shape`` object.

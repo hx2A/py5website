@@ -1,6 +1,6 @@
 .. title: ambient()
 .. slug: ambient
-.. date: 2021-03-04 19:43:58 UTC+00:00
+.. date: 2021-04-26 15:32:02 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,7 +54,7 @@ Examples
 Description
 ===========
 
-Sets the ambient reflectance for shapes drawn to the screen. This is combined with the ambient light component of environment. The color components set through the parameters define the reflectance. For example in the default color mode, setting ``ambient(255, 127, 0)``, would cause all the red light to reflect and half of the green light to reflect. Used in combination with :doc:`emissive`, :doc:`specular`, and :doc:`shininess` in setting the material properties of shapes.
+Sets the ambient reflectance for shapes drawn to the screen. This is combined with the ambient light component of the environment. The color components set through the parameters define the reflectance. For example in the default color mode, setting ``ambient(255, 127, 0)``, would cause all the red light to reflect and half of the green light to reflect. Used in combination with :doc:`emissive`, :doc:`specular`, and :doc:`shininess` in setting the material properties of shapes.
 
 Underlying Java method: `ambient <https://processing.org/reference/ambient_.html>`_
 
@@ -77,5 +77,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on March 04, 2021 19:43:58pm UTC
+Updated on April 26, 2021 15:32:02pm UTC
 
