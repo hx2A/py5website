@@ -1,10 +1,6 @@
 * `add_child() <../py5shape_add_child/>`_: Adds a child ``Py5Shape`` object to a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `ambient() <../py5shape_ambient/>`_: The documentation for this field or method has not yet been written.
 * `apply_matrix() <../py5shape_apply_matrix/>`_: Apply a transformation matrix to a ``Py5Shape`` object.
-* `attrib() <../py5shape_attrib/>`_: The documentation for this field or method has not yet been written.
-* `attrib_color() <../py5shape_attrib_color/>`_: The documentation for this field or method has not yet been written.
-* `attrib_normal() <../py5shape_attrib_normal/>`_: The documentation for this field or method has not yet been written.
-* `attrib_position() <../py5shape_attrib_position/>`_: The documentation for this field or method has not yet been written.
 * `begin_contour() <../py5shape_begin_contour/>`_: Use the ``begin_contour()`` and :doc:`py5shape_end_contour` methods to create negative shapes within a ``Py5Shape`` object such as the center of the letter 'O'.
 * `begin_shape() <../py5shape_begin_shape/>`_: This method is used to start a custom shape created with the :doc:`create_shape` function.
 * `bezier_detail() <../py5shape_bezier_detail/>`_: Sets a ``Py5Shape`` object's resolution at which Beziers display.
@@ -36,14 +32,11 @@
 * `get_normal_x() <../py5shape_get_normal_x/>`_: The documentation for this field or method has not yet been written.
 * `get_normal_y() <../py5shape_get_normal_y/>`_: The documentation for this field or method has not yet been written.
 * `get_normal_z() <../py5shape_get_normal_z/>`_: The documentation for this field or method has not yet been written.
-* `get_param() <../py5shape_get_param/>`_: The documentation for this field or method has not yet been written.
-* `get_params() <../py5shape_get_params/>`_: The documentation for this field or method has not yet been written.
 * `get_parent() <../py5shape_get_parent/>`_: Locate a child ``Py5Shape`` object's parent ``GROUP`` ``Py5Shape`` object.
 * `get_shininess() <../py5shape_get_shininess/>`_: The documentation for this field or method has not yet been written.
 * `get_specular() <../py5shape_get_specular/>`_: The documentation for this field or method has not yet been written.
 * `get_stroke() <../py5shape_get_stroke/>`_: The documentation for this field or method has not yet been written.
 * `get_stroke_weight() <../py5shape_get_stroke_weight/>`_: The documentation for this field or method has not yet been written.
-* `get_tessellation() <../py5shape_get_tessellation/>`_: The documentation for this field or method has not yet been written.
 * `get_texture_u() <../py5shape_get_texture_u/>`_: Get the horizontal texture mapping coordinate for a particular vertex.
 * `get_texture_v() <../py5shape_get_texture_v/>`_: Get the vertical texture mapping coordinate for a particular vertex.
 * `get_tint() <../py5shape_get_tint/>`_: Get the texture tint color assigned to one vertex in a ``Py5Shape`` object.
@@ -72,7 +65,6 @@
 * `rotate_z() <../py5shape_rotate_z/>`_: Rotates the shape around the z-axis the amount specified by the ``angle`` parameter.
 * `scale() <../py5shape_scale/>`_: Increases or decreases the size of a shape by expanding and contracting vertices.
 * `set_ambient() <../py5shape_set_ambient/>`_: The documentation for this field or method has not yet been written.
-* `set_attrib() <../py5shape_set_attrib/>`_: The documentation for this field or method has not yet been written.
 * `set_emissive() <../py5shape_set_emissive/>`_: The documentation for this field or method has not yet been written.
 * `set_fill() <../py5shape_set_fill/>`_: The ``set_fill()`` method defines the fill color of a ``Py5Shape``.
 * `set_name() <../py5shape_set_name/>`_: Assign a name to a ``Py5Shape`` object.
