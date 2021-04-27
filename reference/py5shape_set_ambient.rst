@@ -1,18 +1,67 @@
 .. title: set_ambient()
 .. slug: py5shape_set_ambient
-.. date: 2021-01-04 00:09:34 UTC+00:00
+.. date: 2021-04-27 15:39:47 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 set_ambient() documentation
 .. type: text
 
-The documentation for this field or method has not yet been written.
+Sets a ``Py5Shape`` object's ambient reflectance.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Shape_set_ambient_0.png
+    :alt: example picture for set_ambient()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def settings():
+        py5.size(100, 100, py5.P3D)
+
+
+    def setup():
+        py5.background(0)
+        py5.directional_light(153, 153, 153, .5, 0, -1)
+        py5.ambient_light(50, 50, 50)
+        py5.no_stroke()
+        s = py5.create_shape(py5.SPHERE, 20)
+
+        s.set_ambient(py5.color(255, 0, 0))
+        py5.shape(s, 50, 25)
+        s.set_ambient(py5.color(255, 255, 0))
+        py5.shape(s, 50, 75)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
 
-The documentation for this field or method has not yet been written. If you know what it does, please help out with a pull request to the relevant file in https://github.com/hx2A/py5generator/tree/master/py5_docs/Reference/api_en/.
+Sets a ``Py5Shape`` object's ambient reflectance. This is combined with the ambient light component of the environment. The color components set through the parameters define the reflectance. For example in the default color mode, calling ``set_ambient(255, 127, 0)``, would cause all the red light to reflect and half of the green light to reflect. Use in combination with :doc:`py5shape_set_emissive`, :doc:`py5shape_set_specular`, and :doc:`py5shape_set_shininess` to set the material properties of a ``Py5Shape`` object.
+
+The ``ambient`` parameter can be applied to the entire ``Py5Shape`` object or to a single vertex.
+
+This method can only be used for a complete ``Py5Shape`` object, and never within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
 Underlying Java method: PShape.setAmbient
 
@@ -27,9 +76,9 @@ Syntax
 Parameters
 ==========
 
-* **ambient**: `int` - missing variable description
-* **index**: `int` - missing variable description
+* **ambient**: `int` - any color value
+* **index**: `int` - vertex index
 
 
-Updated on January 04, 2021 00:09:34am UTC
+Updated on April 27, 2021 15:39:47pm UTC
 

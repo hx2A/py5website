@@ -1,6 +1,6 @@
 .. title: specular()
 .. slug: py5shape_specular
-.. date: 2021-04-26 16:21:41 UTC+00:00
+.. date: 2021-04-27 15:39:47 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,7 +68,7 @@ Examples
 Description
 ===========
 
-Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight. Specular refers to light which bounces off a surface in a preferred direction (rather than bouncing in all directions like a diffuse light). Used in combination with :doc:`py5shape_emissive`, :doc:`py5shape_ambient`, and :doc:`py5shape_shininess` in setting the material properties of a ``Py5Shape`` object.
+Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight. Specular refers to light which bounces off a surface in a preferred direction (rather than bouncing in all directions like a diffuse light). Use in combination with :doc:`py5shape_emissive`, :doc:`py5shape_ambient`, and :doc:`py5shape_shininess` to set the material properties of a ``Py5Shape`` object.
 
 This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair. The specular color setting will be applied to vertices added after the call to this method.
 
@@ -93,5 +93,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 26, 2021 16:21:41pm UTC
+Updated on April 27, 2021 15:39:47pm UTC
 

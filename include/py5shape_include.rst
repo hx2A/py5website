@@ -16,25 +16,25 @@
 * `end_shape() <../py5shape_end_shape/>`_: This method is used to complete a custom shape created with the :doc:`create_shape` function.
 * `fill() <../py5shape_fill/>`_: Sets the color used to fill the ``Py5Shape`` object.
 * `find_child() <../py5shape_find_child/>`_: Find a target ``Py5Shape`` object from anywhere within a ``Py5Shape`` object that is defined as a ``GROUP``.
-* `get_ambient() <../py5shape_get_ambient/>`_: The documentation for this field or method has not yet been written.
+* `get_ambient() <../py5shape_get_ambient/>`_: Get the ambient reflectance setting for one of a ``Py5Shape`` object's vertices.
 * `get_child() <../py5shape_get_child/>`_: Extracts a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `get_child_count() <../py5shape_get_child_count/>`_: Returns the number of children within the ``Py5Shape`` object.
 * `get_child_index() <../py5shape_get_child_index/>`_: Get a child ``Py5Shape`` object's index from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
 * `get_children() <../py5shape_get_children/>`_: Get the children of a ``Py5Shape`` object as a list of ``Py5Shape`` objects.
 * `get_depth() <../py5shape_get_depth/>`_: Get the ``Py5Shape`` object's depth.
-* `get_emissive() <../py5shape_get_emissive/>`_: The documentation for this field or method has not yet been written.
+* `get_emissive() <../py5shape_get_emissive/>`_: Get the emissive color setting for one of a ``Py5Shape`` object's vertices.
 * `get_family() <../py5shape_get_family/>`_: Get the Py5Shape object's "family" number.
 * `get_fill() <../py5shape_get_fill/>`_: The documentation for this field or method has not yet been written.
 * `get_height() <../py5shape_get_height/>`_: Get the ``Py5Shape`` object's height.
 * `get_kind() <../py5shape_get_kind/>`_: Get the Py5Shape object's "kind" number.
 * `get_name() <../py5shape_get_name/>`_: Get the name assigned to a Py5Shape object.
-* `get_normal() <../py5shape_get_normal/>`_: The documentation for this field or method has not yet been written.
-* `get_normal_x() <../py5shape_get_normal_x/>`_: The documentation for this field or method has not yet been written.
-* `get_normal_y() <../py5shape_get_normal_y/>`_: The documentation for this field or method has not yet been written.
-* `get_normal_z() <../py5shape_get_normal_z/>`_: The documentation for this field or method has not yet been written.
+* `get_normal() <../py5shape_get_normal/>`_: Get the normal vector for one of a ``Py5Shape`` object's vertices.
+* `get_normal_x() <../py5shape_get_normal_x/>`_: Get the normal vector's x value for one of a ``Py5Shape`` object's vertices.
+* `get_normal_y() <../py5shape_get_normal_y/>`_: Get the normal vector's y value for one of a ``Py5Shape`` object's vertices.
+* `get_normal_z() <../py5shape_get_normal_z/>`_: Get the normal vector's z value for one of a ``Py5Shape`` object's vertices.
 * `get_parent() <../py5shape_get_parent/>`_: Locate a child ``Py5Shape`` object's parent ``GROUP`` ``Py5Shape`` object.
-* `get_shininess() <../py5shape_get_shininess/>`_: The documentation for this field or method has not yet been written.
-* `get_specular() <../py5shape_get_specular/>`_: The documentation for this field or method has not yet been written.
+* `get_shininess() <../py5shape_get_shininess/>`_: Get the shininess setting for one of a ``Py5Shape`` object's vertices.
+* `get_specular() <../py5shape_get_specular/>`_: Get the specular color setting for one of a ``Py5Shape`` object's vertices.
 * `get_stroke() <../py5shape_get_stroke/>`_: The documentation for this field or method has not yet been written.
 * `get_stroke_weight() <../py5shape_get_stroke_weight/>`_: The documentation for this field or method has not yet been written.
 * `get_texture_u() <../py5shape_get_texture_u/>`_: Get the horizontal texture mapping coordinate for a particular vertex.
@@ -64,14 +64,13 @@
 * `rotate_y() <../py5shape_rotate_y/>`_: Rotates the shape around the y-axis the amount specified by the ``angle`` parameter.
 * `rotate_z() <../py5shape_rotate_z/>`_: Rotates the shape around the z-axis the amount specified by the ``angle`` parameter.
 * `scale() <../py5shape_scale/>`_: Increases or decreases the size of a shape by expanding and contracting vertices.
-* `set_ambient() <../py5shape_set_ambient/>`_: The documentation for this field or method has not yet been written.
-* `set_emissive() <../py5shape_set_emissive/>`_: The documentation for this field or method has not yet been written.
+* `set_ambient() <../py5shape_set_ambient/>`_: Sets a ``Py5Shape`` object's ambient reflectance.
+* `set_emissive() <../py5shape_set_emissive/>`_: Sets a ``Py5Shape`` object's emissive color.
 * `set_fill() <../py5shape_set_fill/>`_: The ``set_fill()`` method defines the fill color of a ``Py5Shape``.
 * `set_name() <../py5shape_set_name/>`_: Assign a name to a ``Py5Shape`` object.
-* `set_normal() <../py5shape_set_normal/>`_: The documentation for this field or method has not yet been written.
 * `set_path() <../py5shape_set_path/>`_: Set many vertex points at the same time, using a numpy array.
-* `set_shininess() <../py5shape_set_shininess/>`_: The documentation for this field or method has not yet been written.
-* `set_specular() <../py5shape_set_specular/>`_: The documentation for this field or method has not yet been written.
+* `set_shininess() <../py5shape_set_shininess/>`_: Sets the amount of gloss a ``Py5Shape`` object's surface has.
+* `set_specular() <../py5shape_set_specular/>`_: Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight.
 * `set_stroke() <../py5shape_set_stroke/>`_: The ``set_stroke()`` method defines the outline color of a ``Py5Shape``.
 * `set_stroke_cap() <../py5shape_set_stroke_cap/>`_: The documentation for this field or method has not yet been written.
 * `set_stroke_join() <../py5shape_set_stroke_join/>`_: The documentation for this field or method has not yet been written.

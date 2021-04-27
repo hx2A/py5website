@@ -1,6 +1,6 @@
 .. title: ambient()
 .. slug: py5shape_ambient
-.. date: 2021-04-26 16:21:41 UTC+00:00
+.. date: 2021-04-27 15:39:47 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,7 +68,7 @@ Examples
 Description
 ===========
 
-Sets a ``Py5Shape`` object's ambient reflectance. This is combined with the ambient light component of the environment. The color components set through the parameters define the reflectance. For example in the default color mode, setting ``ambient(255, 127, 0)``, would cause all the red light to reflect and half of the green light to reflect. Used in combination with :doc:`py5shape_emissive`, :doc:`py5shape_specular`, and :doc:`py5shape_shininess` in setting the material properties of a ``Py5Shape`` object.
+Sets a ``Py5Shape`` object's ambient reflectance. This is combined with the ambient light component of the environment. The color components set through the parameters define the reflectance. For example in the default color mode, setting ``ambient(255, 127, 0)``, would cause all the red light to reflect and half of the green light to reflect. Use in combination with :doc:`py5shape_emissive`, :doc:`py5shape_specular`, and :doc:`py5shape_shininess` to set the material properties of a ``Py5Shape`` object.
 
 This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair. The ambient color setting will be applied to vertices added after the call to this method.
 
@@ -93,5 +93,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 26, 2021 16:21:41pm UTC
+Updated on April 27, 2021 15:39:47pm UTC
 
