@@ -1,6 +1,6 @@
 .. title: point()
 .. slug: point
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-04-28 14:26:43 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -80,7 +80,7 @@ Examples
 Description
 ===========
 
-Draws a point, a coordinate in space at the dimension of one pixel. The first parameter is the horizontal value for the point, the second value is the vertical value for the point, and the optional third value is the depth value. Drawing this shape in 3D with the ``z`` parameter requires the ``P3D`` parameter in combination with :doc:`size` as shown in the above example.
+Draws a point, a coordinate in space at the dimension of one pixel. The first parameter is the horizontal value for the point, the second value is the vertical value for the point, and the optional third value is the depth value. Drawing this shape in 3D with the ``z`` parameter requires the ``P3D`` parameter in combination with :doc:`size` as shown in the second example.
 
 Use :doc:`stroke` to set the color of a ``point()``.
 
@@ -106,5 +106,5 @@ Parameters
 * **z**: `float` - z-coordinate of the point
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on April 28, 2021 14:26:43pm UTC
 

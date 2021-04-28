@@ -1,13 +1,13 @@
 .. title: stroke_weight()
 .. slug: py5shape_stroke_weight
-.. date: 2021-04-25 23:58:30 UTC+00:00
+.. date: 2021-04-28 14:26:43 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 stroke_weight() documentation
 .. type: text
 
-Sets the width of the stroke used for lines, and points in a ``Py5Shape`` object.
+Sets the width of the stroke used for lines and points in a ``Py5Shape`` object.
 
 Examples
 ========
@@ -56,7 +56,7 @@ Examples
 Description
 ===========
 
-Sets the width of the stroke used for lines, and points in a ``Py5Shape`` object. All widths are set in units of pixels.
+Sets the width of the stroke used for lines and points in a ``Py5Shape`` object. All widths are set in units of pixels.
 
 This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5shape_end_shape` pair.
 
@@ -75,5 +75,5 @@ Parameters
 * **weight**: `float` - the weight (in pixels) of the stroke
 
 
-Updated on April 25, 2021 23:58:30pm UTC
+Updated on April 28, 2021 14:26:43pm UTC
 

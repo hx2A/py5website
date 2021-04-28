@@ -24,7 +24,7 @@
 * `get_depth() <../py5shape_get_depth/>`_: Get the ``Py5Shape`` object's depth.
 * `get_emissive() <../py5shape_get_emissive/>`_: Get the emissive color setting for one of a ``Py5Shape`` object's vertices.
 * `get_family() <../py5shape_get_family/>`_: Get the Py5Shape object's "family" number.
-* `get_fill() <../py5shape_get_fill/>`_: The documentation for this field or method has not yet been written.
+* `get_fill() <../py5shape_get_fill/>`_: Gets the fill color used for a ``Py5Shape`` object.
 * `get_height() <../py5shape_get_height/>`_: Get the ``Py5Shape`` object's height.
 * `get_kind() <../py5shape_get_kind/>`_: Get the Py5Shape object's "kind" number.
 * `get_name() <../py5shape_get_name/>`_: Get the name assigned to a Py5Shape object.
@@ -35,8 +35,8 @@
 * `get_parent() <../py5shape_get_parent/>`_: Locate a child ``Py5Shape`` object's parent ``GROUP`` ``Py5Shape`` object.
 * `get_shininess() <../py5shape_get_shininess/>`_: Get the shininess setting for one of a ``Py5Shape`` object's vertices.
 * `get_specular() <../py5shape_get_specular/>`_: Get the specular color setting for one of a ``Py5Shape`` object's vertices.
-* `get_stroke() <../py5shape_get_stroke/>`_: The documentation for this field or method has not yet been written.
-* `get_stroke_weight() <../py5shape_get_stroke_weight/>`_: The documentation for this field or method has not yet been written.
+* `get_stroke() <../py5shape_get_stroke/>`_: Gets the stroke color used for lines and points in a ``Py5Shape`` object.
+* `get_stroke_weight() <../py5shape_get_stroke_weight/>`_: Gets the width of the stroke used for lines and points in a ``Py5Shape`` object.
 * `get_texture_u() <../py5shape_get_texture_u/>`_: Get the horizontal texture mapping coordinate for a particular vertex.
 * `get_texture_v() <../py5shape_get_texture_v/>`_: Get the vertical texture mapping coordinate for a particular vertex.
 * `get_tint() <../py5shape_get_tint/>`_: Get the texture tint color assigned to one vertex in a ``Py5Shape`` object.
@@ -74,7 +74,7 @@
 * `set_stroke() <../py5shape_set_stroke/>`_: The ``set_stroke()`` method defines the outline color of a ``Py5Shape``.
 * `set_stroke_cap() <../py5shape_set_stroke_cap/>`_: The documentation for this field or method has not yet been written.
 * `set_stroke_join() <../py5shape_set_stroke_join/>`_: The documentation for this field or method has not yet been written.
-* `set_stroke_weight() <../py5shape_set_stroke_weight/>`_: The documentation for this field or method has not yet been written.
+* `set_stroke_weight() <../py5shape_set_stroke_weight/>`_: Sets the width of the stroke used for lines and points in a ``Py5Shape`` object.
 * `set_texture() <../py5shape_set_texture/>`_: Set a ``Py5Shape`` object's texture.
 * `set_texture_mode() <../py5shape_set_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
 * `set_texture_uv() <../py5shape_set_texture_uv/>`_: Set the uv texture mapping coordinates for a given vertex in a ``Py5Shape`` object.
@@ -86,7 +86,7 @@
 * `stroke() <../py5shape_stroke/>`_: Sets the color used to draw the ``Py5Shape`` object's lines.
 * `stroke_cap() <../py5shape_stroke_cap/>`_: Sets the style for rendering line endings in a ``Py5Shape`` object.
 * `stroke_join() <../py5shape_stroke_join/>`_: Sets the style of the joints which connect line segments in a ``Py5Shape`` object.
-* `stroke_weight() <../py5shape_stroke_weight/>`_: Sets the width of the stroke used for lines, and points in a ``Py5Shape`` object.
+* `stroke_weight() <../py5shape_stroke_weight/>`_: Sets the width of the stroke used for lines and points in a ``Py5Shape`` object.
 * `texture() <../py5shape_texture/>`_: Sets a texture to be applied to a ``Py5Shape`` object's vertex points.
 * `texture_mode() <../py5shape_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
 * `tint() <../py5shape_tint/>`_: Apply a color tint to a shape's texture map.

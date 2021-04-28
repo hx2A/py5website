@@ -1,6 +1,6 @@
 .. title: translate()
 .. slug: translate
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-28 14:26:43 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -100,7 +100,7 @@ Examples
 Description
 ===========
 
-Specifies an amount to displace objects within the display window. The ``x`` parameter specifies left/right translation, the ``y`` parameter specifies up/down translation, and the ``z`` parameter specifies translations toward/away from the screen. Using this function with the ``z`` parameter requires using ``P3D`` as a parameter in combination with size as shown in the above example.
+Specifies an amount to displace objects within the display window. The ``x`` parameter specifies left/right translation, the ``y`` parameter specifies up/down translation, and the ``z`` parameter specifies translations toward/away from the screen. Using this function with the ``z`` parameter requires using ``P3D`` as a parameter in combination with size as shown in the second example.
 
 Transformations are cumulative and apply to everything that happens after and subsequent calls to the function accumulates the effect. For example, calling ``translate(50, 0)`` and then ``translate(20, 0)`` is the same as ``translate(70, 0)``. If ``translate()`` is called within ``draw()``, the transformation is reset when the loop begins again. This function can be further controlled by using :doc:`push_matrix` and :doc:`pop_matrix`.
 
@@ -122,5 +122,5 @@ Parameters
 * **z**: `float` - forward/backward translation
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 28, 2021 14:26:43pm UTC
 
