@@ -1,6 +1,6 @@
 .. title: image()
 .. slug: image
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-04-28 15:27:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -82,6 +82,8 @@ The ``image()`` function draws an image to the display window. Images must be in
 
 The ``img`` parameter specifies the image to display and by default the ``a`` and ``b`` parameters define the location of its upper-left corner. The image is displayed at its original size unless the ``c`` and ``d`` parameters specify a different size. The :doc:`image_mode` function can be used to change the way these parameters draw the image.
 
+Use the ``u1``, ``u2``, ``v1``, and ``v2`` parameters to use only a subset of the image. These values are always specified in image space location, regardless of the current :doc:`texture_mode` setting.
+
 The color of an image may be modified with the :doc:`tint` function. This function will maintain transparency for GIF and PNG images.
 
 Underlying Java method: `image <https://processing.org/reference/image_.html>`_
@@ -103,11 +105,11 @@ Parameters
 * **c**: `float` - width to display the image by default
 * **d**: `float` - height to display the image by default
 * **img**: `Py5Image` - the image to display
-* **u1**: `int` - missing variable description
-* **u2**: `int` - missing variable description
-* **v1**: `int` - missing variable description
-* **v2**: `int` - missing variable description
+* **u1**: `int` - x-coordinate of the upper left corner of image subset
+* **u2**: `int` - y-coordinate of the upper left corner of image subset
+* **v1**: `int` - x-coordinate of the lower right corner of image subset
+* **v2**: `int` - y-coordinate of the lower right corner of image subset
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on April 28, 2021 15:27:49pm UTC
 

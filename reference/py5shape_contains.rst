@@ -1,6 +1,6 @@
 .. title: contains()
 .. slug: py5shape_contains
-.. date: 2021-04-19 15:03:32 UTC+00:00
+.. date: 2021-04-28 15:27:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -69,9 +69,9 @@ Syntax
 Parameters
 ==========
 
-* **x**: `float` - x coordinate
-* **y**: `float` - y coordinate
+* **x**: `float` - x-coordinate
+* **y**: `float` - y-coordinate
 
 
-Updated on April 19, 2021 15:03:32pm UTC
+Updated on April 28, 2021 15:27:49pm UTC
 

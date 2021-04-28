@@ -1,6 +1,6 @@
 .. title: copy()
 .. slug: py5image_copy
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-04-28 15:27:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -71,14 +71,14 @@ Parameters
 
 * **dh**: `int` - destination image height
 * **dw**: `int` - destination image width
-* **dx**: `int` - X coordinate of the destination's upper left corner
-* **dy**: `int` - Y coordinate of the destination's upper left corner
+* **dx**: `int` - x-coordinate of the destination's upper left corner
+* **dy**: `int` - y-coordinate of the destination's upper left corner
 * **sh**: `int` - source image height
 * **src**: `Py5Image` - an image variable referring to the source image.
 * **sw**: `int` - source image width
-* **sx**: `int` - X coordinate of the source's upper left corner
-* **sy**: `int` - Y coordinate of the source's upper left corner
+* **sx**: `int` - x-coordinate of the source's upper left corner
+* **sy**: `int` - y-coordinate of the source's upper left corner
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on April 28, 2021 15:27:49pm UTC
 

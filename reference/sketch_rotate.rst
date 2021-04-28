@@ -1,6 +1,6 @@
 .. title: rotate()
 .. slug: rotate
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-28 15:27:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -66,10 +66,10 @@ Parameters
 ==========
 
 * **angle**: `float` - angle of rotation specified in radians
-* **x**: `float` - missing variable description
-* **y**: `float` - missing variable description
-* **z**: `float` - missing variable description
+* **x**: `float` - x-coordinate of vector to rotate around
+* **y**: `float` - y-coordinate of vector to rotate around
+* **z**: `float` - z-coordinate of vector to rotate around
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 28, 2021 15:27:49pm UTC
 

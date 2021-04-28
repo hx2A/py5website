@@ -1,6 +1,6 @@
 .. title: rotate()
 .. slug: py5shape_rotate
-.. date: 2021-03-04 18:02:19 UTC+00:00
+.. date: 2021-04-28 15:27:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -71,10 +71,10 @@ Parameters
 ==========
 
 * **angle**: `float` - angle of rotation specified in radians
-* **v0**: `float` - missing variable description
-* **v1**: `float` - missing variable description
-* **v2**: `float` - missing variable description
+* **v0**: `float` - x-coordinate of vector to rotate around
+* **v1**: `float` - y-coordinate of vector to rotate around
+* **v2**: `float` - z-coordinate of vector to rotate around
 
 
-Updated on March 04, 2021 18:02:19pm UTC
+Updated on April 28, 2021 15:27:49pm UTC
 

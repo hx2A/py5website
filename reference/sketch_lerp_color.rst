@@ -1,6 +1,6 @@
 .. title: lerp_color()
 .. slug: lerp_color
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-28 15:27:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -77,8 +77,8 @@ Parameters
 * **amt**: `float` - between 0.0 and 1.0
 * **c1**: `int` - interpolate from this color
 * **c2**: `int` - interpolate to this color
-* **mode**: `int` - missing variable description
+* **mode**: `int` - either RGB or HSB
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 28, 2021 15:27:49pm UTC
 
