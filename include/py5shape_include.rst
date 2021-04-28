@@ -72,8 +72,8 @@
 * `set_shininess() <../py5shape_set_shininess/>`_: Sets the amount of gloss a ``Py5Shape`` object's surface has.
 * `set_specular() <../py5shape_set_specular/>`_: Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight.
 * `set_stroke() <../py5shape_set_stroke/>`_: The ``set_stroke()`` method defines the outline color of a ``Py5Shape``.
-* `set_stroke_cap() <../py5shape_set_stroke_cap/>`_: The documentation for this field or method has not yet been written.
-* `set_stroke_join() <../py5shape_set_stroke_join/>`_: The documentation for this field or method has not yet been written.
+* `set_stroke_cap() <../py5shape_set_stroke_cap/>`_: Sets the style for rendering line endings in a ``Py5Shape`` object.
+* `set_stroke_join() <../py5shape_set_stroke_join/>`_: Sets the style of the joints which connect line segments in a ``Py5Shape`` object.
 * `set_stroke_weight() <../py5shape_set_stroke_weight/>`_: Sets the width of the stroke used for lines and points in a ``Py5Shape`` object.
 * `set_texture() <../py5shape_set_texture/>`_: Set a ``Py5Shape`` object's texture.
 * `set_texture_mode() <../py5shape_set_texture_mode/>`_: Sets a ``Py5Shape`` object's coordinate space for texture mapping.
