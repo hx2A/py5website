@@ -1,6 +1,6 @@
 .. title: @render_sequence()
 .. slug: render_sequence
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -104,11 +104,11 @@ Parameters
 * **height**: `int` - height of the display window in units of pixels
 * **limit**: `int = 1` - number of frames in the output sequence
 * **renderer**: `str = Sketch.HIDDEN` - rendering engine to use
-* **setup**: `Callable = None` - missing variable description
+* **setup**: `Callable = None` - optional setup function
 * **setup_args**: `Tuple = None` - additional positional arguments to pass to setup function
 * **setup_kwargs**: `Dict = None` - additional keyword arguments to pass to setup function
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

@@ -1,6 +1,6 @@
 .. title: load_image()
 .. slug: load_image
-.. date: 2021-04-12 18:01:27 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -64,9 +64,9 @@ Syntax
 Parameters
 ==========
 
-* **dst**: `Py5Image = None` - missing variable description
+* **dst**: `Py5Image = None` - existing Py5Image object to load image into
 * **image_path**: `Union[str, Path]` - url or file path for image file
 
 
-Updated on April 12, 2021 18:01:27pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

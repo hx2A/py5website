@@ -1,6 +1,6 @@
 .. title: set()
 .. slug: py5shader_set
-.. date: 2021-04-23 20:34:52 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -91,7 +91,7 @@ Syntax
 Parameters
 ==========
 
-* **boolvec**: `JArray(JBoolean)` - missing variable description
+* **boolvec**: `JArray(JBoolean)` - modifies all the components of an array/vector uniform variable
 * **mat**: `NDArray[(2, 3), Float]` - numpy array of values
 * **mat**: `NDArray[(4, 4), Float]` - numpy array of values
 * **name**: `str` - the name of the uniform variable to modify
@@ -115,5 +115,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on April 23, 2021 20:34:52pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

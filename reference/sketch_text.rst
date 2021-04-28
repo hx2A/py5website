@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: text
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -134,7 +134,7 @@ Parameters
 * **num**: `int` - the numeric value to be displayed
 * **start**: `int` - array index at which to start writing characters
 * **stop**: `int` - array index at which to stop writing characters
-* **str**: `str` - missing variable description
+* **str**: `str` - string to be displayed
 * **x1**: `float` - by default, the x-coordinate of text, see rectMode() for more info
 * **x2**: `float` - by default, the width of the text box, see rectMode() for more info
 * **x**: `float` - x-coordinate of text
@@ -144,5 +144,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

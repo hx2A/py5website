@@ -1,6 +1,6 @@
 .. title: get_child_index()
 .. slug: py5shape_get_child_index
-.. date: 2021-04-18 14:51:55 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -66,8 +66,8 @@ Syntax
 Parameters
 ==========
 
-* **who**: `Py5Shape` - missing variable description
+* **who**: `Py5Shape` - Py5Shape object
 
 
-Updated on April 18, 2021 14:51:55pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

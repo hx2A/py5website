@@ -1,6 +1,6 @@
 .. title: color()
 .. slug: color
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -134,9 +134,9 @@ Syntax
 Parameters
 ==========
 
-* **alpha**: `float` - relative to current color range
-* **alpha**: `int` - relative to current color range
-* **falpha**: `float` - missing variable description
+* **alpha**: `float` - alpha value relative to current color range
+* **alpha**: `int` - alpha value relative to current color range
+* **falpha**: `float` - alpha value relative to current color range
 * **fgray**: `float` - number specifying value between white and black
 * **gray**: `int` - number specifying value between white and black
 * **v1**: `float` - red or hue values relative to the current color range
@@ -147,5 +147,5 @@ Parameters
 * **v3**: `int` - blue or brightness values relative to the current color range
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

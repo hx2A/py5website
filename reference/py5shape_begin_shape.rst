@@ -1,6 +1,6 @@
 .. title: begin_shape()
 .. slug: py5shape_begin_shape
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,8 +68,8 @@ Syntax
 Parameters
 ==========
 
-* **kind**: `int` - missing variable description
+* **kind**: `int` - Either POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, or QUAD_STRIP
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

@@ -1,6 +1,6 @@
 .. title: remove_child()
 .. slug: py5shape_remove_child
-.. date: 2021-04-18 14:52:36 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -66,8 +66,8 @@ Syntax
 Parameters
 ==========
 
-* **idx**: `int` - missing variable description
+* **idx**: `int` - index value
 
 
-Updated on April 18, 2021 14:52:36pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

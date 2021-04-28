@@ -1,6 +1,6 @@
 .. title: find_child()
 .. slug: py5shape_find_child
-.. date: 2021-04-18 14:40:54 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,8 +68,8 @@ Syntax
 Parameters
 ==========
 
-* **target**: `str` - missing variable description
+* **target**: `str` - name of child object
 
 
-Updated on April 18, 2021 14:40:54pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 

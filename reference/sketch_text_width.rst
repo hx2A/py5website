@@ -1,6 +1,6 @@
 .. title: text_width()
 .. slug: text_width
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-04-28 15:05:49 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -37,7 +37,7 @@ Examples
         cw = py5.text_width(c)
         py5.text(c, 0, 40)
         py5.line(cw, 0, cw, 50)
-    
+
         s = "Tokyo"
         sw = py5.text_width(s)
         py5.text(s, 0, 85)
@@ -71,11 +71,11 @@ Parameters
 ==========
 
 * **c**: `chr` - the character to measure
-* **chars**: `List[chr]` - missing variable description
-* **length**: `int` - missing variable description
-* **start**: `int` - missing variable description
+* **chars**: `List[chr]` - the character to measure
+* **length**: `int` - number of characters to measure
+* **start**: `int` - first character to measure
 * **str**: `str` - the String of characters to measure
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on April 28, 2021 15:05:49pm UTC
 
