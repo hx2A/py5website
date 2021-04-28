@@ -1,6 +1,6 @@
 .. title: no_tint()
 .. slug: py5shape_no_tint
-.. date: 2021-04-22 15:56:35 UTC+00:00
+.. date: 2021-04-28 14:49:21 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -46,6 +46,8 @@ Examples
         s.vertex(80, 20, 100, 0)
         s.end_shape(py5.CLOSE)
 
+        py5.shape(s)
+
 .. raw:: html
 
     </div></div>
@@ -70,5 +72,5 @@ Syntax
 
     no_tint() -> None
 
-Updated on April 22, 2021 15:56:35pm UTC
+Updated on April 28, 2021 14:49:21pm UTC
 
