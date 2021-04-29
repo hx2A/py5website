@@ -1,6 +1,6 @@
 .. title: render_frame()
 .. slug: render_frame
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-04-29 20:23:09 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -68,6 +68,27 @@ Examples
 
 .. raw:: html
 
+    <div class="example-row"><div class="example-cell-image">
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def random_squares(g: py5.Py5Graphics):
+        for _ in range(10):
+            g.rect(np.random.randint(g.width), np.random.randint(g.height), 10, 10)
+
+    frame = py5.render_frame(random_squares, 100, 100, use_py5graphics=True)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
     </div>
 
 Description
@@ -75,9 +96,11 @@ Description
 
 Helper function to render a single frame using the passed ``draw`` function argument. The output is returned as a ``PIL.Image`` object.
 
-The passed function's first parameter must be a ``py5.Sketch`` object, and that object must be used for all of the function's py5 commands. The function can have additional positional and keyword arguments. To use them, pass the desired values as ``render_frame``'s ``draw_args`` and ``draw_kwargs`` arguments.
+The passed function's first parameter must be either a ``py5.Sketch`` object or a ``py5.Py5Graphics`` object, depending on the parameter ``use_py5graphics``. That object must be used for all of the function's py5 commands. The function can have additional positional and keyword arguments. To use them, pass the desired values as ``render_frame``'s ``draw_args`` and ``draw_kwargs`` arguments.
 
 Currently, only the default and OpenGL renderers are supported.
+
+The rendered frame can have transparent pixels if and only if the ``use_py5graphics`` parameter is ``True`` because only a ``py5.Py5Graphics`` object can create an image with transparency. There is no need to call :doc:`py5graphics_begin_draw` or :doc:`py5graphics_end_draw` in the passed function as ``render_frame()`` does that for you.
 
 This function facilitates the creation and execution of a py5 Sketch, and as a result makes it easy to run a Sketch inside of another Sketch. This is discouraged, and may fail catastrophically.
 
@@ -88,7 +111,7 @@ Syntax
 
 .. code:: python
 
-    render_frame(draw: Callable, width: int, height: int, renderer: str = Sketch.HIDDEN, *, draw_args: Tuple = None, draw_kwargs: Dict = None) -> Image
+    render_frame(draw: Callable, width: int, height: int, renderer: str = Sketch.HIDDEN, *, draw_args: Tuple = None, draw_kwargs: Dict = None, use_py5graphics: bool = False) -> Image
 
 Parameters
 ==========
@@ -98,8 +121,9 @@ Parameters
 * **draw_kwargs**: `Dict = None` - additional keyword arguments to pass to draw function
 * **height**: `int` - height of the display window in units of pixels
 * **renderer**: `str = Sketch.HIDDEN` - rendering engine to use
+* **use_py5graphics**: `bool = False` - pass a py5graphics object instead of a sketch object
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on April 29, 2021 20:23:09pm UTC
 
