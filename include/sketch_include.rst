@@ -23,7 +23,6 @@ Setting
 -------
 
 * `background() <background/>`_
-* `clear() <clear/>`_
 * `color_mode() <color_mode/>`_
 * `fill() <fill/>`_
 * `no_fill() <no_fill/>`_
