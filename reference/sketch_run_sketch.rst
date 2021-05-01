@@ -1,6 +1,6 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-04-11 14:57:18 UTC+00:00
+.. date: 2021-05-01 20:25:15 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -85,12 +85,14 @@ Use the ``block`` parameter to specify if the call to ``run_sketch`` should retu
 
 A list of strings passed to ``py5_options`` will be passed to the Processing PApplet class as arguments to specify characteristics such as the window's location on the screen. A list of strings passed to ``sketch_args`` will be available to a running Sketch using :doc:`args`. See the third example for an example of how this can be used.
 
+When calling ``run_sketch()`` in module mode, py5 will by default search for functions such as ``setup()``,  ``draw()``, etc. in the caller's stack frame and use those in the Sketch. If for some reason that is not what you want or does not work because you are hacking py5 to do something unusual, you can use the ``sketch_functions`` parameter to pass a dictionary of the desired callable functions. The ``sketch_functions`` parameter is not available when coding py5 in class mode. Don't forget you can always replace the ``draw()`` function in a running Sketch using :doc:`hot_reload_draw`.
+
 Syntax
 ======
 
 .. code:: python
 
-    run_sketch(block: bool = None, py5_options: List[str] = None, sketch_args: List[str] = None) -> None
+    run_sketch(block: bool = None, *, py5_options: List[str] = None, sketch_args: List[str] = None, sketch_functions: Dict[str, Callable] = None) -> None
 
 Parameters
 ==========
@@ -98,7 +100,8 @@ Parameters
 * **block**: `bool = None` - method returns immediately (False) or blocks until Sketch exits (True)
 * **py5_options**: `List[str] = None` - command line arguments to pass to Processing as arguments
 * **sketch_args**: `List[str] = None` - command line arguments that become Sketch arguments
+* **sketch_functions**: `Dict[str, Callable] = None` - sketch methods when using module mode
 
 
-Updated on April 11, 2021 14:57:18pm UTC
+Updated on May 01, 2021 20:25:15pm UTC
 
