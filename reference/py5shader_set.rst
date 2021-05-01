@@ -1,10 +1,10 @@
-.. title: set()
+.. title: Py5Shader.set()
 .. slug: py5shader_set
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set() documentation
+.. description: py5 Py5Shader.set() documentation
 .. type: text
 
 Sets the uniform variables inside the shader to modify the effect while the program is running.
@@ -115,5 +115,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: end_contour()
+.. title: Py5Shape.end_contour()
 .. slug: py5shape_end_contour
-.. date: 2021-04-25 23:58:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 end_contour() documentation
+.. description: py5 Py5Shape.end_contour() documentation
 .. type: text
 
 Use the :doc:`py5shape_begin_contour` and ``end_contour()`` methods to create negative shapes within a ``Py5Shape`` object such as the center of the letter 'O'.
@@ -76,5 +76,5 @@ Syntax
 
     end_contour() -> None
 
-Updated on April 25, 2021 23:58:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

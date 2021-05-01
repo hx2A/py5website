@@ -1,10 +1,10 @@
-.. title: get_shape()
+.. title: Py5Font.get_shape()
 .. slug: py5font_get_shape
-.. date: 2021-04-14 18:04:16 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_shape() documentation
+.. description: py5 Py5Font.get_shape() documentation
 .. type: text
 
 Get a single character as a :doc:`py5shape` object.
@@ -84,5 +84,5 @@ Parameters
 * **detail**: `float` - level of shape detail
 
 
-Updated on April 14, 2021 18:04:16pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

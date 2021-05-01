@@ -1,10 +1,10 @@
-.. title: find_child()
+.. title: Py5Shape.find_child()
 .. slug: py5shape_find_child
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 find_child() documentation
+.. description: py5 Py5Shape.find_child() documentation
 .. type: text
 
 Find a target ``Py5Shape`` object from anywhere within a ``Py5Shape`` object that is defined as a ``GROUP``.
@@ -71,5 +71,5 @@ Parameters
 * **target**: `str` - name of child object
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

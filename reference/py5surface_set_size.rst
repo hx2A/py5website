@@ -1,10 +1,10 @@
-.. title: set_size()
+.. title: Py5Surface.set_size()
 .. slug: py5surface_set_size
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_size() documentation
+.. description: py5 Py5Surface.set_size() documentation
 .. type: text
 
 Set a new width and height for the Sketch window.
@@ -67,5 +67,5 @@ Parameters
 * **width**: `int` - new window width
 
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

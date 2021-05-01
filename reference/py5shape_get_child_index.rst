@@ -1,10 +1,10 @@
-.. title: get_child_index()
+.. title: Py5Shape.get_child_index()
 .. slug: py5shape_get_child_index
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_child_index() documentation
+.. description: py5 Py5Shape.get_child_index() documentation
 .. type: text
 
 Get a child ``Py5Shape`` object's index from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
@@ -69,5 +69,5 @@ Parameters
 * **who**: `Py5Shape` - Py5Shape object
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

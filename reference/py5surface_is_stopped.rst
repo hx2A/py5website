@@ -1,10 +1,10 @@
-.. title: is_stopped()
+.. title: Py5Surface.is_stopped()
 .. slug: py5surface_is_stopped
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 is_stopped() documentation
+.. description: py5 Py5Surface.is_stopped() documentation
 .. type: text
 
 Determine if the surface is currently running an animation.
@@ -110,5 +110,5 @@ Syntax
 
     is_stopped() -> bool
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

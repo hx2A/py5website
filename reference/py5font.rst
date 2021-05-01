@@ -1,6 +1,6 @@
 .. title: Py5Font
 .. slug: py5font
-.. date: 2021-04-14 15:10:22 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,5 +56,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5font_include.rst
 
-Updated on April 14, 2021 15:10:22pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

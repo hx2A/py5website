@@ -1,10 +1,10 @@
-.. title: get_vertex_code_count()
+.. title: Py5Shape.get_vertex_code_count()
 .. slug: py5shape_get_vertex_code_count
-.. date: 2021-04-23 20:17:29 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_vertex_code_count() documentation
+.. description: py5 Py5Shape.get_vertex_code_count() documentation
 .. type: text
 
 Get the number of vertex codes within a ``Py5Shape`` object.
@@ -82,5 +82,5 @@ Syntax
 
     get_vertex_code_count() -> int
 
-Updated on April 23, 2021 20:17:29pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

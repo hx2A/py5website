@@ -1,10 +1,10 @@
-.. title: end_shape()
+.. title: Py5Shape.end_shape()
 .. slug: py5shape_end_shape
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 end_shape() documentation
+.. description: py5 Py5Shape.end_shape() documentation
 .. type: text
 
 This method is used to complete a custom shape created with the :doc:`create_shape` function.
@@ -71,5 +71,5 @@ Parameters
 * **mode**: `int` - Either OPEN or CLOSE
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

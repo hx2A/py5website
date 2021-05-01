@@ -1,10 +1,10 @@
-.. title: shininess()
+.. title: Py5Shape.shininess()
 .. slug: py5shape_shininess
-.. date: 2021-04-27 15:39:47 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 shininess() documentation
+.. description: py5 Py5Shape.shininess() documentation
 .. type: text
 
 Sets the amount of gloss in the surface of a ``Py5Shape`` object.
@@ -88,5 +88,5 @@ Parameters
 * **shine**: `float` - degree of shininess
 
 
-Updated on April 27, 2021 15:39:47pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

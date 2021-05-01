@@ -1,10 +1,10 @@
-.. title: get_normal_x()
+.. title: Py5Shape.get_normal_x()
 .. slug: py5shape_get_normal_x
-.. date: 2021-04-27 15:50:18 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_normal_x() documentation
+.. description: py5 Py5Shape.get_normal_x() documentation
 .. type: text
 
 Get the normal vector's x value for one of a ``Py5Shape`` object's vertices.
@@ -76,5 +76,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 27, 2021 15:50:18pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

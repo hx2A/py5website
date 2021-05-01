@@ -1,10 +1,10 @@
-.. title: set_stroke()
+.. title: Py5Shape.set_stroke()
 .. slug: py5shape_set_stroke
-.. date: 2021-04-28 14:26:43 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_stroke() documentation
+.. description: py5 Py5Shape.set_stroke() documentation
 .. type: text
 
 The ``set_stroke()`` method defines the outline color of a ``Py5Shape``.
@@ -75,5 +75,5 @@ Parameters
 * **stroke**: `int` - any color value
 
 
-Updated on April 28, 2021 14:26:43pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

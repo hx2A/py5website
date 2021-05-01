@@ -1,10 +1,10 @@
-.. title: set_stroke_join()
+.. title: Py5Shape.set_stroke_join()
 .. slug: py5shape_set_stroke_join
-.. date: 2021-04-28 14:40:31 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_stroke_join() documentation
+.. description: py5 Py5Shape.set_stroke_join() documentation
 .. type: text
 
 Sets the style of the joints which connect line segments in a ``Py5Shape`` object.
@@ -77,5 +77,5 @@ Parameters
 * **join**: `int` - either MITER, BEVEL, ROUND
 
 
-Updated on April 28, 2021 14:40:31pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

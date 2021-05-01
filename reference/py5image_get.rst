@@ -1,10 +1,10 @@
-.. title: get()
+.. title: Py5Image.get()
 .. slug: py5image_get
-.. date: 2021-03-03 21:17:53 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get() documentation
+.. description: py5 Py5Image.get() documentation
 .. type: text
 
 Reads the color of any pixel or grabs a section of an image.
@@ -99,5 +99,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on March 03, 2021 21:17:53pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

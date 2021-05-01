@@ -1,10 +1,10 @@
-.. title: set_icon()
+.. title: Py5Surface.set_icon()
 .. slug: py5surface_set_icon
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_icon() documentation
+.. description: py5 Py5Surface.set_icon() documentation
 .. type: text
 
 Set the Sketch window icon.
@@ -94,5 +94,5 @@ Parameters
 * **icon**: `Py5Image` - image to use as the window icon
 
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

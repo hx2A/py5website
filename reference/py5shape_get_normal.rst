@@ -1,10 +1,10 @@
-.. title: get_normal()
+.. title: Py5Shape.get_normal()
 .. slug: py5shape_get_normal
-.. date: 2021-04-27 15:39:47 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_normal() documentation
+.. description: py5 Py5Shape.get_normal() documentation
 .. type: text
 
 Get the normal vector for one of a ``Py5Shape`` object's vertices.
@@ -78,5 +78,5 @@ Parameters
 * **vec**: `NDArray[(Any,), Float]` - correctly sized numpy array to store normal vector
 
 
-Updated on April 27, 2021 15:39:47pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

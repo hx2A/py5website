@@ -1,10 +1,10 @@
-.. title: save()
+.. title: Py5Image.save()
 .. slug: py5image_save
-.. date: 2021-04-13 15:04:45 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 save() documentation
+.. description: py5 Py5Image.save() documentation
 .. type: text
 
 Save image data to a file.
@@ -67,5 +67,5 @@ Parameters
 * **use_thread**: `bool = True` - write file in separate thread
 
 
-Updated on April 13, 2021 15:04:45pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

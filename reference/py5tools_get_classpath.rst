@@ -1,10 +1,10 @@
-.. title: get_classpath()
+.. title: py5_tools.get_classpath()
 .. slug: get_classpath
-.. date: 2021-04-07 18:57:16 UTC+00:00
+.. date: 2021-05-01 21:00:05 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_classpath() documentation
+.. description: py5 py5_tools.get_classpath() documentation
 .. type: text
 
 Get the Java classpath.
@@ -56,5 +56,5 @@ Syntax
 
     get_classpath() -> str
 
-Updated on April 07, 2021 18:57:16pm UTC
+Updated on May 01, 2021 21:00:05pm UTC
 

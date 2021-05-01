@@ -1,10 +1,10 @@
-.. title: mask()
+.. title: Py5Image.mask()
 .. slug: py5image_mask
-.. date: 2021-04-23 20:34:52 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 mask() documentation
+.. description: py5 Py5Image.mask() documentation
 .. type: text
 
 Masks part of an image from displaying by loading another image and using it as an alpha channel.
@@ -74,5 +74,5 @@ Parameters
 * **mask_array**: `NDArray[(Any,), Int]` - array of integers used as the alpha channel, needs to be the same length as the image's pixel array.
 
 
-Updated on April 23, 2021 20:34:52pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

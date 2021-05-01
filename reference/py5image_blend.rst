@@ -1,10 +1,10 @@
-.. title: blend()
+.. title: Py5Image.blend()
 .. slug: py5image_blend
-.. date: 2021-04-28 15:27:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 blend() documentation
+.. description: py5 Py5Image.blend() documentation
 .. type: text
 
 Blends a region of pixels into the image specified by the ``img`` parameter.
@@ -169,5 +169,5 @@ Parameters
 * **sy**: `int` - y-coordinate of the source's upper left corner
 
 
-Updated on April 28, 2021 15:27:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

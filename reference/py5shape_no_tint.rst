@@ -1,10 +1,10 @@
-.. title: no_tint()
+.. title: Py5Shape.no_tint()
 .. slug: py5shape_no_tint
-.. date: 2021-04-28 14:49:21 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 no_tint() documentation
+.. description: py5 Py5Shape.no_tint() documentation
 .. type: text
 
 Stop applying a color tint to a shape's texture map.
@@ -72,5 +72,5 @@ Syntax
 
     no_tint() -> None
 
-Updated on April 28, 2021 14:49:21pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

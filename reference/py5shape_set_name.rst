@@ -1,10 +1,10 @@
-.. title: set_name()
+.. title: Py5Shape.set_name()
 .. slug: py5shape_set_name
-.. date: 2021-04-20 16:39:51 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_name() documentation
+.. description: py5 Py5Shape.set_name() documentation
 .. type: text
 
 Assign a name to a ``Py5Shape`` object.
@@ -74,5 +74,5 @@ Parameters
 * **name**: `str` - name to be assigned to shape
 
 
-Updated on April 20, 2021 16:39:51pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

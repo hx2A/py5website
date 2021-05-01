@@ -1,10 +1,10 @@
-.. title: list()
+.. title: Py5Font.list()
 .. slug: py5font_list
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 list() documentation
+.. description: py5 Py5Font.list() documentation
 .. type: text
 
 Gets a list of the fonts installed on the system.
@@ -54,5 +54,5 @@ Syntax
 
     list() -> List[str]
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

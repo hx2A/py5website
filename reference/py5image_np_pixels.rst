@@ -1,10 +1,10 @@
-.. title: np_pixels[]
+.. title: Py5Image.np_pixels[]
 .. slug: py5image_np_pixels
-.. date: 2021-04-01 18:54:31 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 np_pixels[] documentation
+.. description: py5 Py5Image.np_pixels[] documentation
 .. type: text
 
 The ``np_pixels[]`` array contains the values for all the pixels in the image.
@@ -57,5 +57,5 @@ Much like the :doc:`py5image_pixels` array, there are load and update methods th
 To set the entire contents of ``np_pixels[]`` to the contents of another equally sized numpy array, consider using :doc:`py5image_set_np_pixels`.
 
 
-Updated on April 01, 2021 18:54:31pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

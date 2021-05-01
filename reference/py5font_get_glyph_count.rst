@@ -1,10 +1,10 @@
-.. title: get_glyph_count()
+.. title: Py5Font.get_glyph_count()
 .. slug: py5font_get_glyph_count
-.. date: 2021-04-14 18:06:58 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_glyph_count() documentation
+.. description: py5 Py5Font.get_glyph_count() documentation
 .. type: text
 
 Get the number of glyphs contained in the font.
@@ -75,5 +75,5 @@ Syntax
 
     get_glyph_count() -> int
 
-Updated on April 14, 2021 18:06:58pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

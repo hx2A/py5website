@@ -1,10 +1,10 @@
-.. title: get_texture_u()
+.. title: Py5Shape.get_texture_u()
 .. slug: py5shape_get_texture_u
-.. date: 2021-04-22 14:50:01 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_texture_u() documentation
+.. description: py5 Py5Shape.get_texture_u() documentation
 .. type: text
 
 Get the horizontal texture mapping coordinate for a particular vertex.
@@ -80,5 +80,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 22, 2021 14:50:01pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

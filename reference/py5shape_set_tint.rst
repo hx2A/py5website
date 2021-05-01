@@ -1,10 +1,10 @@
-.. title: set_tint()
+.. title: Py5Shape.set_tint()
 .. slug: py5shape_set_tint
-.. date: 2021-04-22 15:56:35 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_tint() documentation
+.. description: py5 Py5Shape.set_tint() documentation
 .. type: text
 
 Apply a color tint to a shape's texture map.
@@ -127,5 +127,5 @@ Parameters
 * **tint**: `int` - color value in hexadecimal notation
 
 
-Updated on April 22, 2021 15:56:35pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: clear()
+.. title: Py5Graphics.clear()
 .. slug: py5graphics_clear
-.. date: 2021-04-29 16:22:16 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 clear() documentation
+.. description: py5 Py5Graphics.clear() documentation
 .. type: text
 
 Clears the pixels within a buffer.
@@ -74,5 +74,5 @@ Syntax
 
     clear() -> None
 
-Updated on April 29, 2021 16:22:16pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

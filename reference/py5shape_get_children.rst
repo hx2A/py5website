@@ -1,10 +1,10 @@
-.. title: get_children()
+.. title: Py5Shape.get_children()
 .. slug: py5shape_get_children
-.. date: 2021-04-18 14:40:54 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_children() documentation
+.. description: py5 Py5Shape.get_children() documentation
 .. type: text
 
 Get the children of a ``Py5Shape`` object as a list of ``Py5Shape`` objects.
@@ -62,5 +62,5 @@ Syntax
 
     get_children() -> List[Py5Shape]
 
-Updated on April 18, 2021 14:40:54pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

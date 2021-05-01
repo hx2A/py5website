@@ -1,10 +1,10 @@
-.. title: apply_matrix()
+.. title: Py5Shape.apply_matrix()
 .. slug: py5shape_apply_matrix
-.. date: 2021-04-24 14:14:41 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 apply_matrix() documentation
+.. description: py5 Py5Shape.apply_matrix() documentation
 .. type: text
 
 Apply a transformation matrix to a ``Py5Shape`` object.
@@ -92,5 +92,5 @@ Parameters
 * **source**: `NDArray[(4, 4), Float]` - 3D transformation matrix
 
 
-Updated on April 24, 2021 14:14:41pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

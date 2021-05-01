@@ -1,10 +1,10 @@
-.. title: is_visible()
+.. title: Py5Shape.is_visible()
 .. slug: py5shape_is_visible
-.. date: 2021-04-18 14:40:54 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 is_visible() documentation
+.. description: py5 Py5Shape.is_visible() documentation
 .. type: text
 
 Returns a boolean value ``True`` if the image is set to be visible, ``False`` if not.
@@ -66,5 +66,5 @@ Syntax
 
     is_visible() -> bool
 
-Updated on April 18, 2021 14:40:54pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: get_ambient()
+.. title: Py5Shape.get_ambient()
 .. slug: py5shape_get_ambient
-.. date: 2021-04-27 15:50:18 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_ambient() documentation
+.. description: py5 Py5Shape.get_ambient() documentation
 .. type: text
 
 Get the ambient reflectance setting for one of a ``Py5Shape`` object's vertices.
@@ -76,5 +76,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 27, 2021 15:50:18pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

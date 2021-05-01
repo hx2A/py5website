@@ -1,10 +1,10 @@
-.. title: quadratic_vertex()
+.. title: Py5Shape.quadratic_vertex()
 .. slug: py5shape_quadratic_vertex
-.. date: 2021-04-25 23:58:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 quadratic_vertex() documentation
+.. description: py5 Py5Shape.quadratic_vertex() documentation
 .. type: text
 
 Specifies a ``Py5Shape`` object's vertex coordinates for quadratic Bezier curves.
@@ -111,5 +111,5 @@ Parameters
 * **z3**: `float` - the z-coordinate of the anchor point
 
 
-Updated on April 25, 2021 23:58:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

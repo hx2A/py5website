@@ -1,10 +1,10 @@
-.. title: set_vertex()
+.. title: Py5Shape.set_vertex()
 .. slug: py5shape_set_vertex
-.. date: 2021-02-25 18:50:59 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_vertex() documentation
+.. description: py5 Py5Shape.set_vertex() documentation
 .. type: text
 
 The ``set_vertex()`` method defines the coordinates of the vertex point located at the position defined by the ``index`` parameter.
@@ -82,5 +82,5 @@ Parameters
 * **z**: `float` - the z value for the vertex
 
 
-Updated on February 25, 2021 18:50:59pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: set_visible()
+.. title: Py5Surface.set_visible()
 .. slug: py5surface_set_visible
-.. date: 2021-03-09 15:28:39 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_visible() documentation
+.. description: py5 Py5Surface.set_visible() documentation
 .. type: text
 
 Set the Sketch window's visiblity.
@@ -103,5 +103,5 @@ Parameters
 * **visible**: `bool` - desired surface visiblity
 
 
-Updated on March 09, 2021 15:28:39pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

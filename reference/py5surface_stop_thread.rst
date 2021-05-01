@@ -1,10 +1,10 @@
-.. title: stop_thread()
+.. title: Py5Surface.stop_thread()
 .. slug: py5surface_stop_thread
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 stop_thread() documentation
+.. description: py5 Py5Surface.stop_thread() documentation
 .. type: text
 
 Stop the animation thread.
@@ -63,5 +63,5 @@ Syntax
 
     stop_thread() -> bool
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

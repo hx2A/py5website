@@ -1,10 +1,10 @@
-.. title: bezier_detail()
+.. title: Py5Shape.bezier_detail()
 .. slug: py5shape_bezier_detail
-.. date: 2021-04-25 23:58:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 bezier_detail() documentation
+.. description: py5 Py5Shape.bezier_detail() documentation
 .. type: text
 
 Sets a ``Py5Shape`` object's resolution at which Beziers display.
@@ -83,5 +83,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on April 25, 2021 23:58:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

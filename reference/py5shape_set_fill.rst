@@ -1,10 +1,10 @@
-.. title: set_fill()
+.. title: Py5Shape.set_fill()
 .. slug: py5shape_set_fill
-.. date: 2021-04-28 14:26:43 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_fill() documentation
+.. description: py5 Py5Shape.set_fill() documentation
 .. type: text
 
 The ``set_fill()`` method defines the fill color of a ``Py5Shape``.
@@ -75,5 +75,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 28, 2021 14:26:43pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

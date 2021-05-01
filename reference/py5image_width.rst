@@ -1,10 +1,10 @@
-.. title: width
+.. title: Py5Image.width
 .. slug: py5image_width
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 width documentation
+.. description: py5 Py5Image.width documentation
 .. type: text
 
 The width of the image in units of pixels.
@@ -51,5 +51,5 @@ The width of the image in units of pixels.
 Underlying Java field: `PImage.width <https://processing.org/reference/PImage_width.html>`_
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: curve_vertex()
+.. title: Py5Shape.curve_vertex()
 .. slug: py5shape_curve_vertex
-.. date: 2021-04-26 00:05:07 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 curve_vertex() documentation
+.. description: py5 Py5Shape.curve_vertex() documentation
 .. type: text
 
 Specifies a ``Py5Shape`` object's vertex coordinates for curves.
@@ -82,5 +82,5 @@ Parameters
 * **z**: `float` - the z-coordinate of the vertex
 
 
-Updated on April 26, 2021 00:05:07am UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

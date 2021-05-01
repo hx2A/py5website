@@ -1,10 +1,10 @@
-.. title: add_classpath()
+.. title: py5_tools.add_classpath()
 .. slug: add_classpath
-.. date: 2021-04-07 18:55:47 UTC+00:00
+.. date: 2021-05-01 21:00:05 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 add_classpath() documentation
+.. description: py5 py5_tools.add_classpath() documentation
 .. type: text
 
 Add a Java jar file to the classpath.
@@ -64,5 +64,5 @@ Parameters
 * **classpath**: `Union[Path, str]` - path to Java jar file
 
 
-Updated on April 07, 2021 18:55:47pm UTC
+Updated on May 01, 2021 21:00:05pm UTC
 

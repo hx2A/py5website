@@ -1,10 +1,10 @@
-.. title: tint()
+.. title: Py5Shape.tint()
 .. slug: py5shape_tint
-.. date: 2021-04-22 15:58:19 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 tint() documentation
+.. description: py5 Py5Shape.tint() documentation
 .. type: text
 
 Apply a color tint to a shape's texture map.
@@ -94,5 +94,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 22, 2021 15:58:19pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: set_path()
+.. title: Py5Shape.set_path()
 .. slug: py5shape_set_path
-.. date: 2021-04-24 14:16:42 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_path() documentation
+.. description: py5 Py5Shape.set_path() documentation
 .. type: text
 
 Set many vertex points at the same time, using a numpy array.
@@ -72,5 +72,5 @@ Parameters
 * **verts**: `NDArray[(Any, Any), Float]` - array of vertex coordinates
 
 
-Updated on April 24, 2021 14:16:42pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

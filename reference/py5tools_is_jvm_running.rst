@@ -1,10 +1,10 @@
-.. title: is_jvm_running()
+.. title: py5_tools.is_jvm_running()
 .. slug: is_jvm_running
-.. date: 2021-04-07 18:55:47 UTC+00:00
+.. date: 2021-05-01 21:00:05 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 is_jvm_running() documentation
+.. description: py5 py5_tools.is_jvm_running() documentation
 .. type: text
 
 Determine if the Java Virtual Machine (JVM) is or is not running.
@@ -57,5 +57,5 @@ Syntax
 
     is_jvm_running() -> bool
 
-Updated on April 07, 2021 18:55:47pm UTC
+Updated on May 01, 2021 21:00:05pm UTC
 

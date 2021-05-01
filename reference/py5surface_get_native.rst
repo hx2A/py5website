@@ -1,10 +1,10 @@
-.. title: get_native()
+.. title: Py5Surface.get_native()
 .. slug: py5surface_get_native
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_native() documentation
+.. description: py5 Py5Surface.get_native() documentation
 .. type: text
 
 Get the Sketch's Java native window object.
@@ -57,5 +57,5 @@ Syntax
 
     get_native() -> Any
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

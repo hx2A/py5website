@@ -1,10 +1,10 @@
-.. title: ascent()
+.. title: Py5Font.ascent()
 .. slug: py5font_ascent
-.. date: 2021-04-14 15:10:22 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 ascent() documentation
+.. description: py5 Py5Font.ascent() documentation
 .. type: text
 
 Get the ascent of this font from the baseline.
@@ -66,5 +66,5 @@ Syntax
 
     ascent() -> float
 
-Updated on April 14, 2021 15:10:22pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

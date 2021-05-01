@@ -1,10 +1,10 @@
-.. title: stroke()
+.. title: Py5Shape.stroke()
 .. slug: py5shape_stroke
-.. date: 2021-04-25 23:58:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 stroke() documentation
+.. description: py5 Py5Shape.stroke() documentation
 .. type: text
 
 Sets the color used to draw the ``Py5Shape`` object's lines.
@@ -87,5 +87,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 25, 2021 23:58:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

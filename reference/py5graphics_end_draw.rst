@@ -1,10 +1,10 @@
-.. title: end_draw()
+.. title: Py5Graphics.end_draw()
 .. slug: py5graphics_end_draw
-.. date: 2021-02-25 16:27:06 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 end_draw() documentation
+.. description: py5 Py5Graphics.end_draw() documentation
 .. type: text
 
 Finalizes the rendering of a Py5Graphics object so that it can be shown on screen.
@@ -66,5 +66,5 @@ Syntax
 
     end_draw() -> None
 
-Updated on February 25, 2021 16:27:06pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

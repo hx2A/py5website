@@ -1,10 +1,10 @@
-.. title: set_location()
+.. title: Py5Surface.set_location()
 .. slug: py5surface_set_location
-.. date: 2021-03-09 15:28:39 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_location() documentation
+.. description: py5 Py5Surface.set_location() documentation
 .. type: text
 
 Set the Sketch's window location.
@@ -94,5 +94,5 @@ Parameters
 * **y**: `int` - y-coordinate for window location
 
 
-Updated on March 09, 2021 15:28:39pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

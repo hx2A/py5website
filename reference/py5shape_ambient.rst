@@ -1,10 +1,10 @@
-.. title: ambient()
+.. title: Py5Shape.ambient()
 .. slug: py5shape_ambient
-.. date: 2021-04-27 15:39:47 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 ambient() documentation
+.. description: py5 Py5Shape.ambient() documentation
 .. type: text
 
 Sets a ``Py5Shape`` object's ambient reflectance.
@@ -93,5 +93,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 27, 2021 15:39:47pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

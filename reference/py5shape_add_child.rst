@@ -1,10 +1,10 @@
-.. title: add_child()
+.. title: Py5Shape.add_child()
 .. slug: py5shape_add_child
-.. date: 2021-04-18 14:50:13 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 add_child() documentation
+.. description: py5 Py5Shape.add_child() documentation
 .. type: text
 
 Adds a child ``Py5Shape`` object to a parent ``Py5Shape`` object that is defined as a ``GROUP``.
@@ -84,5 +84,5 @@ Parameters
 * **who**: `Py5Shape` - any variable of type Py5Shape
 
 
-Updated on April 18, 2021 14:50:13pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

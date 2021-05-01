@@ -1,10 +1,10 @@
-.. title: update_pixels()
+.. title: Py5Image.update_pixels()
 .. slug: py5image_update_pixels
-.. date: 2021-03-03 21:20:51 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 update_pixels() documentation
+.. description: py5 Py5Image.update_pixels() documentation
 .. type: text
 
 Updates the image with the data in its :doc:`py5image_pixels` array.
@@ -77,5 +77,5 @@ Parameters
 * **y**: `int` - y-coordinate of the upper-left corner
 
 
-Updated on March 03, 2021 21:20:51pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

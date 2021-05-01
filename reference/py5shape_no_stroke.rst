@@ -1,10 +1,10 @@
-.. title: no_stroke()
+.. title: Py5Shape.no_stroke()
 .. slug: py5shape_no_stroke
-.. date: 2021-04-26 00:07:32 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 no_stroke() documentation
+.. description: py5 Py5Shape.no_stroke() documentation
 .. type: text
 
 Disables the ``Py5Shape`` object's stroke (outline).
@@ -65,5 +65,5 @@ Syntax
 
     no_stroke() -> None
 
-Updated on April 26, 2021 00:07:32am UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

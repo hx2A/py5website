@@ -1,10 +1,10 @@
-.. title: texture()
+.. title: Py5Shape.texture()
 .. slug: py5shape_texture
-.. date: 2021-04-22 14:50:01 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 texture() documentation
+.. description: py5 Py5Shape.texture() documentation
 .. type: text
 
 Sets a texture to be applied to a ``Py5Shape`` object's vertex points.
@@ -77,5 +77,5 @@ Parameters
 * **tex**: `Py5Image` - reference to a Py5Image object
 
 
-Updated on April 22, 2021 14:50:01pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

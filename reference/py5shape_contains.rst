@@ -1,10 +1,10 @@
-.. title: contains()
+.. title: Py5Shape.contains()
 .. slug: py5shape_contains
-.. date: 2021-04-28 15:27:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 contains() documentation
+.. description: py5 Py5Shape.contains() documentation
 .. type: text
 
 Boolean value reflecting if the given coordinates are or are not contained within the ``Py5Shape`` object.
@@ -73,5 +73,5 @@ Parameters
 * **y**: `float` - y-coordinate
 
 
-Updated on April 28, 2021 15:27:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

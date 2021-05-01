@@ -1,10 +1,10 @@
-.. title: get_vertex_code()
+.. title: Py5Shape.get_vertex_code()
 .. slug: py5shape_get_vertex_code
-.. date: 2021-04-23 20:17:29 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_vertex_code() documentation
+.. description: py5 Py5Shape.get_vertex_code() documentation
 .. type: text
 
 Get the vertex code for a particular vertex code index.
@@ -88,5 +88,5 @@ Parameters
 * **index**: `int` - vertex code index
 
 
-Updated on April 23, 2021 20:17:29pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

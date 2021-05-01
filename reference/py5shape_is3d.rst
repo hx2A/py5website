@@ -1,10 +1,10 @@
-.. title: is3d()
+.. title: Py5Shape.is3d()
 .. slug: py5shape_is3d
-.. date: 2021-04-19 15:09:09 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 is3d() documentation
+.. description: py5 Py5Shape.is3d() documentation
 .. type: text
 
 Boolean value reflecting if the shape is or is not a 3D shape.
@@ -99,5 +99,5 @@ Syntax
 
     is3d() -> bool
 
-Updated on April 19, 2021 15:09:09pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

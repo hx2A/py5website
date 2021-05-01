@@ -1,10 +1,10 @@
-.. title: resume_thread()
+.. title: Py5Surface.resume_thread()
 .. slug: py5surface_resume_thread
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 resume_thread() documentation
+.. description: py5 Py5Surface.resume_thread() documentation
 .. type: text
 
 Resume a paused Sketch.
@@ -65,5 +65,5 @@ Syntax
 
     resume_thread() -> None
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

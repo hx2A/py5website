@@ -1,10 +1,10 @@
-.. title: get_tint()
+.. title: Py5Shape.get_tint()
 .. slug: py5shape_get_tint
-.. date: 2021-04-22 15:56:35 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_tint() documentation
+.. description: py5 Py5Shape.get_tint() documentation
 .. type: text
 
 Get the texture tint color assigned to one vertex in a ``Py5Shape`` object.
@@ -82,5 +82,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 22, 2021 15:56:35pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

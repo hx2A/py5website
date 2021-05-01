@@ -1,10 +1,10 @@
-.. title: pause_thread()
+.. title: Py5Surface.pause_thread()
 .. slug: py5surface_pause_thread
-.. date: 2021-03-07 16:29:38 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 pause_thread() documentation
+.. description: py5 Py5Surface.pause_thread() documentation
 .. type: text
 
 Pause a running Sketch.
@@ -67,5 +67,5 @@ Syntax
 
     pause_thread() -> None
 
-Updated on March 07, 2021 16:29:38pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

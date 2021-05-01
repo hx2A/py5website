@@ -1,10 +1,10 @@
-.. title: is2d()
+.. title: Py5Shape.is2d()
 .. slug: py5shape_is2d
-.. date: 2021-04-19 15:09:09 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 is2d() documentation
+.. description: py5 Py5Shape.is2d() documentation
 .. type: text
 
 Boolean value reflecting if the shape is or is not a 2D shape.
@@ -99,5 +99,5 @@ Syntax
 
     is2d() -> bool
 
-Updated on April 19, 2021 15:09:09pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

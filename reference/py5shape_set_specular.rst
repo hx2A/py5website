@@ -1,10 +1,10 @@
-.. title: set_specular()
+.. title: Py5Shape.set_specular()
 .. slug: py5shape_set_specular
-.. date: 2021-04-27 15:39:47 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_specular() documentation
+.. description: py5 Py5Shape.set_specular() documentation
 .. type: text
 
 Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight.
@@ -80,5 +80,5 @@ Parameters
 * **specular**: `int` - any color value
 
 
-Updated on April 27, 2021 15:39:47pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

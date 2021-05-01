@@ -1,10 +1,10 @@
-.. title: rotate_y()
+.. title: Py5Shape.rotate_y()
 .. slug: py5shape_rotate_y
-.. date: 2021-03-04 18:02:19 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 rotate_y() documentation
+.. description: py5 Py5Shape.rotate_y() documentation
 .. type: text
 
 Rotates the shape around the y-axis the amount specified by the ``angle`` parameter.
@@ -78,5 +78,5 @@ Parameters
 * **angle**: `float` - angle of rotation specified in radians
 
 
-Updated on March 04, 2021 18:02:19pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

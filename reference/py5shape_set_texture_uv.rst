@@ -1,10 +1,10 @@
-.. title: set_texture_uv()
+.. title: Py5Shape.set_texture_uv()
 .. slug: py5shape_set_texture_uv
-.. date: 2021-04-21 16:07:29 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_texture_uv() documentation
+.. description: py5 Py5Shape.set_texture_uv() documentation
 .. type: text
 
 Set the uv texture mapping coordinates for a given vertex in a ``Py5Shape`` object.
@@ -85,5 +85,5 @@ Parameters
 * **v**: `float` - vertical coordinate for the texture mapping
 
 
-Updated on April 21, 2021 16:07:29pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

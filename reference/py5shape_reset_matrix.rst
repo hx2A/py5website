@@ -1,10 +1,10 @@
-.. title: reset_matrix()
+.. title: Py5Shape.reset_matrix()
 .. slug: py5shape_reset_matrix
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 reset_matrix() documentation
+.. description: py5 Py5Shape.reset_matrix() documentation
 .. type: text
 
 Replaces the current matrix of a shape with the identity matrix.
@@ -66,5 +66,5 @@ Syntax
 
     reset_matrix() -> None
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

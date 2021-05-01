@@ -1,10 +1,10 @@
-.. title: add_options()
+.. title: py5_tools.add_options()
 .. slug: add_options
-.. date: 2021-04-07 18:55:47 UTC+00:00
+.. date: 2021-05-01 21:00:05 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 add_options() documentation
+.. description: py5 py5_tools.add_options() documentation
 .. type: text
 
 Provide JVM options to use when the JVM starts.
@@ -59,5 +59,5 @@ Parameters
 * **options**: `List[str]` - list of desired JVM options
 
 
-Updated on April 07, 2021 18:55:47pm UTC
+Updated on May 01, 2021 21:00:05pm UTC
 

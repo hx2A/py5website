@@ -1,10 +1,10 @@
-.. title: get_default_size()
+.. title: Py5Font.get_default_size()
 .. slug: py5font_get_default_size
-.. date: 2021-04-14 15:10:22 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_default_size() documentation
+.. description: py5 Py5Font.get_default_size() documentation
 .. type: text
 
 Get the font's size that will be used when :doc:`text_font` is called.
@@ -61,5 +61,5 @@ Syntax
 
     get_default_size() -> int
 
-Updated on April 14, 2021 15:10:22pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

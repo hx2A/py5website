@@ -1,10 +1,10 @@
-.. title: get_parent()
+.. title: Py5Shape.get_parent()
 .. slug: py5shape_get_parent
-.. date: 2021-04-21 14:25:32 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_parent() documentation
+.. description: py5 Py5Shape.get_parent() documentation
 .. type: text
 
 Locate a child ``Py5Shape`` object's parent ``GROUP`` ``Py5Shape`` object.
@@ -60,5 +60,5 @@ Syntax
 
     get_parent() -> Py5Shape
 
-Updated on April 21, 2021 14:25:32pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

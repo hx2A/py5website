@@ -1,10 +1,10 @@
-.. title: load_np_pixels()
+.. title: Py5Image.load_np_pixels()
 .. slug: py5image_load_np_pixels
-.. date: 2021-04-01 18:50:16 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 load_np_pixels() documentation
+.. description: py5 Py5Image.load_np_pixels() documentation
 .. type: text
 
 Loads the pixel data of the image into the :doc:`py5image_np_pixels` array.
@@ -61,5 +61,5 @@ Syntax
 
     load_np_pixels() -> None
 
-Updated on April 01, 2021 18:50:16pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

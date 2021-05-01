@@ -1,10 +1,10 @@
-.. title: descent()
+.. title: Py5Font.descent()
 .. slug: py5font_descent
-.. date: 2021-04-14 15:10:22 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 descent() documentation
+.. description: py5 Py5Font.descent() documentation
 .. type: text
 
 Get the descent of this font from the baseline.
@@ -66,5 +66,5 @@ Syntax
 
     descent() -> float
 
-Updated on April 14, 2021 15:10:22pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: get_depth()
+.. title: Py5Shape.get_depth()
 .. slug: py5shape_get_depth
-.. date: 2021-04-20 16:36:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_depth() documentation
+.. description: py5 Py5Shape.get_depth() documentation
 .. type: text
 
 Get the ``Py5Shape`` object's depth.
@@ -63,5 +63,5 @@ Syntax
 
     get_depth() -> float
 
-Updated on April 20, 2021 16:36:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: vertex()
+.. title: Py5Shape.vertex()
 .. slug: py5shape_vertex
-.. date: 2021-04-22 14:50:01 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 vertex() documentation
+.. description: py5 Py5Shape.vertex() documentation
 .. type: text
 
 Add a new vertex to a ``Py5Shape`` object.
@@ -151,5 +151,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on April 22, 2021 14:50:01pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

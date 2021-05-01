@@ -1,10 +1,10 @@
-.. title: curve_tightness()
+.. title: Py5Shape.curve_tightness()
 .. slug: py5shape_curve_tightness
-.. date: 2021-04-26 00:01:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 curve_tightness() documentation
+.. description: py5 Py5Shape.curve_tightness() documentation
 .. type: text
 
 Modifies the quality of a ``Py5Shape`` object's forms created with :doc:`py5shape_curve_vertex`.
@@ -87,5 +87,5 @@ Parameters
 * **tightness**: `float` - amount of deformation from the original vertices
 
 
-Updated on April 26, 2021 00:01:30am UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

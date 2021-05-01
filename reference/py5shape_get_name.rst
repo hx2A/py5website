@@ -1,10 +1,10 @@
-.. title: get_name()
+.. title: Py5Shape.get_name()
 .. slug: py5shape_get_name
-.. date: 2021-04-15 21:00:57 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_name() documentation
+.. description: py5 Py5Shape.get_name() documentation
 .. type: text
 
 Get the name assigned to a Py5Shape object.
@@ -62,5 +62,5 @@ Syntax
 
     get_name() -> str
 
-Updated on April 15, 2021 21:00:57pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

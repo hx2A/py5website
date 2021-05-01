@@ -1,10 +1,10 @@
-.. title: get_vertex()
+.. title: Py5Shape.get_vertex()
 .. slug: py5shape_get_vertex
-.. date: 2021-04-23 20:14:43 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_vertex() documentation
+.. description: py5 Py5Shape.get_vertex() documentation
 .. type: text
 
 The ``get_vertex()`` method returns a numpy array with the coordinates of the vertex point located at the position defined by the ``index`` parameter.
@@ -78,5 +78,5 @@ Parameters
 * **vec**: `NDArray[(Any,), Float]` - properly sized numpy array to assign the data to
 
 
-Updated on April 23, 2021 20:14:43pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

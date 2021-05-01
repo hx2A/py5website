@@ -1,10 +1,10 @@
-.. title: scale()
+.. title: Py5Shape.scale()
 .. slug: py5shape_scale
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 scale() documentation
+.. description: py5 Py5Shape.scale() documentation
 .. type: text
 
 Increases or decreases the size of a shape by expanding and contracting vertices.
@@ -76,5 +76,5 @@ Parameters
 * **z**: `float` - percentage to scale the object in the z-axis
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

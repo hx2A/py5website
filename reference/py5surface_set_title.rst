@@ -1,10 +1,10 @@
-.. title: set_title()
+.. title: Py5Surface.set_title()
 .. slug: py5surface_set_title
-.. date: 2021-03-07 16:59:09 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_title() documentation
+.. description: py5 Py5Surface.set_title() documentation
 .. type: text
 
 Set the Sketch window's title.
@@ -61,5 +61,5 @@ Parameters
 * **title**: `str` - new window title
 
 
-Updated on March 07, 2021 16:59:09pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

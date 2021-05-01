@@ -1,10 +1,10 @@
-.. title: add_jars()
+.. title: py5_tools.add_jars()
 .. slug: add_jars
-.. date: 2021-04-07 18:55:47 UTC+00:00
+.. date: 2021-05-01 21:00:05 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 add_jars() documentation
+.. description: py5 py5_tools.add_jars() documentation
 .. type: text
 
 Add all of the Java jar files contained in a directory and its subdirectories to the classpath.
@@ -66,5 +66,5 @@ Parameters
 * **path**: `Union[Path, str]` - path to directory containing jar files
 
 
-Updated on April 07, 2021 18:55:47pm UTC
+Updated on May 01, 2021 21:00:05pm UTC
 

@@ -1,10 +1,10 @@
-.. title: get_vertex_count()
+.. title: Py5Shape.get_vertex_count()
 .. slug: py5shape_get_vertex_count
-.. date: 2021-02-23 16:06:03 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_vertex_count() documentation
+.. description: py5 Py5Shape.get_vertex_count() documentation
 .. type: text
 
 The ``get_vertex_count()`` method returns the number of vertices that make up a ``Py5Shape``.
@@ -70,5 +70,5 @@ Syntax
 
     get_vertex_count() -> int
 
-Updated on February 23, 2021 16:06:03pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

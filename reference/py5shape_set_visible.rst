@@ -1,10 +1,10 @@
-.. title: set_visible()
+.. title: Py5Shape.set_visible()
 .. slug: py5shape_set_visible
-.. date: 2021-03-04 18:12:39 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_visible() documentation
+.. description: py5 Py5Shape.set_visible() documentation
 .. type: text
 
 Sets the shape to be visible or invisible.
@@ -72,5 +72,5 @@ Parameters
 * **visible**: `bool` - ``False`` makes the shape invisible and ``True`` makes it visible
 
 
-Updated on March 04, 2021 18:12:39pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

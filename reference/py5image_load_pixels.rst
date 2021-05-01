@@ -1,10 +1,10 @@
-.. title: load_pixels()
+.. title: Py5Image.load_pixels()
 .. slug: py5image_load_pixels
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 load_pixels() documentation
+.. description: py5 Py5Image.load_pixels() documentation
 .. type: text
 
 Loads the pixel data for the image into its :doc:`py5image_pixels` array.
@@ -67,5 +67,5 @@ Syntax
 
     load_pixels() -> None
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

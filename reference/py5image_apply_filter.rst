@@ -1,10 +1,10 @@
-.. title: apply_filter()
+.. title: Py5Image.apply_filter()
 .. slug: py5image_apply_filter
-.. date: 2021-02-23 15:51:57 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 apply_filter() documentation
+.. description: py5 Py5Image.apply_filter() documentation
 .. type: text
 
 Apply an image filter.
@@ -264,5 +264,5 @@ Parameters
 * **param**: `float` - unique for each filter, see description
 
 
-Updated on February 23, 2021 15:51:57pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: get_fill()
+.. title: Py5Shape.get_fill()
 .. slug: py5shape_get_fill
-.. date: 2021-04-28 14:26:43 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_fill() documentation
+.. description: py5 Py5Shape.get_fill() documentation
 .. type: text
 
 Gets the fill color used for a ``Py5Shape`` object.
@@ -69,5 +69,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 28, 2021 14:26:43pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

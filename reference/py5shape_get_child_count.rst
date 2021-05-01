@@ -1,10 +1,10 @@
-.. title: get_child_count()
+.. title: Py5Shape.get_child_count()
 .. slug: py5shape_get_child_count
-.. date: 2021-04-18 14:40:54 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_child_count() documentation
+.. description: py5 Py5Shape.get_child_count() documentation
 .. type: text
 
 Returns the number of children within the ``Py5Shape`` object.
@@ -54,5 +54,5 @@ Syntax
 
     get_child_count() -> int
 
-Updated on April 18, 2021 14:40:54pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

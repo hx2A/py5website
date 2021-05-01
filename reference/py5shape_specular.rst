@@ -1,10 +1,10 @@
-.. title: specular()
+.. title: Py5Shape.specular()
 .. slug: py5shape_specular
-.. date: 2021-04-27 15:39:47 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 specular() documentation
+.. description: py5 Py5Shape.specular() documentation
 .. type: text
 
 Sets the specular color of a ``Py5Shape`` object's material, which sets the color of highlight.
@@ -93,5 +93,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on April 27, 2021 15:39:47pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

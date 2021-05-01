@@ -1,10 +1,10 @@
-.. title: pixels[]
+.. title: Py5Image.pixels[]
 .. slug: py5image_pixels
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 pixels[] documentation
+.. description: py5 Py5Image.pixels[] documentation
 .. type: text
 
 The pixels[] array contains the values for all the pixels in the image.
@@ -62,5 +62,5 @@ Before accessing this array, the data must loaded with the :doc:`py5image_load_p
 Underlying Java field: `PImage.pixels <https://processing.org/reference/PImage_pixels.html>`_
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

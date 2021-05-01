@@ -1,10 +1,10 @@
-.. title: get_height()
+.. title: Py5Shape.get_height()
 .. slug: py5shape_get_height
-.. date: 2021-04-20 16:36:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_height() documentation
+.. description: py5 Py5Shape.get_height() documentation
 .. type: text
 
 Get the ``Py5Shape`` object's height.
@@ -92,5 +92,5 @@ Syntax
 
     get_height() -> float
 
-Updated on April 20, 2021 16:36:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

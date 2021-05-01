@@ -1,10 +1,10 @@
-.. title: get_vertex_codes()
+.. title: Py5Shape.get_vertex_codes()
 .. slug: py5shape_get_vertex_codes
-.. date: 2021-04-23 20:34:52 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_vertex_codes() documentation
+.. description: py5 Py5Shape.get_vertex_codes() documentation
 .. type: text
 
 Get the vertex codes for a ``Py5Shape`` object.
@@ -82,5 +82,5 @@ Syntax
 
     get_vertex_codes() -> NDArray[(Any,), Int]
 
-Updated on April 23, 2021 20:34:52pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

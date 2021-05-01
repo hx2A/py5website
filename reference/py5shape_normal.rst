@@ -1,10 +1,10 @@
-.. title: normal()
+.. title: Py5Shape.normal()
 .. slug: py5shape_normal
-.. date: 2021-04-26 16:23:42 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 normal() documentation
+.. description: py5 Py5Shape.normal() documentation
 .. type: text
 
 Sets the current normal vector for a ``Py5Shape`` object's vertices.
@@ -95,5 +95,5 @@ Parameters
 * **nz**: `float` - z direction
 
 
-Updated on April 26, 2021 16:23:42pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

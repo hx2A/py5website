@@ -1,10 +1,10 @@
-.. title: is_smooth()
+.. title: Py5Font.is_smooth()
 .. slug: py5font_is_smooth
-.. date: 2021-04-14 15:10:22 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 is_smooth() documentation
+.. description: py5 Py5Font.is_smooth() documentation
 .. type: text
 
 Boolean value reflecting if smoothing (anti-aliasing) was used when the font was created.
@@ -64,5 +64,5 @@ Syntax
 
     is_smooth() -> bool
 
-Updated on April 14, 2021 15:10:22pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

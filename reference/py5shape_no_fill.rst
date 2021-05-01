@@ -1,10 +1,10 @@
-.. title: no_fill()
+.. title: Py5Shape.no_fill()
 .. slug: py5shape_no_fill
-.. date: 2021-04-25 23:58:30 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 no_fill() documentation
+.. description: py5 Py5Shape.no_fill() documentation
 .. type: text
 
 Disables the ``Py5Shape`` object's filling geometry.
@@ -65,5 +65,5 @@ Syntax
 
     no_fill() -> None
 
-Updated on April 25, 2021 23:58:30pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

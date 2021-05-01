@@ -1,10 +1,10 @@
-.. title: begin_shape()
+.. title: Py5Shape.begin_shape()
 .. slug: py5shape_begin_shape
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 begin_shape() documentation
+.. description: py5 Py5Shape.begin_shape() documentation
 .. type: text
 
 This method is used to start a custom shape created with the :doc:`create_shape` function.
@@ -71,5 +71,5 @@ Parameters
 * **kind**: `int` - Either POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS, or QUAD_STRIP
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

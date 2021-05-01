@@ -1,10 +1,10 @@
-.. title: set_np_pixels()
+.. title: Py5Image.set_np_pixels()
 .. slug: py5image_set_np_pixels
-.. date: 2021-04-01 18:50:16 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_np_pixels() documentation
+.. description: py5 Py5Image.set_np_pixels() documentation
 .. type: text
 
 Set the entire contents of :doc:`py5image_np_pixels` to the contents of another properly sized and typed numpy array.
@@ -76,5 +76,5 @@ Parameters
 * **bands**: `str = 'ARGB'` - color channels in the array's third dimension
 
 
-Updated on April 01, 2021 18:50:16pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

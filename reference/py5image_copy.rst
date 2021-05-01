@@ -1,10 +1,10 @@
-.. title: copy()
+.. title: Py5Image.copy()
 .. slug: py5image_copy
-.. date: 2021-04-28 15:27:49 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 copy() documentation
+.. description: py5 Py5Image.copy() documentation
 .. type: text
 
 Copies a region of pixels from one image into another.
@@ -80,5 +80,5 @@ Parameters
 * **sy**: `int` - y-coordinate of the source's upper left corner
 
 
-Updated on April 28, 2021 15:27:49pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

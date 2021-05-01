@@ -1,10 +1,10 @@
-.. title: set_resizable()
+.. title: Py5Surface.set_resizable()
 .. slug: py5surface_set_resizable
-.. date: 2021-03-07 15:23:06 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_resizable() documentation
+.. description: py5 Py5Surface.set_resizable() documentation
 .. type: text
 
 Set the Sketch window as resizable by the user.
@@ -65,5 +65,5 @@ Parameters
 * **resizable**: `bool` - should the Sketch window be resizable
 
 
-Updated on March 07, 2021 15:23:06pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

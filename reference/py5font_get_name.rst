@@ -1,10 +1,10 @@
-.. title: get_name()
+.. title: Py5Font.get_name()
 .. slug: py5font_get_name
-.. date: 2021-04-14 15:10:22 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_name() documentation
+.. description: py5 Py5Font.get_name() documentation
 .. type: text
 
 Get the font's name.
@@ -61,5 +61,5 @@ Syntax
 
     get_name() -> str
 
-Updated on April 14, 2021 15:10:22pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

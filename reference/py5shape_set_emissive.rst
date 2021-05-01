@@ -1,10 +1,10 @@
-.. title: set_emissive()
+.. title: Py5Shape.set_emissive()
 .. slug: py5shape_set_emissive
-.. date: 2021-04-27 15:39:47 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 set_emissive() documentation
+.. description: py5 Py5Shape.set_emissive() documentation
 .. type: text
 
 Sets a ``Py5Shape`` object's emissive color.
@@ -79,5 +79,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on April 27, 2021 15:39:47pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

@@ -1,10 +1,10 @@
-.. title: translate()
+.. title: Py5Shape.translate()
 .. slug: py5shape_translate
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 translate() documentation
+.. description: py5 Py5Shape.translate() documentation
 .. type: text
 
 Specifies an amount to displace the shape.
@@ -74,5 +74,5 @@ Parameters
 * **z**: `float` - forward/back translation
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 

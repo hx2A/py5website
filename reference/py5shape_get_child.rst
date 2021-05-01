@@ -1,10 +1,10 @@
-.. title: get_child()
+.. title: Py5Shape.get_child()
 .. slug: py5shape_get_child
-.. date: 2021-04-18 14:40:54 UTC+00:00
+.. date: 2021-05-01 20:51:42 UTC+00:00
 .. tags:
 .. category:
 .. link:
-.. description: py5 get_child() documentation
+.. description: py5 Py5Shape.get_child() documentation
 .. type: text
 
 Extracts a child ``Py5Shape`` object from a parent ``Py5Shape`` object that is defined as a ``GROUP``.
@@ -72,5 +72,5 @@ Parameters
 * **target**: `str` - the name of the shape to get
 
 
-Updated on April 18, 2021 14:40:54pm UTC
+Updated on May 01, 2021 20:51:42pm UTC
 
