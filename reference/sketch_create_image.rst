@@ -1,6 +1,6 @@
 .. title: create_image()
 .. slug: create_image
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-05-02 21:05:36 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -78,7 +78,7 @@ Examples
 Description
 ===========
 
-Creates a new Py5Image (the datatype for storing images). This provides a fresh buffer of pixels to play with. Set the size of the buffer with the ``w`` and ``h`` parameters. The ``format`` parameter defines how the pixels are stored. See the :doc:`Py5Image` reference for more information.
+Creates a new Py5Image (the datatype for storing images). This provides a fresh buffer of pixels to play with. Set the size of the buffer with the ``w`` and ``h`` parameters. The ``format`` parameter defines how the pixels are stored. See the :doc:`py5image` reference for more information.
  
 Be sure to include all three parameters, specifying only the width and height (but no format) will produce a strange error.
  
@@ -101,5 +101,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on May 02, 2021 21:05:36pm UTC
 

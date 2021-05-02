@@ -1,6 +1,6 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-05-01 20:25:15 UTC+00:00
+.. date: 2021-05-02 21:05:36 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -79,9 +79,9 @@ Examples
 Description
 ===========
 
-Run the Sketch. Code in the ``settings``, ``setup``, and ``draw`` functions will be used to actualize your Sketch.
+Run the Sketch. Code in the ``settings()``, ``setup()``, and ``draw()`` functions will be used to actualize your Sketch.
 
-Use the ``block`` parameter to specify if the call to ``run_sketch`` should return immediately or block until the Sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the Sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
+Use the ``block`` parameter to specify if the call to ``run_sketch()`` should return immediately or block until the Sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the Sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
 
 A list of strings passed to ``py5_options`` will be passed to the Processing PApplet class as arguments to specify characteristics such as the window's location on the screen. A list of strings passed to ``sketch_args`` will be available to a running Sketch using :doc:`args`. See the third example for an example of how this can be used.
 
@@ -103,5 +103,5 @@ Parameters
 * **sketch_functions**: `Dict[str, Callable] = None` - sketch methods when using module mode
 
 
-Updated on May 01, 2021 20:25:15pm UTC
+Updated on May 02, 2021 21:05:36pm UTC
 
