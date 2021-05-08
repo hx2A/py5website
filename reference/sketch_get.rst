@@ -1,13 +1,13 @@
 .. title: get()
 .. slug: get
-.. date: 2021-03-04 20:27:21 UTC+00:00
+.. date: 2021-05-05 16:59:55 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 get() documentation
 .. type: text
 
-Reads the color of any pixel or grabs a section of an image.
+Reads the color of any pixel or grabs a section of the drawing surface.
 
 Examples
 ========
@@ -73,7 +73,7 @@ Examples
 Description
 ===========
 
-Reads the color of any pixel or grabs a section of an image. If no parameters are specified, the entire image is returned. Use the ``x`` and ``y`` parameters to get the value of one pixel. Get a section of the display window by specifying additional ``w`` and ``h`` parameters. When getting an image, the ``x`` and ``y`` parameters define the coordinates for the upper-left corner of the image, regardless of the current :doc:`image_mode`.
+Reads the color of any pixel or grabs a section of the drawing surface. If no parameters are specified, the entire drawing surface is returned. Use the ``x`` and ``y`` parameters to get the value of one pixel. Get a section of the display window by specifying additional ``w`` and ``h`` parameters. When getting an image, the ``x`` and ``y`` parameters define the coordinates for the upper-left corner of the returned image, regardless of the current :doc:`image_mode`.
 
 If the pixel requested is outside of the image window, black is returned. The numbers returned are scaled according to the current color ranges, but only ``RGB`` values are returned by this function. For example, even though you may have drawn a shape with ``color_mode(HSB)``, the numbers returned will be in ``RGB`` format.
 
@@ -101,5 +101,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on March 04, 2021 20:27:21pm UTC
+Updated on May 05, 2021 16:59:55pm UTC
 

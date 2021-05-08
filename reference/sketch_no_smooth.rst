@@ -1,6 +1,6 @@
 .. title: no_smooth()
 .. slug: no_smooth
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-05-06 16:39:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,7 +52,7 @@ Examples
 Description
 ===========
 
-Draws all geometry and fonts with jagged (aliased) edges and images with hard edges between the pixels when enlarged rather than interpolating pixels.  Note that :doc:`smooth` is active by default, so it is necessary to call ``no_smooth()`` to disable smoothing of geometry, fonts, and images. The ``no_smooth()`` function can only be run once for each Sketch and must be called in ``settings()``.
+Draws all geometry and fonts with jagged (aliased) edges and images with hard edges between the pixels when enlarged rather than interpolating pixels.  Note that :doc:`smooth` is active by default, so it is necessary to call ``no_smooth()`` to disable smoothing of geometry, fonts, and images. The ``no_smooth()`` method can only be run once for each Sketch and must be called in ``settings()``.
 
 Underlying Java method: `noSmooth <https://processing.org/reference/noSmooth_.html>`_
 
@@ -63,5 +63,5 @@ Syntax
 
     no_smooth() -> None
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on May 06, 2021 16:39:27pm UTC
 

@@ -1,6 +1,6 @@
 .. title: image_mode()
 .. slug: image_mode
-.. date: 2021-03-04 20:16:29 UTC+00:00
+.. date: 2021-05-06 16:39:27 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -108,7 +108,7 @@ Modifies the location from which images are drawn by changing the way in which p
 
 The default mode is ``image_mode(CORNER)``, which interprets the second and third parameters of :doc:`image` as the upper-left corner of the image. If two additional parameters are specified, they are used to set the image's width and height.
 
-``image_mode(CORNERS)`` interprets the second and third parameters of :doc:`image` as the  location of one corner, and the fourth and fifth parameters as the opposite corner.
+``image_mode(CORNERS)`` interprets the second and third parameters of :doc:`image` as the location of one corner, and the fourth and fifth parameters as the opposite corner.
 
 ``image_mode(CENTER)`` interprets the second and third parameters of :doc:`image` as the image's center point. If two additional parameters are specified, they are used to set the image's width and height.
 
@@ -129,5 +129,5 @@ Parameters
 * **mode**: `int` - either CORNER, CORNERS, or CENTER
 
 
-Updated on March 04, 2021 20:16:29pm UTC
+Updated on May 06, 2021 16:39:27pm UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Image.get()
 .. slug: py5image_get
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-05-05 16:59:55 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -73,9 +73,9 @@ Examples
 Description
 ===========
 
-Reads the color of any pixel or grabs a section of an image. If no parameters are specified, the entire image is returned. Use the ``x`` and ``y`` parameters to get the value of one pixel. Get a section of the display window by specifying additional ``w`` and ``h`` parameters. When getting an image, the ``x`` and ``y`` parameters define the coordinates for the upper-left corner of the image, regardless of the current :doc:`image_mode`.
+Reads the color of any pixel or grabs a section of an image. If no parameters are specified, the entire image is returned. Use the ``x`` and ``y`` parameters to get the value of one pixel. Get a section of the image by specifying additional ``w`` and ``h`` parameters. When getting an image, the ``x`` and ``y`` parameters define the coordinates for the upper-left corner of the returned image, regardless of the current :doc:`image_mode`.
 
-If the pixel requested is outside of the image window, black is returned. The numbers returned are scaled according to the current color ranges, but only ``RGB`` values are returned by this function. For example, even though you may have drawn a shape with ``color_mode(HSB)``, the numbers returned will be in ``RGB`` format.
+If the pixel requested is outside of the image, black is returned. The numbers returned are scaled according to the current color ranges, but only ``RGB`` values are returned by this function. For example, even though you may have drawn a shape with ``color_mode(HSB)``, the numbers returned will be in ``RGB`` format.
 
 Getting the color of a single pixel with ``get(x, y)`` is easy, but not as fast as grabbing the data directly from :doc:`py5image_pixels`. The equivalent statement to ``get(x, y)`` using :doc:`py5image_pixels` is ``pixels[y*width+x]``. See the reference for :doc:`py5image_pixels` for more information.
 
@@ -99,5 +99,5 @@ Parameters
 * **y**: `int` - y-coordinate of the pixel
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on May 05, 2021 16:59:55pm UTC
 

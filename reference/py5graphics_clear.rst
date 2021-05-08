@@ -1,6 +1,6 @@
 .. title: Py5Graphics.clear()
 .. slug: py5graphics_clear
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-05-05 16:59:55 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -63,7 +63,7 @@ Examples
 Description
 ===========
 
-Clears the pixels within a buffer. This function only works on ``Py5Graphics`` objects created with the :doc:`create_graphics` function. Unlike the main graphics context (the display window), pixels in additional graphics areas created with :doc:`create_graphics` can be entirely or partially transparent. This function clears everything in a ``Py5Graphics`` object to make all of the pixels 100% transparent.
+Clears the pixels within a buffer. Unlike the main graphics context (the display window), pixels in ``Py5Graphics`` objects created with :doc:`create_graphics` can be entirely or partially transparent. This function clears everything in a ``Py5Graphics`` object to make all of the pixels 100% transparent.
 
 Underlying Java method: PGraphics.clear
 
@@ -74,5 +74,5 @@ Syntax
 
     clear() -> None
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on May 05, 2021 16:59:55pm UTC
 
