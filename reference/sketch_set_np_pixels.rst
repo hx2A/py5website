@@ -1,6 +1,6 @@
 .. title: set_np_pixels()
 .. slug: set_np_pixels
-.. date: 2021-04-01 18:50:16 UTC+00:00
+.. date: 2021-05-11 00:43:18 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,7 +54,9 @@ Set the entire contents of :doc:`np_pixels` to the contents of another properly 
 
 The ``bands`` parameter is used to interpret the ``array``'s color channel dimension (the array's third dimension). It can be one of ``'L'`` (single-channel grayscale), ``'ARGB'``, ``'RGB'``, or ``'RGBA'``. If there is no alpha channel, ``array`` is assumed to have no transparency, but recall that the display window's pixels can never be transparent so any transparency in ``array`` will have no effect. If the ``bands`` parameter is ``'L'``, ``array``'s third dimension is optional.
 
-This method makes calls to :doc:`load_np_pixels` and :doc:`update_np_pixels` so there is no need to call either explicitly.
+This method makes its own calls to :doc:`load_np_pixels` and :doc:`update_np_pixels` so there is no need to call either explicitly.
+
+This method exists because setting the array contents with the code ``py5.np_pixels = array`` will cause an error, while the correct syntax, ``py5.np_pixels[:] = array``, might also be unintuitive for beginners.
 
 Syntax
 ======
@@ -70,5 +72,5 @@ Parameters
 * **bands**: `str = 'ARGB'` - color channels in the array's third dimension
 
 
-Updated on April 01, 2021 18:50:16pm UTC
+Updated on May 11, 2021 00:43:18am UTC
 

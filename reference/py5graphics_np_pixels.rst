@@ -1,6 +1,6 @@
 .. title: Py5Graphics.np_pixels[]
 .. slug: py5graphics_np_pixels
-.. date: 2021-05-08 14:06:36 UTC+00:00
+.. date: 2021-05-11 00:43:18 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -8,6 +8,46 @@
 .. type: text
 
 The ``np_pixels[]`` array contains the values for all the pixels in the Py5Graphics drawing surface.
+
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Graphics_np_pixels_0.png
+    :alt: example picture for np_pixels[]
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        g = py5.create_graphics(80, 80)
+        g.begin_draw()
+        g.background(255)
+        g.rect(10, 10, 60, 60)
+        g.load_np_pixels()
+        g.np_pixels[:, 40:, 1:] = [255, 0, 0]
+        g.update_np_pixels()
+        g.end_draw()
+        py5.image(g, 10, 10)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
 
 Description
 ===========
@@ -20,10 +60,12 @@ When the pixel density is set to higher than 1 with the :doc:`py5graphics_pixel_
 
 Much like the :doc:`py5graphics_pixels` array, there are load and update methods that must be called before and after making changes to the data in ``np_pixels[]``. Before accessing ``np_pixels[]``, the data must be loaded with the :doc:`py5graphics_load_np_pixels` method. If this is not done, ``np_pixels`` will be equal to ``None`` and your code will likely result in Python exceptions. After ``np_pixels[]`` has been modified, the :doc:`py5graphics_update_np_pixels` method must be called to update the content of the Py5Graphics drawing surface.
 
+Working with :doc:`py5graphics_np_pixels` can only be done after :doc:`py5graphics_begin_draw` but will still work after :doc:`py5graphics_end_draw`.
+
 To set the entire contents of ``np_pixels[]`` to the contents of another properly sized numpy array, consider using :doc:`py5graphics_set_np_pixels`.
 
-This field is the same as :doc:`np_pixels` but linked to a ``Py5Graphics`` object. To see example code for how it can be used, see :doc:`np_pixels`.
+This field is the same as :doc:`np_pixels` but linked to a ``Py5Graphics`` object.
 
 
-Updated on May 08, 2021 14:06:36pm UTC
+Updated on May 11, 2021 00:43:18am UTC
 

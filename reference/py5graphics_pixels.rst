@@ -1,6 +1,6 @@
 .. title: Py5Graphics.pixels[]
 .. slug: py5graphics_pixels
-.. date: 2021-05-08 14:06:36 UTC+00:00
+.. date: 2021-05-11 00:43:18 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -9,6 +9,50 @@
 
 The ``pixels[]`` array contains the values for all the pixels in the Py5Graphics drawing surface.
 
+Examples
+========
+
+.. raw:: html
+
+    <div class="example-table">
+
+.. raw:: html
+
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Py5Graphics_pixels_0.png
+    :alt: example picture for pixels[]
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        g = py5.create_graphics(60, 60)
+        g.begin_draw()
+        g.background(255, 0, 0)
+        g.rect(10, 10, 40, 40)
+        g.load_pixels()
+        yellow = py5.color(255, 255, 0)
+        for i in range(len(g.pixels) // 2):
+            g.pixels[i] = yellow
+        g.update_pixels()
+        g.end_draw()
+
+        py5.background(240)
+        py5.image(g, 20, 20)
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
+    </div>
+
 Description
 ===========
 
@@ -16,10 +60,10 @@ The ``pixels[]`` array contains the values for all the pixels in the Py5Graphics
 
 Before accessing this array, the data must loaded with the :doc:`py5graphics_load_pixels` function. Failure to do so may result in a Java ``NullPointerException``. Subsequent changes to the Py5Graphics drawing surface will not be reflected in ``pixels`` until :doc:`py5graphics_load_pixels` is called again. After ``pixels`` has been modified, the :doc:`py5graphics_update_pixels` function must be run to update the content of the Py5Graphics drawing surface.
 
-This field is the same as :doc:`pixels` but linked to a ``Py5Graphics`` object. To see example code for how it can be used, see :doc:`pixels`.
+This field is the same as :doc:`pixels` but linked to a ``Py5Graphics`` object.
 
 Underlying Java field: PGraphics.pixels
 
 
-Updated on May 08, 2021 14:06:36pm UTC
+Updated on May 11, 2021 00:43:18am UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Image.set_np_pixels()
 .. slug: py5image_set_np_pixels
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-05-11 00:43:18 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,7 @@ Examples
     import numpy as np
 
     def make_array(value):
-        return np.full((50, 50), value, dtype=np.uint8)
+        return np.full((50, 50, 1), value, dtype=np.uint8)
 
     def setup():
         py5.image_mode(py5.CENTER)
@@ -58,7 +58,9 @@ Set the entire contents of :doc:`py5image_np_pixels` to the contents of another 
 
 The ``bands`` parameter is used to interpret the ``array``'s color channel dimension (the array's third dimension). It can be one of ``'L'`` (single-channel grayscale), ``'ARGB'``, ``'RGB'``, or ``'RGBA'``. If there is no alpha channel, ``array`` is assumed to have no transparency. If the ``bands`` parameter is ``'L'``, ``array``'s third dimension is optional.
 
-This method makes calls to :doc:`py5image_load_np_pixels` and :doc:`py5image_update_np_pixels` so there is no need to call either explicitly.
+This method makes its own calls to :doc:`py5image_load_np_pixels` and :doc:`py5image_update_np_pixels` so there is no need to call either explicitly.
+
+This method exists because setting the array contents with the code ``img.np_pixels = array`` will cause an error, while the correct syntax, ``img.np_pixels[:] = array``, might also be unintuitive for beginners.
 
 Note that the :doc:`convert_image` method can also be used to convert a numpy array into a new Py5Image object.
 
@@ -76,5 +78,5 @@ Parameters
 * **bands**: `str = 'ARGB'` - color channels in the array's third dimension
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on May 11, 2021 00:43:18am UTC
 
