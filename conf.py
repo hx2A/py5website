@@ -666,7 +666,9 @@ REDIRECTIONS = []
 DEPLOY_COMMANDS = {
     'default': [
         "aws s3 sync --delete output/ s3://py5.ixora.io/",
-    ]
+        "aws configure set preview.cloudfront true",
+        "aws cloudfront create-invalidation --distribution-id EUQNWS5EBZMMX --paths '/*'"
+        ],
 }
 
 # github_deploy configuration
