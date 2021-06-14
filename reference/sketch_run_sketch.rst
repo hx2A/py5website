@@ -1,6 +1,6 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-05-02 21:05:36 UTC+00:00
+.. date: 2021-06-09 13:33:01 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -81,11 +81,13 @@ Description
 
 Run the Sketch. Code in the ``settings()``, ``setup()``, and ``draw()`` functions will be used to actualize your Sketch.
 
-Use the ``block`` parameter to specify if the call to ``run_sketch()`` should return immediately or block until the Sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the Sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
+Use the ``block`` parameter to specify if the call to ``run_sketch()`` should return immediately (asynchronous Sketch execution) or block until the Sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the Sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
 
 A list of strings passed to ``py5_options`` will be passed to the Processing PApplet class as arguments to specify characteristics such as the window's location on the screen. A list of strings passed to ``sketch_args`` will be available to a running Sketch using :doc:`args`. See the third example for an example of how this can be used.
 
 When calling ``run_sketch()`` in module mode, py5 will by default search for functions such as ``setup()``,  ``draw()``, etc. in the caller's stack frame and use those in the Sketch. If for some reason that is not what you want or does not work because you are hacking py5 to do something unusual, you can use the ``sketch_functions`` parameter to pass a dictionary of the desired callable functions. The ``sketch_functions`` parameter is not available when coding py5 in class mode. Don't forget you can always replace the ``draw()`` function in a running Sketch using :doc:`hot_reload_draw`.
+
+When running a Sketch asynchronously through Jupyter Notebook, any ``print`` statements using Python's builtin function will always appear in the output of the currently active cell. This will rarely be desirable, as the active cell will keep changing as the user executes code elsewhere in the notebook. As an alternative, use py5's :doc:`println` method, which will place all text in the output of the cell that made the ``run_sketch()`` call. This will continue to be true if the user moves on to execute code in other Notebook cells. Use :doc:`set_println_stream` to customize this behavior. All py5 error messages and stack traces are routed through the :doc:`println` method. Be aware that some error messages and warnings generated inside the Processing Jars cannot be controlled in the same way, and may appear in the output of the active cell or mixed in with the Jupyter Kernel logs.
 
 Syntax
 ======
@@ -103,5 +105,5 @@ Parameters
 * **sketch_functions**: `Dict[str, Callable] = None` - sketch methods when using module mode
 
 
-Updated on May 02, 2021 21:05:36pm UTC
+Updated on June 09, 2021 13:33:01pm UTC
 

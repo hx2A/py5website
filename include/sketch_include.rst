@@ -211,14 +211,6 @@ Cell magics
 * `%%py5drawpdf <py5drawpdf/>`_
 * `%%py5drawsvg <py5drawsvg/>`_
 
-Line magics
------------
-
-* `%py5animatedgif <py5animatedgif/>`_
-* `%py5captureframes <py5captureframes/>`_
-* `%py5saveframes <py5saveframes/>`_
-* `%py5screenshot <py5screenshot/>`_
-
 Math
 ====
 
@@ -280,6 +272,12 @@ Image
 
 * `save() <save/>`_
 * `save_frame() <save_frame/>`_
+
+Text Area
+---------
+
+* `println() <println/>`_
+* `set_println_stream() <set_println_stream/>`_
 
 Rendering
 =========
@@ -378,6 +376,15 @@ Vertex
 * `quadratic_vertices() <quadratic_vertices/>`_
 * `vertex() <vertex/>`_
 * `vertices() <vertices/>`_
+
+Sketch Hooks
+============
+
+* `animated_gif() <animated_gif/>`_
+* `capture_frames() <capture_frames/>`_
+* `save_frames() <save_frames/>`_
+* `screenshot() <screenshot/>`_
+* `sketch_portal() <sketch_portal/>`_
 
 Structure
 =========

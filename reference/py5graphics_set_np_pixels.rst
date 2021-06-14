@@ -1,6 +1,6 @@
 .. title: Py5Graphics.set_np_pixels()
 .. slug: py5graphics_set_np_pixels
-.. date: 2021-05-11 00:43:18 UTC+00:00
+.. date: 2021-06-04 14:58:40 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,6 +29,8 @@ Examples
 
 .. code:: python
     :number-lines:
+
+    import numpy as np
 
     def setup():
         py5.background(255, 0, 0)
@@ -74,5 +76,5 @@ Parameters
 * **bands**: `str = 'ARGB'` - color channels in the array's third dimension
 
 
-Updated on May 11, 2021 00:43:18am UTC
+Updated on June 04, 2021 14:58:40pm UTC
 
