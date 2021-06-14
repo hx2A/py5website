@@ -107,6 +107,12 @@ You can activate the environment using the below command.
     $ conda activate py5coding
     (py5coding) $ 
 
+Launch jupyter lab to start coding.
+
+.. code:: bash
+
+    (py5coding) $ jupyter lab
+
 Try testing with the `Quick Example`_ to verify everything works.
 
 Before moving on, consider also installing py5's `Jupyter Notebook Kernel`_.

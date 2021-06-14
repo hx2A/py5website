@@ -15,6 +15,8 @@ There are some difficulties using py5 on Mac computers that still need to be wor
     * New Sketch windows might not get focus and will be behind other windows. (`Issue #5 <https://github.com/hx2A/py5generator/issues/5>`_)
     * Ignore the warnings you see when exiting a Sketch (`Issue #6 <https://github.com/hx2A/py5generator/issues/6>`_)
 
+None of these will stop you from using py5 productively, but they might annoy you a bit.
+
 JPype
 =====
 
@@ -42,9 +44,9 @@ If you forget to use the ``%osx gui`` magic, the Sketch will still run but will 
 
 The ``%osx gui`` magic must be executed before the ``import py5`` statement. Running a script with the ``%run`` magic doesn't seem to work. The py5 Jupyter Notebook Kernel will take care of the ``%osx gui`` magic for you when run on a Mac computer.
 
-If you like coding in an interactive terminal (I hope I'm not the only one), you will need to use ``jupyter console`` and not ``ipython``. The two interactive terminal applications are not identical, with the ``%gui osx`` magic working in the former but not the latter.
+If you like coding in an interactive terminal (I hope I'm not the only one), you will need to use ``jupyter console`` and not ``ipython``. The two interactive terminal applications are not identical, with the ``%gui osx`` magic working in the former but not the latter. The console can be frustrating to use though. If a Sketch stops because of an error, no error message will appear until after you hit the return key in the console.
 
-Mac users won't be able to use the generic ``python`` interpreter to run py5, either interactively or to run a python program. If you need to run a py5 application in a script, your best bet is to put your code in a notebook and execute the notebook, like so:
+Mac users won't be able to use the generic ``python`` interpreter to run py5, either interactively or to run a python program. If you need to run a py5 application in a script, your best bet is to put your code in a notebook with ``%gui osx`` at the top and execute the notebook, like so:
 
 .. code:: bash
 
@@ -59,7 +61,7 @@ Window Focus & Dock Icons
 
 The next problem has to do with the Dock Icons at the bottom of the screen.
 
-If you run a Sketch that uses the default renderer, no icon will appear in the dock and the window may not be given focus. When you get tired of minimizing other windows to find the Sketch window, try using the Sketch's ``Py5Surface`` object to move it or bring it to the front, like so:
+If you run a Sketch that uses the default renderer, no icon will appear in the dock and the window may not be given focus. I added a hack to compensate for the window focus issues, but if for some reason it does not appear, you'll need to minimize other windows to find the Sketch window. You can also try using the Sketch's ``Py5Surface`` object to move it or bring it to the front, like so:
 
 .. code:: python
 
@@ -69,8 +71,6 @@ If you run a Sketch that uses the default renderer, no icon will appear in the d
     surface.set_location(10, 10)
     # move the Sketch window to the top
     surface.set_always_on_top(True)
-
-In the future I may be able to add code to compensate for the window focus issues. For now, the above workaround will suffice.
 
 If you run a Sketch that uses the ``P2D`` or ``P3D`` renderers, a dock icon will appear, but when the Sketch exits, the dock icon will remain. The Sketch really has stopped running and the window really has been destroyed (if you can prove me wrong please tell me), but the dock icon will not disappear until after the JVM shuts down, which will typically be when the Python process stops (when the Jupyter Notebook Kernel stops). I'm not totally sure why this is; there might be some special Processing code that creates the dock icon without matching Processing code to remove it on Sketch exit. In any case, this is a cosmetic issue and shouldn't be a cause for concern.
 
@@ -83,6 +83,6 @@ When the Sketch exits you will see the following warning:
 
     NewtNSView::dealloc: softLock still hold @ dealloc!
 
-Ignore that.
+Ignore that. Windows and Linux users also get odd messages when exiting.
 
 .. _JPype: https://jpype.readthedocs.io/en/latest/

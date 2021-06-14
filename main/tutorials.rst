@@ -35,5 +35,4 @@ The documentation is very much a work in progress, and I've been struggling with
     * Code Overview
 
 * Miscellaneous
-    * :doc:`covid-19-spread`
     * :doc:`exceptions-debugging-performance`
