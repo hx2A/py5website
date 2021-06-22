@@ -144,7 +144,7 @@ NAVIGATION_LINKS = {
         ("/install/", "Install py5"),
         ("/help/", "How to Help"),
         ("/community/", "Community"),
-        ("https://ixora.io/py5/", "Blog"),
+        ("https://ixora.io/tags/py5/", "Blog"),
         ("/reference/", "Reference Documentation"),
         ("/tutorials/", "Tutorials"),
         # TODO: where to put reference documentation and sphinx documentation???
