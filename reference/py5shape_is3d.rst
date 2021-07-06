@@ -1,6 +1,6 @@
 .. title: Py5Shape.is3d()
 .. slug: py5shape_is3d
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -39,7 +39,7 @@ Examples
         s.vertex(30, 75)
         s.end_shape(py5.CLOSE)
 
-        print(s.is2d(), s.is3d())
+        py5.println(s.is2d(), s.is3d())
         py5.shape(s)
 
 .. raw:: html
@@ -60,10 +60,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         s = py5.create_shape()
         s.begin_shape()
         s.vertex(30, 20)
@@ -72,7 +70,7 @@ Examples
         s.vertex(30, 75)
         s.end_shape(py5.CLOSE)
 
-        print(s.is2d(), s.is3d())
+        py5.println(s.is2d(), s.is3d())
         py5.shape(s)
 
 .. raw:: html
@@ -99,5 +97,5 @@ Syntax
 
     is3d() -> bool
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

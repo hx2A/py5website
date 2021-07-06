@@ -1,6 +1,6 @@
 .. title: blend_mode()
 .. slug: blend_mode
-.. date: 2021-03-04 19:43:58 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,11 +50,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P2D)
-
-
     def setup():
+        py5.size(100, 100, py5.P2D)
         py5.blend_mode(py5.MULTIPLY)
         py5.stroke(51)
         py5.stroke_weight(30)
@@ -102,5 +99,5 @@ Parameters
 * **mode**: `int` - the blending mode to use
 
 
-Updated on March 04, 2021 19:43:58pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

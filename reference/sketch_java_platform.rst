@@ -1,6 +1,6 @@
 .. title: java_platform
 .. slug: java_platform
-.. date: 2021-04-06 18:47:56 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     def setup():
-        print(py5.java_platform)
+        py5.println(py5.java_platform)
 
 .. raw:: html
 
@@ -46,5 +46,5 @@ Version of Java currently being used by py5. Internally the py5 library is using
 Underlying Java field: javaPlatform
 
 
-Updated on April 06, 2021 18:47:56pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

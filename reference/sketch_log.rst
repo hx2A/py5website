@@ -1,6 +1,6 @@
 .. title: log()
 .. slug: log
-.. date: 2021-03-13 17:44:45 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,11 +29,11 @@ Examples
 
     def setup():
       i = 12
-      print(py5.log(i))
-      print(log10(i))
+      py5.println(py5.log(i))
+      py5.println(log10(i))
 
       j = -5
-      print(py5.log(j))
+      py5.println(py5.log(j))
 
     # Calculates the base-10 logarithm of a number
     # use this if you don't want to use numpy's log10 function
@@ -68,5 +68,5 @@ Parameters
 * **value**: `float` - number greater than 0.0
 
 
-Updated on March 13, 2021 17:44:45pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

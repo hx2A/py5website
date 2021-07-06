@@ -1,6 +1,6 @@
 .. title: load_json()
 .. slug: load_json
-.. date: 2021-04-12 18:01:27 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,17 +50,14 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(250, 100)
+        global promise
+        promise = py5.launch_promise_thread(load_data)
 
 
     def load_data():
         return py5.load_json('http://py5.ixora.io/secret_message.json')
-
-
-    def setup():
-        global promise
-        promise = py5.launch_promise_thread(load_data)
 
 
     def draw():
@@ -97,5 +94,5 @@ Parameters
 * **kwargs**: `Dict[str, Any]` - keyword arguments
 
 
-Updated on April 12, 2021 18:01:27pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

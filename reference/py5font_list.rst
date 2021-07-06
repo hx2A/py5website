@@ -1,6 +1,6 @@
 .. title: Py5Font.list()
 .. slug: py5font_list
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,7 +28,7 @@ Examples
     :number-lines:
 
     font_list = py5.Py5Font.list()
-    print(font_list)
+    py5.println(font_list)
 
 .. raw:: html
 
@@ -54,5 +54,5 @@ Syntax
 
     list() -> List[str]
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

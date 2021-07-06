@@ -1,6 +1,6 @@
 .. title: smooth()
 .. slug: smooth
-.. date: 2021-05-07 21:23:50 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.smooth(2)
-
-
     def setup():
+        py5.smooth(2)
         py5.no_stroke()
 
 
@@ -57,7 +54,7 @@ Examples
 
     x = 0
 
-    def settings():
+    def setup():
         py5.full_screen(py5.P2D, py5.SPAN)
         py5.smooth(4)
 
@@ -85,7 +82,9 @@ With the ``P2D`` and ``P3D`` renderers, ``smooth(2)`` is the default, this is ca
 
 The default renderer uses ``smooth(3)`` by default. This is bicubic smoothing. The other option for the default renderer is ``smooth(2)``, which is bilinear smoothing.
 
-The ``smooth()`` function can only be set once within a Sketch. It must be called from the `settings()`` function. The :doc:`no_smooth` function also follows the same rules.
+The ``smooth()`` function can only be set once within a Sketch. It is intended to be called from the ``settings()`` function. The :doc:`no_smooth` function follows the same rules.
+
+When programming in module mode and imported mode, py5 will allow calls to ``smooth()`` from the ``setup()`` function if it is called at the beginning of ``setup()``. This allows the user to omit the ``settings()`` function, much like what can be done while programming in the Processing IDE. Py5 does this by inspecting the ``setup()`` function and attempting to split it into synthetic ``settings()`` and ``setup()`` functions if both were not created by the user and the real ``setup()`` function contains a call to ``smooth()``, or calls to :doc:`size`, :doc:`full_screen`, :doc:`no_smooth`, or :doc:`pixel_density`. Calls to those functions must be at the very beginning of ``setup()``, before any other Python code (but comments are ok). This feature is not available when programming in class mode.
 
 Underlying Java method: `smooth <https://processing.org/reference/smooth_.html>`_
 
@@ -103,5 +102,5 @@ Parameters
 * **level**: `int` - either 2, 3, 4, or 8 depending on the renderer
 
 
-Updated on May 07, 2021 21:23:50pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

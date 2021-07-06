@@ -1,6 +1,6 @@
 .. title: finished
 .. slug: finished
-.. date: 2021-04-11 14:57:18 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,11 +34,11 @@ Examples
 
 
     py5.run_sketch()
-    print('sketch has stopped:', py5.finished)
+    py5.println('sketch has stopped:', py5.finished)
     time.sleep(10)
 
     py5.exit_sketch()
-    print('sketch has stopped:', py5.finished)
+    py5.println('sketch has stopped:', py5.finished)
 
 .. raw:: html
 
@@ -56,5 +56,5 @@ Boolean variable reflecting if the Sketch has stopped permanently.
 Underlying Java field: finished
 
 
-Updated on April 11, 2021 14:57:18pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

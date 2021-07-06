@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_vertex_code()
 .. slug: py5shape_get_vertex_code
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,11 +34,8 @@ Examples
                           py5.Py5Shape.VERTEX: 'VERTEX'}
 
 
-    def settings():
-        py5.size(100, 100, py5.P2D)
-
-
     def setup():
+        py5.size(100, 100, py5.P2D)
         s = py5.create_shape()
         s.begin_shape()
         s.vertex(20, 20)
@@ -54,9 +51,10 @@ Examples
         s.end_shape(py5.CLOSE)
         py5.shape(s)
 
-        print(s.get_vertex_count(), s.get_vertex_code_count())  # 8 9
+        py5.println(s.get_vertex_count(), s.get_vertex_code_count())  # 8 9
         # ['VERTEX', 'VERTEX', 'VERTEX', 'VERTEX', 'BREAK', 'VERTEX', 'VERTEX', 'VERTEX', 'VERTEX']
-        print([SHAPE_VERTEX_CODES[s.get_vertex_code(i)] for i in range(s.get_vertex_code_count())])
+        py5.println([SHAPE_VERTEX_CODES[s.get_vertex_code(i)]
+              for i in range(s.get_vertex_code_count())])
 
 .. raw:: html
 
@@ -88,5 +86,5 @@ Parameters
 * **index**: `int` - vertex code index
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

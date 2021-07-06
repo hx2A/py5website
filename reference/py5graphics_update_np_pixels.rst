@@ -1,6 +1,6 @@
 .. title: Py5Graphics.update_np_pixels()
 .. slug: py5graphics_update_np_pixels
-.. date: 2021-05-11 00:43:18 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,7 +52,7 @@ Examples
 Description
 ===========
 
-Updates the Py5Graphics drawing surface with the data in the :doc:`py5graphics_np_pixels` array. Use in conjunction with :doc:`py5graphics_load_np_pixels`. If you're only reading pixels from the array, there's no need to call ``update_np_pixels()`` — updating is only necessary to apply changes. Working with :doc:`py5graphics_np_pixels` can only be done after :doc:`py5graphics_begin_draw` but will still work after :doc:`py5graphics_end_draw`.
+Updates the Py5Graphics drawing surface with the data in the :doc:`py5graphics_np_pixels` array. Use in conjunction with :doc:`py5graphics_load_np_pixels`. If you're only reading pixels from the array, there's no need to call ``update_np_pixels()`` — updating is only necessary to apply changes. Working with :doc:`py5graphics_np_pixels` can only be done between calls to :doc:`py5graphics_begin_draw` and :doc:`py5graphics_end_draw`.
 
 The ``update_np_pixels()`` method is similar to :doc:`py5graphics_update_pixels` in that ``update_np_pixels()`` must be called after modifying :doc:`py5graphics_np_pixels` just as :doc:`py5graphics_update_pixels` must be called after modifying :doc:`py5graphics_pixels`.
 
@@ -65,5 +65,5 @@ Syntax
 
     update_np_pixels() -> None
 
-Updated on May 11, 2021 00:43:18am UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

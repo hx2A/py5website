@@ -1,6 +1,6 @@
 .. title: launch_thread()
 .. slug: launch_thread
-.. date: 2021-04-12 18:01:27 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,9 +31,9 @@ Examples
 
 
     def slow_thread():
-        print('starting slow thread')
+        py5.println('starting slow thread')
         time.sleep(7)
-        print('finishing slow thread')
+        py5.println('finishing slow thread')
 
 
     def setup():
@@ -84,5 +84,5 @@ Parameters
 * **name**: `str = None` - name of thread to be created
 
 
-Updated on April 12, 2021 18:01:27pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

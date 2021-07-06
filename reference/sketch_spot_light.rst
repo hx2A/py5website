@@ -1,6 +1,6 @@
 .. title: spot_light()
 .. slug: spot_light
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.no_stroke()
         py5.spot_light(51, 102, 126, 80, 20, 40, -1, 0, 0, py5.PI/2, 2)
@@ -59,11 +56,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         concentration = 600  # try 1 -> 10000
         py5.background(0)
         py5.no_stroke()
@@ -110,5 +104,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

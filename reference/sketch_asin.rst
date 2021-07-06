@@ -1,6 +1,6 @@
 .. title: asin()
 .. slug: asin
-.. date: 2021-03-09 14:45:46 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
         s = py5.sin(a)
         a_s = py5.asin(s)
         # prints "1.04719757 : 0.86602541 : 1.04719757"
-        print(round(a, 8), ':', round(s, 8), ':', round(a_s, 8))
+        py5.println(round(a, 8), ':', round(s, 8), ':', round(a_s, 8))
 
 .. raw:: html
 
@@ -54,7 +54,7 @@ Examples
         s = py5.sin(a)
         a_s = py5.asin(s)
         # prints "4.18879027 : -0.86602543 : -1.04719761"
-        print(round(a, 8), ':', round(s, 8), ':', round(a_s, 8))
+        py5.println(round(a, 8), ':', round(s, 8), ':', round(a_s, 8))
 
 .. raw:: html
 
@@ -84,5 +84,5 @@ Parameters
 * **value**: `float` - value in the range of -1 to 1 whose arc sine is to be returned
 
 
-Updated on March 09, 2021 14:45:46pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

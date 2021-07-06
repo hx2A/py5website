@@ -1,6 +1,6 @@
 .. title: display_density()
 .. slug: display_density
-.. date: 2021-03-04 20:16:29 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.pixel_density(py5.display_density())
-
-
     def setup():
+        py5.pixel_density(py5.display_density())
         py5.no_stroke()
 
 
@@ -69,5 +66,5 @@ Parameters
 * **display**: `int` - the display number to check (1-indexed to match the Preferences dialog box)
 
 
-Updated on March 04, 2021 20:16:29pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

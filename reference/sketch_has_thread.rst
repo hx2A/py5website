@@ -1,6 +1,6 @@
 .. title: has_thread()
 .. slug: has_thread
-.. date: 2021-04-06 18:19:03 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,9 +31,9 @@ Examples
 
 
     def slow_thread():
-        print('starting slow thread')
+        py5.println('starting slow thread')
         time.sleep(7)
-        print('finishing slow thread')
+        py5.println('finishing slow thread')
 
 
     def setup():
@@ -72,5 +72,5 @@ Parameters
 * **name**: `str` - name of thread
 
 
-Updated on April 06, 2021 18:19:03pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

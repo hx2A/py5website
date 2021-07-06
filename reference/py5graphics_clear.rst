@@ -1,6 +1,6 @@
 .. title: Py5Graphics.clear()
 .. slug: py5graphics_clear
-.. date: 2021-05-05 16:59:55 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         global pg
         pg = py5.create_graphics(py5.width, py5.height)
 
@@ -74,5 +71,5 @@ Syntax
 
     clear() -> None
 
-Updated on May 05, 2021 16:59:55pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

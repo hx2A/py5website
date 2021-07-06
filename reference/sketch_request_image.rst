@@ -1,6 +1,6 @@
 .. title: request_image()
 .. slug: request_image
-.. date: 2021-04-10 15:07:49 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -37,7 +37,7 @@ Examples
         if img_promise.is_ready:
             py5.image(img_promise.result, 10, 10)
         else:
-            print('not ready')
+            py5.println('not ready')
 
 .. raw:: html
 
@@ -69,5 +69,5 @@ Parameters
 * **image_path**: `Union[str, Path]` - url or file path for image file
 
 
-Updated on April 10, 2021 15:07:49pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

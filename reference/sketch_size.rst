@@ -1,6 +1,6 @@
 .. title: size()
 .. slug: size
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 100)
-
-
     def setup():
+        py5.size(200, 100)
         py5.background(153)
         py5.line(0, 0, py5.width, py5.height)
 
@@ -50,7 +47,7 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(320, 240)
 
 
@@ -73,18 +70,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(150, 200, py5.P3D)  # specify P3D renderer
-
-
     def setup():
+        py5.size(150, 200, py5.P3D)  # specify P3D renderer
         py5.background(153)
-    
+
         # with P3D, we can use z (depth) values...
         py5.line(0, 0, 0, py5.width, py5.height, -100)
         py5.line(py5.width, 0, 0, py5.width, py5.height, -100)
         py5.line(0, py5.height, 0, py5.width, py5.height, -100)
-    
+
         # ...and 3D-specific functions, like box()
         py5.translate(py5.width//2, py5.height//2)
         py5.rotate_x(py5.PI/6)
@@ -102,7 +96,9 @@ Examples
 Description
 ===========
 
-Defines the dimension of the display window width and height in units of pixels. This must be called from the ``settings()`` function.
+Defines the dimension of the display window width and height in units of pixels. This is intended to be called from the ``settings()`` function.
+
+When programming in module mode and imported mode, py5 will allow calls to ``size()`` from the ``setup()`` function if it is called at the beginning of ``setup()``. This allows the user to omit the ``settings()`` function, much like what can be done while programming in the Processing IDE. Py5 does this by inspecting the ``setup()`` function and attempting to split it into synthetic ``settings()`` and ``setup()`` functions if both were not created by the user and the real ``setup()`` function contains a call to ``size()``, or calls to :doc:`full_screen`, :doc:`smooth`, :doc:`no_smooth`, or :doc:`pixel_density`. Calls to those functions must be at the very beginning of ``setup()``, before any other Python code (but comments are ok). This feature is not available when programming in class mode.
 
 The built-in variables :doc:`width` and :doc:`height` are set by the parameters passed to this function. For example, running ``size(640, 480)`` will assign 640 to the :doc:`width` variable and 480 to the height ``variable``. If ``size()`` is not used, the window will be given a default size of 100 x 100 pixels.
 
@@ -142,5 +138,5 @@ Parameters
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

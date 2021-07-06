@@ -1,6 +1,6 @@
 .. title: radians()
 .. slug: radians
-.. date: 2021-03-09 15:03:25 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,7 +31,7 @@ Examples
         deg = 45
         rad = py5.radians(deg)
         # prints "45 degrees is 0.7854 radians"
-        print(round(deg, 5), 'degrees is', round(rad, 5), 'radians')
+        py5.println(round(deg, 5), 'degrees is', round(rad, 5), 'radians')
 
 .. raw:: html
 
@@ -61,5 +61,5 @@ Parameters
 * **degrees**: `float` - degree value to convert to radians
 
 
-Updated on March 09, 2021 15:03:25pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

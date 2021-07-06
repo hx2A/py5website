@@ -1,6 +1,6 @@
 .. title: pixel_density()
 .. slug: pixel_density
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.pixel_density(2)
-
-
     def setup():
+        py5.pixel_density(2)
         py5.no_stroke()
 
 
@@ -55,11 +52,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.pixel_density(py5.display_density())
-
-
     def setup():
+        py5.pixel_density(py5.display_density())
         # pulling the display's density dynamically
         py5.no_stroke()
 
@@ -80,11 +74,13 @@ Examples
 Description
 ===========
 
-This function makes it possible for py5 to render using all of the pixels on high resolutions screens like Apple Retina displays and Windows High-DPI displays. This function can only be run once within a program and it must be called in ``settings()``.  The ``pixel_density()`` should only be used with hardcoded numbers (in almost all cases this number will be 2) or in combination with :doc:`display_density` as in the second example.
+This function makes it possible for py5 to render using all of the pixels on high resolutions screens like Apple Retina displays and Windows High-DPI displays. This function can only be run once within a program. It is intended to be called from the ``settings()`` function.
 
-When the pixel density is set to more than 1, it changes all of the pixel operations including the way :doc:`get`, :doc:`blend`, :doc:`copy`, :doc:`update_pixels`, and :doc:`update_np_pixels` all work. See the reference for :doc:`pixel_width` and :doc:`pixel_height` for more information. 
+When programming in module mode and imported mode, py5 will allow calls to ``pixel_density()`` from the ``setup()`` function if it is called at the beginning of ``setup()``. This allows the user to omit the ``settings()`` function, much like what can be done while programming in the Processing IDE. Py5 does this by inspecting the ``setup()`` function and attempting to split it into synthetic ``settings()`` and ``setup()`` functions if both were not created by the user and the real ``setup()`` function contains a call to ``pixel_density()``, or calls to :doc:`size`, :doc:`full_screen`, :doc:`smooth`, or :doc:`no_smooth`. Calls to those functions must be at the very beginning of ``setup()``, before any other Python code (but comments are ok). This feature is not available when programming in class mode.
 
-To use variables as the arguments to ``pixel_density()`` function, place the ``pixel_density()`` function within the ``settings()`` function.
+The ``pixel_density()`` should only be used with hardcoded numbers (in almost all cases this number will be 2) or in combination with :doc:`display_density` as in the second example.
+
+When the pixel density is set to more than 1, it changes all of the pixel operations including the way :doc:`get`, :doc:`blend`, :doc:`copy`, :doc:`update_pixels`, and :doc:`update_np_pixels` all work. See the reference for :doc:`pixel_width` and :doc:`pixel_height` for more information.
 
 Underlying Java method: `pixelDensity <https://processing.org/reference/pixelDensity_.html>`_
 
@@ -101,5 +97,5 @@ Parameters
 * **density**: `int` - 1 or 2
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

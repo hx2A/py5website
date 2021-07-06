@@ -1,6 +1,6 @@
 .. title: red()
 .. slug: red
-.. date: 2021-05-05 16:59:55 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -36,7 +36,7 @@ Examples
         py5.rect(15, 20, 35, 60)  # draw left rectangle
     
         red_value = py5.red(c)  # get red in 'c'
-        print(red_value)  # print "255.0"
+        py5.println(red_value)  # print "255.0"
         py5.fill(red_value, 0, 0)  # use 'red_value' in new fill
         py5.rect(50, 20, 35, 60)  # draw right rectangle
 
@@ -70,5 +70,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on May 05, 2021 16:59:55pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

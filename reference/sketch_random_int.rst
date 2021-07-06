@@ -1,6 +1,6 @@
 .. title: random_int()
 .. slug: random_int
-.. date: 2021-03-17 17:11:14 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,7 @@ Examples
     def setup():
         words = ["apple", "bear", "cat", "dog"]
         index = py5.random_int(len(words)-1)
-        print(words[index])  # Prints one of the four words
+        py5.println(words[index])  # Prints one of the four words
 
 .. raw:: html
 
@@ -71,5 +71,5 @@ Parameters
 * **low**: `int` - lower limit
 
 
-Updated on March 17, 2021 17:11:14pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

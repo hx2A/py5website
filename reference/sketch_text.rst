@@ -1,6 +1,6 @@
 .. title: text()
 .. slug: text
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,11 +56,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.text_size(32)
         py5.fill(0, 102, 153, 204)
         py5.text("word", 12, 45, -30)  # specify a z-axis value
@@ -144,5 +141,5 @@ Parameters
 * **z**: `float` - z-coordinate of text
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

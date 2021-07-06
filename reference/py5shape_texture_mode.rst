@@ -1,6 +1,6 @@
 .. title: Py5Shape.texture_mode()
 .. slug: py5shape_texture_mode
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_stroke()
         img = py5.load_image("laDefense.jpg")
         # call py5.texture_mode() here to inherit mode setting
@@ -69,11 +66,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_stroke()
         img = py5.load_image("laDefense.jpg")
         # call py5.texture_mode() here to inherit mode setting
@@ -122,5 +116,5 @@ Parameters
 * **mode**: `int` - either IMAGE or NORMAL
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Surface.set_visible()
 .. slug: py5surface_set_visible
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,7 +29,7 @@ Examples
 
     def draw():
         py5.rect(py5.random(py5.width), py5.random(py5.height), 10, 10)
-        print(py5.frame_count)
+        py5.println(py5.frame_count)
 
     py5.run_sketch(block=False)
     surface = py5.get_surface()
@@ -103,5 +103,5 @@ Parameters
 * **visible**: `bool` - desired surface visiblity
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

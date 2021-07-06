@@ -1,6 +1,6 @@
 .. title: get_matrix()
 .. slug: get_matrix
-.. date: 2021-04-11 15:29:44 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,18 +30,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_fill()
         py5.translate(50, 50, 0)
         py5.rotate_y(py5.PI/6)
         global matrix
         matrix = py5.get_matrix()
-        print(matrix)
-        print(matrix.dtype)
+        py5.println(matrix)
+        py5.println(matrix.dtype)
         py5.stroke(153)
         py5.box(50)
 
@@ -76,5 +73,5 @@ Parameters
 * **target**: `NDArray[(4, 4), Float]` - transformation matrix data
 
 
-Updated on April 11, 2021 15:29:44pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

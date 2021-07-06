@@ -1,6 +1,6 @@
 .. title: ortho()
 .. slug: ortho
-.. date: 2021-03-05 14:12:21 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_fill()
-        py5.ortho(-py5.width//2, py5.width//2, -py5.height//2, py5.height//2)  # same as ortho()
+        py5.ortho(-py5.width//2, py5.width//2,
+                  -py5.height // 2, py5.height//2)  # same as ortho()
         py5.translate(py5.width//2, py5.height//2, 0)
         py5.rotate_x(-py5.PI/6)
         py5.rotate_y(py5.PI/3)
@@ -77,5 +75,5 @@ Parameters
 * **top**: `float` - top plane of the clipping volume
 
 
-Updated on March 05, 2021 14:12:21pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

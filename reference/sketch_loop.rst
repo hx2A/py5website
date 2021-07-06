@@ -1,6 +1,6 @@
 .. title: loop()
 .. slug: loop
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
     x = 0
 
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         py5.no_loop()  # draw() will not loop
 
 
@@ -77,5 +74,5 @@ Syntax
 
     loop() -> None
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

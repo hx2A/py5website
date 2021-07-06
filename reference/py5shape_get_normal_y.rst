@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_normal_y()
 .. slug: py5shape_get_normal_y
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.directional_light(255, 255, 255, -1, -1, -1)
 
@@ -42,7 +39,7 @@ Examples
         s1 = py5.create_shape(py5.SPHERE, 30)
 
         for i in range(s1.get_vertex_count()):
-            print(s1.get_normal_x(i), s1.get_normal_y(i), s1.get_normal_z(i))
+            py5.println(s1.get_normal_x(i), s1.get_normal_y(i), s1.get_normal_z(i))
 
         py5.shape(s1, 50, 50)
 
@@ -76,5 +73,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

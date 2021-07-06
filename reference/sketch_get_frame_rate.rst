@@ -1,6 +1,6 @@
 .. title: get_frame_rate()
 .. slug: get_frame_rate
-.. date: 2021-04-08 15:32:48 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,7 +29,7 @@ Examples
 
     def draw():
         py5.rect(py5.mouse_x, py5.mouse_y, 10, 10)
-        print(py5.get_frame_rate())
+        py5.println(py5.get_frame_rate())
 
 .. raw:: html
 
@@ -55,5 +55,5 @@ Syntax
 
     get_frame_rate() -> float
 
-Updated on April 08, 2021 15:32:48pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

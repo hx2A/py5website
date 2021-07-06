@@ -1,6 +1,6 @@
 .. title: remap()
 .. slug: remap
-.. date: 2021-03-12 16:17:16 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         value = 0.5
         # remap 0.5 to be half of the width
         m = py5.remap(value, 0, 1, 0, py5.width)
@@ -58,7 +55,7 @@ Examples
     def setup():
         value = 110
         m = py5.remap(value, 0, 100, -20, -10)
-        print(m)  # Prints "-9.0"
+        py5.println(m)  # Prints "-9.0"
 
 .. raw:: html
 
@@ -75,11 +72,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         py5.no_stroke()
 
 
@@ -126,5 +120,5 @@ Parameters
 * **value**: `float` - the incoming value to be converted
 
 
-Updated on March 12, 2021 16:17:16pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

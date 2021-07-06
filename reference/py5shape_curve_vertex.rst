@@ -1,6 +1,6 @@
 .. title: Py5Shape.curve_vertex()
 .. slug: py5shape_curve_vertex
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P2D)
-
-
     def setup():
+        py5.size(100, 100, py5.P2D)
         s = py5.create_shape()
         s.begin_shape()
         s.no_fill()
@@ -82,5 +79,5 @@ Parameters
 * **z**: `float` - the z-coordinate of the vertex
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: apply_matrix()
 .. slug: apply_matrix
-.. date: 2021-04-24 14:14:41 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_fill()
         py5.translate(50, 50, 0)
         py5.rotate_y(py5.PI/6)
@@ -99,5 +96,5 @@ Parameters
 * **source**: `NDArray[(4, 4), Float]` - 3D transformation matrix
 
 
-Updated on April 24, 2021 14:14:41pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

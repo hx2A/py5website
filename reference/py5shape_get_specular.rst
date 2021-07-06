@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_specular()
 .. slug: py5shape_get_specular
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.light_specular(255, 255, 255)
         py5.directional_light(204, 204, 204, 0, 0, -1)
@@ -43,7 +40,7 @@ Examples
 
         py5.shape(s, 50, 50)
         specular = s.get_specular(0)
-        print(py5.red(specular), py5.green(specular), py5.blue(specular))
+        py5.println(py5.red(specular), py5.green(specular), py5.blue(specular))
 
 .. raw:: html
 
@@ -75,5 +72,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

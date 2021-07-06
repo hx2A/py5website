@@ -1,6 +1,6 @@
 .. title: Py5Shape.ambient()
 .. slug: py5shape_ambient
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -46,11 +46,8 @@ Examples
         return s
 
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.directional_light(153, 153, 153, .5, 0, -1)
         py5.ambient_light(50, 50, 50)
@@ -93,5 +90,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

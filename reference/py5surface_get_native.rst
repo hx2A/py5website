@@ -1,6 +1,6 @@
 .. title: Py5Surface.get_native()
 .. slug: py5surface_get_native
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,7 +31,7 @@ Examples
     surface = py5.get_surface()
     native = surface.get_native()
     # output will depend on your operating system and the sketch's renderer
-    print(type(native))
+    py5.println(type(native))
 
 .. raw:: html
 
@@ -57,5 +57,5 @@ Syntax
 
     get_native() -> Any
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

@@ -1,6 +1,6 @@
 .. title: list_threads()
 .. slug: list_threads
-.. date: 2021-04-06 18:19:03 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,11 +28,11 @@ Examples
     :number-lines:
 
     def thread1():
-        print('thread 1')
+        py5.println('thread 1')
 
 
     def thread2():
-        print('thread 2')
+        py5.println('thread 2')
 
 
     def setup():
@@ -42,7 +42,7 @@ Examples
 
 
     def draw():
-        print('running threads:', ', '.join(py5.list_threads()))
+        py5.println('running threads:', ', '.join(py5.list_threads()))
         if py5.frame_count == 50:
             py5.stop_all_threads()
 
@@ -66,5 +66,5 @@ Syntax
 
     list_threads() -> None
 
-Updated on April 06, 2021 18:19:03pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

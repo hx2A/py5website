@@ -1,13 +1,13 @@
 .. title: %%py5drawsvg
 .. slug: py5drawsvg
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 %%py5drawsvg documentation
 .. type: text
 
-Create a SVG drawing with py5 and embed result in the notebook.
+Create a SVG drawing with py5 and embed the result in the notebook.
 
 Examples
 ========
@@ -43,7 +43,7 @@ Examples
 Description
 ===========
 
-Create a SVG drawing with py5 and embed result in the notebook.
+Create a SVG drawing with py5 and embed the result in the notebook.
 
 For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a Sketch with no ``draw()`` function and your code in the ``setup()`` function. It will use the ``SVG`` renderer.
 
@@ -72,5 +72,5 @@ Arguments
                             save SVG drawing to file
       --unsafe              allow new variables to enter the global namespace
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

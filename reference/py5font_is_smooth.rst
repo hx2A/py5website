@@ -1,6 +1,6 @@
 .. title: Py5Font.is_smooth()
 .. slug: py5font_is_smooth
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -35,10 +35,10 @@ Examples
         font2 = py5.create_font('DejaVu Sans', 45, False)
 
         py5.text_font(font1)
-        print(font1.is_smooth())
+        py5.println(font1.is_smooth())
         py5.text('py5', 10, 40)
 
-        print(font2.is_smooth())
+        py5.println(font2.is_smooth())
         py5.text_font(font2)
         py5.text('py5', 10, 90)
 
@@ -64,5 +64,5 @@ Syntax
 
     is_smooth() -> bool
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

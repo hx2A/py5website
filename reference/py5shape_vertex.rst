@@ -1,6 +1,6 @@
 .. title: Py5Shape.vertex()
 .. slug: py5shape_vertex
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,11 +58,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         # drawing vertices in 3D requires P3D
         # as a parameter to size()
         s = py5.create_shape()
@@ -92,11 +89,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P2D)
-
-
     def setup():
+        py5.size(100, 100, py5.P2D)
         img = py5.load_image("tower.jpg")
         # call py5.texture_mode() here to inherit mode setting
         # py5.texture_mode(py5.NORMAL)
@@ -151,5 +145,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

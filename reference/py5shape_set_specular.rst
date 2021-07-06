@@ -1,6 +1,6 @@
 .. title: Py5Shape.set_specular()
 .. slug: py5shape_set_specular
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.light_specular(255, 255, 255)
         py5.directional_light(204, 204, 204, 0, 0, -1)
@@ -80,5 +77,5 @@ Parameters
 * **specular**: `int` - any color value
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_stroke_weight()
 .. slug: py5shape_get_stroke_weight
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -35,7 +35,7 @@ Examples
         s = py5.create_shape(py5.RECT, 20, 20, 60, 60)
         py5.shape(s)
 
-        print(s.get_stroke_weight(0)) # 4.0
+        py5.println(s.get_stroke_weight(0)) # 4.0
 
 .. raw:: html
 
@@ -67,5 +67,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

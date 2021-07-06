@@ -1,6 +1,6 @@
 .. title: save_frame()
 .. slug: save_frame
-.. date: 2021-04-12 18:01:27 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,7 +56,7 @@ Syntax
 
 .. code:: python
 
-    save_frame(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = True, use_thread: bool = True, **params) -> None
+    save_frame(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = True, use_thread: bool = False, **params) -> None
 
 Parameters
 ==========
@@ -65,8 +65,8 @@ Parameters
 * **filename**: `Union[str, Path]` - output filename
 * **format**: `str = None` - image format, if not determined from filename extension
 * **params**: - keyword arguments to pass to the PIL.Image save method
-* **use_thread**: `bool = True` - write file in separate thread
+* **use_thread**: `bool = False` - write file in separate thread
 
 
-Updated on April 12, 2021 18:01:27pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

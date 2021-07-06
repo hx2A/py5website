@@ -1,6 +1,6 @@
 .. title: norm()
 .. slug: norm
-.. date: 2021-03-12 15:52:46 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,7 @@ Examples
     def setup():
         value = 20
         n = py5.norm(value, 0, 50)
-        print(n)  # Prints "0.4"
+        py5.println(n)  # Prints "0.4"
 
 .. raw:: html
 
@@ -50,7 +50,7 @@ Examples
     def setup():
         value = -10
         n = py5.norm(value, 0, 100)
-        print(n)  # Prints "-0.1"
+        py5.println(n)  # Prints "-0.1"
 
 .. raw:: html
 
@@ -82,5 +82,5 @@ Parameters
 * **value**: `float` - the incoming value to be converted
 
 
-Updated on March 12, 2021 15:52:46pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

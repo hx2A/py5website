@@ -1,6 +1,6 @@
 .. title: Py5Shape.bezier_detail()
 .. slug: py5shape_bezier_detail
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,8 +30,12 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(100, 100, py5.P2D)
+        s1 = make_curve(5)
+        s2 = make_curve(20)
+        py5.shape(s1)
+        py5.shape(s2, 40, 0)
 
 
     def make_curve(detail):
@@ -43,13 +47,6 @@ Examples
         s.bezier_vertex(60, 0, 60, 75, 10, 75)
         s.end_shape()
         return s
-
-
-    def setup():
-        s1 = make_curve(5)
-        s2 = make_curve(20)
-        py5.shape(s1)
-        py5.shape(s2, 40, 0)
 
 .. raw:: html
 
@@ -83,5 +80,5 @@ Parameters
 * **detail**: `int` - resolution of the curves
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

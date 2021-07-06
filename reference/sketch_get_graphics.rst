@@ -1,6 +1,6 @@
 .. title: get_graphics()
 .. slug: get_graphics
-.. date: 2021-04-11 15:16:11 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,7 +30,7 @@ Examples
     def setup():
         py5.rect(10, 10, 50, 50)
         g = py5.get_graphics()
-        print(type(g))
+        py5.println(type(g))
 
 .. raw:: html
 
@@ -54,5 +54,5 @@ Syntax
 
     get_graphics() -> Py5Graphics
 
-Updated on April 11, 2021 15:16:11pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

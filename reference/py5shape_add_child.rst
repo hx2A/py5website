@@ -1,6 +1,6 @@
 .. title: Py5Shape.add_child()
 .. slug: py5shape_add_child
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         # make a group Py5Shape
         house = py5.create_shape(py5.GROUP)
 
@@ -84,5 +81,5 @@ Parameters
 * **who**: `Py5Shape` - any variable of type Py5Shape
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

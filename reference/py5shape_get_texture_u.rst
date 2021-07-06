@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_texture_u()
 .. slug: py5shape_get_texture_u
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P2D)
-
-
     def setup():
+        py5.size(100, 100, py5.P2D)
         img = py5.load_image("tower.jpg")
         s = py5.create_shape()
         s.begin_shape()
@@ -50,7 +47,7 @@ Examples
         for i in range(s.get_vertex_count()):
             u = s.get_texture_u(i)
             v = s.get_texture_v(i)
-            print(f"vertex {i}: u = {u} v = {v}")
+            py5.println(f"vertex {i}: u = {u} v = {v}")
 
 .. raw:: html
 
@@ -80,5 +77,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

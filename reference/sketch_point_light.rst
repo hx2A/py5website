@@ -1,6 +1,6 @@
 .. title: point_light()
 .. slug: point_light
-.. date: 2021-03-05 14:12:21 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.no_stroke()
         py5.point_light(51, 102, 126, 35, 40, 36)
@@ -74,5 +71,5 @@ Parameters
 * **z**: `float` - z-coordinate of the light
 
 
-Updated on March 05, 2021 14:12:21pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

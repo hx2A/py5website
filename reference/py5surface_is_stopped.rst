@@ -1,6 +1,6 @@
 .. title: Py5Surface.is_stopped()
 .. slug: py5surface_is_stopped
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,7 +33,7 @@ Examples
     py5.run_sketch(block=False)
     surface = py5.get_surface()
     # this will print False
-    print(surface.is_stopped())
+    py5.println(surface.is_stopped())
 
 .. raw:: html
 
@@ -57,7 +57,7 @@ Examples
     py5.run_sketch(block=False)
     surface = py5.get_surface()
     # this will print True
-    print(surface.is_stopped())
+    py5.println(surface.is_stopped())
 
 .. raw:: html
 
@@ -80,11 +80,11 @@ Examples
     py5.run_sketch(block=False)
     surface = py5.get_surface()
     # this will print False
-    print(surface.is_stopped())
+    py5.println(surface.is_stopped())
 
     surface.stop_thread()
     # now it will print True
-    print(surface.is_stopped())
+    py5.println(surface.is_stopped())
 
 .. raw:: html
 
@@ -110,5 +110,5 @@ Syntax
 
     is_stopped() -> bool
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

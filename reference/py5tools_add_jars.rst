@@ -1,6 +1,6 @@
 .. title: py5_tools.add_jars()
 .. slug: add_jars
-.. date: 2021-05-01 21:00:05 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,7 +34,7 @@ Examples
 
     import py5
 
-    print(py5_tools.get_classpath())
+    py5.println(py5_tools.get_classpath())
 
 .. raw:: html
 
@@ -66,5 +66,5 @@ Parameters
 * **path**: `Union[Path, str]` - path to directory containing jar files
 
 
-Updated on May 01, 2021 21:00:05pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

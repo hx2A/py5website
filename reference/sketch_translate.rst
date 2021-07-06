@@ -1,6 +1,6 @@
 .. title: translate()
 .. slug: translate
-.. date: 2021-04-28 14:26:43 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,11 +52,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         # translating in 3D requires P3D
         # as the parameter to size()
         # translate 30 across, 20 down, and
@@ -122,5 +119,5 @@ Parameters
 * **z**: `float` - forward/backward translation
 
 
-Updated on April 28, 2021 14:26:43pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

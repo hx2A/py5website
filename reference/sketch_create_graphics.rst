@@ -1,6 +1,6 @@
 .. title: create_graphics()
 .. slug: create_graphics
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-06-28 15:18:29 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         global pg
         pg = py5.create_graphics(100, 100)
 
@@ -55,7 +52,7 @@ Examples
 Description
 ===========
 
-Creates and returns a new ``Py5Graphics`` object. Use this class if you need to draw into an off-screen graphics buffer. The first two parameters define the width and height in pixels. The third, optional parameter specifies the renderer. It can be defined as ``P2D``, ``P3D``, ``PDF``, or SVG. If the third parameter isn't used, the default renderer is set. The ``PDF`` and ``SVG`` renderers require the filename parameter.
+Creates and returns a new ``Py5Graphics`` object. Use this class if you need to draw into an off-screen graphics buffer. The first two parameters define the width and height in pixels. The third, optional parameter specifies the renderer. It can be defined as ``P2D``, ``P3D``, ``PDF``, or ``SVG``. If the third parameter isn't used, the default renderer is set. The ``PDF`` and ``SVG`` renderers require the filename parameter.
 
 It's important to consider the renderer used with ``create_graphics()`` in relation to the main renderer specified in :doc:`size`. For example, it's only possible to use ``P2D`` or ``P3D`` with ``create_graphics()`` when one of them is defined in :doc:`size`. ``P2D`` and ``P3D`` use OpenGL for drawing, and when using an OpenGL renderer it's necessary for the main drawing surface to be OpenGL-based. If ``P2D`` or ``P3D`` are used as the renderer in :doc:`size`, then any of the options can be used with ``create_graphics()``. If the default renderer is used in :doc:`size`, then only the default, ``PDF``, or ``SVG`` can be used with ``create_graphics()``.
 
@@ -85,5 +82,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on June 28, 2021 15:18:29pm UTC
 

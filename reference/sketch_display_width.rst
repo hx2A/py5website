@@ -1,6 +1,6 @@
 .. title: display_width
 .. slug: display_width
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(py5.display_width, py5.display_height)
-
-
     def setup():
+        py5.size(py5.display_width, py5.display_height)
         py5.line(0, 0, py5.width, py5.height)
 
 .. raw:: html
@@ -45,10 +42,10 @@ Examples
 Description
 ===========
 
-System variable that stores the width of the entire screen display. This is used to run a full-screen program on any display size.
+System variable that stores the width of the entire screen display. This can be used to run a full-screen program on any display size, but calling :doc:`full_screen` is usually a better choice.
 
 Underlying Java field: displayWidth
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Shape.set_fill()
 .. slug: py5shape_set_fill
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,13 +27,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(640, 360, py5.P2D)
-
-
     def setup():
+        py5.size(640, 360, py5.P2D)
         global c
-        c = py5.create_shape(RECT, 20, 20, 60, 60)
+        c = py5.create_shape(py5.RECT, 20, 20, 60, 60)
         c.set_stroke(py5.color(255))
 
 
@@ -75,5 +72,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Graphics.end_draw()
 .. slug: py5graphics_end_draw
-.. date: 2021-05-05 16:59:55 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200, py5.P2D)
-
-
     def setup():
+        py5.size(200, 200, py5.P2D)
         global pg
         pg = py5.create_graphics(80, 80, py5.P2D)
         pg.begin_draw()
@@ -66,5 +63,5 @@ Syntax
 
     end_draw() -> None
 
-Updated on May 05, 2021 16:59:55pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

@@ -1,6 +1,6 @@
 .. title: Py5Shader
 .. slug: py5shader
-.. date: 2021-03-03 21:37:06 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(640, 360, py5.P2D)
-
-
     def setup():
+        py5.size(640, 360, py5.P2D)
         global blur
         # shaders files must be in the "data" folder to load correctly
         blur = py5.load_shader("blur.glsl")
@@ -63,5 +60,5 @@ This class provides the following methods and fields:
 
 .. include:: include/py5shader_include.rst
 
-Updated on March 03, 2021 21:37:06pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

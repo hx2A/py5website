@@ -1,6 +1,6 @@
 .. title: load_shader()
 .. slug: load_shader
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(640, 360, py5.P2D)
-
-
     def setup():
+        py5.size(640, 360, py5.P2D)
         global blur
         # shaders files must be in the "data" folder to load correctly
         blur = py5.load_shader("blur.glsl")
@@ -78,5 +75,5 @@ Parameters
 * **vert_filename**: `str` - name of vertex shader file
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

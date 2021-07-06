@@ -1,6 +1,6 @@
 .. title: Py5Graphics.smooth()
 .. slug: py5graphics_smooth
-.. date: 2021-05-07 21:23:50 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,11 +29,9 @@ Examples
 
     x = 0
 
-    def settings():
-        py5.full_screen(py5.P2D)
-
 
     def setup():
+        py5.full_screen(py5.P2D)
         global pg
         pg = py5.create_graphics(py5.width, py5.height, py5.P2D)
         pg.smooth(4)
@@ -85,5 +83,5 @@ Parameters
 * **quality**: `int` - either 2, 3, 4, or 8 depending on the renderer
 
 
-Updated on May 07, 2021 21:23:50pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

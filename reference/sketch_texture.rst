@@ -1,6 +1,6 @@
 .. title: texture()
 .. slug: texture
-.. date: 2021-04-21 16:02:51 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_stroke()
         img = py5.load_image("laDefense.jpg")
         py5.begin_shape()
@@ -75,5 +72,5 @@ Parameters
 * **image**: `Py5Image` - reference to a Py5Image object
 
 
-Updated on April 21, 2021 16:02:51pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

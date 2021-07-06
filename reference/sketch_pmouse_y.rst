@@ -1,6 +1,6 @@
 .. title: pmouse_y
 .. slug: pmouse_y
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
     def draw():
         py5.background(204)
         py5.line(20, py5.mouse_y, 80, py5.pmouse_y)
-        print(py5.mouse_y, ":", py5.pmouse_y)
+        py5.println(py5.mouse_y, ":", py5.pmouse_y)
 
 .. raw:: html
 
@@ -52,5 +52,5 @@ For more detail on how ``pmouse_y`` is updated inside of mouse events and ``draw
 Underlying Java field: `pmouseY <https://processing.org/reference/pmouseY.html>`_
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

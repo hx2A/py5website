@@ -1,6 +1,6 @@
 .. title: sphere_detail()
 .. slug: sphere_detail
-.. date: 2021-03-05 15:12:39 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,7 +27,7 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(100, 100, py5.P3D)
 
 
@@ -72,5 +72,5 @@ Parameters
 * **vres**: `int` - number of segments used latitudinally from top to bottom
 
 
-Updated on March 05, 2021 15:12:39pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

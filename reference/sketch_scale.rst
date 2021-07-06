@@ -1,6 +1,6 @@
 .. title: scale()
 .. slug: scale
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -76,11 +76,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         # scaling in 3D requires P3D
         # as a parameter to size()
         py5.no_fill()
@@ -124,5 +121,5 @@ Parameters
 * **z**: `float` - percentage to scale the object in the z-axis
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

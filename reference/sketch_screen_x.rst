@@ -1,6 +1,6 @@
 .. title: screen_x()
 .. slug: screen_x
-.. date: 2021-02-13 18:02:35 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,7 +27,7 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(100, 100, py5.P3D)
 
 
@@ -85,5 +85,5 @@ Parameters
 * **z**: `float` - 3D z-coordinate to be mapped
 
 
-Updated on February 13, 2021 18:02:35pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

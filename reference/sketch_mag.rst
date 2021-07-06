@@ -1,6 +1,6 @@
 .. title: mag()
 .. slug: mag
-.. date: 2021-03-12 16:02:55 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -37,13 +37,13 @@ Examples
         y2 = 70
 
         py5.line(0, 0, x1, y1)
-        print(py5.mag(x1, y1))  # Prints "36.05551"
+        py5.println(py5.mag(x1, y1))  # Prints "36.05551"
         py5.line(0, 0, x2, y1)
-        print(py5.mag(x2, y1))  # Prints "85.44004"
+        py5.println(py5.mag(x2, y1))  # Prints "85.44004"
         py5.line(0, 0, x1, y2)
-        print(py5.mag(x1, y2))  # Prints "72.8011"
+        py5.println(py5.mag(x1, y2))  # Prints "72.8011"
         py5.line(0, 0, x2, y2)
-        print(py5.mag(x2, y2))  # Prints "106.30146"
+        py5.println(py5.mag(x2, y2))  # Prints "106.30146"
 
 .. raw:: html
 
@@ -74,5 +74,5 @@ Parameters
 * **c**: `float` - third value
 
 
-Updated on March 12, 2021 16:02:55pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

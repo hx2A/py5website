@@ -1,6 +1,6 @@
 .. title: register_image_conversion()
 .. slug: register_image_conversion
-.. date: 2021-04-13 13:46:44 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -47,8 +47,8 @@ Examples
     def setup():
         img1 = py5.convert_image((20, 30, 40))
         img2 = py5.convert_image((100, 20, 80))
-        print(type(img1))
-        print(type(img2))
+        py5.println(type(img1))
+        py5.println(type(img2))
         py5.image(img1, 30, 50)
         py5.image(img2, 10, 20)
 
@@ -83,5 +83,5 @@ Parameters
 * **precondition**: `Callable` - predicate determining if an object can be converted
 
 
-Updated on April 13, 2021 13:46:44pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

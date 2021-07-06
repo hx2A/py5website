@@ -1,13 +1,13 @@
 .. title: Py5Image.save()
 .. slug: py5image_save
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 Py5Image.save() documentation
 .. type: text
 
-Save image data to a file.
+Save the Py5Image object to an image file.
 
 Examples
 ========
@@ -44,7 +44,7 @@ Examples
 Description
 ===========
 
-Save image data to a file. This method uses the Python library Pillow to write the image, so it can save images in any format that that library supports.
+Save the Py5Image object to an image file. This method uses the Python library Pillow to write the image, so it can save images in any format that that library supports.
 
 Use the ``drop_alpha`` parameter to drop the alpha channel from the image. This defaults to ``True``. Some image formats such as JPG do not support alpha channels, and Pillow will throw an error if you try to save an image with the alpha channel in that format.
 
@@ -55,7 +55,7 @@ Syntax
 
 .. code:: python
 
-    save(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = True, use_thread: bool = True, **params) -> None
+    save(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = True, use_thread: bool = False, **params) -> None
 
 Parameters
 ==========
@@ -64,8 +64,8 @@ Parameters
 * **filename**: `Union[str, Path]` - output filename
 * **format**: `str = None` - image format, if not determined from filename extension
 * **params**: - keyword arguments to pass to the PIL.Image save method
-* **use_thread**: `bool = True` - write file in separate thread
+* **use_thread**: `bool = False` - write file in separate thread
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

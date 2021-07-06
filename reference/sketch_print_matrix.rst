@@ -1,6 +1,6 @@
 .. title: print_matrix()
 .. slug: print_matrix
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,18 +27,15 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.print_matrix()
         # prints:
         # 01.0000  00.0000  00.0000 -50.0000
         # 00.0000  01.0000  00.0000 -50.0000
         # 00.0000  00.0000  01.0000 -86.6025
         # 00.0000  00.0000  00.0000  01.0000
-    
+
         py5.reset_matrix()
         py5.print_matrix()
         # prints:
@@ -69,5 +66,5 @@ Syntax
 
     print_matrix() -> None
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

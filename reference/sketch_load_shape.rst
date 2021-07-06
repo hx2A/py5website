@@ -1,6 +1,6 @@
 .. title: load_shape()
 .. slug: load_shape
-.. date: 2021-04-28 15:34:46 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,11 +52,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         global s
         # the file "teapot.obj" must be in the data folder
         # of the current sketch to load successfully
@@ -103,5 +100,5 @@ Parameters
 * **options**: `str` - unused parameter
 
 
-Updated on April 28, 2021 15:34:46pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

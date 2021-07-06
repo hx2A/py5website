@@ -1,6 +1,6 @@
 .. title: Py5Graphics.np_pixels[]
 .. slug: py5graphics_np_pixels
-.. date: 2021-05-11 00:43:18 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,12 +60,12 @@ When the pixel density is set to higher than 1 with the :doc:`py5graphics_pixel_
 
 Much like the :doc:`py5graphics_pixels` array, there are load and update methods that must be called before and after making changes to the data in ``np_pixels[]``. Before accessing ``np_pixels[]``, the data must be loaded with the :doc:`py5graphics_load_np_pixels` method. If this is not done, ``np_pixels`` will be equal to ``None`` and your code will likely result in Python exceptions. After ``np_pixels[]`` has been modified, the :doc:`py5graphics_update_np_pixels` method must be called to update the content of the Py5Graphics drawing surface.
 
-Working with :doc:`py5graphics_np_pixels` can only be done after :doc:`py5graphics_begin_draw` but will still work after :doc:`py5graphics_end_draw`.
+Working with :doc:`py5graphics_np_pixels` can only be done between calls to :doc:`py5graphics_begin_draw` and :doc:`py5graphics_end_draw`.
 
 To set the entire contents of ``np_pixels[]`` to the contents of another properly sized numpy array, consider using :doc:`py5graphics_set_np_pixels`.
 
 This field is the same as :doc:`np_pixels` but linked to a ``Py5Graphics`` object.
 
 
-Updated on May 11, 2021 00:43:18am UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

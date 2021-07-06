@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_depth()
 .. slug: py5shape_get_depth
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,16 +30,13 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.sphere_detail(8)
         s1 = py5.create_shape(py5.SPHERE, 40)
         z_values = [s1.get_vertex_z(i) for i in range(s1.get_vertex_count())]
         py5.shape(s1, 50, 50)
-        print(s1.get_depth(), min(z_values), max(z_values))  # 80, -40, 40
+        py5.println(s1.get_depth(), min(z_values), max(z_values))  # 80, -40, 40
 
 .. raw:: html
 
@@ -63,5 +60,5 @@ Syntax
 
     get_depth() -> float
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

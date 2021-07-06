@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_family()
 .. slug: py5shape_get_family
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -40,7 +40,7 @@ Examples
     def setup():
         s = py5.load_shape("bot.svg")
         for child in s.get_children():
-            print(SHAPE_FAMILY_VALS[child.get_family()])
+            py5.println(SHAPE_FAMILY_VALS[child.get_family()])
 
         py5.background(192)
         py5.scale(0.25)
@@ -68,5 +68,5 @@ Syntax
 
     get_family() -> int
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

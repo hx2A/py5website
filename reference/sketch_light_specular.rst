@@ -1,6 +1,6 @@
 .. title: light_specular()
 .. slug: light_specular
-.. date: 2021-03-03 21:11:14 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,11 +30,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.background(0)
         py5.no_stroke()
         py5.directional_light(102, 102, 102, 0, 0, -1)
@@ -78,5 +75,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on March 03, 2021 21:11:14pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

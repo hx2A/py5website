@@ -1,6 +1,6 @@
 .. title: noise()
 .. slug: noise
-.. date: 2021-03-22 01:11:14 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -101,20 +101,21 @@ Examples
     import numpy as np
 
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         py5.noise_seed(42)
         py5.noise_mode(py5.PERLIN_NOISE)
         py5.noise_detail(octaves=4, persistence=0.5, lacunarity=2.0)
         global x, y
-        x, y = np.meshgrid(np.linspace(0, 5, py5.width), np.linspace(0, 5, py5.height))
+        x, y = np.meshgrid(
+            np.linspace(
+                0, 5, py5.width), np.linspace(
+                0, 5, py5.height))
 
 
     def draw():
-        new_pixels = py5.remap(py5.noise(x, y, py5.frame_count / 100), -1, 1, 0, 255).astype(np.uint8)
+        new_pixels = py5.remap(
+            py5.noise(x, y, py5.frame_count / 100), -1, 1, 0, 255).astype(np.uint8)
         py5.set_np_pixels(new_pixels, bands='L')
 
 .. raw:: html
@@ -220,5 +221,5 @@ Parameters
 * **z**: `float` - z-coordinate in noise space
 
 
-Updated on March 22, 2021 01:11:14am UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

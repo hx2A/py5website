@@ -1,6 +1,6 @@
 .. title: exp()
 .. slug: exp
-.. date: 2021-03-13 17:44:45 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -29,7 +29,7 @@ Examples
 
     def setup():
         v1 = py5.exp(1.0)
-        print(v1)  # Prints "2.718281828459045"
+        py5.println(v1)  # Prints "2.718281828459045"
 
 .. raw:: html
 
@@ -59,5 +59,5 @@ Parameters
 * **value**: `float` - exponent to raise
 
 
-Updated on March 13, 2021 17:44:45pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

@@ -1,6 +1,6 @@
 .. title: vertex()
 .. slug: vertex
-.. date: 2021-04-21 14:28:52 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,11 +56,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         # drawing vertices in 3D requires P3D
         # as a parameter to size()
         py5.begin_shape()
@@ -88,11 +85,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
-
     def setup():
+        py5.size(100, 100, py5.P3D)
         img = py5.load_image("laDefense.jpg")
         py5.no_stroke()
         py5.begin_shape()
@@ -148,5 +142,5 @@ Parameters
 * **z**: `float` - z-coordinate of the vertex
 
 
-Updated on April 21, 2021 14:28:52pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

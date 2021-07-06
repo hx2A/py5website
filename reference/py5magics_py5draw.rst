@@ -1,13 +1,13 @@
 .. title: %%py5draw
 .. slug: py5draw
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 %%py5draw documentation
 .. type: text
 
-Create a PNG image with py5 and embed result in the notebook.
+Create a PNG image with py5 and embed the result in the notebook.
 
 Examples
 ========
@@ -30,10 +30,10 @@ Examples
 .. code:: python
     :number-lines:
 
-    %%py5draw 200 200
+    %%py5draw 100 100
     py5.background(128)
     py5.fill(255, 0, 0)
-    py5.rect(80, 100, 50, 50)
+    py5.rect(40, 50, 25, 25)
 
 .. raw:: html
 
@@ -46,7 +46,7 @@ Examples
 Description
 ===========
 
-Create a PNG image with py5 and embed result in the notebook.
+Create a PNG image with py5 and embed the result in the notebook.
 
 For users who are familiar with Processing and py5 programming, you can pretend the code in this cell will be executed in a Sketch with no ``draw()`` function and your code in the ``setup()`` function. By default it will use the default Processing renderer.
 
@@ -77,5 +77,5 @@ Arguments
                             processing renderer to use for Sketch
       --unsafe              allow new variables to enter the global namespace
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

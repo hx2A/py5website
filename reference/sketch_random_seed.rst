@@ -1,6 +1,6 @@
 .. title: random_seed()
 .. slug: random_seed
-.. date: 2021-03-17 17:11:14 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,7 +33,7 @@ Examples
         py5.random_seed(42)
         b = py5.random()
         # the values a and b will be the same
-        print(a, b)
+        py5.println(a, b)
 
 .. raw:: html
 
@@ -83,5 +83,5 @@ Parameters
 * **seed**: `int` - seed value
 
 
-Updated on March 17, 2021 17:11:14pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

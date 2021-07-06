@@ -1,6 +1,6 @@
 .. title: set_matrix()
 .. slug: set_matrix
-.. date: 2021-04-11 15:29:44 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,11 +32,9 @@ Examples
 
     import numpy as np
 
-    def settings():
-        py5.size(100, 100, py5.P3D)
-
 
     def setup():
+        py5.size(100, 100, py5.P3D)
         py5.no_fill()
         matrix = np.array([[0.866025, 0, 0.5, 0],
                            [0, 1, 0, 0],
@@ -76,5 +74,5 @@ Parameters
 * **source**: `NDArray[(4, 4), Float]` - transformation matrix data
 
 
-Updated on April 11, 2021 15:29:44pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

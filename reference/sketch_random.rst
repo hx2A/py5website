@@ -1,6 +1,6 @@
 .. title: random()
 .. slug: random
-.. date: 2021-03-22 01:11:14 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -56,7 +56,7 @@ Examples
     def setup():
         for i in range(100):
             r = py5.random(-50, 50)
-            print(r)
+            py5.println(r)
 
 .. raw:: html
 
@@ -95,5 +95,5 @@ Parameters
 * **low**: `float` - lower limit
 
 
-Updated on March 22, 2021 01:11:14am UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

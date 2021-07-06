@@ -1,6 +1,6 @@
 .. title: Py5Graphics.load_np_pixels()
 .. slug: py5graphics_load_np_pixels
-.. date: 2021-05-11 00:43:18 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -52,7 +52,7 @@ Examples
 Description
 ===========
 
-Loads the pixel data of the current Py5Graphics drawing surface into the :doc:`py5graphics_np_pixels` array. This method must always be called before reading from or writing to :doc:`py5graphics_np_pixels`. This must be used after :doc:`py5graphics_begin_draw` but can be used after :doc:`py5graphics_end_draw`. Subsequent changes to the Py5Graphics drawing surface will not be reflected in :doc:`py5graphics_np_pixels` until ``load_np_pixels()`` is called again.
+Loads the pixel data of the current Py5Graphics drawing surface into the :doc:`py5graphics_np_pixels` array. This method must always be called before reading from or writing to :doc:`py5graphics_np_pixels`. It should only be used between calls to :doc:`py5graphics_begin_draw` and :doc:`py5graphics_end_draw`. Subsequent changes to the Py5Graphics drawing surface will not be reflected in :doc:`py5graphics_np_pixels` until ``load_np_pixels()`` is called again.
 
 The ``load_np_pixels()`` method is similar to :doc:`py5graphics_load_pixels` in that ``load_np_pixels()`` must be called before reading from or writing to :doc:`py5graphics_np_pixels` just as :doc:`py5graphics_load_pixels` must be called before reading from or writing to :doc:`py5graphics_pixels`.
 
@@ -67,5 +67,5 @@ Syntax
 
     load_np_pixels() -> None
 
-Updated on May 11, 2021 00:43:18am UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

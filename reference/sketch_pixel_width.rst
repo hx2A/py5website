@@ -1,13 +1,13 @@
 .. title: pixel_width
 .. slug: pixel_width
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
 .. description: py5 pixel_width documentation
 .. type: text
 
-When ``pixel_density(2)`` is used to make use of a high resolution display (called a Retina display on OSX or high-dpi on Windows and Linux), the width and height of the Sketch do not change, but the number of pixels is doubled.
+Width of the display window in pixels.
 
 Examples
 ========
@@ -27,14 +27,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(600, 400)
         py5.pixel_density(2)
-
-
-    def setup():
-        print(py5.width, py5.height)
-        print(py5.pixel_width, py5.pixel_height)
+        py5.println(py5.width, py5.height)
+        py5.println(py5.pixel_width, py5.pixel_height)
 
 .. raw:: html
 
@@ -51,14 +48,11 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
+    def setup():
         py5.size(600, 400)
         py5.pixel_density(2)  # double the pixel density
-
-
-    def setup():
-        print(py5.width, py5.height)
-        print(py5.pixel_width, py5.pixel_height)
+        py5.println(py5.width, py5.height)
+        py5.println(py5.pixel_width, py5.pixel_height)
 
 
     def draw():
@@ -89,10 +83,10 @@ Examples
 Description
 ===========
 
-When ``pixel_density(2)`` is used to make use of a high resolution display (called a Retina display on OSX or high-dpi on Windows and Linux), the width and height of the Sketch do not change, but the number of pixels is doubled. As a result, all operations that use pixels (like :doc:`load_pixels`, :doc:`get`, etc.) happen in this doubled space. As a convenience, the variables ``pixel_width`` and :doc:`pixel_height` hold the actual width and height of the Sketch in pixels. This is useful for any Sketch that use the :doc:`pixels` or :doc:`np_pixels` arrays, for instance, because the number of elements in each array will be ``pixel_width*pixel_height``, not ``width*height``.
+Width of the display window in pixels. When ``pixel_density(2)`` is used to make use of a high resolution display (called a Retina display on OSX or high-dpi on Windows and Linux), the width and height of the Sketch do not change, but the number of pixels is doubled. As a result, all operations that use pixels (like :doc:`load_pixels`, :doc:`get`, etc.) happen in this doubled space. As a convenience, the variables ``pixel_width`` and :doc:`pixel_height` hold the actual width and height of the Sketch in pixels. This is useful for any Sketch that use the :doc:`pixels` or :doc:`np_pixels` arrays, for instance, because the number of elements in each array will be ``pixel_width*pixel_height``, not ``width*height``.
 
 Underlying Java field: `pixelWidth <https://processing.org/reference/pixelWidth.html>`_
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

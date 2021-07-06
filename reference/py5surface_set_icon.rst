@@ -1,6 +1,6 @@
 .. title: Py5Surface.set_icon()
 .. slug: py5surface_set_icon
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -50,6 +50,8 @@ Examples
 
     def settings():
         py5.size(200, 200, py5.P2D)
+        PJOGL = py5.JClass("processing.opengl.PJOGL")
+        PJOGL.setIcon("data/logo-64x64.png")
 
 
     def setup():
@@ -57,10 +59,6 @@ Examples
         surface.set_title("py5 window")
         surface.set_always_on_top(True)
 
-
-    # run this before calling run_sketch()
-    PJOGL = py5.JClass("processing.opengl.PJOGL")
-    PJOGL.setIcon("data/logo-64x64.png")
 
     py5.run_sketch(block=False)
 
@@ -77,7 +75,7 @@ Description
 
 Set the Sketch window icon. This will typically appear in the window's title bar. The default window icon is the same as Processing's.
 
-This method will not work for the ``P2D`` or ``P3D`` renderers. Setting the icon for those renderers is a bit tricky; see the second example to learn how to do that.
+This method will not work for the ``P2D`` or ``P3D`` renderers. Setting the icon for those renderers is a bit tricky; the icon must be a PNG file and it must be done in ``settings()``. See the second example to learn how to do that.
 
 Underlying Java method: PSurface.setIcon
 
@@ -94,5 +92,5 @@ Parameters
 * **icon**: `Py5Image` - image to use as the window icon
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

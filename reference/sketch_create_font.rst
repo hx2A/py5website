@@ -1,6 +1,6 @@
 .. title: create_font()
 .. slug: create_font
-.. date: 2021-03-06 19:17:57 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(200, 200)
-
-
     def setup():
+        py5.size(200, 200)
         global my_font
         # uncomment the following two lines to see the available fonts
         # string[] font_list = py5.Py5Font.list()
@@ -78,5 +75,5 @@ Parameters
 * **smooth**: `bool` - true for an antialiased font, false for aliased
 
 
-Updated on March 06, 2021 19:17:57pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

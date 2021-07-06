@@ -1,6 +1,6 @@
 .. title: Py5Font.get_glyph_count()
 .. slug: py5font_get_glyph_count
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,19 +30,16 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(100, 100, py5.P2D)
-
-
     def setup():
+        py5.size(100, 100, py5.P2D)
         font_size = 32
         font1 = py5.create_font('DejaVu Sans', font_size)
         font2 = py5.load_font('DejaVu_Sans-32.vlw')
         font3 = py5.create_font('DejaVu Sans', font_size, True, 'py5')
 
-        print(font1.get_glyph_count())
-        print(font2.get_glyph_count())
-        print(font3.get_glyph_count())
+        py5.println(font1.get_glyph_count())
+        py5.println(font2.get_glyph_count())
+        py5.println(font3.get_glyph_count())
 
         py5.text_font(font1)
         py5.text('py5', 10, 30)
@@ -75,5 +72,5 @@ Syntax
 
     get_glyph_count() -> int
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

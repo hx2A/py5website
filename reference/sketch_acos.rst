@@ -1,6 +1,6 @@
 .. title: acos()
 .. slug: acos
-.. date: 2021-03-09 14:45:46 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,7 +32,7 @@ Examples
         c = py5.cos(a)
         a_c = py5.acos(c)
         # prints "3.1415927 : -1.0 : 3.14159261"
-        print(round(a, 8), ':', round(c, 8), ':', round(a_c, 8))
+        py5.println(round(a, 8), ':', round(c, 8), ':', round(a_c, 8))
 
 .. raw:: html
 
@@ -54,7 +54,7 @@ Examples
         c = py5.cos(a)
         a_c = py5.acos(c)
         # prints "3.92699087 : -0.70710674 : 2.35619443"
-        print(round(a, 8), ':', round(c, 8), ':', round(a_c, 8))
+        py5.println(round(a, 8), ':', round(c, 8), ':', round(a_c, 8))
 
 .. raw:: html
 
@@ -84,5 +84,5 @@ Parameters
 * **value**: `float` - value in the range of -1 to 1 whose arc cosine is to be returned
 
 
-Updated on March 09, 2021 14:45:46pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 

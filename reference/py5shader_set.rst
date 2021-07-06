@@ -1,6 +1,6 @@
 .. title: Py5Shader.set()
 .. slug: py5shader_set
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-06-28 15:16:14 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,11 +27,8 @@ Examples
 .. code:: python
     :number-lines:
 
-    def settings():
-        py5.size(640, 360, py5.P2D)
-
-
     def setup():
+        py5.size(640, 360, py5.P2D)
         global tex
         global deform
         tex = py5.load_image("tex1.jpg")
@@ -115,5 +112,5 @@ Parameters
 * **z**: `int` - third component of the variable to modify. The variable has to be declared with an array/vector type in the shader (i.e.: int[3], vec3)
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on June 28, 2021 15:16:14pm UTC
 

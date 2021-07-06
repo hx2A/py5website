@@ -1,6 +1,6 @@
 .. title: Py5Shape.get_name()
 .. slug: py5shape_get_name
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-07-06 22:46:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,7 +33,7 @@ Examples
     def setup():
         us_map = py5.load_shape("us_map.svg")
         for child in us_map.get_children():
-            print(child.get_name())
+            py5.println(child.get_name())
 
         py5.background(192)
         py5.scale(0.1)
@@ -62,5 +62,5 @@ Syntax
 
     get_name() -> str
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on July 06, 2021 22:46:12pm UTC
 
