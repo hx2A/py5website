@@ -206,6 +206,7 @@ Magics
 Cell magics
 -----------
 
+* `%%py5bot <py5bot/>`_
 * `%%py5draw <py5draw/>`_
 * `%%py5drawdxf <py5drawdxf/>`_
 * `%%py5drawpdf <py5drawpdf/>`_
@@ -391,7 +392,6 @@ Structure
 
 * `@render() <render/>`_
 * `@render_sequence() <render_sequence/>`_
-* `args <args/>`_
 * `exit_sketch() <exit_sketch/>`_
 * `finished <finished/>`_
 * `get_current_sketch() <get_current_sketch/>`_
@@ -402,6 +402,7 @@ Structure
 * `is_running <is_running/>`_
 * `loop() <loop/>`_
 * `no_loop() <no_loop/>`_
+* `pargs <pargs/>`_
 * `pop() <pop/>`_
 * `pop_style() <pop_style/>`_
 * `print_line_profiler_stats() <print_line_profiler_stats/>`_
