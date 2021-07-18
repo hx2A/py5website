@@ -11,8 +11,11 @@ There are some difficulties using py5 on Mac computers that still need to be wor
 
 .. admonition:: TL;DR
 
-    * Mac users must use Jupyter Notebooks with the ``%gui osx`` magic at the start of each notebook. (`Issue #4 <https://github.com/hx2A/py5generator/issues/4>`_)
-    * New Sketch windows might not get focus and will be behind other windows. (`Issue #5 <https://github.com/hx2A/py5generator/issues/5>`_)
+    * Mac users must use Jupyter Notebooks with the ``%gui osx`` magic at the start of each notebook (`Issue #4 <https://github.com/hx2A/py5generator/issues/4>`_)
+    * The :doc:`run_sketch` method's ``block`` parameter is not available. This limits some py5 features that depend on it, such as py5bot.
+    * When possible, prefer the ``P2D`` renderer over the default renderer
+    * If using the default renderer, sometimes keyboard events will be captured by the Jupyter Notebook and not the Sketch window
+    * Sketches that use the default renderer will not appear as an icon on the Dock at the bottom of the screen
     * Ignore the warnings you see when exiting a Sketch (`Issue #6 <https://github.com/hx2A/py5generator/issues/6>`_)
 
 None of these will stop you from using py5 productively, but they might annoy you a bit.
@@ -36,13 +39,11 @@ If you like Jupyter Notebooks, you're in luck! Everything will work just fine af
     <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">gui</span> osx</pre></div>
     </div></div></div></div>
 
-This must be executed `before` importing py5.
+This should be executed `before` importing py5. If you forget to use the ``%osx gui`` magic, py5 will print a warning and activate it for you.
 
 OSX has some requirement that only allows GUI applications to run on the main thread. That magic command configures things so that py5 can work. I don't understand how or why it works. I know that it works, and I am grateful.
 
-If you forget to use the ``%osx gui`` magic, the Sketch will still run but will be invisible. You'll see the output of any ``print`` statements and the :doc:`frame_count` value will keep increasing. Any efforts to make the window appear using the Sketch's ``Py5Surface`` object will be in vain.
-
-The ``%osx gui`` magic must be executed before the ``import py5`` statement. Running a script with the ``%run`` magic doesn't seem to work. The py5 Jupyter Notebook Kernel will take care of the ``%osx gui`` magic for you when run on a Mac computer.
+The ``%osx gui`` magic should be executed before the ``import py5`` statement. Running a script with the ``%run`` magic doesn't seem to work. The py5 Jupyter Notebook Kernel will take care of the ``%osx gui`` magic for you when run on a Mac computer.
 
 If you like coding in an interactive terminal (I hope I'm not the only one), you will need to use ``jupyter console`` and not ``ipython``. The two interactive terminal applications are not identical, with the ``%gui osx`` magic working in the former but not the latter. The console can be frustrating to use though. If a Sketch stops because of an error, no error message will appear until after you hit the return key in the console.
 
@@ -56,23 +57,78 @@ Of course you can always use a virtual machine or Docker, but those are more com
 
 I'm not an expert Mac user so it is very likely there is more to be said about using py5 on Macs. Please experiment based on your own knowledge and ideas. If you discover something useful, let me know and I'll update the documentation. Feel free to comment on the `Github Issue (#4) <https://github.com/hx2A/py5generator/issues/4>`_ for this problem.
 
-Window Focus & Dock Icons
-=========================
+``Block`` Parameter
+===================
 
-The next problem has to do with the Dock Icons at the bottom of the screen.
+The :doc:`run_sketch` method's ``block`` parameter is not available on OSX. This also limits some py5 features that depend on it:
 
-If you run a Sketch that uses the default renderer, no icon will appear in the dock and the window may not be given focus. I added a hack to compensate for the window focus issues, but if for some reason it does not appear, you'll need to minimize other windows to find the Sketch window. You can also try using the Sketch's ``Py5Surface`` object to move it or bring it to the front, like so:
+* py5bot cannot use the ``P2D`` or ``P3D`` renderers. This includes the :doc:`py5bot` magic and the py5bot Jupyter Notebook Kernel.
+* The :doc:`py5draw` magic cannot use the ``P2D`` or ``P3D`` renderers.
+* The :doc:`py5drawdxf` magic is not available.
+* The render helper tools :doc:`render`, :doc:`render_sequence`, :doc:`render_frame`, and :doc:`render_frame_sequence` cannot use the ``P2D`` or ``P3D`` renderers.
+
+To undertand the cause of this issue, consider the following code:
 
 .. code:: python
 
-    py5.run_sketch()
-    surface = py5.get_surface()
-    # move the Sketch window to a more convenient location
-    surface.set_location(10, 10)
-    # move the Sketch window to the top
-    surface.set_always_on_top(True)
+    import time
 
-If you run a Sketch that uses the ``P2D`` or ``P3D`` renderers, a dock icon will appear, but when the Sketch exits, the dock icon will remain. The Sketch really has stopped running and the window really has been destroyed (if you can prove me wrong please tell me), but the dock icon will not disappear until after the JVM shuts down, which will typically be when the Python process stops (when the Jupyter Notebook Kernel stops). I'm not totally sure why this is; there might be some special Processing code that creates the dock icon without matching Processing code to remove it on Sketch exit. In any case, this is a cosmetic issue and shouldn't be a cause for concern.
+    import py5
+
+    def setup():
+        py5.size(200, 200, py5.P2D)
+        
+    def draw():
+        if py5.frame_count % 50 == 0:
+            py5.println(py5.frame_count)
+    py5.square(py5.random_int(py5.width), py5.random_int(py5.height), 10)
+
+    py5.run_sketch(block=False)
+
+    print('start pause')
+    time.sleep(3)
+    print('end pause')
+
+When this code is run on a Linux or Windows computer, the output will be similar to this:
+
+.. code:: text
+
+    start pause
+    50
+    100
+    end pause
+    150
+    200
+    ...
+
+You can see that the Sketch is running at the same time as ``time.sleep``.
+
+When run on OSX, the output will look like this:
+
+.. code:: text
+
+    start pause
+    end pause
+    50
+    100
+    150
+    200
+    ...
+
+The Sketch is not able to run at the same time as ``time.sleep``.
+
+Additionally, the Sketch window will not appear until after the Notebook cell with the :doc:`run_sketch` call finishes executing. The Sketch cannot start running until that cell's execution completes. If the ``block`` parameter had been set to ``True``, cell execution would not complete because the :doc:`run_sketch` method blocks until the Sketch exits. But the Sketch would not get the opportunity to start running because it needs to wait for cell execution to complete. The Notebook would be stuck in limbo, endlessly waiting for a Sketch to exit that cannot even start. The user will need to interrupt the Kernel to break the deadlock.
+
+If in the above code the Sketch had used the default renderer instead, the printed output would be correct but the Sketch window would still wait for cell completion before appearing. However, when the Sketch window did become visible, it would have many squares drawn on it already. In this case the animation is hidden when it starts running and doesn't become visible to the user until after cell completion. Furthermore, if one were to later run ``time.sleep(3)`` in a different cell, the animation would appear to freeze until cell execution completed, then resume with many new squares drawn on it. This has nothing to do with ``time.sleep``; the issue has to do with the fact that the Notebook and the Sketch need to share the main thread, so any cell that takes a long time to execute will prevent the Sketch from simultaneously displaying changes to the drawing surface.
+
+Sketches that use the OpenGL renderers ``P2D`` and ``P3D`` will not pause or freeze once they open and start running. I recommend you use the OpenGL renderers and not the default renderer when possible.
+
+Keyboard Events
+===============
+
+When using the default renderer, sometimes keyboard events are captured by the Jupyter Notebook and not the Sketch window. This seems to happen for the first Sketch if the first Sketch also uses the default renderer. This behavior will be confusing because the Sketch will be capturing mouse events but not keyboard events.
+
+While this behavior is occuring, hitting the ``ESC`` key to exit the Sketch will cause the window to move behind other windows, making you think the Sketch has stopped running. On OSX, Sketches that use the default renderer will not appear as an icon on the Dock at the bottom of the screen. If you try to run a new Sketch and get a message stating that the current Sketch is already running, try first looking for the Sketch window underneath the other windows on your screen.
 
 Sketch Exit
 ===========

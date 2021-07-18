@@ -132,7 +132,7 @@ The below command will also install the Jupyter Lab tool, which py5 is designed 
 
 .. code:: bash
 
-    $ conda create -n py5coding python=3.8 jupterlab
+    $ conda create -n py5coding python=3.8 jupyterlab
 
 After creating the ``py5coding`` environment you must "activate" it so that the subsequent commands take place inside of it. You will know you are inside the environment because your terminal prompt will change to include the name of the environment.
 
@@ -196,7 +196,7 @@ Finally, install the py5 library.
 
     (py5coding) $ pip install py5
 
-If you are on Windows (or, as I predict, on a Mac), you may get errors relating to the dependent noise and line-profiler packages. If so, use one or both of the following commands to resolve the errors, then try ``pip install py5`` again.
+If you are on Windows or on a Mac, you may get errors relating to the dependent noise and line-profiler packages. If so, use one or both of the following commands to resolve the errors, then try ``pip install py5`` again.
 
 .. code:: bash
 
