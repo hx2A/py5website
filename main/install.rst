@@ -7,7 +7,7 @@
 .. description: py5
 .. type: text
 
-Before proceeding, you should know that this is a new project with documentation and setup instructions that are a bit rough around the edges. Additionally, there are some `issues with Mac (OSX) computers <link://slug/mac-users>`_ that still need to be worked out. And finally, you should also know that this project is currently maintained by only me, and in my free time.
+Before proceeding, you should know that this is a new project with documentation and setup instructions that are a bit rough around the edges. Additionally, there a few `issues with Mac (OSX) computers <link://slug/mac-users>`_. And finally, you should also know that this project is currently maintained by only me, and in my free time.
 
 I have tested these instructions on Linux, Windows, and OSX, so I believe this will work for most people. Nevertheless, getting this working might not go smoothly for you. If that's the case, please be patient and try to work through it or let me know and I'll do what I can to help. If you hit a snag and figure out a solution, tell me about it and I'll update the documentation to share what you've learned.
 
@@ -39,7 +39,7 @@ If you already have Java 11 and Python 3.8+ available on your computer, you can 
 
     $ pip install py5
 
-You can optionally install Cairo_ and CairoSVG_ to enable py5's extra SVG support. If you like using Jupyter Notebooks, consider installing py5's `Jupyter Notebook Kernel`_.
+You can optionally install Cairo_ and CairoSVG_ to enable py5's extra SVG support. If you like using Jupyter Notebooks, consider installing one or both of py5's Jupyter Notebook Kernels: `py5 kernel`_ and `py5bot`_.
 
 Quick Example
 =============
@@ -50,12 +50,13 @@ Here is a quick py5 example to test that everything works.
 
     import py5
 
-    def settings():
+    def setup():
         py5.size(200, 200)
-   
+        py5.rect_mode(py5.CENTER)
+
     def draw():
         py5.rect(py5.mouse_x, py5.mouse_y, 10, 10)
-   
+
     py5.run_sketch()
 
 You should see a small window that draws squares as you move your mouse around. If that works, have a look at the :doc:`tutorials` for more interesting examples. 
@@ -115,7 +116,7 @@ Launch jupyter lab to start coding.
 
 Try testing with the `Quick Example`_ to verify everything works.
 
-Before moving on, consider also installing py5's `Jupyter Notebook Kernel`_.
+Before moving on, consider installing one or both of py5's Jupyter Notebook Kernels: `py5 kernel`_ and `py5bot`_.
 
 Detailed Steps
 --------------
@@ -125,7 +126,7 @@ If the `Simple Steps`_ don't work for you or you want more detailed information,
 Create Anaconda Environment
 +++++++++++++++++++++++++++
 
-First you must create an Anaconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Python 3.9 seems to work ok but has not been extensively tested.
+First you must create an Anaconda environment to install the Python packages into. Below, we create an environment called ``py5coding`` with Python 3.8. Note that py5 does not support earlier versions of Python. Later versions seem to work OK but have not been extensively tested.
 
 The below command will also install the Jupyter Lab tool, which py5 is designed to work well with.
 
@@ -202,10 +203,13 @@ If you are on Windows (or, as I predict, on a Mac), you may get errors relating 
     (py5coding) $ conda install -c conda-forge noise
     (py5coding) $ conda install -c conda-forge line_profiler
 
-After installing py5, try testing with the `Quick Example`_ to verify everything works. Also, consider installing py5's `Jupyter Notebook Kernel`_.
+After installing py5, try testing with the `Quick Example`_ to verify everything works. Also, consider installing one or both of py5's Jupyter Notebook Kernels: `py5 kernel`_ and `py5bot`_.
 
-Jupyter Notebook Kernel
-=======================
+Jupyter Notebook Kernels
+========================
+
+py5 kernel
+----------
 
 You can optionally install the py5 Jupyter Notebook Kernel. This is a customized Python kernel that will let you write py5 code in Imported Mode. See :doc:`py5-modes` to learn about the different py5 Modes.
 
@@ -214,6 +218,15 @@ You can optionally install the py5 Jupyter Notebook Kernel. This is a customized
     $ python -m py5_tools.kernel.install --sys-prefix
 
 The ``--sys-prefix`` argument is optional but I recommend you use it. It will install the py5 kernel inside the py5 Anaconda environment and Jupyter will only present it as an option when Jupyter is run in that environment.
+
+py5bot
+------
+
+You can optionally install py5bot, which is also a Jupyter Notebook Kernel. This is a customized Python kernel that will let you write py5 code in Static Mode.
+
+.. code:: bash
+
+    $ python -m py5_tools.py5bot.install --sys-prefix
 
 Keeping py5 Updated
 ===================
