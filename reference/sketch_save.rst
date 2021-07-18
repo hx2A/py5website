@@ -1,6 +1,6 @@
 .. title: save()
 .. slug: save
-.. date: 2021-07-06 22:46:12 UTC+00:00
+.. date: 2021-07-18 13:44:10 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -54,17 +54,17 @@ Syntax
 
 .. code:: python
 
-    save(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = False, use_thread: bool = False, **params) -> None
+    save(filename: Union[str, Path], *, format: str = None, drop_alpha: bool = True, use_thread: bool = False, **params) -> None
 
 Parameters
 ==========
 
-* **drop_alpha**: `bool = False` - remove the alpha channel when saving the image
+* **drop_alpha**: `bool = True` - remove the alpha channel when saving the image
 * **filename**: `Union[str, Path]` - output filename
 * **format**: `str = None` - image format, if not determined from filename extension
 * **params**: - keyword arguments to pass to the PIL.Image save method
 * **use_thread**: `bool = False` - write file in separate thread
 
 
-Updated on July 06, 2021 22:46:12pm UTC
+Updated on July 18, 2021 13:44:10pm UTC
 

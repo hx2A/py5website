@@ -1,6 +1,6 @@
 .. title: render_frame()
 .. slug: render_frame
-.. date: 2021-04-29 20:23:09 UTC+00:00
+.. date: 2021-07-18 13:44:10 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -98,7 +98,7 @@ Helper function to render a single frame using the passed ``draw`` function argu
 
 The passed function's first parameter must be either a ``py5.Sketch`` object or a ``py5.Py5Graphics`` object, depending on the parameter ``use_py5graphics``. That object must be used for all of the function's py5 commands. The function can have additional positional and keyword arguments. To use them, pass the desired values as ``render_frame``'s ``draw_args`` and ``draw_kwargs`` arguments.
 
-Currently, only the default and OpenGL renderers are supported.
+On OSX, only the default renderer is currently supported. Other platforms support the default renderer and the OpenGL renderers (P2D and P3D).
 
 The rendered frame can have transparent pixels if and only if the ``use_py5graphics`` parameter is ``True`` because only a ``py5.Py5Graphics`` object can create an image with transparency. There is no need to call :doc:`py5graphics_begin_draw` or :doc:`py5graphics_end_draw` in the passed function as ``render_frame()`` does that for you.
 
@@ -125,5 +125,5 @@ Parameters
 * **width**: `int` - width of the display window in units of pixels
 
 
-Updated on April 29, 2021 20:23:09pm UTC
+Updated on July 18, 2021 13:44:10pm UTC
 

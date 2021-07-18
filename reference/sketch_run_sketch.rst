@@ -1,6 +1,6 @@
 .. title: run_sketch()
 .. slug: run_sketch
-.. date: 2021-07-06 22:46:12 UTC+00:00
+.. date: 2021-07-18 14:13:34 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -83,6 +83,8 @@ Run the Sketch. Code in the ``settings()``, ``setup()``, and ``draw()`` function
 
 Use the ``block`` parameter to specify if the call to ``run_sketch()`` should return immediately (asynchronous Sketch execution) or block until the Sketch exits. If the ``block`` parameter is not specified, py5 will first attempt to determine if the Sketch is running in a Jupyter Notebook or an IPython shell. If it is, ``block`` will default to ``False``, and ``True`` otherwise.
 
+Blocking is not supported on OSX. This is because of the (current) limitations of py5 on OSX. If the ``block`` parameter is set to ``True``, a warning message will appear and it will be changed to ``False``.
+
 A list of strings passed to ``py5_options`` will be passed to the Processing PApplet class as arguments to specify characteristics such as the window's location on the screen. A list of strings passed to ``sketch_args`` will be available to a running Sketch using :doc:`pargs`. See the third example for an example of how this can be used.
 
 When calling ``run_sketch()`` in module mode, py5 will by default search for functions such as ``setup()``,  ``draw()``, etc. in the caller's stack frame and use those in the Sketch. If for some reason that is not what you want or does not work because you are hacking py5 to do something unusual, you can use the ``sketch_functions`` parameter to pass a dictionary of the desired callable functions. The ``sketch_functions`` parameter is not available when coding py5 in class mode. Don't forget you can always replace the ``draw()`` function in a running Sketch using :doc:`hot_reload_draw`.
@@ -107,5 +109,5 @@ Parameters
 * **sketch_functions**: `Dict[str, Callable] = None` - sketch methods when using module mode
 
 
-Updated on July 06, 2021 22:46:12pm UTC
+Updated on July 18, 2021 14:13:34pm UTC
 
