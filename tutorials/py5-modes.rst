@@ -1,4 +1,4 @@
-.. title: The Three py5 Modes
+.. title: The Four py5 Modes
 .. slug: py5-modes
 .. date: 2021-01-07 13:47:11 UTC-05:00
 .. tags: 
@@ -9,11 +9,11 @@
 
 The py5 library is similar to `Processing <https://processing.org/>`_ and `p5 <https://p5js.org/>`_ in that the basic functionality comes from user implemented ``settings``, ``setup``, and ``draw`` methods. These methods will initialize the Sketch parameters, run one-time setup code, and draw each frame of your animation.
 
-In addition, py5 supports keyboard and mouse events with methods like ``mouseClicked`` and ``keyPressed``.
+In addition, py5 supports keyboard and mouse events with methods like ``mouse_clicked`` and ``key_pressed``.
 
 All of this is analogous to what users familiar with `Processing <https://processing.org/>`_ and `p5 <https://p5js.org/>`_ might expect.
 
-The py5 library has three "modes" that you can use to code these methods and write Sketches. They are called Module Mode, Class Mode, and Imported Mode.
+The py5 library has four "modes" that you can use to code these methods and write Sketches. They are called Module Mode, Class Mode, Imported Mode, and Static Mode.
 
 .. contents:: py5 Modes:
     :depth: 1
@@ -21,12 +21,12 @@ The py5 library has three "modes" that you can use to code these methods and wri
 
 .. important::
 
-  There are some known issues using py5 on Mac computers. The best option for Mac users seems to be using py5 through :doc:`jupyter-notebooks`, and after using the ``%gui osx`` magic. See :doc:`mac-users` for more information.
+  There are some known issues using py5 on Mac computers. The best option for Mac users is to use py5 through :doc:`jupyter-notebooks`, and after using the ``%gui osx`` magic. See :doc:`mac-users` for more information.
 
 Module Mode
 ===========
 
-Module Mode lets you write standalone ``settings``, ``setup``, and ``draw`` methods. Technically none are required but generally you will always use ``settings`` and one or both of ``setup`` and ``draw``.
+Module Mode lets you write standalone ``settings``, ``setup``, and ``draw`` methods. Technically none are required but generally you will use both ``setup`` and ``draw``.
 
 In Module Mode, you will access py5 functionality through module-level functions and fields.
 
@@ -36,11 +36,8 @@ Below is a simple example:
 
     import py5
 
-
-    def settings():
-        py5.size(300, 200)
-
     def setup():
+        py5.size(300, 200)
         py5.rect_mode(py5.CENTER)
         
     def draw():
@@ -58,22 +55,18 @@ The first statement imports the ``py5`` library in the same way that you would i
 
     import py5
 
-Next, the ``settings`` function. Here you will configure special Sketch settings, such as the window size. In this example the window size is 300 pixels wide and 200 pixels tall. Almost always you'll have a ``settings`` function similar to this one. 
-
-Notice the call to the :doc:`size` function has a "``py5.``" prefix. All of the py5 methods and fields are module level attributes.
-
-.. code:: python
-
-    def settings():
-        py5.size(300, 200)
-
 Next, the ``setup`` function. This function will be called one single time before beginning to repeatedly call the ``draw`` function for each frame of the animation. Typically the ``setup`` function is used to initialize variables or set py5 drawing options.
 
-In this example, the call to :doc:`rect_mode` configures drawing options for future calls to py5's :doc:`rect` method. By default the first two coordinates specify the shape's upper left hand corner, but in this example they will specify the shape's center.
+In this example the window size is set to be 300 pixels wide and 200 pixels tall. Almost always you'll begin a ``setup`` function similar to this one. Notice the call to the :doc:`size` function has a "``py5.``" prefix. All of the py5 methods and fields are module level attributes.
+
+The call to :doc:`rect_mode` configures drawing options for future calls to py5's :doc:`rect` method. By default the first two coordinates specify the shape's upper left hand corner, but in this example they will specify the shape's center.
+
+Folks who are familiar with Processing will note that the call to :doc:`size` is in the ``setup`` function, but technically it belongs in a ``settings`` function instead. Py5 allows the ``settings`` and ``setup`` functions to be combined, provided the rightful contents of ``settings`` appear before any of the real ``setup`` function code. There are rules about how combining ``settings`` and ``setup`` works; see :doc:`run_sketch` for more information. If for some reason you cannot meet the requirements for this functionality, you will need to write a separate ``settings`` function yourself.
 
 .. code:: python
 
     def setup():
+        py5.size(300, 200)
         py5.rect_mode(py5.CENTER)
 
 If the ``draw`` function is not found, the Sketch will display a static image using draw commands found in the ``setup`` function. If the ``draw`` function is found, it will be repeatedly called once for each frame of an animation.
@@ -111,7 +104,11 @@ The design of Module Mode is modeled after matplotlib's pyplot.
 
 .. admonition:: Side Note
 
-    Much like you would do for a Processing Sketch, you may want to put supporting materials in a ``data`` subdirectory. A py5 Sketch will look for this relative to the current working directory. You can find out what the current working directory is and change it with the ``os`` standard library.
+    Combining ``settings`` and ``setup`` functions requires py5 to have access to the function source code via Python's builtin ``inspect`` library. If you are running py5 code out of a Jupyter Notebook or a python souce file, it should work correctly. If you happen to be manually typing code into the generic Python REPL, it won't work.
+
+.. admonition:: One More Side Note
+
+    Much like you would do for a Processing Sketch, you may want to put supporting materials in a ``data`` subdirectory. A py5 Sketch will look for this relative to the current working directory. You can find out what the current working directory is and change it with Python's builtin``os`` library.
 
     .. code:: python
 
@@ -167,6 +164,8 @@ Next, define a new class that inherits from ``Sketch``.
 
 Each of the ``settings``, ``setup``, and ``draw`` methods have a ``self`` parameter, just as they would in any Python class. The ``self`` parameter is used to access the ``py5`` methods and fields provided by the parent ``Sketch`` class. Observe that every occurance of the "``py5.``" prefix in the Module Mode example has been replaced with "``self.``".
 
+Class Mode does not support combining ``settings`` and ``setup`` functions.
+
 .. code:: python
 
         def settings(self):
@@ -211,16 +210,14 @@ Class mode will let you run multiple Sketches at the same time. This cannot be d
 Imported Mode
 =============
 
-Imported Mode was originally designed to be used by beginner programmers. It is analogous the Processing code users write in the Processing Development Editor (PDE). The Processing Editor does not currently support py5, but perhaps one day it will. Until then, you can use the py5 Jupyter Notebook Kernel.
+Imported Mode was originally designed to be used by beginner programmers. It is analogous the Processing code users write in the Processing Development Editor (PDE). The Processing Editor does not currently support py5, but perhaps one day it will. Until then, you can use the py5 Jupyter Notebook Kernel or the ``run_sketch`` command line tool.
 
 Below is our example Sketch written in Imported Mode:
 
 .. code:: python
 
-    def settings():
-        size(300, 200)
-
     def setup():
+        size(300, 200)
         rect_mode(CENTER)
         
     def draw():
@@ -238,6 +235,32 @@ To actually use this, make sure you have installed the py5 Jupyter Notebook Kern
 
 You will see the py5 kernel presented as an option in the Launcher. Click on it and put the code in a notebook cell.
 
-Imported Mode might become more interesting once it is integrated into an editor like the PDE, or maybe a different editor intended for Python like `Thonny <https://thonny.org/>`_ or `Mu <https://codewith.mu/>`_. It might be a good fit for the Jupyter Client `nteract <https://nteract.io/>`_.
+The Python editor Thonny can be configured to work well with py5 in Imported Mode. See @tabreturn's detailed blog post `Portable Thonny and py5 <https://tabreturn.github.io/code/python/thonny/2021/06/21/thonny_and_py5.html>`_ for more information.
+
+Imported Mode might be a good fit for the Jupyter Client `nteract <https://nteract.io/>`_ or the Python editor `Mu <https://codewith.mu/>`_.
 
 The operation of Imported Mode should work just as well as analogous code written in the other py5 modes.
+
+Static Mode
+===========
+
+Static Mode lets you create static images using functionless code. It is designed for beginner programmers who are making their first steps into Python programming.
+
+The below Static Mode code will create a 300 by 200 pixel image with a gray background and 20 randomly positioned squares:
+
+.. code:: python
+
+    size(300, 200)
+    rect_mode(CENTER)
+    for _ in range(20):
+        rect(random_int(width), random_int(height), 10, 10)
+
+To use static mode, install py5bot as described on the `Install </install/#py5bot>`_ page. Then start Jupyter Lab using this command:
+
+.. code:: bash
+
+    $ jupyter lab
+
+You will see the py5bot presented as an option in the Launcher. Click on it and put the code in a notebook cell.
+
+You can also program in Static Mode using the ``run_sketch`` command line tool, or better yet, using Thonny. See @tabreturn's detailed blog post `Portable Thonny and py5 <https://tabreturn.github.io/code/python/thonny/2021/06/21/thonny_and_py5.html>`_ for information about how to set that up.
