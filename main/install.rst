@@ -228,6 +228,13 @@ You can optionally install py5bot, which is also a Jupyter Notebook Kernel. This
 
     $ python -m py5_tools.py5bot.install --sys-prefix
 
+Thonny
+======
+
+Linux and Windows users may want to use the `Thonny IDE <https://thonny.org/>`_ to program with py5. (`OSX users need to use Jupyter Notebooks <link://slug/mac-users>`_.) You will need to set the ``$JAVA_HOME`` environment variable so py5 can find your Java Runtime Environment. To do this, open Thonny Options, and go to the General Tab. Add the ``$JAVA_HOME`` environment variable to the Environment Variables text box and restart Thonny. See `GitHub issue #27 <https://github.com/hx2A/py5generator/issues/27#issuecomment-885928213>`_ for more information.
+
+Also consider this blog post by @tabreturn to `learn how to use py5 in Imported Mode with Thonny <https://tabreturn.github.io/code/python/thonny/2021/06/21/thonny_and_py5.html>`_.
+
 Keeping py5 Updated
 ===================
 
