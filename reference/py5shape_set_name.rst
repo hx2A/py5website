@@ -1,6 +1,6 @@
 .. title: Py5Shape.set_name()
 .. slug: py5shape_set_name
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -41,9 +41,9 @@ Examples
         py5.shape(s)
 
         s_child1 = s.get_child("rectangle1")
-        s_child1.set_fill(py5.color(255, 0, 0))
+        s_child1.set_fill("#FF0000")
         s_child2 = s.get_child("rectangle2")
-        s_child2.set_fill(py5.color(0, 255, 0))
+        s_child2.set_fill("#00FF00")
         py5.shape(s, 0, 45)
 
 .. raw:: html
@@ -74,5 +74,5 @@ Parameters
 * **name**: `str` - name to be assigned to shape
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

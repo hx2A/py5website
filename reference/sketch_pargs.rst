@@ -1,6 +1,6 @@
 .. title: pargs
 .. slug: pargs
-.. date: 2021-07-06 22:46:12 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -28,10 +28,9 @@ Examples
     :number-lines:
 
     def setup():
-        color = eval(py5.pargs[0])
-        py5.background(color)
+        py5.background(py5.pargs[0])
 
-    py5.run_sketch(sketch_args=['0xFF0000'])
+    py5.run_sketch(sketch_args=["#FF0000"])
 
 .. raw:: html
 
@@ -49,5 +48,5 @@ List of strings passed to the Sketch through the call to :doc:`run_sketch`. Only
 Underlying Java field: args
 
 
-Updated on July 06, 2021 22:46:12pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

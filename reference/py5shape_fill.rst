@@ -1,6 +1,6 @@
 .. title: Py5Shape.fill()
 .. slug: py5shape_fill
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,6 +58,8 @@ This method can only be used within a :doc:`py5shape_begin_shape` and :doc:`py5s
 
 When using hexadecimal notation to specify a color, use "``0x``" before the values (e.g., ``0xFFCCFFAA``). The hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components.
 
+When using web color notation to specify a color, create a seven character string beginning with the "``#``" character (e.g., ``"#FFCC33"``). After the "``#``" character, the remainder of the string is just like hexadecimal notation, but without an alpha component.
+
 The value for the "gray" parameter must be less than or equal to the current maximum value as specified by :doc:`color_mode`. The default maximum value is 255.
 
 To change the color of a ``Py5Shape`` object's image or a texture, use :doc:`py5shape_tint`.
@@ -88,5 +90,5 @@ Parameters
 * **z**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

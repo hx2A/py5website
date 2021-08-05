@@ -1,6 +1,6 @@
 .. title: Py5Shape.set_ambient()
 .. slug: py5shape_set_ambient
-.. date: 2021-06-28 15:16:14 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -38,9 +38,9 @@ Examples
         py5.no_stroke()
         s = py5.create_shape(py5.SPHERE, 20)
 
-        s.set_ambient(py5.color(255, 0, 0))
+        s.set_ambient("#FF0000")
         py5.shape(s, 50, 25)
-        s.set_ambient(py5.color(255, 255, 0))
+        s.set_ambient("#FFFF00")
         py5.shape(s, 50, 75)
 
 .. raw:: html
@@ -77,5 +77,5 @@ Parameters
 * **index**: `int` - vertex index
 
 
-Updated on June 28, 2021 15:16:14pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

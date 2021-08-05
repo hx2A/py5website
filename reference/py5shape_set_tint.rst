@@ -1,6 +1,6 @@
 .. title: Py5Shape.set_tint()
 .. slug: py5shape_set_tint
-.. date: 2021-06-28 15:16:14 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -42,8 +42,8 @@ Examples
         s.vertex(80, 20, 100, 0)
         s.end_shape(py5.CLOSE)
 
-        s.set_tint(0, py5.color(0, 0, 255))
-        s.set_tint(2, py5.color(255, 0, 0))
+        s.set_tint(0, "#0000FF")
+        s.set_tint(2, "#FF0000")
         py5.shape(s)
 
 .. raw:: html
@@ -80,7 +80,7 @@ Examples
         if py5.frame_count == 50:
             s.set_tint(False)
         if py5.frame_count == 100:
-            s.set_tint(py5.color(255, 0, 0))
+            s.set_tint("#FF0000")
 
         py5.shape(s)
 
@@ -121,5 +121,5 @@ Parameters
 * **tint**: `int` - color value in hexadecimal notation
 
 
-Updated on June 28, 2021 15:16:14pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

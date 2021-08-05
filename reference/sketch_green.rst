@@ -1,6 +1,6 @@
 .. title: green()
 .. slug: green
-.. date: 2021-07-06 22:46:12 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -31,7 +31,7 @@ Examples
     :number-lines:
 
     def setup():
-        c = py5.color(20, 75, 200)  # define color 'c'
+        c = "#144BC8"  # define color 'c'
         py5.fill(c)  # use color variable 'c' as fill color
         py5.rect(15, 20, 35, 60)  # draw left rectangle
     
@@ -70,5 +70,5 @@ Parameters
 * **rgb**: `int` - any value of the color datatype
 
 
-Updated on July 06, 2021 22:46:12pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

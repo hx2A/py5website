@@ -1,6 +1,6 @@
 .. title: Py5Shape.curve_tightness()
 .. slug: py5shape_curve_tightness
-.. date: 2021-06-28 15:16:14 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -32,8 +32,8 @@ Examples
 
     def setup():
         py5.size(100, 100, py5.P2D)
-        py5.shape(draw_curves(30, 0, py5.color(255, 0, 0)))
-        py5.shape(draw_curves(70, 0.9, py5.color(0, 0, 255)))
+        py5.shape(draw_curves(30, 0, "#FF0000"))
+        py5.shape(draw_curves(70, 0.9, "#0000FF"))
 
 
     def draw_curves(y, tightness, color):
@@ -84,5 +84,5 @@ Parameters
 * **tightness**: `float` - amount of deformation from the original vertices
 
 
-Updated on June 28, 2021 15:16:14pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

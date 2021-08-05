@@ -1,6 +1,6 @@
 .. title: Py5Graphics.blend_mode()
 .. slug: py5graphics_blend_mode
-.. date: 2021-05-08 14:06:36 UTC+00:00
+.. date: 2021-08-02 23:55:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -20,7 +20,7 @@ Blends the pixels in the Py5Graphics drawing surface according to a defined mode
 * DARKEST: only the darkest color succeeds: ``C = min(A*factor, B)``
 * LIGHTEST: only the lightest color succeeds: ``C = max(A*factor, B)``
 * DIFFERENCE: subtract colors from underlying image.
-* EXCLUSION: similar to ``DIFFERENCE``, but less extreme.
+* EXCLUSION: similar to DIFFERENCE, but less extreme.
 * MULTIPLY: multiply the colors, result will always be darker.
 * SCREEN: opposite multiply, uses inverse values of the colors.
 * REPLACE: the pixels entirely replace the others and don't utilize alpha (transparency) values
@@ -44,5 +44,5 @@ Parameters
 * **mode**: `int` - the blending mode to use
 
 
-Updated on May 08, 2021 14:06:36pm UTC
+Updated on August 02, 2021 23:55:44pm UTC
 

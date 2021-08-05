@@ -1,6 +1,6 @@
 .. title: blend()
 .. slug: blend
-.. date: 2021-04-28 15:27:49 UTC+00:00
+.. date: 2021-08-02 23:55:44 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -127,12 +127,12 @@ Blends a region of pixels from one image into another (or in itself again) with 
 * DARKEST: only the darkest color succeeds: ``C = min(A*factor, B)``
 * LIGHTEST: only the lightest color succeeds: ``C = max(A*factor, B)``
 * DIFFERENCE: subtract colors from underlying image.
-* EXCLUSION: similar to ``DIFFERENCE``, but less extreme.
+* EXCLUSION: similar to DIFFERENCE, but less extreme.
 * MULTIPLY: Multiply the colors, result will always be darker.
 * SCREEN: Opposite multiply, uses inverse values of the colors.
-* OVERLAY: A mix of ``MULTIPLY`` and SCREEN. Multiplies dark values, and screens light values.
-* HARD_LIGHT: ``SCREEN`` when greater than 50% gray, ``MULTIPLY`` when lower.
-* SOFT_LIGHT: Mix of ``DARKEST`` and LIGHTEST.  Works like ``OVERLAY``, but not as harsh.
+* OVERLAY: A mix of MULTIPLY and SCREEN. Multiplies dark values, and screens light values.
+* HARD_LIGHT: SCREEN when greater than 50% gray, MULTIPLY when lower.
+* SOFT_LIGHT: Mix of DARKEST and LIGHTEST.  Works like OVERLAY, but not as harsh.
 * DODGE: Lightens light tones and increases contrast, ignores darks. Called "Color Dodge" in Illustrator and Photoshop.
 * BURN: Darker areas are applied, increasing contrast, ignores lights. Called "Color Burn" in Illustrator and Photoshop.
 
@@ -165,5 +165,5 @@ Parameters
 * **sy**: `int` - y-coordinate of the source's upper left corner
 
 
-Updated on April 28, 2021 15:27:49pm UTC
+Updated on August 02, 2021 23:55:44pm UTC
 

@@ -1,6 +1,6 @@
 .. title: py5_tools.sketch_portal()
 .. slug: sketch_portal
-.. date: 2021-06-14 01:04:37 UTC+00:00
+.. date: 2021-08-03 18:51:54 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -58,7 +58,7 @@ If you are using Jupyter Lab, try right clicking in the output area of the cell 
 
 This command can be called before :doc:`run_sketch` if the current Sketch is in the :doc:`is_ready` state.
 
-Use the ``time_limit`` parameter to set a time limit (seconds). Use ``throttle_frame_rate`` to throttle the stream's frame rate (frames per second) to a slower pace than the Sketch's actual draw frame rate. The ``scale`` parameter is a scaling factor that can adjust the portal height and width. The ``quality`` parameter sets the JPEG quality factor (default 75) for the stream, which must be between 1 (worst) and 100 (best). If the portal causes the Sketch's frame rate to drop, try adjusting the portal's throttle frame rate, quality, and scale.
+Use the ``time_limit`` parameter to set a time limit (seconds). Use ``throttle_frame_rate`` to throttle the stream's frame rate (frames per second) to a slower pace than the Sketch's actual draw frame rate. By default, ``throttle_frame_rate`` is set to 30, which is half of the Sketch's default draw frame rate of 60 frames per second. Set this parameter to ``None`` to disable throttling. The ``scale`` parameter is a scaling factor that can adjust the portal height and width. The ``quality`` parameter sets the JPEG quality factor (default 75) for the stream, which must be between 1 (worst) and 100 (best). If the portal causes the Sketch's frame rate to drop, try adjusting the portal's throttle frame rate, quality, and scale.
 
 If your Sketch has a ``post_draw()`` method, use the ``hook_post_draw`` parameter to make this function run after ``post_draw()`` instead of ``draw()``. This is important when using Processing libraries that support ``post_draw()`` such as Camera3D or ColorBlindness.
 
@@ -69,7 +69,7 @@ Syntax
 
 .. code:: python
 
-    sketch_portal(*, time_limit: float = 0.0, throttle_frame_rate: float = None, scale: float = 1.0, quality: int = 75, portal_widget: Py5SketchPortal = None, sketch: Sketch = None, hook_post_draw: bool = False) -> None
+    sketch_portal(*, time_limit: float = 0.0, throttle_frame_rate: float = 30, scale: float = 1.0, quality: int = 75, portal_widget: Py5SketchPortal = None, sketch: Sketch = None, hook_post_draw: bool = False) -> None
 
 Parameters
 ==========
@@ -79,9 +79,9 @@ Parameters
 * **quality**: `int = 75` - JPEG stream quality between 1 (worst) and 100 (best)
 * **scale**: `float = 1.0` - scale factor to adjust the height and width of the portal
 * **sketch**: `Sketch = None` - running Sketch
-* **throttle_frame_rate**: `float = None` - throttle portal frame rate below Sketch's frame rate
+* **throttle_frame_rate**: `float = 30` - throttle portal frame rate below Sketch's frame rate
 * **time_limit**: `float = 0.0` - time limit in seconds for Sketch portal; set to 0 (default) for no limit
 
 
-Updated on June 14, 2021 01:04:37am UTC
+Updated on August 03, 2021 18:51:54pm UTC
 

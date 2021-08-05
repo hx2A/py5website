@@ -1,6 +1,6 @@
 .. title: Py5Shape.set_stroke()
 .. slug: py5shape_set_stroke
-.. date: 2021-06-28 15:16:14 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -30,13 +30,13 @@ Examples
     def setup():
         py5.size(640, 360, py5.P2D)
         global c
-        c = py5.create_shape(RECT, 20, 20, 60, 60)
-        c.set_stroke(py5.color(255))
+        c = py5.create_shape(py5.RECT, -20, -20, 40, 40)
+        c.set_stroke("#FFFFFF")
 
 
     def draw():
         py5.background(51)
-        c.set_fill(py5.color(py5.random(255)))
+        c.set_fill(py5.color(py5.random_int(255)))
         py5.translate(py5.mouse_x, py5.mouse_y)
         py5.shape(c)
 
@@ -72,5 +72,5 @@ Parameters
 * **stroke**: `int` - any color value
 
 
-Updated on June 28, 2021 15:16:14pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

@@ -1,6 +1,6 @@
 .. title: tint()
 .. slug: tint
-.. date: 2021-03-05 15:24:25 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -95,11 +95,13 @@ Examples
 Description
 ===========
 
-Sets the fill value for displaying images. Images can be tinted to specified colors or made transparent by including an alpha value. 
+Sets the fill value for displaying images. Images can be tinted to specified colors or made transparent by including an alpha value.
 
 To apply transparency to an image without affecting its color, use white as the tint color and specify an alpha value. For instance, ``tint(255, 128)`` will make an image 50% transparent (assuming the default alpha range of 0-255, which can be changed with :doc:`color_mode`).
 
-When using hexadecimal notation to specify a color, use "``0x``" before the values (e.g., ``0xFFCCFFAA``). The hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components. 
+When using hexadecimal notation to specify a color, use "``0x``" before the values (e.g., ``0xFFCCFFAA``). The hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components.
+
+When using web color notation to specify a color, create a seven character string beginning with the "``#``" character (e.g., ``"#FFCC33"``). After the "``#``" character, the remainder of the string is just like hexadecimal notation, but without an alpha component.
 
 The value for the gray parameter must be less than or equal to the current maximum value as specified by :doc:`color_mode`. The default maximum value is 255.
 
@@ -130,5 +132,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on March 05, 2021 15:24:25pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

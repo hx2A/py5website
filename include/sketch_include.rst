@@ -146,6 +146,7 @@ Jvm
 * `add_jars() <add_jars/>`_
 * `add_options() <add_options/>`_
 * `get_classpath() <get_classpath/>`_
+* `get_jvm_debug_info() <get_jvm_debug_info/>`_
 * `is_jvm_running() <is_jvm_running/>`_
 
 

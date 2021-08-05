@@ -1,6 +1,6 @@
 .. title: create_shape()
 .. slug: create_shape
-.. date: 2021-06-28 15:16:14 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -35,7 +35,7 @@ Examples
         # creating the Py5Shape as a square. the
         # numeric arguments are similar to rect().
         s = py5.create_shape(py5.RECT, 0, 0, 50, 50)
-        s.set_fill(py5.color(0, 0, 255))
+        s.set_fill("#0000FF")
         s.set_stroke(False)
 
 
@@ -140,9 +140,9 @@ Examples
         # make two shapes
         py5.ellipse_mode(py5.CORNER)
         head = py5.create_shape(py5.ELLIPSE, -25, 0, 50, 50)
-        head.set_fill(py5.color(255))
+        head.set_fill("#FFFFFF")
         body = py5.create_shape(py5.RECT, -25, 45, 50, 40)
-        body.set_fill(py5.color(0))
+        body.set_fill("#000000")
 
         # add the two "child" shapes to the parent group
         alien.add_child(body)
@@ -192,5 +192,5 @@ Parameters
 * **type**: `int` - either GROUP, PATH, or GEOMETRY
 
 
-Updated on June 28, 2021 15:16:14pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

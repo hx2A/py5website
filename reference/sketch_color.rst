@@ -1,6 +1,6 @@
 .. title: color()
 .. slug: color
-.. date: 2021-04-28 15:05:49 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -104,6 +104,34 @@ Examples
 
 .. raw:: html
 
+    <div class="example-row"><div class="example-cell-image">
+
+.. image:: /images/reference/Sketch_color_3.png
+    :alt: example picture for color()
+
+.. raw:: html
+
+    </div><div class="example-cell-code">
+
+.. code:: python
+    :number-lines:
+
+    def setup():
+        c = 0xFFFFCC00  # define color 'c' using hex notation
+        py5.fill(c)  # use color variable 'c' as fill color
+        py5.no_stroke()  # don't draw a stroke around shapes
+        py5.ellipse(25, 25, 80, 80)  # draw left circle
+    
+        c = "#00CCFF"  # define color 'c' using web color notation
+        py5.fill(c)  # use updated 'c' as fill color
+        py5.ellipse(75, 75, 80, 80)  # draw right circle
+
+.. raw:: html
+
+    </div></div>
+
+.. raw:: html
+
     </div>
 
 Description
@@ -113,7 +141,7 @@ Creates colors for storing in variables of the ``color`` datatype (a 32 bit inte
 
 Note that if only one value is provided to ``color()``, it will be interpreted as a grayscale value. Add a second value, and it will be used for alpha transparency. When three values are specified, they are interpreted as either ``RGB`` or ``HSB`` values. Adding a fourth value applies alpha transparency.
 
-Note that when using hexadecimal notation, it is not necessary to use ``color()``, as in: ``c = 0x006699``
+Note that you can also use hexadecimal notation and web color notation to specify colors, as in ``c = 0xFFDDCC33`` or ``c = "#DDCC33"`` in place of ``c = color(221, 204, 51)``. Additionally, the ``color()`` method can accept both color notations as a parameter.
 
 Underlying Java method: `color <https://processing.org/reference/color_.html>`_
 
@@ -147,5 +175,5 @@ Parameters
 * **v3**: `int` - blue or brightness values relative to the current color range
 
 
-Updated on April 28, 2021 15:05:49pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

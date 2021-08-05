@@ -1,6 +1,6 @@
 .. title: Py5Graphics.fill()
 .. slug: py5graphics_fill
-.. date: 2021-05-04 20:06:05 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -15,6 +15,8 @@ Description
 Sets the color used to fill shapes. For example, if you run ``fill(204, 102, 0)``, all subsequent shapes will be filled with orange. This color is either specified in terms of the ``RGB`` or ``HSB`` color depending on the current :doc:`py5graphics_color_mode`. The default color space is ``RGB``, with each value in the range from 0 to 255.
 
 When using hexadecimal notation to specify a color, use "``0x``" before the values (e.g., ``0xFFCCFFAA``). The hexadecimal value must be specified with eight characters; the first two characters define the alpha component, and the remainder define the red, green, and blue components.
+
+When using web color notation to specify a color, create a seven character string beginning with the "``#``" character (e.g., ``"#FFCC33"``). After the "``#``" character, the remainder of the string is just like hexadecimal notation, but without an alpha component.
 
 The value for the "gray" parameter must be less than or equal to the current maximum value as specified by :doc:`py5graphics_color_mode`. The default maximum value is 255.
 
@@ -47,5 +49,5 @@ Parameters
 * **v3**: `float` - blue or brightness value (depending on current color mode)
 
 
-Updated on May 04, 2021 20:06:05pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

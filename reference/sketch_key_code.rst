@@ -1,6 +1,6 @@
 .. title: key_code
 .. slug: key_code
-.. date: 2021-03-04 20:27:21 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -27,7 +27,7 @@ Examples
 .. code:: python
     :number-lines:
 
-    fill_val = py5.color(126)
+    fill_val = 128
 
 
     def draw():
@@ -72,5 +72,5 @@ If you are using ``P2D`` or ``P3D`` as your renderer, use the ``NEWT`` KeyEvent 
 Underlying Java field: `keyCode <https://processing.org/reference/keyCode.html>`_
 
 
-Updated on March 04, 2021 20:27:21pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 

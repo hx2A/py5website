@@ -1,6 +1,6 @@
 .. title: lerp_color()
 .. slug: lerp_color
-.. date: 2021-04-28 15:27:49 UTC+00:00
+.. date: 2021-08-02 23:44:12 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -33,8 +33,8 @@ Examples
     def setup():
         py5.stroke(255)
         py5.background(51)
-        from_ = py5.color(204, 102, 0)
-        to = py5.color(0, 102, 153)
+        from_ = "#CC6600"
+        to = "#006699"
         inter_a = py5.lerp_color(from_, to, .33)
         inter_b = py5.lerp_color(from_, to, .66)
         py5.fill(from_)
@@ -80,5 +80,5 @@ Parameters
 * **mode**: `int` - either RGB or HSB
 
 
-Updated on April 28, 2021 15:27:49pm UTC
+Updated on August 02, 2021 23:44:12pm UTC
 
