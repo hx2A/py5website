@@ -1,6 +1,6 @@
 .. title: pixel_height
 .. slug: pixel_height
-.. date: 2021-07-06 22:46:12 UTC+00:00
+.. date: 2021-08-20 15:31:10 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -60,14 +60,14 @@ Examples
         # fill all the pixels to blue with using
         # pixel_width and pixel_height
         for i in range(0, py5.pixel_width*py5.pixel_height):
-            py5.pixels[i] = py5.color(0, 0, 255)
+            py5.pixels[i] = "#00F"
 
         # fill one quarter of the pixels to yellow
         # because the pixel density is set to 2 in setup()
         # and 'width' and 'height' don't reflect the pixel
         # dimensions of the sketch
         for i in range(0, py5.width*py5.height):
-            py5.pixels[i] = py5.color(255, 255, 0)
+            py5.pixels[i] = "#FF0"
 
         py5.update_pixels()
         py5.no_loop()
@@ -88,5 +88,5 @@ Height of the display window in pixels. When ``pixel_density(2)`` is used to mak
 Underlying Java field: `pixelHeight <https://processing.org/reference/pixelHeight.html>`_
 
 
-Updated on July 06, 2021 22:46:12pm UTC
+Updated on August 20, 2021 15:31:10pm UTC
 

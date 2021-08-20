@@ -1,6 +1,6 @@
 .. title: Py5Graphics.load_pixels()
 .. slug: py5graphics_load_pixels
-.. date: 2021-05-11 00:43:18 UTC+00:00
+.. date: 2021-08-20 15:31:10 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -36,7 +36,7 @@ Examples
         g.background(255, 0, 0)
         g.rect(10, 10, 40, 40)
         g.load_pixels()
-        yellow = py5.color(255, 255, 0)
+        yellow = "#FF0"
         for i in range(len(g.pixels) // 2):
             g.pixels[i] = yellow
         g.update_pixels()
@@ -69,5 +69,5 @@ Syntax
 
     load_pixels() -> None
 
-Updated on May 11, 2021 00:43:18am UTC
+Updated on August 20, 2021 15:31:10pm UTC
 

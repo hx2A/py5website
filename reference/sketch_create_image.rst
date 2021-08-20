@@ -1,6 +1,6 @@
 .. title: create_image()
 .. slug: create_image
-.. date: 2021-05-02 21:05:36 UTC+00:00
+.. date: 2021-08-20 15:31:10 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -34,7 +34,7 @@ Examples
         img = py5.create_image(66, 66, py5.RGB)
         img.load_pixels()
         for i in range(0, len(img.pixels)):
-            img.pixels[i] = py5.color(0, 90, 102)
+            img.pixels[i] = "#005A66"
     
         img.update_pixels()
         py5.image(img, 17, 17)
@@ -101,5 +101,5 @@ Parameters
 * **w**: `int` - width in pixels
 
 
-Updated on May 02, 2021 21:05:36pm UTC
+Updated on August 20, 2021 15:31:10pm UTC
 

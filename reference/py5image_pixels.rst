@@ -1,6 +1,6 @@
 .. title: Py5Image.pixels[]
 .. slug: py5image_pixels
-.. date: 2021-05-01 20:51:42 UTC+00:00
+.. date: 2021-08-20 15:31:10 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -36,7 +36,7 @@ Examples
         dimension = tower.width * tower.height
         tower.load_pixels()
         for i in range(0, dimension, 2):
-            tower.pixels[i] = py5.color(0, 0, 0)
+            tower.pixels[i] = "#000"
 
         tower.update_pixels()
 
@@ -62,5 +62,5 @@ Before accessing this array, the data must loaded with the :doc:`py5image_load_p
 Underlying Java field: `PImage.pixels <https://processing.org/reference/PImage_pixels.html>`_
 
 
-Updated on May 01, 2021 20:51:42pm UTC
+Updated on August 20, 2021 15:31:10pm UTC
 
