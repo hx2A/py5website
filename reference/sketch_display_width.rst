@@ -1,6 +1,6 @@
 .. title: display_width
 .. slug: display_width
-.. date: 2021-06-28 15:16:14 UTC+00:00
+.. date: 2021-08-31 20:25:08 UTC+00:00
 .. tags:
 .. category:
 .. link:
@@ -44,8 +44,8 @@ Description
 
 System variable that stores the width of the entire screen display. This can be used to run a full-screen program on any display size, but calling :doc:`full_screen` is usually a better choice.
 
-Underlying Java field: displayWidth
+Underlying Java field: `displayWidth <https://processing.org/reference/displayWidth.html>`_
 
 
-Updated on June 28, 2021 15:16:14pm UTC
+Updated on August 31, 2021 20:25:08pm UTC
 
